@@ -12,9 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.test');
 });
+Auth::routes();
 
-Route::get('/search', function() {
-    return view('search');
-});
+Route::get('/home', 'HomeController@index')->name('home');
