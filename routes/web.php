@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('pages.welcome');
 });
 
+Route::get('/search', function () {
+    return view('pages.search');
+});
+
+Route::get('/vehicle', function () {
+    return view('pages.vehicle');
+});
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
 Route::get('/test', function () {
     return view('pages.test');
 });
