@@ -61,12 +61,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-4-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details.html"> BMW M6 Sport Hybrid</a></div>
+                                                <div class="product-minimal-title"><a href="details"> BMW M6 Sport Hybrid</a></div>
                                                 <div class="info">
                                                     <span class="price">24,380</span>
                                                     <span class="speed">35,000 KM</span>
@@ -86,12 +86,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-5-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2016 Ferrari Testarosa</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2016 Ferrari Testarosa</a></div>
                                                 <div class="info">
                                                     <span class="price">95,900</span>
                                                     <span class="speed">99,000 KM</span>
@@ -111,12 +111,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-6-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2016 Bugatti Veyron</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2016 Bugatti Veyron</a></div>
                                                 <div class="info">
                                                     <span class="price">98,995</span>
                                                     <span class="speed">95,000 KM</span>
@@ -137,12 +137,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-7-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2017 Lexus-AMG C63</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2017 Lexus-AMG C63</a></div>
                                                 <div class="info">
                                                     <span class="price">31,900</span>
                                                     <span class="speed">12,000 KM</span>
@@ -162,12 +162,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-8-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details.html"> Mercedes - AMG</a></div>
+                                                <div class="product-minimal-title"><a href="details"> Mercedes - AMG</a></div>
                                                 <div class="info">
                                                     <span class="price">18,995</span>
                                                     <span class="speed">52,000 KM</span>
@@ -187,12 +187,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-9-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2017 Mercedes - AMG</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2017 Mercedes - AMG</a></div>
                                                 <div class="info">
                                                     <span class="price">64,380</span>
                                                     <span class="speed">210 KM</span>
@@ -261,12 +261,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-7-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2017 Lexus-AMG C63</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2017 Lexus-AMG C63</a></div>
                                                 <div class="info">
                                                     <span class="price">31,900</span>
                                                     <span class="speed">12,000 KM</span>
@@ -286,12 +286,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-8-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details.html"> Mercedes - AMG</a></div>
+                                                <div class="product-minimal-title"><a href="details"> Mercedes - AMG</a></div>
                                                 <div class="info">
                                                     <span class="price">18,995</span>
                                                     <span class="speed">52,000 KM</span>
@@ -311,12 +311,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-9-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2017 Mercedes - AMG</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2017 Mercedes - AMG</a></div>
                                                 <div class="info">
                                                     <span class="price">64,380</span>
                                                     <span class="speed">210 KM</span>
@@ -337,12 +337,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-4-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details.html"> BMW M6 Sport Hybrid</a></div>
+                                                <div class="product-minimal-title"><a href="details"> BMW M6 Sport Hybrid</a></div>
                                                 <div class="info">
                                                     <span class="price">24,380</span>
                                                     <span class="speed">35,000 KM</span>
@@ -362,12 +362,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-5-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details.html"> 2016 Ferrari Testarosa</a></div>
+                                                <div class="product-minimal-title"><a href="details"> 2016 Ferrari Testarosa</a></div>
                                                 <div class="info">
                                                     <span class="price">95,900</span>
                                                     <span class="speed">99,000 KM</span>
@@ -387,12 +387,12 @@
                                     <div class="product-minimal">
                                         <div class="thumbnail clearfix">
                                             <figure class="product-minimal-img">
-                                                <a href="details.html">
+                                                <a href="details">
                                 <img src="images/home-6-270x150.jpg" alt="" class="img-responsive"> </a>
                                             </figure>
                                             <div class="caption">
                                                 <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details.html">2016 Bugatti Veyron</a> </div>
+                                                <div class="product-minimal-title"><a href="details">2016 Bugatti Veyron</a> </div>
                                                 <div class="info">
                                                     <span class="price">98,995</span>
                                                     <span class="speed">95,000 KM</span>
