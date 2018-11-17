@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Cars\CarMake;
+use App\Cars\CarSpecificationType;
 
-class CarMakeTableSeeder extends Seeder
+class CarSpecificationTypeTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +13,7 @@ class CarMakeTableSeeder extends Seeder
     public function run()
     {
         //Read input data file
-        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carmake.csv");
+        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecificationtype.csv");
 
         $dataArray = array();
 
@@ -25,8 +25,8 @@ class CarMakeTableSeeder extends Seeder
 
         foreach ($dataArray as $value) {
             $values = explode(",", $value);
-            $carMake = new CarMake(['id_car_make' => $values[0], 'name' => $values[1]]);
-            $carMake->save();
+            $specType = new CarSpecificationType(['id_car_specification_type' => $values[0], 'name' => $values[1]]);
+            $specType->save();
         }
     }
 }

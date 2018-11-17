@@ -1,0 +1,55 @@
+1,Bodywork
+2,Body type
+4,Number of seater
+5,Length
+6,Width
+7,Height
+8,Wheelbase
+9,Front track
+10,Rear track
+11,Engine
+12,Engine type
+13,Capacity
+14,Engine power
+15,Max power at RPM
+16,Maximum torque
+17,Injection type
+19,Cylinder layout
+20,Number of cylinders
+22,Fuel
+23,Gearbox and handling
+24,Gearbox type
+26,Number of gear
+27,Drive wheels
+29,Front brakes
+30,Rear brakes
+31,Operating characteristics
+32,Max speed
+33,Acceleration (0-100 km/h)
+34,Curb weight
+35,Fuel tank capacity
+37,Emission standards
+38,Ground clearance
+39,Valves per cylinder
+40,Suspension and brakes
+41,Front suspension
+42,Back suspension
+44,Max trunk capacity
+45,Min trunk capacity
+46,Boost type
+47,Cylinder bore
+48,Stroke cycle
+50,City driving fuel consumption per 100 km
+51,Highway driving fuel consumption per 100 km
+52,Mixed driving fuel consumption per 100 km
+57,Turning circle
+58,Full weight
+62,Cruising range
+1564,Turnover of maximum torque
+1565,Payload
+1566,Presence of intercooler
+1567,Permitted road-train weight
+1568,Front/rear axle load
+1569,Loading height
+1570,Cargo compartment (Length x Width x Height)
+1571,Cargo compartment volume
