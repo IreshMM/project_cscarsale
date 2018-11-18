@@ -25,7 +25,7 @@ class CarMakeTableSeeder extends Seeder
 
         foreach ($dataArray as $value) {
             $values = explode(",", $value);
-            $carMake = new CarMake(['id_car_make' => $values[0], 'name' => $values[1]]);
+            $carMake = new CarMake(['id_car_make' => trim($values[0]), 'name' => trim($values[1])]);
             $carMake->save();
         }
     }

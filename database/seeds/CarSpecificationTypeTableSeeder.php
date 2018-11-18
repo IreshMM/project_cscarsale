@@ -25,7 +25,7 @@ class CarSpecificationTypeTableSeeder extends Seeder
 
         foreach ($dataArray as $value) {
             $values = explode(",", $value);
-            $specType = new CarSpecificationType(['id_car_specification_type' => $values[0], 'name' => $values[1]]);
+            $specType = new CarSpecificationType(['id_car_specification_type' => trim($values[0]), 'name' => trim($values[1])]);
             $specType->save();
         }
     }

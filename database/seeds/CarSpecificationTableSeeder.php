@@ -28,7 +28,7 @@ class CarSpecificationTableSeeder extends Seeder
             $values = explode(",", $value);
             $specType = CarSpecificationType::find(1);
 
-            $spec = new CarSpecification(['id_car_specification' => $values[0], 'name' => $values[1]]);
+            $spec = new CarSpecification(['id_car_specification' => trim($values[0]), 'name' => trim($values[1])]);
             $spec->specificationType()->associate($specType);
             $spec->save();
         }

@@ -26,10 +26,10 @@ class CarSpecificationValueTableSeeder extends Seeder
         foreach ($dataArray as $value) {
             $values = explode(",", $value);
             DB::table('car_specification_value')->insert([
-               'id_car_model' => $values[0],
-               'id_car_specification' => $values[1],
-               'value' => $values[2],
-               'unit' => $values[3]
+               'id_car_model' => trim($values[0]),
+               'id_car_specification' => trim($values[1]),
+               'value' => trim($values[2]),
+               'unit' => trim($values[3])
             ]);
         }
     }

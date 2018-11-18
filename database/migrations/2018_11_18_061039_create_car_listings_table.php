@@ -14,12 +14,13 @@ class CreateCarListingsTable extends Migration
     public function up()
     {
         Schema::create('car_listing', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id_car_listing');
             $table->string('condition');
             $table->unsignedInteger('mileage');
             $table->string('color');
             $table->longText('seller_description');
             $table->year('year');
+            $table->integer('images');
             $table->unsignedInteger('id_car_model');
             $table->timestamps();
 

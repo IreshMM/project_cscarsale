@@ -27,7 +27,7 @@ class CarModelsTableSeeder extends Seeder
         foreach ($dataArray as $value) {
             $values = explode(",", $value);
             $make = CarMake::find($values[0]);
-            $model = new CarModel(['name' => $values[1], 'id_car_model' => $values[2]]);
+            $model = new CarModel(['name' => trim($values[1]), 'id_car_model' => trim($values[2])]);
             $model->make()->associate($make);
             $model->save();
         }

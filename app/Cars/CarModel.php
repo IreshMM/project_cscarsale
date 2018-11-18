@@ -20,4 +20,8 @@ class CarModel extends Model
                     ->withPivot('value', 'unit')
                     ->as('specification');;
     }
+
+    public function listings() {
+        return $this->hasMany('App\Cars\CarListing', 'id_car_model', 'id_car_model');
+    }
 }
