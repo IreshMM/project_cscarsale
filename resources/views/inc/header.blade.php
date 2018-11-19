@@ -60,7 +60,7 @@
                             <ul class="rd-navbar-nav">
                                 <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
                                 </li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
+                                {{-- <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
                                     <!-- RD Navbar Dropdown-->
                                     <ul class="rd-menu rd-navbar-dropdown">
                                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing.html">Car Listing (right sidebar)</a></li>
@@ -69,11 +69,11 @@
                                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="details.html">Car Details (right sidebar)</a></li>
                                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="details-left.html">Car Details (left sidebar)</a></li>
                                     </ul>
-                                </li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
+                                </li> --}}
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="best" href="#best">Best offers</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Contacts</a>
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
+                                <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
