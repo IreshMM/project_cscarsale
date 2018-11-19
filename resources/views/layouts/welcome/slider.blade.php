@@ -45,64 +45,7 @@
             </div>
         </div>
     </div>
-    <div class="slider-form">
-        <div class="sidebar-form-wrapper">
-            <div class="sidebar-form">
-                <form action="javascript:;" class="form2">
-                    <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                        <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                                <option value="1">Any Make</option>
-                                <option value="2">Alfa Romeo</option>
-                                <option value="3">Aston Martin</option>
-                                <option value="4">Audi</option>
-                                <option value="5">Bentley</option>
-                                <option value="6">BMW</option>
-                                <option value="7">Bugatti</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                        <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                                <option value="1">Any Model</option>
-                                <option value="2">Model 1</option>
-                                <option value="3">Model 2</option>
-                                <option value="4">Model 3</option>
-                                <option value="5">Model 4</option>
-                                <option value="6">Model 5</option>
-                                <option value="7">Model 6</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="select1_wrapper"><label>SELECT A TYPE</label>
-                        <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                                <option value="1">Any Type</option>
-                                <option value="2">Type 1</option>
-                                <option value="3">Type 2</option>
-                                <option value="4">Type 3</option>
-                                <option value="5">Type 4</option>
-                                <option value="6">Type 5</option>
-                                <option value="7">Type 6</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="slider-range-wrapper">
-                        <div class="txt">PRICE RANGE</div>
-                        <div class="slider-range"></div>
-                        <div class="clearfix"><input type="text" class="amount" readonly="">
-                        <input type="text" class="amount2" readonly=""></div>
-                    </div>
-                    
-                    <button type="submit" class="btn-default btn-form2-submit">SUBMIT FILTERS</button>
-                    <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div>
-                </form>
-            </div>
-        </div>
-
-    </div>
+    @include('layouts.welcome.sliderform')
     <!-- Swiper Pagination -->
     <div class="swiper-pagination"></div>
     <!-- Swiper Navigation-->
@@ -113,57 +56,39 @@
 
 <section class="form-section">
     <div class="container">
-        <div class="slider-form">
-            <div class="sidebar-form-wrapper">
-                <div class="sidebar-form">
-                    <form action="javascript:;" class="form2">
-                        <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Make</option>
-                      <option value="2">Alfa Romeo</option>
-                      <option value="3">Aston Martin</option>
-                      <option value="4">Audi</option>
-                      <option value="5">Bentley</option>
-                      <option value="6">BMW</option>
-                      <option value="7">Bugatti</option>
-                    </select></div>
-                        </div>
-                        <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Model</option>
-                      <option value="2">Model 1</option>
-                      <option value="3">Model 2</option>
-                      <option value="4">Model 3</option>
-                      <option value="5">Model 4</option>
-                      <option value="6">Model 5</option>
-                      <option value="7">Model 6</option>
-                    </select></div>
-                        </div>
-                        <div class="select1_wrapper"><label>SELECT A TYPE</label>
-                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Type</option>
-                      <option value="2">Type 1</option>
-                      <option value="3">Type 2</option>
-                      <option value="4">Type 3</option>
-                      <option value="5">Type 4</option>
-                      <option value="6">Type 5</option>
-                      <option value="7">Type 6</option>
-                    </select></div>
-                        </div>
-
-
-                        <div class="slider-range-wrapper">
-                            <div class="txt">PRICE RANGE</div>
-                            <div class="slider-range"></div>
-                            <div class="clearfix"><input type="text" class="amount" readonly="">
-                                <input type="text" class="amount2" readonly=""></div>
-                        </div>
-                        <button type="submit" class="btn-default btn-form2-submit">SUBMIT FILTERS</button>
-                        <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div>
-                    </form>
-                </div>
-            </div>
-
-        </div>
+        @include('layouts.welcome.sliderform')
     </div>
 </section>
+
+<script>
+    var getMakesRequest = new XMLHttpRequest();
+    getMakesRequest.open('GET', '{{ route('make_list') }}');
+    getMakesRequest.onload = function() {
+        data = JSON.parse(getMakesRequest.responseText);
+        var makeListHTML = "";
+        data.forEach(element => {
+            makeListHTML = makeListHTML + "<option value=" + element.id_car_make + ">" + element.name + "</option>";
+        });
+
+        $(".car-makes").html(makeListHTML);
+    }
+    getMakesRequest.send();
+
+    $(document).ready(function() {
+        $('body').on('change', '.car-makes', function() {
+            $.ajax({
+                method: "GET",
+                url: "{{ route('model_list') }}",
+                data: {id_car_make: this.value}
+            }).done(function(models) {
+                var modelListHTML = "<option value=\"0\" disabled selected>Select a model</option>";
+                models.forEach(element => {
+                    modelListHTML = modelListHTML + "<option value=" + element.id_car_model + ">" + element.name + "</option>";
+                });
+
+                $(".car-models").html(modelListHTML);
+            });
+            return false;
+        });
+    });
+</script>

@@ -13,13 +13,13 @@
                             <li>
                                 <div class="unit  align-items-center">
                                     <div class="unit-left"><span class="icon ei icon_phone novi-icon"></span></div>
-                                    <div class="unit-body"><a href="tel:#">1-800-1234-5671</a></div>
+                                    <div class="unit-body"><a href="tel:#">077 7303 563</a></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="unit  align-items-center">
                                     <div class="unit-left"><span class="icon ei icon_pin novi-icon"></span></div>
-                                    <div class="unit-body"><a href="#">2130 Fulton Street San Diego, CA 94117-1080 USA</a></div>
+                                    <div class="unit-body"><a href="#">C&S Carsale,Morris Road, Ambalanwatta, Galle</a></div>
                                 </div>
                             </li>
                             <li>
@@ -37,7 +37,7 @@
                                 <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
                             </li>
                             <li>
-                                <a href="#register" data-toggle='modal'>REGISTER</a>
+                                <a href="#register" data-toggle='modal'>SELL YOUR CAR</a>
                             </li>
                         </ul>
                     </div>

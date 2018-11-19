@@ -35,3 +35,10 @@ Route::get('/test', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/query', 'SearchController@query')->name('query');
+
+Route::prefix('query')->group(function(){
+    Route::get('makelist', 'SearchController@getMakeList')->name('make_list');
+    Route::get('modellist', 'SearchController@getModelList')->name('model_list');
+});
