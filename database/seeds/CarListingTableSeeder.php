@@ -22,6 +22,7 @@ class CarListingTableSeeder extends Seeder
 
         $conditions = ['Used', 'New', 'Reconditioned'];
         $colors = ['Red', 'Green', 'Blue', 'Cyan', 'Black'];
+        $cities = ['Anuradhapura', 'Galle', 'Colombo'];
 
         // $data = file_get_contents(getcwd() . "/database/seeds" . "/data/carlisting.csv");
         
@@ -35,7 +36,8 @@ class CarListingTableSeeder extends Seeder
                 'color' => $colors[array_rand($colors)],
                 'mileage' => rand(10000, 1000000),
                 'year' => rand(1996, 2018),
-                'images' => 5
+                'images' => 5,
+                'city' => $cities[array_rand($cities)]
             ]);
 
             $listing->model()->associate($carModelsArray[array_rand($carModelsArray)]);

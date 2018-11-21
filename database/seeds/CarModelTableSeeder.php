@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use App\Cars\CarMake;
 use App\Cars\CarModel;
 
-class CarModelsTableSeeder extends Seeder
+class CarModelTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

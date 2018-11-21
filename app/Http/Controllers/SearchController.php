@@ -20,4 +20,8 @@ class SearchController extends Controller
         }
         return null;
     }
+
+    public function search(Request $request) {
+        return $request->all();
+    }
 }
