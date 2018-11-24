@@ -63,7 +63,7 @@
             </div>
             <div class="left-block">
                 <div class="footer-logo">
-                    <a href="index.html" class="logo2">
+                    <a href="/" class="logo2">
                   <img src="images/logo-white.png" alt="" class="img-responsive"> </a>
                 </div>
                 <div><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Autozone</span><span>.&nbsp;</span></div>

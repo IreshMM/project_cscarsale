@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    @include('layouts.welcome.sliderform')
+    @include('inc.partials.welcome.sliderform')
     <!-- Swiper Pagination -->
     <div class="swiper-pagination"></div>
     <!-- Swiper Navigation-->
@@ -56,7 +56,7 @@
 
 <section class="form-section">
     <div class="container">
-        @include('layouts.welcome.sliderform')
+        @include('inc.partials.welcome.sliderform')
     </div>
 </section>
 

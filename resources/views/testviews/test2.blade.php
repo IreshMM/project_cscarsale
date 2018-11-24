@@ -1,6 +1,16 @@
-@extends('layouts.app')
-
-@section('content')
-    <p>This is a paragraph</p>
-    <div style="height: 2000px;"></div>
-@endsection
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="{{ route('search') }}">
+    <input name="spec[Engine type]" type="text" value="Gasoline">
+    <input name="spec[Body type]" type="text" value="Wagon">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

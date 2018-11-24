@@ -10,8 +10,8 @@
     @include('inc.partials.welcome.testimonials')
     @include('inc.partials.welcome.prefooter')
 
-    @include('inc.partials.modals.login')
-    @include('inc.partials.modals.register')
+    @include('inc.modals.login')
+    @include('inc.modals.register')
 
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/bootstrap.min.js"></script>

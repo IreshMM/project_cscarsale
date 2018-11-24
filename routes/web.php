@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
+    return view('pages.public.welcome');
 });
 
-Route::get('/search', function () {
+Route::get('/search2', function () {
     return view('pages.search');
 });
 
@@ -28,7 +28,7 @@ Route::get('/contact', function () {
 });
 
 Route::get('/test', function () {
-    return view('pages.test');
+    return view('testviews.test2');
 });
 
 
