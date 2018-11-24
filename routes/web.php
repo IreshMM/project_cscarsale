@@ -28,7 +28,7 @@ Route::get('/contact', function () {
 });
 
 Route::get('/test', function () {
-    return view('testviews.test2');
+    return view('testviews.test');
 });
 
 

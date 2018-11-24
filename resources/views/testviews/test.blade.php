@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +9,8 @@
   <meta name="description" content="Your description">
   <meta name="keywords" content="Your keywords">
   <meta name="author" content="Your name">
-  <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet" type="text/css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link href="css/jquery-ui.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -26,7 +26,7 @@
   <script src="js/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/pointer-events.js"></script>
-  
+
   <script src="js/jquery.flexslider-min.js"></script>
   <script src="js/select2.js"></script>
   <script src="js/jquery.superslides.js"></script>
@@ -37,7 +37,7 @@
   <script src="js/jquery.touchSwipe.min.js"></script>
   <script src="js/material-parallax.js"></script>
   <script src="js/owl-carousel.js"></script>
-  
+
   <script src="js/rd-mailform.js"></script>
   <script src="js/rd-navbar.js"></script>
   <script src="js/rd-instafeed.js"></script>
@@ -49,64 +49,149 @@
 </head>
 
 <body class="front" data-spy="scroll" data-target="#top1" data-offset="96">
-  
-  <div id="main">
-    
-    @include('inc.navbar')
 
-      <section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="false" data-simulate-touch="false" data-slide-effect="fade">
-       
-        
-        <div class="swiper-wrapper text-center">
-          <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-1920x1200.jpg">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <h4> FIND YOUR DREAM CAR </h4> 
-                    <h1>BMW M5 GRAN TURISMO</h1>
-                    <h3>MODEL 2017 <span>$64,000</span></h3>
-                    <a class="button" href="#"><span> SEE DETAILS</span></a>
-                  </div>
+  <div id="main">
+    <header class="section page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed"
+          data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
+          data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+          <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-dark">
+            <div class="rd-navbar-aside">
+              <div class="block-left">
+                <ul class="list-inline">
+                  <li>
+                    <div class="unit  align-items-center">
+                      <div class="unit-left"><span class="icon ei icon_phone novi-icon"></span></div>
+                      <div class="unit-body"><a href="tel:#">1-800-1234-5671</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit  align-items-center">
+                      <div class="unit-left"><span class="icon ei icon_pin novi-icon"></span></div>
+                      <div class="unit-body"><a href="#">2130 Fulton Street San Diego, CA 94117-1080 USA</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <ul class="social-list">
+                      <li><a href="#" class="icon fa fa-facebook novi-icon"></a></li>
+                      <li><a href="#" class="icon fa fa-twitter novi-icon"></a></li>
+                      <li><a href="#" class="icon fa fa-google-plus novi-icon"></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="block-right">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
+                  </li>
+                  <li>
+                    <a href="#register" data-toggle='modal'>REGISTER</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo.png" alt=""/></a>
+                </div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
+                      <!-- RD Navbar Dropdown-->
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing.html">Car Listing (right sidebar)</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing-left.html">Car Listing (left sidebar)</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing-without-shadow.html">Car Listing (without shadow)</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="details.html">Car Details (right sidebar)</a></li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="details-left.html">Car Details (left sidebar)</a></li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="best" href="#best">Best offers</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Contacts</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide context-dark" data-slide-bg="images/slider-2-1920x1200.jpg" style="background-position: 50% 50%;">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <h4> FIND YOUR DREAM CAR </h4>
-                    <h1>Chevrolet Camaro ZL1</h1>
-                    <h3>MODEL 2017 <span>$99,000</span></h3>
-                    <a class="button" href="#"><span> SEE DETAILS</span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide context-dark" data-slide-bg="images/slider-3-1920x1200.jpg" style="background-position: 50% 50%;">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <h4> FIND YOUR DREAM CAR </h4>
-                    <h1>BMW 330e iPERFORMANCE</h1>
-                    <h3>MODEL 2017 <span>$99,000</span></h3>
-                    <a class="button" href="#"><span> SEE DETAILS</span></a>
-                  </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="false"
+      data-simulate-touch="false" data-slide-effect="fade">
+
+
+      <div class="swiper-wrapper text-center">
+        <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-1920x1200.jpg">
+          <div class="swiper-slide-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h4> FIND YOUR DREAM CAR </h4>
+                  <h1>BMW M5 GRAN TURISMO</h1>
+                  <h3>MODEL 2017 <span>$64,000</span></h3>
+                  <a class="button" href="#"><span> SEE DETAILS</span></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="slider-form">
-          <div class="sidebar-form-wrapper">
-            <div class="sidebar-form">
-              <form action="javascript:;" class="form2">
-                <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                  <div class="select1_inner"><select class="select2 select" style="width: 100%">
+        <div class="swiper-slide context-dark" data-slide-bg="images/slider-2-1920x1200.jpg" style="background-position: 50% 50%;">
+          <div class="swiper-slide-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h4> FIND YOUR DREAM CAR </h4>
+                  <h1>Chevrolet Camaro ZL1</h1>
+                  <h3>MODEL 2017 <span>$99,000</span></h3>
+                  <a class="button" href="#"><span> SEE DETAILS</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide context-dark" data-slide-bg="images/slider-3-1920x1200.jpg" style="background-position: 50% 50%;">
+          <div class="swiper-slide-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h4> FIND YOUR DREAM CAR </h4>
+                  <h1>BMW 330e iPERFORMANCE</h1>
+                  <h3>MODEL 2017 <span>$99,000</span></h3>
+                  <a class="button" href="#"><span> SEE DETAILS</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-form">
+        <div class="sidebar-form-wrapper">
+          <div class="sidebar-form">
+            <form action="javascript:;" class="form2">
+              <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
+                <div class="select1_inner"><select class="select2 select" style="width: 100%">
                     <option value="1">Any Make</option>
                     <option value="2">Alfa Romeo</option>
                     <option value="3">Aston Martin</option>
@@ -115,9 +200,9 @@
                     <option value="6">BMW</option>
                     <option value="7">Bugatti</option>
                   </select></div>
-                </div>
-                <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                  <div class="select1_inner"><select class="select2 select" style="width: 100%">
+              </div>
+              <div class="select1_wrapper"><label>SELECT A MODEL</label>
+                <div class="select1_inner"><select class="select2 select" style="width: 100%">
                     <option value="1">Any Model</option>
                     <option value="2">Model 1</option>
                     <option value="3">Model 2</option>
@@ -126,9 +211,9 @@
                     <option value="6">Model 5</option>
                     <option value="7">Model 6</option>
                   </select></div>
-                </div>
-                <div class="select1_wrapper"><label>SELECT A TYPE</label>
-                  <div class="select1_inner"><select class="select2 select" style="width: 100%">
+              </div>
+              <div class="select1_wrapper"><label>SELECT A TYPE</label>
+                <div class="select1_inner"><select class="select2 select" style="width: 100%">
                     <option value="1">Any Type</option>
                     <option value="2">Type 1</option>
                     <option value="3">Type 2</option>
@@ -137,6 +222,67 @@
                     <option value="6">Type 5</option>
                     <option value="7">Type 6</option>
                   </select></div>
+              </div>
+
+
+              <div class="slider-range-wrapper">
+                <div class="txt">PRICE RANGE</div>
+                <div class="slider-range"></div>
+                <div class="clearfix"><input type="text" class="amount" readonly="">
+                  <input type="text" class="amount2" readonly=""></div>
+              </div>
+              <button type="submit" class="btn-default btn-form2-submit">SUBMIT FILTERS</button>
+              <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <!-- Swiper Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Swiper Navigation-->
+      <div class="swiper-button-prev fa-arrow-left"></div>
+      <div class="swiper-button-next fa-arrow-right"></div>
+
+    </section>
+    <section class="form-section">
+      <div class="container">
+        <div class="slider-form">
+          <div class="sidebar-form-wrapper">
+            <div class="sidebar-form">
+              <form action="javascript:;" class="form2">
+                <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
+                  <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                      <option value="1">Any Make</option>
+                      <option value="2">Alfa Romeo</option>
+                      <option value="3">Aston Martin</option>
+                      <option value="4">Audi</option>
+                      <option value="5">Bentley</option>
+                      <option value="6">BMW</option>
+                      <option value="7">Bugatti</option>
+                    </select></div>
+                </div>
+                <div class="select1_wrapper"><label>SELECT A MODEL</label>
+                  <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                      <option value="1">Any Model</option>
+                      <option value="2">Model 1</option>
+                      <option value="3">Model 2</option>
+                      <option value="4">Model 3</option>
+                      <option value="5">Model 4</option>
+                      <option value="6">Model 5</option>
+                      <option value="7">Model 6</option>
+                    </select></div>
+                </div>
+                <div class="select1_wrapper"><label>SELECT A TYPE</label>
+                  <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                      <option value="1">Any Type</option>
+                      <option value="2">Type 1</option>
+                      <option value="3">Type 2</option>
+                      <option value="4">Type 3</option>
+                      <option value="5">Type 4</option>
+                      <option value="6">Type 5</option>
+                      <option value="7">Type 6</option>
+                    </select></div>
                 </div>
 
 
@@ -151,74 +297,13 @@
               </form>
             </div>
           </div>
-          
+
         </div>
-        <!-- Swiper Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Swiper Navigation-->
-        <div class="swiper-button-prev fa-arrow-left"></div>
-        <div class="swiper-button-next fa-arrow-right"></div>
-       
-      </section>
-      <section class="form-section">
-        <div class="container">
-          <div class="slider-form">
-            <div class="sidebar-form-wrapper">
-              <div class="sidebar-form">
-                <form action="javascript:;" class="form2">
-                  <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                    <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Make</option>
-                      <option value="2">Alfa Romeo</option>
-                      <option value="3">Aston Martin</option>
-                      <option value="4">Audi</option>
-                      <option value="5">Bentley</option>
-                      <option value="6">BMW</option>
-                      <option value="7">Bugatti</option>
-                    </select></div>
-                  </div>
-                  <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                    <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Model</option>
-                      <option value="2">Model 1</option>
-                      <option value="3">Model 2</option>
-                      <option value="4">Model 3</option>
-                      <option value="5">Model 4</option>
-                      <option value="6">Model 5</option>
-                      <option value="7">Model 6</option>
-                    </select></div>
-                  </div>
-                  <div class="select1_wrapper"><label>SELECT A TYPE</label>
-                    <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Type</option>
-                      <option value="2">Type 1</option>
-                      <option value="3">Type 2</option>
-                      <option value="4">Type 3</option>
-                      <option value="5">Type 4</option>
-                      <option value="6">Type 5</option>
-                      <option value="7">Type 6</option>
-                    </select></div>
-                  </div>
-
-
-                  <div class="slider-range-wrapper">
-                    <div class="txt">PRICE RANGE</div>
-                    <div class="slider-range"></div>
-                    <div class="clearfix"><input type="text" class="amount" readonly="">
-                      <input type="text" class="amount2" readonly=""></div>
-                  </div>
-                  <button type="submit" class="btn-default btn-form2-submit">SUBMIT FILTERS</button>
-                  <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div>
-                </form>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
     <div class="section section-md novi-background bg-cover">
       <div class="container">
-        
+
         <div class="row">
           <div class="col-sm-4">
             <div class="product-item-classic">
@@ -239,7 +324,8 @@
                     </span>
                   </div>
                   <div class="product-item-title"><a href="details.html">2010 Ford Mustang / YELLOW</a></div>
-                  <div class="product-item-text">The 2010 Ford Mustang beats its competitors with top safety scores and a large trunk. A redesigned cabin also helps the Mustang stand out in its class. </div>
+                  <div class="product-item-text">The 2010 Ford Mustang beats its competitors with top safety scores and a large trunk. A redesigned cabin
+                    also helps the Mustang stand out in its class. </div>
                   <div class="link">
                     <a href="details.html" class="btn-default btn1">
                       <span>READ MORE</span>
@@ -268,7 +354,8 @@
                     </span>
                   </div>
                   <div class="product-item-title"><a href="details.html">1950 Bugatti / BLACK</a></div>
-                  <div class="product-item-text">The Type 101 was presented at the 1951 Paris Salon, of which two examples were shown. These were a convertible and a coupe, both bodied by Gangloff.</div>
+                  <div class="product-item-text">The Type 101 was presented at the 1951 Paris Salon, of which two examples were shown. These were a convertible
+                    and a coupe, both bodied by Gangloff.</div>
                   <div class="link">
                     <a href="details.html" class="btn-default btn1">
                       <span>READ MORE</span>
@@ -297,7 +384,8 @@
                     </span>
                   </div>
                   <div class="product-item-title"><a href="details.html">2013 Mercedes C / WHITE</a></div>
-                  <div class="product-item-text">The base 2013 Mercedes C250 is powered by a turbocharged four-cylinder engine that has enough acceleration to make highway passing maneuvers easy. </div>
+                  <div class="product-item-text">The base 2013 Mercedes C250 is powered by a turbocharged four-cylinder engine that has enough acceleration
+                    to make highway passing maneuvers easy. </div>
                   <div class="link">
                     <a href="details.html" class="btn-default btn1">
                       <span>READ MORE</span>
@@ -321,7 +409,9 @@
             <div class="row ">
               <div class="col-sm-12">
                 <h2 class="text-accent"> #1 PLACE FOR ALL YOUR AUTOMOTIVE NEEDS</h2>
-                <p class="text-block-center"> Autozone is a leading digital automotive marketplace designed to connect vehicle buyers and sellers. Our website lets you research and compare new, certified and used cars by searching for body type, mileage, price and numerous other criteria. </p>
+                <p class="text-block-center"> Autozone is a leading digital automotive marketplace designed to connect vehicle buyers and sellers. Our
+                  website lets you research and compare new, certified and used cars by searching for body type, mileage,
+                  price and numerous other criteria. </p>
               </div>
             </div>
           </div>
@@ -462,7 +552,7 @@
                         </div>
                       </div>
                     </div>
-              
+
                     <div class="col-xxs-12 col-xs-6 col-sm-4">
                       <div class="product-minimal">
                         <div class="thumbnail clearfix">
@@ -540,7 +630,7 @@
                     </div>
                   </div>
                 </div>
-                
+
               </div>
             </div>
             <div class="tab-pane fade" id="tabs-1-2">
@@ -662,7 +752,7 @@
                         </div>
                       </div>
                     </div>
-                 
+
                     <div class="col-xxs-12 col-xs-6 col-sm-4">
                       <div class="product-minimal">
                         <div class="thumbnail clearfix">
@@ -740,7 +830,7 @@
                     </div>
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </div>
@@ -761,8 +851,10 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="figure-section-text">
-                        <p> As a local, family-owned dealership, we understand the needs of our customers, and we give back to our local community. We also offer great benefits to all our customers, both new & returning. Feel free to check more reasons for becoming our client and having a hassle-free buying experience.</p>
-                        
+                        <p> As a local, family-owned dealership, we understand the needs of our customers, and we give back to
+                          our local community. We also offer great benefits to all our customers, both new & returning. Feel
+                          free to check more reasons for becoming our client and having a hassle-free buying experience.</p>
+
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -782,16 +874,16 @@
                       </ul>
                     </div>
                   </div>
-                  
-                  
+
+
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
-       
+
       </div>
-      
+
     </div>
     <div class="section section-sm novi-background bg-cover bg-gray-light section-shadow">
       <div class="container">
@@ -849,52 +941,59 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
     <div id="testimonials" class="section section-lg testimonials-bg novi-background custom-bg-image">
-      
+
       <div class="container">
-        <div class="owl-carousel" data-items='1' data-dots='true' data-nav='false' data-stage-padding='15' data-loop='false' data-margin='30' data-mouse-drag="false">
+        <div class="owl-carousel" data-items='1' data-dots='true' data-nav='false' data-stage-padding='15' data-loop='false' data-margin='30'
+          data-mouse-drag="false">
           <div class="review">
             <div class="review_inner">
               <div class="testimonial-wrapper">
-                
+
                 <div class="txt2">
                   <div class="img-wrapper">
                     <img src="images/customer-1-104x104.jpg" alt="" class="img-responsive"> </div>
                 </div>
                 <div class="txt1">
                   <b>GEORGE SMITH,</b> Customer, RANGE ROVER Owner</div>
-                <div class="txt3">Autozone has nice cars, great prices, and good service. I brought my old Citroen C4 with which I had no problems after one month of high mileage use. High price given to me for my car and low price accepted for the car I was buying was a huge surprise to me. I recommend this car dealer to everyone! </div>
+                <div class="txt3">Autozone has nice cars, great prices, and good service. I brought my old Citroen C4 with which I had no problems
+                  after one month of high mileage use. High price given to me for my car and low price accepted for the car
+                  I was buying was a huge surprise to me. I recommend this car dealer to everyone! </div>
               </div>
             </div>
           </div>
           <div class="review">
             <div class="review_inner">
               <div class="testimonial-wrapper">
-               
+
                 <div class="txt2">
                   <div class="img-wrapper">
                     <img src="images/customer-2-104x104.jpg" alt="" class="img-responsive"> </div>
                 </div>
                 <div class="txt1">
                   <b>JOHN DOE,</b> Customer, RANGE ROVER DISCOVERY Owner</div>
-                <div class="txt3">I’m glad to be a happy owner of my dream car, Range Rover Discovery, which I bought thanks to the recommendations of your consultants. The whole process of purchasing was very smooth and the price was not too high for me. I will definitely recommend this car dealer to all my friends.</div>
+                <div class="txt3">I’m glad to be a happy owner of my dream car, Range Rover Discovery, which I bought thanks to the recommendations
+                  of your consultants. The whole process of purchasing was very smooth and the price was not too high for
+                  me. I will definitely recommend this car dealer to all my friends.</div>
               </div>
             </div>
           </div>
           <div class="review">
             <div class="review_inner">
               <div class="testimonial-wrapper">
-                
+
                 <div class="txt2">
                   <div class="img-wrapper">
                     <img src="images/customer-3-104x104.jpg" alt="" class="img-responsive"> </div>
                 </div>
                 <div class="txt1">
                   <b>AMANDA RICHARDSON,</b> Customer, RANGE ROVER EVOQUE Owner</div>
-                <div class="txt3">You guys are really amazing! I have not yet seen a car dealer who offers so much at such an affordable price. I have found what I wanted in your vehicle catalog. Moreover, I have sold my old car with the help of your website and your staff provided me with the considerable discount for my new car.</div>
+                <div class="txt3">You guys are really amazing! I have not yet seen a car dealer who offers so much at such an affordable price.
+                  I have found what I wanted in your vehicle catalog. Moreover, I have sold my old car with the help of your
+                  website and your staff provided me with the considerable discount for my new car.</div>
               </div>
             </div>
           </div>
@@ -902,7 +1001,8 @@
       </div>
     </div>
     <div class="footer-map">
-      <div class="google-map-container google-map-2" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="14" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#e9e9e9&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#dedede&quot;},{&quot;lightness&quot;:21}]},{&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#333333&quot;},{&quot;lightness&quot;:40}]},{&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]}]">
+      <div class="google-map-container google-map-2" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="14"
+        data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#e9e9e9&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#dedede&quot;},{&quot;lightness&quot;:21}]},{&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#333333&quot;},{&quot;lightness&quot;:40}]},{&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]}]">
         <div class="google-map"></div>
         <ul class="google-map-markers">
           <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
@@ -988,7 +1088,7 @@
               </div>
             </div>
           </div>
-         
+
           <div class="col-sm-6 col-md-3">
             <div class="footer-title">
               <span>CONTACT US</span>
@@ -998,8 +1098,7 @@
               <a href="#">202 W 7th St, Suite 233 Los Angeles, California 90014 USA </a></address>
             <div class="footer-info">
               <div class="info-phone">
-                <span aria-hidden="true" class="fa fa-phone novi-icon"></span>
-                Phone: <a href="tel:#"> 1-800- 624-5462</a> </div>
+                <span aria-hidden="true" class="fa fa-phone novi-icon"></span> Phone: <a href="tel:#"> 1-800- 624-5462</a>                </div>
               <div class="info-fax">
                 <span aria-hidden="true" class="fa fa-fax novi-icon"></span>FAX:
                 <a href="tel:#">1-800- 624-5462</a> </div>
@@ -1007,14 +1106,15 @@
                 <span aria-hidden="true" class="fa fa-envelope novi-icon"></span>Email:
                 <a href="mailto:#" tabindex="-1">info@demolink.org</a>
               </div>
-              
+
             </div>
           </div>
           <div class="col-sm-6 col-md-3">
             <div class="footer-title">
               <span>instagram</span>
             </div>
-            <article class="instafeed" data-instafeed-tagname="14633_autodealer" data-instafeed-get="tagged" data-instafeed-sort="least-liked" data-lightgallery="group">
+            <article class="instafeed" data-instafeed-tagname="14633_autodealer" data-instafeed-get="tagged" data-instafeed-sort="least-liked"
+              data-lightgallery="group">
               <div class="row row-10 row-narrow">
                 <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
                   <div class="thumbnail-creative-overlay"></div></a>
@@ -1042,10 +1142,10 @@
       </div>
     </div>
     <footer class="section novi-background bg-cover">
-   
+
       <div class="container">
         <div class="row-flex">
-         
+
           <div class="right-block">
             <div class="social-footer">
               <ul class="social-footer-list">
@@ -1104,7 +1204,7 @@
               </ul>
             </div>
           </div>
-          <div class="left-block"> 
+          <div class="left-block">
             <div class="footer-logo">
               <a href="index.html" class="logo2">
                 <img src="images/logo-white.png" alt="" class="img-responsive"> </a>
@@ -1112,29 +1212,30 @@
             <div><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Autozone</span><span>.&nbsp;</span></div>
           </div>
         </div>
-        
+
       </div>
 
     </footer>
-    
+
   </div>
 
-  <div class="modal fade popup-form" id="SignIn" tabindex="-1" role="dialog" >
+  <div class="modal fade popup-form" id="SignIn" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title"> Sign In</h4>
-          <form class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
+          <form class="rd-mailform" data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
             <div class="row row-fix">
               <div class="col-sm-12">
-                <div class="form-group form-wrap"><label for="singInName" >Your
-                  Name</label><input type="text" class="form-control" id="singInName" name="name"   data-constraints='@Required'>
+                <div class="form-group form-wrap"><label for="singInName">Your
+                  Name</label><input type="text" class="form-control" id="singInName" name="name" data-constraints='@Required'>
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-group form-wrap">
-                  <label for="password">Password</label><input type="password" class="form-control" id="password" name="pas"  data-constraints='@Required'>
+                  <label for="password">Password</label><input type="password" class="form-control" id="password" name="pas"
+                    data-constraints='@Required'>
                 </div>
               </div>
             </div>
@@ -1142,31 +1243,32 @@
             <button type="submit" class="btn-default btn-form2-submit">Submit</button>
           </form>
         </div>
-        
+
       </div>
     </div>
   </div>
-  <div class="modal fade popup-form" id="register" tabindex="-1" role="dialog" >
+  <div class="modal fade popup-form" id="register" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title"> register</h4>
-          <form class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
+          <form class="rd-mailform" data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
             <div class="row row-fix">
               <div class="col-sm-12">
                 <div class="form-group form-wrap"><label for="regName">Your
-                  Name</label><input type="text" class="form-control" id="regName" name="name"  data-constraints='@Required'>
+                  Name</label><input type="text" class="form-control" id="regName" name="name" data-constraints='@Required'>
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-group form-wrap">
-                  <label for="regEmail">Email</label><input type="text" class="form-control" id="regEmail" name="email"  data-constraints='@Required @Email'>
+                  <label for="regEmail">Email</label><input type="text" class="form-control" id="regEmail" name="email" data-constraints='@Required @Email'>
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-group form-wrap">
-                  <label for="passwordReg">Password</label><input type="password" class="form-control" id="passwordReg" name="pas" data-constraints='@Required'>
+                  <label for="passwordReg">Password</label><input type="password" class="form-control" id="passwordReg" name="pas"
+                    data-constraints='@Required'>
                 </div>
               </div>
             </div>
@@ -1183,17 +1285,23 @@
 
   <!--LIVEDEMO_00 -->
 
-	{{-- <script type="text/javascript">
-	 var _gaq = _gaq || [];
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-7078796-5']);
 	  _gaq.push(['_trackPageview']);
 	  (function() {
 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();</script> --}}
+	  })();
+  </script>
 
 
-</body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+</body>
+<!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');
+</script>
+<!-- End Google Tag Manager -->
 
 </html>
