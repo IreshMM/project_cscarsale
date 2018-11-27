@@ -2,7 +2,7 @@
 
 Please clone the project using git and run following commands to resolve all required dependencies
 
-composer install \n
+composer install
 npm install
 
 You may also need to run following,
