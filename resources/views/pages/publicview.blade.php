@@ -1,0 +1,1 @@
+{{-- One should be redirected to this page after login if the user is not an user --}}
