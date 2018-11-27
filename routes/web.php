@@ -12,14 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
-});
-
-Route::get('/sell', function () {
     return view('pages.sell');
 });
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
