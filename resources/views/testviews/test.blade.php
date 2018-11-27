@@ -837,7 +837,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax-container parallax1" data-parallax-img="images/bg-01-1600x600.jpg">
+    {{-- <div class="parallax-container parallax1" data-parallax-img="images/bg-01-1600x600.jpg">
       <div class="parallax-content">
         <div class="section">
           <div class="container">
@@ -884,7 +884,7 @@
 
       </div>
 
-    </div>
+    </div> --}}
     <div class="section section-sm novi-background bg-cover bg-gray-light section-shadow">
       <div class="container">
         <div class="row counter-list">
@@ -944,7 +944,7 @@
 
       </div>
     </div>
-    <div id="testimonials" class="section section-lg testimonials-bg novi-background custom-bg-image">
+    {{-- <div id="testimonials" class="section section-lg testimonials-bg novi-background custom-bg-image">
 
       <div class="container">
         <div class="owl-carousel" data-items='1' data-dots='true' data-nav='false' data-stage-padding='15' data-loop='false' data-margin='30'
@@ -999,8 +999,9 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-map">
+    </div> --}}
+    {{--  --}}
+    {{-- <div class="footer-map">
       <div class="google-map-container google-map-2" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="14"
         data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#e9e9e9&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#dedede&quot;},{&quot;lightness&quot;:21}]},{&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#333333&quot;},{&quot;lightness&quot;:40}]},{&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]}]">
         <div class="google-map"></div>
@@ -1008,8 +1009,9 @@
           <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
         </ul>
       </div>
-    </div>
-    <div class="section pre-footer novi-background bg-cover">
+    </div> --}}
+    {{--  --}}
+    {{-- <div class="section pre-footer novi-background bg-cover">
       <div class="container">
 
         <div class="row">
@@ -1140,8 +1142,10 @@
         </div>
 
       </div>
-    </div>
-    <footer class="section novi-background bg-cover">
+    </div> --}}
+
+
+    {{-- <footer class="section novi-background bg-cover">
 
       <div class="container">
         <div class="row-flex">
@@ -1215,11 +1219,11 @@
 
       </div>
 
-    </footer>
+    </footer> --}}
 
   </div>
 
-  <div class="modal fade popup-form" id="SignIn" tabindex="-1" role="dialog">
+  {{-- <div class="modal fade popup-form" id="SignIn" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body">
@@ -1280,12 +1284,12 @@
       </div>
     </div>
   </div>
-  <div class="snackbars" id="form-output-global"></div>
+  <div class="snackbars" id="form-output-global"></div> --}}
   <script src="js/bootstrap.min.js"></script>
 
   <!--LIVEDEMO_00 -->
 
-  <script type="text/javascript">
+  {{-- <script type="text/javascript">
     var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-7078796-5']);
 	  _gaq.push(['_trackPageview']);
@@ -1294,14 +1298,14 @@
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-  </script>
+  </script> --}}
 
 
 </body>
-<!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{{-- <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');
 </script>
-<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager --> --}}
 
 </html>

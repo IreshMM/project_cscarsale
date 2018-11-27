@@ -3,6 +3,7 @@
 namespace App\Cars;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
 class CarListing extends Model
 {
@@ -39,5 +40,10 @@ class CarListing extends Model
         }
 
         return $imageLocations;
+    }
+
+    public static function getBestOffers() {
+        $bestOffers = DB::table('best_offers')->get();
+        return $bestOffers;
     }
 }

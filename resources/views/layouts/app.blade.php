@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
 
 <head>
     <title>Auto Dealer Bootstrap Template</title>
@@ -50,9 +50,9 @@
 
 <body class="front" data-spy="scroll" data-target="#top1" data-offset="96">
     <div id="main">
-    @include('inc.header')
+        @include('inc.header') 
         @yield('content')
-    @include('inc.footer')
+        @include('inc.footer')
     </div>
 
 </body>

@@ -3,7 +3,7 @@
     {{-- Row by row grid starts here --}}
     @for ($row = 0; $row < count($listings); $row += 3)
     <div class="row">
-        @for ($col = $row; $col < $row + 3; $col++)
+        @for ($col = $row; $col < $row + 3 && $col < count($listings); $col++)
         <?php  $item = $listings[$col]; ?>
         <div class="col-sm-4">
                 <div class="product-box-vertical">
