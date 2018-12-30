@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('testviews.test');
 });
+
+Route::resource('employee-mgt','employeeManagementController');
+
+Route::get('/create',function () {
+    return view('employee-mgt.create');
+});

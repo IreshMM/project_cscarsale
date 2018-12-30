@@ -21,6 +21,51 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Custom CSS -->
+    <link href="../../assets/libs/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
+    <link href="../../assets/extra-libs/calendar/calendar.css" rel="stylesheet" />
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/fullcalendar.css" />
+    <link rel="stylesheet" href="css/matrix-style.css" />
+    
+
+    <link href="../../assets/libs/jquery-steps/jquery.steps.css" rel="stylesheet">
+    <link href="../../assets/libs/jquery-steps/steps.css" rel="stylesheet">
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/jquery.gritter.css" />
+    
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/colorpicker.css" />
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <link rel="stylesheet" href="css/uniform.css" />
+    <link rel="stylesheet" href="css/select2.css" />
+    <link rel="stylesheet" href="css/matrix-style.css" />
+    <link rel="stylesheet" href="css/matrix-media.css" />
+    <link rel="stylesheet" href="css/bootstrap-wysihtml5.css" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="../../assets/extra-libs/multicheck/multicheck.css">
+    <link href="../../assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+   
+   
+  
+    <link rel="stylesheet" type="text/css" href="../../assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/libs/jquery-minicolors/jquery.minicolors.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/libs/quill/dist/quill.snow.css">
+   <!--employee-->
+    <link href="../../assets/libs/jquery-steps/jquery.steps.css" rel="stylesheet">
+    <link href="../../assets/libs/jquery-steps/steps.css" rel="stylesheet">
+   
+    
+    
 </head>
 
 <body>
@@ -37,7 +82,7 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-12 d-flex no-block align-items-center">
-                        <h4 class="page-title">Dashboard-2</h4>
+                        <h4 class="page-title"></h4>
                         <div class="ml-auto text-right">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
@@ -74,6 +119,21 @@
     <script src="assets/libs/moment/min/moment.min.js"></script>
     <script src="assets/libs/fullcalendar/dist/fullcalendar.min.js"></script>
     <script src="dist/js/pages/calendar/cal-init.js"></script>
+
+
+    <script>
+            /****************************************
+             *       Basic Table                   *
+             ****************************************/
+            $('#zero_config').DataTable();
+        </script>
+    <script src="../../assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+    <script src="../../assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+    <script src="../../assets/extra-libs/DataTables/datatables.min.js"></script>
+       
+    <!--script for table search in employee-->
+    
+    <script src="../../assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 </body>
 
 </html>
