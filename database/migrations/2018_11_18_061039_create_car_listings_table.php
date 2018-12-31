@@ -23,9 +23,11 @@ class CreateCarListingsTable extends Migration
             $table->integer('images');
             $table->string('city');
             $table->unsignedInteger('id_car_model');
+            $table->unsignedInteger('id_seller');
             $table->timestamps();
 
             $table->foreign('id_car_model')->references('id_car_model')->on('car_model');
+            $table->foreign('id_seller')->references('id')->on('users');
         });
     }
 
