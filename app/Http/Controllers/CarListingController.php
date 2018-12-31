@@ -82,4 +82,22 @@ class CarListingController extends Controller
     {
         //
     }
+
+    /* Utility functions below */
+
+    /**
+     * update the specified carListing
+     * 
+     * @param \App\Cars\CarListing $carListing
+     * @param AssociativeArray $data
+     */
+    public function updateCarListing($carListing, $data) {
+        foreach ($data as $key => $value) {
+            $carListing[$key] = $value;
+        }
+
+        $carListing->save();
+    }
+
+    
 }
