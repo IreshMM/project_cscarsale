@@ -13,7 +13,7 @@ class CreateSoldCarsTable extends Migration
      */
     public function up()
     {
-        Schema::create('sold_cars', function (Blueprint $table) {
+        Schema::create('sold_car', function (Blueprint $table) {
             $table->increments('id_sold_car');
             $table->string('condition');
             $table->unsignedInteger('mileage');

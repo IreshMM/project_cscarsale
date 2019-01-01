@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBestOffersTable extends Migration
+class CreateFeaturedListingsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateBestOffersTable extends Migration
      */
     public function up()
     {
-        Schema::create('best_offer', function (Blueprint $table) {
+        Schema::create('featured_listing', function (Blueprint $table) {
             $table->unsignedInteger('id_car_listing');
             $table->primary('id_car_listing');
+            $table->timestamps();
 
             $table->foreign('id_car_listing')->references('id_car_listing')->on('car_listing');
         });
@@ -28,6 +29,6 @@ class CreateBestOffersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('best_offers');
+        Schema::dropIfExists('featured_listings');
     }
 }

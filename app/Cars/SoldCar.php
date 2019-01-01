@@ -8,7 +8,7 @@ use App\Customers\Buyer;
 
 class SoldCar extends Model
 {
-    protected $table = 'sold_cars';
+    protected $table = 'sold_car';
     protected $primaryKey = 'id_sold_car';
     protected $fillable = [
         'condition',

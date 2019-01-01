@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBuyersTable extends Migration
+class CreateSubscriptionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,14 @@ class CreateBuyersTable extends Migration
      */
     public function up()
     {
-        Schema::create('buyer', function (Blueprint $table) {
+        Schema::create('subscription', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('address');
-            $table->string('email')->unique();
+            $table->string('email');
+            $table->unsignedInteger('id_car_model');
             $table->timestamps();
+
+            $table->foreign('id_car_model')->references('id_car_model')->on('car_model');
         });
     }
 
@@ -29,6 +31,6 @@ class CreateBuyersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('buyers');
+        Schema::dropIfExists('subscriptions');
     }
 }

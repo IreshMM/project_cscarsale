@@ -3,6 +3,7 @@
 namespace App\Cars;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Customer\Subscription;
 
 class CarModel extends Model
 {
@@ -23,5 +24,9 @@ class CarModel extends Model
 
     public function listings() {
         return $this->hasMany('App\Cars\CarListing', 'id_car_model', 'id_car_model');
+    }
+
+    public function subscriptions() {
+        return $this->hasMany(Subscription::class, 'id_car_model', 'id_car_model');
     }
 }

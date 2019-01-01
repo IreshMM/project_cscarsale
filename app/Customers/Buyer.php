@@ -7,7 +7,7 @@ use App\Cars\SoldCar;
 
 class Buyer extends Model
 {
-    protected $table = 'buyers';
+    protected $table = 'buyer';
     protected $fillable = ['name', 'address', 'email'];
     protected $primaryKey = 'id';
 
