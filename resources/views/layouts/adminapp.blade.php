@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-    <title>Matrix Template - The Ultimate Multipurpose admin template</title>
+    <title>C & S car sale</title>
     <!-- Custom CSS -->
     <link href="assets/libs/flot/css/float-chart.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -21,6 +21,10 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/assets/extra-libs/multicheck/multicheck.css">
+    <link href="/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="/dist/css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +41,7 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-12 d-flex no-block align-items-center">
-                        <h4 class="page-title">Dashboard-2</h4>
+                        <h4 class="page-title"></h4>
                         <div class="ml-auto text-right">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
@@ -74,6 +78,17 @@
     <script src="assets/libs/moment/min/moment.min.js"></script>
     <script src="assets/libs/fullcalendar/dist/fullcalendar.min.js"></script>
     <script src="dist/js/pages/calendar/cal-init.js"></script>
+
+     <!--table this page js -->
+     <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+     <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+     <script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
+     <script>
+         /****************************************
+          *       Basic Table                   *
+          ****************************************/
+         $('#zero_config').DataTable();
+     </script>
 </body>
 
 </html>
