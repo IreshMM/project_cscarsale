@@ -23,7 +23,7 @@
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item"><a href="/home" class="sidebar-link"><i class="fas fa-home"></i><span class="hide-menu"> Home Page </span></a></li>
                         <li class="sidebar-item"><a href="/testimonials" class="sidebar-link"><i class="fas fa-comments"></i><span class="hide-menu"> Testimonials </span></a></li>
-                        <li class="sidebar-item"><a href="" class="sidebar-link"><i class=" fas fa-dollar-sign"></i><span class="hide-menu"> TOS </span></a></li>
+                        <li class="sidebar-item"><a href="/tos" class="sidebar-link"><i class=" fas fa-dollar-sign"></i><span class="hide-menu"> TOS </span></a></li>
                         <li class="sidebar-item"><a href="/contact" class="sidebar-link"><i class=" fas fa-phone"></i><span class="hide-menu"> Contact </span></a></li>
                     </ul>
                 </li>

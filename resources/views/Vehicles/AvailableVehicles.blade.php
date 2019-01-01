@@ -9,7 +9,7 @@
         </div>
             <!--<div class="col-sm-4">-->
             <div class="text-left">   
-              <a class="btn btn-primary" href="/create">Add new Car</a>
+              <a class="btn btn-primary" href="/addVehicle">Add new Car</a>
            <p> </p>
            </div>
         </div>

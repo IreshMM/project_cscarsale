@@ -21,6 +21,9 @@ Route::get('/test', function () {
 Route::get('/vehicles', function () {
     return view('vehicles.AvailableVehicles');
 });
+Route::get('/addVehicle', function () {
+    return view('vehicles.addVehicle');
+});
 Route::get('/request', function () {
     return view('vehicles.Request');
 });
@@ -47,4 +50,7 @@ Route::get('/home', function () {
 });
 Route::get('/testimonials', function () {
     return view('Website.testimonials');
+});
+Route::get('/tos', function () {
+    return view('Website.TOS');
 });
