@@ -21,6 +21,10 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<!-- Custom CSS -->
+   <link href="/assets/libs/jquery-steps/jquery.steps.css" rel="stylesheet">
+   <link href="/assets/libs/jquery-steps/steps.css" rel="stylesheet">
+   <link href="/dist/css/style.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="/assets/extra-libs/multicheck/multicheck.css">
     <link href="/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">

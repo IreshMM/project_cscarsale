@@ -30,6 +30,12 @@ Route::get('/sold', function () {
 Route::get('/sellers', function () {
     return view('Users.sellers');
 });
+Route::get('/employee', function () {
+    return view('Users.Employee');
+});
+Route::get('/empAdd', function () {
+    return view('Users.addEmployee');
+});
 Route::get('/sub', function () {
     return view('Users.subscription');
 });

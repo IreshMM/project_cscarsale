@@ -15,7 +15,7 @@
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class=" fas fa-users"></i><span class="hide-menu">Manage Users </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item"><a href="/sellers" class="sidebar-link"><i class="fas fa-user-secret"></i><span class="hide-menu"> Sellers </span></a></li>
-                        <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="fas fa-user"></i><span class="hide-menu"> Employees </span></a></li>
+                        <li class="sidebar-item"><a href="/employee" class="sidebar-link"><i class="fas fa-user"></i><span class="hide-menu"> Employees </span></a></li>
                         <li class="sidebar-item"><a href="/sub" class="sidebar-link"><i class="fas fa-envelope-square"></i><span class="hide-menu"> Subscription </span></a></li>
                     </ul>
                 </li>
