@@ -35,7 +35,7 @@
                                 <td>2011/04/25</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-success btn-sm"> View </button>
+                                        <a class="btn btn-success btn-sm" href="/viewSold">View</a>
                                       
                                     </td>
                             </tr>

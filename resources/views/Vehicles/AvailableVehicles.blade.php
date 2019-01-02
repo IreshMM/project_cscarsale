@@ -26,7 +26,7 @@
                         <th>Manufacture</th>
                         <th>Price</th>
                         <th>Image</th>
-                        <th>ACtion</th>
+                        <th>Action</th>
                         
                     </tr>
                 </thead>
@@ -39,10 +39,11 @@
                                 <td>61</td>
                                 <td>2011/04/25</td>
                                 <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm">Update</button>
-                                        <button type="button" class="btn btn-success btn-sm"> view </button>
-                                        <button type="button" class="btn btn-warning btn-sm"> Sell </button>
+                                        
+                                       
+                                    <a class="btn btn-primary btn-sm" href="/updateVehicle">Update></a>
+                                    <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
+                                    <a class="btn btn-warning btn-sm" href="/sell">sell</a>  
                                       
                                     </td>
                             </tr>

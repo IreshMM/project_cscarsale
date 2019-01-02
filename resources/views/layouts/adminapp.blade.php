@@ -39,9 +39,14 @@
     <link rel="stylesheet" type="text/css" href="/assets/libs/select2/dist/css/select2.min.css">
     
     <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/libs/quill/dist/quill.snow.css">
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 <!--Image uploader-->
     
 
+    @yield('chart-script')
 
     @yield('custom-script')
     @yield('custom-css')
@@ -100,7 +105,7 @@
     <script src="assets/libs/fullcalendar/dist/fullcalendar.min.js"></script>
     <script src="dist/js/pages/calendar/cal-init.js"></script>
 
-     <!--table this page js -->
+     <!--table this page js 
      <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
      <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
      <script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
@@ -109,7 +114,7 @@
           *       Basic Table                   *
           ****************************************/
          $('#zero_config').DataTable();
-     </script>
+     </script>-->
 </body>
 
 </html>

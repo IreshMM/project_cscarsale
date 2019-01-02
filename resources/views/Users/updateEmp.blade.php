@@ -4,7 +4,7 @@
 
 <div class="card">
     <div class="card-body wizard-content">
-        <h4 class="card-title">Add Employee</h4>
+        <h4 class="card-title">Update Employee</h4>
         <h6 class="card-subtitle"></h6>
         <form id="example-form" action="#" class="m-t-40">
             <div>

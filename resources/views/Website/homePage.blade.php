@@ -1,6 +1,7 @@
 @extends('layouts.adminapp') 
 
 @section('content')
+
 <style>
 .preview-images-zone {
     width: 100%;
@@ -153,45 +154,101 @@
           </div>
       </div>
       
-<div class="card">
-     <div class="card-body">
-        <h5 class="card-title">Best Offers</h5>       
-                  
-                  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-                  <div class="container">
-                      <fieldset class="form-group">
-                          <a href="javascript:void(0)" onclick="$('#pro-image').click()">Upload Image</a>
-                          <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
-                      </fieldset>
-                      <div class="preview-images-zone">
-                          <div class="preview-image preview-show-1">
-                              <div class="image-cancel" data-no="1">x</div>
-                              <div class="image-zone"><img id="pro-img-1" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny85NTkvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzYzOTcxNjY1LmpwZw=="></div>
-                              <div class="tools-edit-image"><a href="javascript:void(0)" data-no="1" class="btn btn-light btn-edit-image">edit</a></div>
-                          </div>
-                          <div class="preview-image preview-show-2">
-                              <div class="image-cancel" data-no="2">x</div>
-                              <div class="image-zone"><img id="pro-img-2" src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/flip.jpg"></div>
-                              <div class="tools-edit-image"><a href="javascript:void(0)" data-no="2" class="btn btn-light btn-edit-image">edit</a></div>
-                          </div>
-                          <div class="preview-image preview-show-3">
-                              <div class="image-cancel" data-no="3">x</div>
-                              <div class="image-zone"><img id="pro-img-3" src="http://i.stack.imgur.com/WCveg.jpg"></div>
-                              <div class="tools-edit-image"><a href="javascript:void(0)" data-no="3" class="btn btn-light btn-edit-image">edit</a></div>
-                          </div>
-                      </div>
-                  </div>
-                  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-                  <br>
-                  <a href="#" class="btn btn-primary">Add</a>
-     </div>
-</div>
-<div class="card">
+      <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <div class="table-responsive">
+                    <table id="zero_config" class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Vehicle</th>
+                                <th>Model</th>
+                                <th>Manufacture</th>
+                                <th>Price</th>
+                                <th>Image</th>
+                                <th>Action</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                                    <tr>
+                                        <td>Tiger Nixon</td>
+                                        <td>System Architect</td>
+                                        <td>Edinburgh</td>
+                                        <td>61</td>
+                                        <td>2011/04/25</td>
+                                        <td>
+                                                
+                                               
+                                            <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
+                                            <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
+                                              
+                                            </td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td>Ashton Cox</td>
+                                        <td>Junior Technical Author</td>
+                                        <td>San Francisco</td>
+                                        <td>66</td>
+                                        <td>2009/01/12</td>
+                                        <td>
+                                   
+                                            <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
+                                            <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
+                                              
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cedric Kelly</td>
+                                        <td>Senior Javascript Developer</td>
+                                        <td>Edinburgh</td>
+                                        <td>22</td>
+                                        <td>2012/03/29</td>
+                                        <td>
+                                   
+                                                <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
+                                                <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  l </button>
+                                              
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Airi Satou</td>
+                                        <td>Accountant</td>
+                                        <td>Tokyo</td>
+                                        <td>33</td>
+                                        <td>2008/11/28</td>
+                                        <td>
+                                   
+                                            <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
+                                            <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
+                                              
+                                            </td>
+                                    </tr>
+                                    
+                        </tbody>
+                        <tfoot>
+                               
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <a href="#" class="btn btn-primary">Add</a>
+                </div>
+            </div>
+        </div>         
+    <div class="card">
     <div class="card-body">
        <div class="row">
          <div class="col-12">
             <div class="card">
                 <div class="card-body">
+                        <div class="form-group row">
+                                <label for="manufacture" class="col-sm-3 text-right control-label col-form-label">Welcome Title</label>
+                                <div class=" col-sm-6">
+                                    <input type="text" class="form-control" id="welcomeTitle" >
+                                </div>
+                         </div>
                     <h5 class="card-title">Welcome note</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -199,7 +256,7 @@
         </div>
     </div>                  
             
-   <div class="row">
+    <div class="row">
        <div class="col-12">
         
                 <h4 class="card-title">Edit Welcome note</h4>
@@ -214,8 +271,8 @@
            </div>
        </div>
     </div>
- </div>
-
+    </div>
+         
 <!--*******-->
 <script src="/assets/libs/quill/dist/quill.min.js"></script>
             <script>
@@ -274,4 +331,14 @@ function readImage() {
 }
 
 </script>
+       <!-- this page js -->
+       <script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+       <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+       <script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
+       <script>
+           /****************************************
+            *       Basic Table                   *
+            ****************************************/
+           $('#zero_config').DataTable();
+       </script>
     @endsection

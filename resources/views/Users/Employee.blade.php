@@ -40,9 +40,9 @@
                                 <td>2011/04/25</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-primary btn-sm">Update</button>
-                                        <button type="button" class="btn btn-success btn-sm"> view </button>
-                                        <button type="button" class="btn btn-danger btn-sm"> Delete </button>
+                                    <a class="btn btn-primary btn-sm" href="/updateEmp">Update></a>
+                                    <a class="btn btn-success btn-sm" href="/viewEmp">View</a>
+                                    <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
                                       
                                     </td>
                             </tr>

@@ -85,7 +85,7 @@
             <div class="card">
                 <form class="form-horizontal">
                     <div class="card-body">
-                        <h4 class="card-title">New Vehicle details</h4>
+                        <h4 class="card-title">Update Vehicle details</h4>
                         <div class="form-group row">
                             <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
                             <div class=" col-sm-6">
@@ -166,7 +166,7 @@
                             
                     <div class="border-top">
                             <div class="card-body">
-                                <button type="button" class="btn btn-primary">Submit</button>
+                                <button type="button" class="btn btn-primary">Update</button>
                             </div>
                         </div>
                 </form>

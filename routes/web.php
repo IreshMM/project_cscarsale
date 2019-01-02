@@ -21,9 +21,22 @@ Route::get('/test', function () {
 Route::get('/vehicles', function () {
     return view('vehicles.AvailableVehicles');
 });
+Route::get('/sell', function () {
+    return view('vehicles.sell');
+});
 Route::get('/addVehicle', function () {
     return view('vehicles.addVehicle');
 });
+Route::get('/updateVehicle', function () {
+    return view('vehicles./updateVehicle');
+});
+Route::get('/viewVehicle', function () {
+    return view('vehicles./viewVehicle');
+});
+Route::get('/viewSold', function () {
+    return view('vehicles./viewSoldVehicle');
+});
+
 Route::get('/request', function () {
     return view('vehicles.Request');
 });
@@ -38,6 +51,12 @@ Route::get('/employee', function () {
 });
 Route::get('/empAdd', function () {
     return view('Users.addEmployee');
+});
+Route::get('/updateEmp', function () {
+    return view('Users.updateEmp');
+});
+Route::get('/viewEmp', function () {
+    return view('Users.viewEmp');
 });
 Route::get('/sub', function () {
     return view('Users.subscription');
