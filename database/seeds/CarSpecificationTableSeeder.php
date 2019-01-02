@@ -13,8 +13,10 @@ class CarSpecificationTableSeeder extends Seeder
      */
     public function run()
     {
+        
+
         //Read input data file
-        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecification.csv");
+        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecifications.csv");
 
         $dataArray = array();
 
@@ -26,10 +28,8 @@ class CarSpecificationTableSeeder extends Seeder
 
         foreach ($dataArray as $value) {
             $values = explode(",", $value);
-            $specType = CarSpecificationType::find(1);
 
-            $spec = new CarSpecification(['id_car_specification' => trim($values[0]), 'name' => trim($values[1])]);
-            $spec->specificationType()->associate($specType);
+            $spec = new CarSpecification(['name' => trim($values[1]), 'id_car_specification_type' => $values[0]]);
             $spec->save();
         }
     }

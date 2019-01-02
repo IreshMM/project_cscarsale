@@ -9,7 +9,7 @@ use App\Customers\Buyer;
 class SoldCar extends Model
 {
     protected $table = 'sold_car';
-    protected $primaryKey = 'id_sold_car';
+    protected $primaryKey = 'id_car_listing';
     protected $fillable = [
         'condition',
         'color',

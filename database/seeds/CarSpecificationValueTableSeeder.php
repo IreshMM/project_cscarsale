@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
+use App\Cars\CarModel;
+use App\Cars\CarSpecification;
 
 class CarSpecificationValueTableSeeder extends Seeder
 {
@@ -12,25 +13,13 @@ class CarSpecificationValueTableSeeder extends Seeder
      */
     public function run()
     {
-        //Read input data file
-        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecificationvalue.csv");
+        $carModels = CarModel::all();
+        $carSpecifications = CarSpecification::all();
 
-        $dataArray = array();
-
-        while(!$data->eof()) {
-            $dataArray[] = $data->fgets();
-        }
-
-        $data = null;
-
-        foreach ($dataArray as $value) {
-            $values = explode(",", $value);
-            DB::table('car_specification_value')->insert([
-               'id_car_model' => trim($values[0]),
-               'id_car_specification' => trim($values[1]),
-               'value' => trim($values[2]),
-               'unit' => trim($values[3])
-            ]);
+        foreach ($carModels as $carModel) {
+            foreach ($carSpecifications as $carSpecification) {
+                $carModel->specifications()->attach($carSpecification->id_car_specification, ['value' => 'True', 'unit' => 'Boolean']);
+            }
         }
     }
 }

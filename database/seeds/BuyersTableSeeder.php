@@ -1,10 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Cars\CarMake;
-use App\Cars\CarModel;
 
-class CarModelTableSeeder extends Seeder
+class BuyersTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +11,6 @@ class CarModelTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Cars\CarModel::class, 100)->create();
+        factory(App\Customers\Buyer::class, 20)->create();
     }
 }

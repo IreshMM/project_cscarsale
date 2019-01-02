@@ -11,7 +11,7 @@ class BestOffer extends Model
     protected $primaryKey = 'id_car_listing';
     protected $fillable = ['id_car_listing'];
 
-    public $timestamps = true;
+    public $timestamps = false;
 
     /**
      * Defines one to one relationship to CarListing

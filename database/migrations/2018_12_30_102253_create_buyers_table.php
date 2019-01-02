@@ -15,9 +15,12 @@ class CreateBuyersTable extends Migration
     {
         Schema::create('buyer', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('address');
-            $table->string('email')->unique();
+            $table->string('title', 5);
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('street_address');
+            $table->string('city');
+            $table->string('email'); // Should be unique, removed for testing
             $table->timestamps();
         });
     }

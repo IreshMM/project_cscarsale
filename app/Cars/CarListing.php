@@ -20,11 +20,19 @@ class CarListing extends Model
     public $timestamps = true;
 
     /**
-     * Defines one to many relationship.
+     * Defines many to one relationship to car model.
      * @return Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function model() {
         return $this->belongsTo('App\Cars\CarModel', 'id_car_model', 'id_car_model');
+    }
+
+    /**
+     * Defines many to one relationship to seller [user:level = seller]
+     * @return Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function seller() {
+        return $this->belongsTo('App\User', 'id_seller', 'id');
     }
 
     /**

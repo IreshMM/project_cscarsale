@@ -14,7 +14,7 @@ class CreateSoldCarsTable extends Migration
     public function up()
     {
         Schema::create('sold_car', function (Blueprint $table) {
-            $table->increments('id_sold_car');
+            $table->increments('id_car_listing');
             $table->string('condition');
             $table->unsignedInteger('mileage');
             $table->string('color');
@@ -28,7 +28,7 @@ class CreateSoldCarsTable extends Migration
             $table->timestamps();
 
             $table->foreign('id_car_model')->references('id_car_model')->on('car_model');
-            $table->foreign('id_buyer')->references('id')->on('buyers');
+            $table->foreign('id_buyer')->references('id')->on('buyer');
             $table->foreign('id_seller')->references('id')->on('users');
         });
     }
