@@ -24,6 +24,7 @@ class CreateSellerRequestsTable extends Migration
             $table->string('city');
             $table->unsignedInteger('id_car_model');
             $table->unsignedInteger('id_seller');
+            $table->unsignedInteger('price');
             $table->enum('status', ['approved', 'denied', 'pending']);
             $table->timestamps();
 

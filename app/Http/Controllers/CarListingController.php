@@ -89,13 +89,15 @@ class CarListingController extends Controller
      */
     public function sell(Request $request) {
         $request->validate([
-            'id_car_listing'    => 'required',
+            'id_car_listing'    => 'required|exists:car_listing',
             'title'             => 'required',
             'first_name'        => 'required',
             'last_name'         => 'required',
             'street_address'    => 'required',
             'city'              => 'required',
-            'email'             => 'required'
+            'email'             => 'required',
+            'buying_price'      => 'required',
+            'selling_price'     => 'required'
         ]);
 
         $buyerData = Buyer::filterValidFields($request->all());
@@ -103,8 +105,8 @@ class CarListingController extends Controller
         $buyer->save();
 
         $carListing = CarListing::find($request->id_car_listing);
-        // return $carListing;
-        $soldCar = $this->sellCarListing($carListing, $buyer);
+        
+        $soldCar = $this->sellCarListing($carListing, $buyer, $request->date);
 
         return $soldCar;
     }
@@ -163,8 +165,9 @@ class CarListingController extends Controller
      * @param App\Customers\Buyer
      * @return App\Cars\SoldCar
      */
-    public function sellCarListing($carListing, $buyer) {
+    public function sellCarListing($carListing, $buyer, $date) {
         $soldCar = new SoldCar();
+        $soldCar->date = $date;
         foreach ($carListing->toArray() as $key => $value) {
             $soldCar[$key] = $value;
         }

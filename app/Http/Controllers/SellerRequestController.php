@@ -14,17 +14,8 @@ class SellerRequestController extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+        $allSellerRequests = SellerRequest::all();
+        return response()->json($allSellerRequests);
     }
 
     /**
@@ -33,9 +24,27 @@ class SellerRequestController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function create(Request $request)
     {
-        //
+        $request->validate([
+            'condition'             => 'required',
+            'color'                 => 'required',
+            'mileage'               => 'required',
+            'seller_description'    => 'required',
+            'year'                  => 'required',
+            'images'                => 'required',
+            'city'                  => 'required',
+            'id_car_model'          => 'required',
+            'id_seller'             => 'required',
+            'status'                => 'required'
+        ]);
+
+        $data = SellerRequest::filterValidFields($request->all());
+
+        $sellerRequest = new SellerRequest($data);
+        $sellerRequest->save();
+        
+        return response()->json($sellerRequest);
     }
 
     /**

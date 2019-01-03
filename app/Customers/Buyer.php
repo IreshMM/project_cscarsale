@@ -36,7 +36,10 @@ class Buyer extends Model
             'last_name',
             'street_address',
             'city',
-            'email'
+            'email',
+            'buying_price',
+            'selling_price',
+            'date'
         ];
 
         $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));

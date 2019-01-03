@@ -18,7 +18,8 @@ class SellerRequest extends Model
         'city',
         'id_car_model',
         'id_seller',
-        'status'
+        'status',
+        'price'
     ];
     public $timestamps = true;
 
@@ -52,4 +53,25 @@ class SellerRequest extends Model
 
         return $imageLocations;
     }  
+
+    public static function filterValidFields($fields) {
+        $validFields = [
+            'id_seller_request',
+            'condition',
+            'mileage',
+            'color',
+            'seller_description',
+            'year',
+            'images',
+            'city',
+            'id_car_model',
+            'id_seller',
+            'price',
+            'status'
+        ];
+
+        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
+
+        return $filteredFieldsAndData;
+    }
 }

@@ -15,6 +15,7 @@ $factory->define(App\Cars\SellerRequest::class, function (Faker $faker) {
         'images'                => 5,
         'city'                  => $faker->city,
         'status'                => ['Approved', 'Denied', 'Pending'][random_int(0, 2)],
+        'price'                 => random_int(10000, 100000),
         'id_car_model'          => function() {
             return CarModel::inRandomOrder()->first()->id_car_model;
         },

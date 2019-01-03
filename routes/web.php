@@ -74,3 +74,32 @@ Route::prefix('carlisting')->group(function() {
      */
     Route::post('sell', 'CarListingController@sell');
 });
+
+
+// ROUTE GROUP FOR MANAGING SELLERS
+Route::prefix('seller')->group(function() {
+
+    /**
+     * Returns set of required sellers for page
+     */
+    Route::get('index', 'SellerController@index');
+
+    /**
+     * Returns the information of specified seller
+     */
+    Route::post('show', 'SellerController@show');
+});
+
+// ROUTE GROUP FOR MANAGING SELLER REQUEST
+Route::prefix('seller_request')->group(function(){
+
+    /**
+     * Returns a list of all seller requests
+     */
+    Route::get('index', 'SellerRequestController@index');
+
+    /**
+     * Creates a new seller request
+     */
+    Route::post('create', 'SellerRequestController@create');
+});
