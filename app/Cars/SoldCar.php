@@ -16,7 +16,8 @@ class SoldCar extends Model
         'mileage',
         'seller_description',
         'year',
-        'images'
+        'images',
+        'date'
     ];
 
     public $timestamps = true;

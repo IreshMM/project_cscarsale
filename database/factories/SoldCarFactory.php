@@ -14,6 +14,7 @@ $factory->define(App\Cars\SoldCar::class, function (Faker $faker) {
         'year'                  => $faker->biasedNumberBetween(1998,2018, 'sqrt'),
         'images'                => 5,
         'city'                  => $faker->city,
+        'date'                  => $faker->date($format = 'Y-m-d', $max = 'now'),
         'id_buyer'              => function() {
             return Buyer::inRandomOrder()->first()->id;
         },

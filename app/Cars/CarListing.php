@@ -15,7 +15,10 @@ class CarListing extends Model
         'mileage',
         'seller_description',
         'year',
-        'images'
+        'images',
+        'city',
+        'id_car_model',
+        'id_seller'
     ];
     public $timestamps = true;
 
@@ -53,5 +56,24 @@ class CarListing extends Model
     public static function getBestOffers() {
         $bestOffers = DB::table('best_offers')->get();
         return $bestOffers;
+    }
+
+    public static function filterValidFields($fields) {
+        $validFields = [
+            'id_car_listing',
+            'condition',
+            'mileage',
+            'color',
+            'seller_description',
+            'year',
+            'images',
+            'city',
+            'id_car_model',
+            'id_seller'
+        ];
+
+        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
+
+        return $filteredFieldsAndData;
     }
 }

@@ -50,6 +50,14 @@ Route::get('/search', 'SearchController@search')->name('search');
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
 Route::prefix('carlisting')->group(function() {
     /**
+     * Returns a set of required car listings for page
+     * takes page number parameter from http request
+     * list of car listings in JSON format on success
+     * {'result' : 'failed', 'reasons': []} on failure
+     */
+    Route::get('index', 'CarListingController@index');
+
+    /**
      * Creates a new car listing
      * takes required parameters from http request
      * returns http JSON response
@@ -68,15 +76,6 @@ Route::prefix('carlisting')->group(function() {
     Route::post('update', 'CarListingController@update');
 
     /**
-     * Edits an existing car listing
-     * takes required parameters from http request
-     * returns http JSON response
-     * {'result' : 'ok'} on success
-     * {'result' : 'failed', 'reasons': []} on failure
-     */
-    Route::post('edit', 'CarListingController@edit');
-
-    /**
      * Returns information of specified listing
      * takes required parameters from http request
      * returns http JSON response
@@ -84,12 +83,4 @@ Route::prefix('carlisting')->group(function() {
      * {'result' : 'failed', 'reasons': []} on failure
      */
     Route::post('show', 'CarListingController@show');
-
-    /**
-     * Returns a set of required car listings for page
-     * takes page number parameter from http request
-     * list of car listings in JSON format on success
-     * {'result' : 'failed', 'reasons': []} on failure
-     */
-    Route::get('index', 'CarListingController@index');
 });

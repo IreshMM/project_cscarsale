@@ -25,6 +25,7 @@ class CreateSoldCarsTable extends Migration
             $table->unsignedInteger('id_car_model');
             $table->unsignedInteger('id_buyer');
             $table->unsignedInteger('id_seller');
+            $table->date('date');
             $table->timestamps();
 
             $table->foreign('id_car_model')->references('id_car_model')->on('car_model');

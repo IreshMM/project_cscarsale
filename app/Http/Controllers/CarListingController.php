@@ -26,7 +26,8 @@ class CarListingController extends Controller
      */
     public function create(Request $request)
     {
-        $validatedData = $request->validate([
+        // return $request->all();
+        $request->validate([
             'id_car_model' => 'required|exists:car_model',
             'id_seller' => 'required|exists:users,id',
             'condition' => 'required',
@@ -37,48 +38,9 @@ class CarListingController extends Controller
             'city' => 'required'
         ]);
 
-        return $validatedData;
-        $validFields = [
-            'id_car_listing',
-            'condition',
-            'mileage',
-            'color',
-            'seller_description',
-            'year',
-            'images',
-            'city',
-            'id_car_model',
-            'id_seller'
-        ];
-
-        $data = array_intersect_key($validatedData, array_flip($validFields));
-        
-        return $data;
-        $newListing = createCarListing($data);
-
+        $data = CarListing::filterValidFields($request->all());
+        $newListing = $this->createCarListing($data);
         return response()->json($newListing);
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Cars\CarListing  $carListing
-     * @return \Illuminate\Http\Response
-     */
-    public function show(CarListing $carListing)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Cars\CarListing  $carListing
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(CarListing $carListing)
-    {
-        //
     }
 
     /**
@@ -90,10 +52,36 @@ class CarListingController extends Controller
      */
     public function update(Request $request)
     {
-        return $request->all();
+        $request->validate([
+            'id_car_listing' => 'required'
+        ]);
+
+        $data = CarListing::filterValidFields($request->all());
+
+        $carListing = CarListing::find($request->id_car_listing);
+        $carListing = $this->updateCarListing($carListing, $data);
+        
+        return response()->json($carListing);
     }
 
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Cars\CarListing  $carListing
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Request $request)
+    {
+        $request->validate([
+            'id_car_listing' => 'required'
+        ]);
+
+        return CarListing::find($request->id_car_listing);
+    }
+
+    /************************* */
     /* Utility functions below */
+    /************************* */
 
     /**
      * create a new car listing and returns the object created
@@ -103,7 +91,7 @@ class CarListingController extends Controller
     public function createCarListing($data) {
         $newListing = new CarListing($data);
         $newListing->save();
-        return $newListing;
+        return $data;
     }
 
 
@@ -118,6 +106,8 @@ class CarListingController extends Controller
         }
 
         $carListing->save();
+
+        return $carListing;
     }
 
 
