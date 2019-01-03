@@ -29,11 +29,11 @@
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-hand-holding-usd"></i><span class="hide-menu">Financial </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
-                        <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="fas fa-edit"></i><span class="hide-menu"> Generate Reports </span></a></li>
-                        <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="far fa-share-square"></i><span class="hide-menu"> Update Rates </span></a></li>
+                        <li class="sidebar-item"><a href="/report" class="sidebar-link"><i class="fas fa-edit"></i><span class="hide-menu"> Generate Reports </span></a></li>
+                        <li class="sidebar-item"><a href="for/reportm-basic.html" class="sidebar-link"><i class="far fa-share-square"></i><span class="hide-menu"> Update Rates </span></a></li>
                      </ul>
                 </li>
-                
+
                {{-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html" aria-expanded="false"><i class="mdi mdi-format-list-bulleted"></i><span class="hide-menu">Listings</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="tables.html" aria-expanded="false"><i class="mdi mdi-chart-timeline"></i><span class="hide-menu">History</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-chart-areaspline"></i><span class="hide-menu">Financial</span></a></li>

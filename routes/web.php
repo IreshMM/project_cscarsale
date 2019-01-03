@@ -73,3 +73,6 @@ Route::get('/testimonials', function () {
 Route::get('/tos', function () {
     return view('Website.TOS');
 });
+Route::get('/report', function () {
+    return view('Finance.chart');
+});
