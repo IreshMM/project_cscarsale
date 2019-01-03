@@ -31,7 +31,7 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Leasing calculator</h2>
+                    <h2 class="title">Your result </h2>
                     <form method="POST">
                         <!-- <div class="row row-space"> -->
 
@@ -84,9 +84,9 @@
                                 </div>
                             </div>
 
-                                <div class="p-t-15">
-                                    <button class="btn btn--radius-2 btn--blue" type="submit">Calculate</button>
-                                </div>
+                            <div class="p-t-15">
+                                    <input type="button" onclick = "location.href='/cal';" value="Done" />
+                            </div>
 
                         </div>
                                               

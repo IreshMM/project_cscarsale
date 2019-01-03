@@ -23,74 +23,105 @@
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
+   
     <link href="css/main.css" rel="stylesheet" media="all">
+    
 </head>
 
 <body>
+<script language="JavaScript">
+        
+         function f1(){
+            
+            var regex = /^[0-9]*$/;
+            var x = parseInt(document.lease.Valuation.value)*parseInt("70/100");
+            //  document.lease.result.value = x % parseInt(document.lease.duration.value);
+
+            var y =parseInt(document.lease.lease_amount.value)*17/100;
+            var z =parseInt(document.lease.lease_amount.value)+y;
+
+            document.lease.result.value = (y+z)/parseInt(document.lease.duration.value);
+
+
+
+            if(parseInt(document.lease.lease_amount.value)>x //20){
+                document.lease.result.value = "ERROR";
+            }
+            
+            if(!(document.getElementById("x1").value.match(regex))){
+                document.lease.result.value = "ERROR";
+            }
+
+        function f2(){
+            var regex = /^[0-9]*$/;
+            document.lease.max_lease_amount.value = parseInt(document.lease.Valuation.value)*6;
+        }
+
+}
+</script>
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
                     <h2 class="title">Leasing calculator</h2>
-                    <form method="POST">
+                    <form name="lease" >
                         <!-- <div class="row row-space"> -->
 
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">MSRP</label>
-                                    <input class="input--style-4" type="text" name="MSRP">
+                                    <label class="label">Valuation</label>
+                                    <input class="input--style-4" type="text" name="Valuation" id="x1">
+                                </div>
+                            </div>
+
+                                 <div class="p-t-15">
+                                   
+                                   <input type="button" class="submit" onClick = "f2()" value="valuate" name="submit"/>
+                               </div>
+
+
+                               <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Max Lease amount</label>
+                                        <input class="input--style-4" type="text" name="max_lease_amount" disabled>
+                                    </div>
+                                </div>
+
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Lease amount</label>
+                                    <input class="input--style-4" type="text" name="lease_amount" id="x2">
                                 </div>
                             </div>
 
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Total cap Cost</label>
-                                    <input class="input--style-4" type="text" name="total_cap_cost">
+                                    <label class="label">Duration (Months)</label>
+                                    <input class="input--style-4" type="text" name="duration" id="x3">
                                 </div>
                             </div>
 
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Cap Reduction</label>
-                                    <input class="input--style-4" type="text" name="cap_reduction">
-                                </div>
-                            </div>
+                        
 
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Resudual Value</label>
-                                    <input class="input--style-4" class="half" type="text" name="residual_value">
-                                    <span>%</span>
-                                    <input class="input--style-4" class="half" type="text" name="residual_value">
-                                    <span>$</span>
-
-                                </div>
-                            </div>
-
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Money Factor</label>
-                                    <input class="input--style-4" type="text" name="money_factor">
-                                </div>
-                            </div>
-
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Tearm of Lease</label>
-                                    <input class="input--style-4" type="text" name="tearm_of_lease">
-                                </div>
-                            </div>
-
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Sales Tax</label>
-                                    <input class="input--style-4" type="text" name="sales_tax">
-                                </div>
-                            </div>
+                             
 
                                 <div class="p-t-15">
-                                    <button class="btn btn--radius-2 btn--blue" type="submit">Calculate</button>
-                                    <input type="button" onclick = "location.href='/res';" value="Calculate" />
+                                   
+                                    <input type="button" class="submit" onClick = "f1()" value="Calculate" name="submit"  />
+                                </div>
+                                <br>
+                                
+
+
+                                 <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Result</label>
+                                        <input class="input--style-4" type="text" name="result" disabled>
+                                    </div>
+                                </div>
+                            <br>
+                                <div class="p-t-15">
+                                    <input type="reset" value="Reset" name="reset" />
                                 </div>
 
                         </div>
@@ -107,7 +138,8 @@
     <script src="vendor/select2/select2.min.js"></script>
     <script src="vendor/datepicker/moment.min.js"></script>
     <script src="vendor/datepicker/daterangepicker.js"></script>
-
+    <script src={{asset('js/calculation.js')}} defer></script>
+    
     <!-- Main JS-->
     <script src="js/global.js"></script>
 
