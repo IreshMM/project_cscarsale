@@ -34,8 +34,8 @@
                 <option value="7">Type 6</option>
             </select></div>
             </div>
-            <input type="button" name="previous" class="btn-default btn-form2-submit previous" value="Previous">
-            <input type="button" name="next" class="btn-default btn-form2-submit next" value="Next">
+            <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous">
+            <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next">
         </fieldset>
         <fieldset>
             <div class="select1_wrapper"><label>SELECT A STATUS</label>
@@ -77,8 +77,8 @@
                 <div class="clearfix"><input type="text" class="amount" readonly="">
                     <input type="text" class="amount2" readonly=""></div>
             </div>
-            <input type="button" name="previous" class="btn-default btn-form2-submit previous" value="Previous">
-            <button type="submit" class="btn-default btn-form2-submit">SUBMIT</button>
+            <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous">
+            <button type="submit" id = "buttonsell" class="btn-default btn-form2-submit" >SUBMIT</button>
         </fieldset>
          {{-- <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div> --}}
     </form>

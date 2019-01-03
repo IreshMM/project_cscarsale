@@ -3,3 +3,24 @@
     position: absolute;
     top: 5%;
 }
+
+#buttonsell{
+  background-color: #222222; /* Green */
+
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+
+}
+#buttonsell:hover{
+  background-color: #1e39b4;
+}
+#buttonsell:active{
+  background-color: white;
+}
