@@ -4,7 +4,7 @@
 <div class="box-header">
         <div class="row">
             <div class="col-sm-8">
-              <h3 class="box-title"> sellers Details </h3>
+              <h3 class="box-title"> Sellers Details </h3>
             </div>
         </div>
           
@@ -146,92 +146,71 @@
                                      <!-- Text input-->
                                     
                                         <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers first Name</label>
+                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label"> first Name</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"  readonly id="line3">
+                                                <input type="text" class="form-control"  readonly id="firstname">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers last Name</label>
+                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label"> last Name</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"  id="line3" readonly>
+                                                <input type="text" class="form-control"  id="lastname" readonly>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Street Address</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"   id="line3" readonly>
+                                                <input type="text" class="form-control"   id="address" readonly>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">City</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"  id="line3" readonly>
+                                                <input type="text" class="form-control"  id="city" readonly>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Email</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"   id="line3" readonly>
+                                                <input type="text" class="form-control"   id="email" readonly>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Phone</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"   id="line3" readonly>
+                                                <input type="text" class="form-control"   id="phone" readonly>
                                             </div>
                                         </div>
                     
-                                     <div class="form-group row">
-                                         <label for="model" class=" col-sm-5 text-right control-label col-form-label">Model</label>
-                                         <div class="col-sm-6">
-                                             <input type="text" class="form-control" id="model" readonly >
-                                         </div>
-                                     </div>
-                                     <div class="form-group row">
-                                         <label for="manufacture" class=" col-sm-5 text-right control-label col-form-label">Manufacture</label>
-                                         <div class=" col-sm-6">
-                                             <input type="text" class="form-control" id="manufacture"readonly >
-                                         </div>
-                                     </div>
-                                    
                                      
-                                     <div class="form-group row">
-                                         <label for="line2" class=" col-sm-5 text-right control-label col-form-label">color</label>
-                                         <div class=" col-sm-6">
-                                             <input type="text" class="form-control" id="line2" readonly>
-                                         </div>
-                                     </div>
                                      <div class="form-group row">
                                          <label for="line3" class=" col-sm-5 text-right control-label col-form-label">No of cars listed</label>
                                          <div class=" col-sm-6">
                                              <input type="text" class="form-control" id="line3" readonly>
                                          </div>
                                      </div>
-                                 
+                                 <!-- Button -->
+                                    <div class="form-group">
+                                            <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
+                                            <div class="col-md-4">
+                                                <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
+                                            </div>
+                                    </div>
                                      
              
                                  
                                      
-                                 <!-- Button -->
-                                 <div class="form-group">
-                                     <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
-                                     <div class="col-md-4">
-                                         <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
-                                     </div>
-                                 </div>
-                                     
-                               </fieldset>
-                            </form>
-                        </div>
-                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-</div>
+                                 </fieldset>
+                             </form>
+                       
+                           <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                 </div>    
+         
+         </div>
+     </div>
+ </div>
 @section('table-script')        
 <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
 <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>

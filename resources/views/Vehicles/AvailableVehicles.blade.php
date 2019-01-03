@@ -42,7 +42,7 @@
                                         
                                        
                                     <a class="btn btn-primary btn-sm" href="/updateVehicle">Update></a>
-                                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1"></button>          
+                                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">View</button>          
                                     <a class="btn btn-warning btn-sm" href="/sell">sell</a>  
                                       
                                     </td>
@@ -140,7 +140,7 @@
                                 <td>
                            
                                         <button type="button" class="btn btn-primary btn-sm">Update</button>
-                                          <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">                                                 View                                          </button>
+                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">                                                 View                                          </button>
                                         <button type="button" class="btn btn-warning btn-sm"> Sell </button>
                                       
                                     </td>
@@ -153,7 +153,7 @@
                         <th>Vehicle</th>
                         <th>Model</th>
                         <th>Manufacture</th>
-                        <th>Price</th>
+                        <th> Selling Price</th>
                         <th>Image</th>
                         <th>Action</th>
                             

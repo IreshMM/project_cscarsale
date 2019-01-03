@@ -40,7 +40,7 @@
                                 <td>2011/04/25</td>
                                 <td>
                            
-                                    <a class="btn btn-primary btn-sm" href="/updateEmp">Update></a>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">update</button>
                                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                         View 
                                     </button>
@@ -59,7 +59,7 @@
                                 <td>2011/07/25</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-primary btn-sm">Update</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">update</button>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                                 View 
                                             </button>                                       
@@ -76,7 +76,7 @@
                                 <td>2012/12/02</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-primary btn-sm">Update</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Update</button>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                                 View 
                                         </button>
@@ -181,7 +181,106 @@
                                     <div class="form-group row">
                                         <label for="hiredate" class=" col-sm-5 text-right control-label col-form-label">Hired Date</label>
                                         <div class=" col-sm-6">
-                                            <input type="text" class="form-control"  readonly id="hiredate">
+                                            <input type="text" class="form-control"     id="hiredate">
+                                        </div>
+                                    </div>
+                                    
+                
+                                        
+                                    <!-- Button -->
+                                    <div class="form-group">
+                                        <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
+                                        <div class="col-md-4">
+                                            <button id="Ok" name="Ok" class="btn btn-primary">update</button>
+                                        </div>
+                                    </div>
+                                        
+                                </fieldset>
+                        </form>
+                            
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!--model for  Update employee-->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Select best Offers</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        
+                                 <form class="form-horizontal">
+                                    <fieldset>
+                                
+                                                                                                      
+                                        <!-- Text input-->
+                                        <div class="form-group row">
+                                            <label for="name" class=" col-sm-5 text-right control-label col-form-label">Name</label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="name"    >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="address" class=" col-sm-5 text-right control-label col-form-label">Address</label>
+                                            <div class=" col-sm-6">
+                                                <input type="text" class="form-control" id="address"   >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="dob" class=" col-sm-5 text-right control-label col-form-label">Date of birth</label>
+                                            <div class=" col-sm-6">
+                                                <input type="text" class="form-control" id="dob"    >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="gender" class=" col-sm-5 text-right control-label col-form-label">Gender</label>
+                                            <div class=" col-sm-6">
+                                                <input type="text" class="form-control" id="gender"   >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="mobile" class=" col-sm-5 text-right control-label col-form-label">mobile</label>
+                                            <div class=" col-sm-6">
+                                                <input type="text" class="form-control" id="mobile"   >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="email" class=" col-sm-5 text-right control-label col-form-label">Email</label>
+                                            <div class=" col-sm-6">
+                                                <input type="text" class="form-control" id="email"   >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                                <label for="account" class=" col-sm-5 text-right control-label col-form-label">Bank Account Number</label>
+                                                <div class=" col-sm-6">
+                                                    <input type="text" class="form-control"  id="account"   >
+                                                </div>
+                                        </div>
+                                        <div class="form-group row">
+                                                <label for="branch" class=" col-sm-5 text-right control-label col-form-label">Bank Branch</label>
+                                                <div class=" col-sm-6">
+                                                    <input type="text" class="form-control"   id="branch"   >
+                                                </div>
+                                        </div>
+                                        
+                                    
+                
+                                    <div class="form-group row">
+                                        <label for="Position" class=" col-sm-5 text-right control-label col-form-label">Position</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"       id="line3">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="hiredate" class=" col-sm-5 text-right control-label col-form-label">Hired Date</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"     id="hiredate">
                                         </div>
                                     </div>
                                     
@@ -198,12 +297,10 @@
                                 </fieldset>
                         </form>
                             
-                
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 
  <!-- this page js -->
  @section('table-script')        

@@ -389,23 +389,31 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                        <div class="col-md-6">
+                        
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title m-b-0">Vehicle list</h5>
+                                            <form class="form-inline">
+                                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                            </form>
                                     </div>
+                                   
                                     <table class="table">
                                         <thead>
                                             <tr>
                                                 <th scope="col">Model</th>
                                                 <th scope="col">Manufacture</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Image</th>
                                                 <th scope="col">Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Making The New Suit</td>
-                                                <td class="text-success">Progress</td>
+                                                    <td>Brielle Williamson</td>
+                                                    <td>Integration Specialist</td>
+                                                    <td>New York</td>
+                                                    <td>61</td>
                                                 <td>
                                                     <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
                                                         <i class="mdi mdi-check"></i>
@@ -416,8 +424,10 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Luanch My New Site</td>
-                                                <td class="text-warning">Pending</td>
+                                                    <td>Brielle Williamson</td>
+                                                    <td>Integration Specialist</td>
+                                                    <td>New York</td>
+                                                    <td>61</td>
                                                 <td>
                                                     <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
                                                         <i class="mdi mdi-check"></i>
@@ -428,8 +438,10 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Maruti Excellant Theme</td>
-                                                <td class="text-danger">Cancled</td>
+                                                    <td>Brielle Williamson</td>
+                                                    <td>Integration Specialist</td>
+                                                    <td>New York</td>
+                                                    <td>61</td>
                                                 <td>
                                                     <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
                                                         <i class="mdi mdi-check"></i>

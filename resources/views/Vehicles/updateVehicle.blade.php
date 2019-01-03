@@ -99,11 +99,17 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Price</label>
+                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Buying Price</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="price" >
+                                <input type="text" class="form-control" id="buyingprice" >
                             </div>
                         </div>
+                        <div class="form-group row">
+                                <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
+                                <div class=" col-sm-6">
+                                    <input type="text" class="form-control" id="price" >
+                                </div>
+                            </div>
                         <div class="form-group row">
                             <label for="mileage" class="col-sm-3 text-right control-label col-form-label">Mileage</label>
                             <div class=" col-sm-6">

@@ -44,6 +44,11 @@
     <link href="/assets/libs/jquery-steps/jquery.steps.css" rel="stylesheet">
     <link href="/assets/libs/jquery-steps/steps.css" rel="stylesheet">
 
+    <link href="/assets/libs/toastr/build/toastr.min.css" rel="stylesheet">
+    <!--image-->
+    @yield('image-pop')
+   
+
 <!--table-->
     <link rel="stylesheet" type="text/css" href="../../assets/extra-libs/multicheck/multicheck.css">
     <link href="/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
@@ -125,6 +130,15 @@
           ****************************************/
          $('#zero_config').DataTable();
      </script>-->
+     <script>
+            $(function(){
+                // Success Type
+                $('#ts-success').on('click', function() {
+                    toastr.success('Have fun storming the castle!', 'Miracle Max Says');
+                });
+            });
+               
+      </script>
 </body>
 
 </html>

@@ -10,34 +10,8 @@
     <canvas id="myChart"></canvas>
   </div>
 
- <div class="container box">
-    <h3 align ="center">Ajax Dynamic Dependent Dropdown in Laravel</h3><br />
-    <div class="form-group">
-     <select name="" id="country" class="form-control input-lg dynamic" data-dependent="state">
-      <option value="">Select Country</option>
-      @foreach($country_list as $country)
-      <option value="{{ $country->country}}">{{ $country->country }}</option>
-      @endforeach
-     </select>
-    </div>
-    <br />
-    <div class="form-group">
-     <select name="state" id="state" class="form-control input-lg dynamic" data-dependent="city">
-      <option value="">Select State</option>
-     </select>
-    </div>
-    <br />
-    <div class="form-group">
-     <select name="city" id="city" class="form-control input-lg">
-      <option value="">Select City</option>
-     </select>
-    </div>
-    {{ csrf_field() }}
-    <br />
-    <br />
-</div>
 
-
+  
 
 
 
@@ -51,7 +25,7 @@
     Chart.defaults.global.defaultFontColor = '#777';
 
     let massPopChart = new Chart(myChart, {
-      type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+      type:'horizontalBar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
         labels:['Sedans', 'Minivans', 'Vans', 'Hatchb-backs', 'Wagons', 'Trucks'],
         datasets:[{
