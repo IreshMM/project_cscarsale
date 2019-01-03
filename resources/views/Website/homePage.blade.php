@@ -156,7 +156,7 @@
       
       <div class="card">
             <div class="card-body">
-                <h5 class="card-title"></h5>
+                <h5 class="card-title">Best Offers</h5>
                 <div class="table-responsive">
                     <table id="zero_config" class="table table-striped table-bordered">
                         <thead>
@@ -181,8 +181,10 @@
                                         <td>
                                                 
                                                
-                                            <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
-                                            <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
+                                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
+                                                        View 
+                                                </button>
+                                                <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
                                               
                                             </td>
                                     </tr>
@@ -195,8 +197,10 @@
                                         <td>2009/01/12</td>
                                         <td>
                                    
-                                            <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
-                                            <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
+                                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
+                                                        View 
+                                                </button>
+                                                <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
                                               
                                             </td>
                                     </tr>
@@ -221,8 +225,10 @@
                                         <td>2008/11/28</td>
                                         <td>
                                    
-                                            <a class="btn btn-success btn-sm" href="/viewVehicle">View</a>
-                                            <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
+                                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
+                                                        View 
+                                                </button>
+                                                <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
                                               
                                             </td>
                                     </tr>
@@ -233,7 +239,9 @@
                             </tr>
                         </tfoot>
                     </table>
-                    <a href="#" class="btn btn-primary">Add</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+
                 </div>
             </div>
         </div>         
@@ -244,7 +252,7 @@
             <div class="card">
                 <div class="card-body">
                         <div class="form-group row">
-                                <label for="manufacture" class="col-sm-3 text-right control-label col-form-label">Welcome Title</label>
+                                <label for="title" class="col-sm-3 text-right control-label col-form-label">Welcome Title</label>
                                 <div class=" col-sm-6">
                                     <input type="text" class="form-control" id="welcomeTitle" >
                                 </div>
@@ -268,11 +276,180 @@
                    <br>
                   </p>
                </div>
-           </div>
-       </div>
+            </div>
+         </div> 
     </div>
+    <div class="form-group">
+        <label class=" col-sm-3 text-right control-label col-form-label" for="ok"></label>
+        <div class="col-md-4">
+            <button id="ok" name="ok" class="btn btn-primary">Ok</button>
+        </div>
     </div>
-         
+</div>
+     
+
+
+
+<!-- Modal  view  best offers car details-->
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">View Car Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                               
+                <form class="form-horizontal">
+                        <fieldset>
+                     
+                         
+                     
+                             <!-- Text input-->
+                             <div class="form-group row">
+                                 <label for="model" class=" col-sm-5 text-right control-label col-form-label">Model</label>
+                                 <div class="col-sm-6">
+                                     <input type="text" class="form-control" id="model" readonly>
+                                 </div>
+                             </div>
+                             <div class="form-group row">
+                                 <label for="manufacture" class=" col-sm-5 text-right control-label col-form-label">Manufacture</label>
+                                 <div class="col-sm-6">
+                                     <input type="text" class="form-control" id="manufacture" readonly >
+                                 </div>
+                             </div>
+                             <div class="form-group row">
+                                 <label for="price" class=" col-sm-5 text-right control-label col-form-label">Price</label>
+                                 <div class="col-sm-6">
+                                     <input type="text" class="form-control" id="price" readonly >
+                                 </div>
+                             </div>
+                             <div class="form-group row">
+                                 <label for="mileage" class=" col-sm-5 text-right control-label col-form-label">Mileage</label>
+                                 <div class="col-sm-6">
+                                     <input type="text" class="form-control" id="mileage" readonly>
+                                 </div>
+                             </div>
+                             <div class="form-group row">
+                                 <label for="color" class=" col-sm-5 text-right control-label col-form-label">color</label>
+                                 <div class="col-sm-6">
+                                     <input type="text" class="form-control" id="color" readonly>
+                                 </div>
+                             </div>
+                             <div class="form-group row">
+                                 <label for="year" class=" col-sm-5 text-right control-label col-form-label">year</label>
+                                 <div class="col-sm-6">
+                                     <input type="text" class="form-control" id="year" readonly>
+                                 </div>
+                             </div>
+                             <div class="form-group row">
+                                    <label for="seller" class=" col-sm-5 text-right control-label col-form-label">Seller</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="seller" readonly>
+                                    </div>
+                                </div>
+                         
+                             <div class="form-group row">
+                                 <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Description</label>
+                                 <div class="col-sm-6">
+                                     <textarea class="form-control" readonly></textarea>
+                                 </div>
+                             </div>
+     
+                        
+                         <!-- Button -->
+                         <div class="form-group">
+                             <label class=" col-sm-5 text-right control-label col-form-label" for="ok"></label>
+                             <div class="col-md-4">
+                                 <button id="ok" name="ok" class="btn btn-primary">Ok</button>
+                             </div>
+                         </div>
+                             
+                       </fieldset>
+                    </form>
+                    
+                </div>
+                <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+<!-- Modal  for select best offer cars from  car list-->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Select best Offers</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title m-b-0">Vehicle list</h5>
+                                    </div>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Model</th>
+                                                <th scope="col">Manufacture</th>
+                                                <th scope="col">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Making The New Suit</td>
+                                                <td class="text-success">Progress</td>
+                                                <td>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                                        <i class="mdi mdi-check"></i>
+                                                    </a>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                        </i><i class="mdi mdi-close"></i>
+                                                    </a>     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Luanch My New Site</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                                        <i class="mdi mdi-check"></i>
+                                                    </a>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                        </i><i class="mdi mdi-close"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Maruti Excellant Theme</td>
+                                                <td class="text-danger">Cancled</td>
+                                                <td>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                                        <i class="mdi mdi-check"></i>
+                                                    </a>
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                        </i><i class="mdi mdi-close"></i>
+                                                    </a>
+                                                </td>  
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 <!--*******-->
 <script src="/assets/libs/quill/dist/quill.min.js"></script>
             <script>

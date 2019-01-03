@@ -41,6 +41,13 @@
     <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/libs/quill/dist/quill.snow.css">
 
+    <link href="/assets/libs/jquery-steps/jquery.steps.css" rel="stylesheet">
+    <link href="/assets/libs/jquery-steps/steps.css" rel="stylesheet">
+
+<!--table-->
+    <link rel="stylesheet" type="text/css" href="../../assets/extra-libs/multicheck/multicheck.css">
+    <link href="/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="/dist/css/style.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 <!--Image uploader-->
@@ -105,7 +112,10 @@
     <script src="assets/libs/fullcalendar/dist/fullcalendar.min.js"></script>
     <script src="dist/js/pages/calendar/cal-init.js"></script>
 
+    <script src="/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    @yield('table-script')
      <!--table this page js 
+
      <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
      <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
      <script src="/assets/extra-libs/DataTables/datatables.min.js"></script>

@@ -100,6 +100,12 @@
                             <input type="text" class="form-control"  placeholder="Phone" id="line3">
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label for="date" class=" col-sm-3 text-right control-label col-form-label">Date of sale</label>
+                        <div class=" col-sm-6">
+                            <input type="text" class="form-control"  placeholder="date" id="line3">
+                        </div>
+                    </div>
 
                         
                     <!-- Button -->
