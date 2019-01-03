@@ -3,12 +3,11 @@
 namespace App\Cars;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
 
-class CarListing extends Model
+class SellerRequest extends Model
 {
-    protected $table = 'car_listing';
-    protected $primaryKey = 'id_car_listing';
+    protected $table = 'seller_request';
+    protected $primaryKey = 'id_seller_request';
     protected $fillable = [
         'condition',
         'color',
@@ -19,8 +18,7 @@ class CarListing extends Model
         'city',
         'id_car_model',
         'id_seller',
-        'buying_price',
-        'selling_price'
+        'status'
     ];
     public $timestamps = true;
 
@@ -53,31 +51,5 @@ class CarListing extends Model
         }
 
         return $imageLocations;
-    }
-
-    public static function getBestOffers() {
-        $bestOffers = DB::table('best_offers')->get();
-        return $bestOffers;
-    }
-
-    public static function filterValidFields($fields) {
-        $validFields = [
-            'id_car_listing',
-            'condition',
-            'mileage',
-            'color',
-            'seller_description',
-            'year',
-            'images',
-            'city',
-            'id_car_model',
-            'id_seller',
-            'buying_price',
-            'selling_price'
-        ];
-
-        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
-
-        return $filteredFieldsAndData;
-    }
+    }  
 }

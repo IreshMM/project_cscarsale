@@ -9,7 +9,7 @@ class CarModel extends Model
 {
     protected $table = 'car_model';
     protected $primaryKey = 'id_car_model';
-    public $fillable = ['name'];
+    public $fillable = ['name', 'body_type'];
     public $timestamps = true;
 
     public function make() {

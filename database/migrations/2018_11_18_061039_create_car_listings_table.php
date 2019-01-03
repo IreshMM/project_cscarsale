@@ -22,6 +22,8 @@ class CreateCarListingsTable extends Migration
             $table->year('year');
             $table->integer('images');
             $table->string('city');
+            $table->unsignedInteger('buying_price');
+            $table->unsignedInteger('selling_price');
             $table->unsignedInteger('id_car_model');
             $table->unsignedInteger('id_seller');
             $table->timestamps();

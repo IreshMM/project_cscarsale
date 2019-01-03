@@ -8,7 +8,14 @@ use App\Cars\SoldCar;
 class Buyer extends Model
 {
     protected $table = 'buyer';
-    protected $fillable = ['name', 'address', 'email'];
+    protected $fillable = [
+        'title', 
+        'first_name', 
+        'last_name', 
+        'street_address', 
+        'email',
+        'city'
+    ];
     protected $primaryKey = 'id';
 
     public $timestamps = true;
@@ -20,5 +27,20 @@ class Buyer extends Model
      */
     public function carsBought() {
         return $this->hasMany(SoldCar::class, 'id_buyer', 'id');
+    }
+
+    public static function filterValidFields($fields) {
+        $validFields = [
+            'title',
+            'first_name',
+            'last_name',
+            'street_address',
+            'city',
+            'email'
+        ];
+
+        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
+
+        return $filteredFieldsAndData;
     }
 }

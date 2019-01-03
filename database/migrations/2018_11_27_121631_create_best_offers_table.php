@@ -17,7 +17,8 @@ class CreateBestOffersTable extends Migration
             $table->unsignedInteger('id_car_listing');
             $table->primary('id_car_listing');
 
-            $table->foreign('id_car_listing')->references('id_car_listing')->on('car_listing');
+            $table->foreign('id_car_listing')->references('id_car_listing')->on('car_listing')
+            ->onDelete('cascade');
         });
     }
 

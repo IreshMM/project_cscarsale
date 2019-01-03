@@ -17,7 +17,9 @@ class SoldCar extends Model
         'seller_description',
         'year',
         'images',
-        'date'
+        'date',
+        'buying_price',
+        'selling_price'
     ];
 
     public $timestamps = true;

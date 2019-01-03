@@ -6,6 +6,7 @@ use App\Cars\CarModel;
 use App\User;
 
 $factory->define(App\Cars\SoldCar::class, function (Faker $faker) {
+    $buyingPrice = random_int(1000000, 10000000);
     return [
         'condition'             => ['Brand New', 'Used'][random_int(0, 1)],
         'mileage'               => random_int(12000, 100000),
@@ -15,6 +16,8 @@ $factory->define(App\Cars\SoldCar::class, function (Faker $faker) {
         'images'                => 5,
         'city'                  => $faker->city,
         'date'                  => $faker->date($format = 'Y-m-d', $max = 'now'),
+        'buying_price'          => $buyingPrice,
+        'selling_price'         => $buyingPrice + random_int(1000, 100000),
         'id_buyer'              => function() {
             return Buyer::inRandomOrder()->first()->id;
         },

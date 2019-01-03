@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Cars\CarListing;
 use App\Cars\SoldCar;
+use App\Customers\Buyer;
 
 class CarListingController extends Controller
 {
@@ -28,14 +29,16 @@ class CarListingController extends Controller
     {
         // return $request->all();
         $request->validate([
-            'id_car_model' => 'required|exists:car_model',
-            'id_seller' => 'required|exists:users,id',
-            'condition' => 'required',
-            'mileage' => 'required',
-            'color' => 'required',
-            'year' => 'required',
-            'images' => 'required',
-            'city' => 'required'
+            'id_car_model'  => 'required|exists:car_model',
+            'id_seller'     => 'required|exists:users,id',
+            'condition'     => 'required',
+            'mileage'       => 'required',
+            'color'         => 'required',
+            'year'          => 'required',
+            'images'        => 'required',
+            'city'          => 'required',
+            'buying_price'  => 'required',
+            'selling'       => 'required'
         ]);
 
         $data = CarListing::filterValidFields($request->all());
@@ -47,7 +50,6 @@ class CarListingController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Cars\CarListing  $carListing
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request)
@@ -77,6 +79,34 @@ class CarListingController extends Controller
         ]);
 
         return CarListing::find($request->id_car_listing);
+    }
+
+    /**
+     * Sell specified car listing.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function sell(Request $request) {
+        $request->validate([
+            'id_car_listing'    => 'required',
+            'title'             => 'required',
+            'first_name'        => 'required',
+            'last_name'         => 'required',
+            'street_address'    => 'required',
+            'city'              => 'required',
+            'email'             => 'required'
+        ]);
+
+        $buyerData = Buyer::filterValidFields($request->all());
+        $buyer = new Buyer($buyerData);
+        $buyer->save();
+
+        $carListing = CarListing::find($request->id_car_listing);
+        // return $carListing;
+        $soldCar = $this->sellCarListing($carListing, $buyer);
+
+        return $soldCar;
     }
 
     /************************* */
@@ -135,7 +165,7 @@ class CarListingController extends Controller
      */
     public function sellCarListing($carListing, $buyer) {
         $soldCar = new SoldCar();
-        foreach ($$carListing as $key => $value) {
+        foreach ($carListing->toArray() as $key => $value) {
             $soldCar[$key] = $value;
         }
 

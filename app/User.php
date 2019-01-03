@@ -6,6 +6,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use App\Cars\SoldCar;
+use App\Cars\SellerRequest;
 
 class User extends Authenticatable
 {
@@ -36,4 +37,13 @@ class User extends Authenticatable
     public function soldCars() {
         return $this->hasMany(SoldCar::class, 'id_seller', 'id');
     }
+
+    /**
+     * Defines seller request relationship to SellerRequest [user->level = seller]
+     * @return Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function sellerRequests() {
+        return $this->hasMany(SellerRequest::class, 'id_seller', 'id');
+    }
+
 }
