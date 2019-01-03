@@ -118,6 +118,8 @@
     <script src="dist/js/pages/calendar/cal-init.js"></script>
 
     <script src="/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    @yield('image-script')
+
     @yield('table-script')
      <!--table this page js 
 
@@ -130,11 +132,12 @@
           ****************************************/
          $('#zero_config').DataTable();
      </script>-->
+     <!----Approved button  in request--->
      <script>
             $(function(){
                 // Success Type
                 $('#ts-success').on('click', function() {
-                    toastr.success('Have fun storming the castle!', 'Miracle Max Says');
+                    toastr.success('Added to the List');
                 });
             });
                

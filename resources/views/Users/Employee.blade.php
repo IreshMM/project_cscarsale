@@ -26,7 +26,7 @@
                         <th>Tel no</th>
                         <th>Position</th>
                         <th>Image</th>
-                        <th>ACtion</th>
+                        <th>Action</th>
                         
                     </tr>
                 </thead>
@@ -40,7 +40,7 @@
                                 <td>2011/04/25</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">update</button>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">update</button>
                                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                         View 
                                     </button>
@@ -59,7 +59,7 @@
                                 <td>2011/07/25</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">update</button>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">update</button>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                                 View 
                                             </button>                                       
@@ -76,7 +76,7 @@
                                 <td>2012/12/02</td>
                                 <td>
                            
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Update</button>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">Update</button>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                                 View 
                                         </button>
@@ -191,7 +191,7 @@
                                     <div class="form-group">
                                         <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
                                         <div class="col-md-4">
-                                            <button id="Ok" name="Ok" class="btn btn-primary">update</button>
+                                            <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
                                         </div>
                                     </div>
                                         
@@ -208,7 +208,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Select best Offers</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Update Employee Details</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -290,7 +290,7 @@
                                     <div class="form-group">
                                         <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
                                         <div class="col-md-4">
-                                            <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
+                                            <button id="Ok" name="Ok" class="btn btn-primary">Update</button>
                                         </div>
                                     </div>
                                         
