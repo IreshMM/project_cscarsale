@@ -1,8 +1,8 @@
-@extends('layouts.adminapp') 
+@extends('layouts.adminapp')
 @section('chart-script')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
- 
+
 @endsection
 @section('content')
 
@@ -53,26 +53,27 @@
     let massPopChart = new Chart(myChart, {
       type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
-        labels:['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+        labels:['Sedans', 'Minivans', 'Vans', 'Hatchb-backs', 'Wagons', 'Trucks'],
         datasets:[{
-          label:'Population',
+          label:'Sold amount',
           data:[
-            617594,
-            181045,
-            153060,
-            106519,
-            105162,
-            95072
+            61,
+            8,
+            15,
+            10,
+            1,
+            45
           ],
           //backgroundColor:'green',
           backgroundColor:[
-            'rgba(255, 99, 132, 0.6)',
-            'rgba(54, 162, 235, 0.6)',
-            'rgba(255, 206, 86, 0.6)',
-            'rgba(75, 192, 192, 0.6)',
-            'rgba(153, 102, 255, 0.6)',
-            'rgba(255, 159, 64, 0.6)',
-            'rgba(255, 99, 132, 0.6)'
+            'rgba(79, 202, 255, 0.7)',
+            'rgba(42, 51, 56, 0.7)',
+            'rgba(79, 202, 255, 0.7)',
+            'rgba(42, 51, 56, 0.7)',
+            'rgba(79, 202, 255, 0.7)',
+            'rgba(42, 51, 56, 0.7)',
+            'rgba(79, 202, 255, 0.7)'
+
           ],
           borderWidth:1,
           borderColor:'#777',
@@ -83,7 +84,8 @@
       options:{
         title:{
           display:true,
-          text:'Largest Cities In Massachusetts',
+          text:'Last Month Sales',
+          FontFamily:"Arial",
           fontSize:25
         },
         legend:{
