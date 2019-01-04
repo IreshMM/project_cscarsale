@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('pages.sell');
 });
+Route::get('/lease', function () {
+    return view('pages.lease');
+});
