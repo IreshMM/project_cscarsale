@@ -16,7 +16,7 @@ class TestimonialController extends Controller
     public function index()
     {
         $allTestimonials = Testimonial::with('buyer')->with('seller')->get();
-
+        
         return response()->json($allTestimonials);
     }
 
