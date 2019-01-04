@@ -21,6 +21,8 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         'carlisting/*',
         'seller/*',
-        'seller_request/*'
+        'seller_request/*',
+        'employee/*',
+        'subscription/*'
     ];
 }

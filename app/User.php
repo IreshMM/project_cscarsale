@@ -18,7 +18,14 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'title', 
+        'first_name', 
+        'last_name',
+        'street_address',
+        'city',
+        'phone',
+        'level',
+        'email',
     ];
 
     /**
@@ -45,5 +52,23 @@ class User extends Authenticatable
     public function sellerRequests() {
         return $this->hasMany(SellerRequest::class, 'id_seller', 'id');
     }
+    
 
+    public static function filterValidFields($fields) {
+        $validFields = [
+            'title', 
+            'first_name', 
+            'last_name',
+            'street_address',
+            'city',
+            'phone',
+            'level',
+            'email',
+            'password'
+        ];
+
+        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
+
+        return $filteredFieldsAndData;
+    }
 }

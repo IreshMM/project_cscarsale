@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\WebSite;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Cars\CarMake;
 use App\Cars\CarModel;
