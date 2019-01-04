@@ -31,20 +31,15 @@
 <body>
 <script language="JavaScript">
         
-         function f1(){
+        function f2(){
+             var regex = /^[0-9]*$/;
+             
+             var x = parseInt(document.lease.Valuation.value)*parseFloat(70/100);
+             var L = document.lease.max_lease_amount.value;
+             document.lease.max_lease_amount.value = parseInt(document.lease.Valuation.value)*parseFloat(70/100) ;
+
             
-            var regex = /^[0-9]*$/;
-            var x = parseInt(document.lease.Valuation.value)*parseInt("70/100");
-            //  document.lease.result.value = x % parseInt(document.lease.duration.value);
-
-            var y =parseInt(document.lease.lease_amount.value)*17/100;
-            var z =parseInt(document.lease.lease_amount.value)+y;
-
-            document.lease.result.value = (y+z)/parseInt(document.lease.duration.value);
-
-
-
-            if(parseInt(document.lease.lease_amount.value)>x //20){
+            if(parseInt(document.lease.Valuation.value)<0){
                 document.lease.result.value = "ERROR";
             }
             
@@ -52,12 +47,32 @@
                 document.lease.result.value = "ERROR";
             }
 
-        function f2(){
-            var regex = /^[0-9]*$/;
-            document.lease.max_lease_amount.value = parseInt(document.lease.Valuation.value)*6;
         }
 
-}
+
+         function f1(){
+            
+            var regex = /^[0-9]*$/;
+        
+            var L = document.lease.max_lease_amount.value;
+
+            var y =parseInt(document.lease.lease_amount.value)*parseFloat(17/100);
+            var z =parseInt(document.lease.lease_amount.value)+y;
+
+            document.lease.result.value = z/parseInt(document.lease.duration.value);
+
+            if(parseInt(document.lease.lease_amount.value)>=L){
+                document.lease.result.value = "ERROR";
+            }
+            
+            if(!(document.getElementById("x1").value.match(regex))){
+                document.lease.result.value = "ERROR";
+            }
+
+       
+        }
+
+
 </script>
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
@@ -65,7 +80,7 @@
                 <div class="card-body">
                     <h2 class="title">Leasing calculator</h2>
                     <form name="lease" >
-                        <!-- <div class="row row-space"> -->
+                        
 
                             <div class="col-2">
                                 <div class="input-group">
@@ -74,22 +89,25 @@
                                 </div>
                             </div>
 
-                                 <div class="p-t-15">
+
+                            <div class="p-t-15">
                                    
                                    <input type="button" class="submit" onClick = "f2()" value="valuate" name="submit"/>
-                               </div>
+                            </div>
 
+                            <br>
 
-                               <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Max Lease amount</label>
-                                        <input class="input--style-4" type="text" name="max_lease_amount" disabled>
-                                    </div>
-                                </div>
 
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Lease amount</label>
+                                    <label class="label">Max Lease amount</label>
+                                    <input class="input--style-4" type="text" name="max_lease_amount" disabled>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Lease amount(Less than Max lease amount)</label>
                                     <input class="input--style-4" type="text" name="lease_amount" id="x2">
                                 </div>
                             </div>
@@ -101,30 +119,30 @@
                                 </div>
                             </div>
 
-                        
 
-                             
-
-                                <div class="p-t-15">
-                                   
+                            <div class="p-t-15">
+    
                                     <input type="button" class="submit" onClick = "f1()" value="Calculate" name="submit"  />
-                                </div>
-                                <br>
+                            </div>
+                            
+                            <br>
                                 
 
 
-                                 <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Result</label>
-                                        <input class="input--style-4" type="text" name="result" disabled>
-                                    </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Result</label>
+                                    <input class="input--style-4" type="text" name="result" disabled>
                                 </div>
-                            <br>
-                                <div class="p-t-15">
-                                    <input type="reset" value="Reset" name="reset" />
-                                </div>
+                            </div>
 
-                        </div>
+                            <br>
+
+                            <div class="p-t-15">
+                                    <input type="reset" value="Reset" name="reset" />
+                            </div>
+
+                        
                                               
                     </form>
                 </div>
@@ -143,7 +161,5 @@
     <!-- Main JS-->
     <script src="js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-
+</body>
 </html>
-<!-- end document-->
