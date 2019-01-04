@@ -12,6 +12,7 @@ class FeaturedListing extends Model
     protected $fillable = ['id_car_listing'];
 
     public $timestamps = true;
+    public $incrementing = false;
 
     /**
      * Defines one to one relationship to CarListing

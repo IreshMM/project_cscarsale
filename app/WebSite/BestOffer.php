@@ -12,6 +12,7 @@ class BestOffer extends Model
     protected $fillable = ['id_car_listing'];
 
     public $timestamps = false;
+    public $incrementing = false;
 
     /**
      * Defines one to one relationship to CarListing

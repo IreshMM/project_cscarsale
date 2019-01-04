@@ -23,6 +23,10 @@ class VerifyCsrfToken extends Middleware
         'seller/*',
         'seller_request/*',
         'employee/*',
-        'subscription/*'
+        'subscription/*',
+        'best_offer/*',
+        'featured_listing/*',
+        'testimonial/*',
+        'website_content/*'
     ];
 }

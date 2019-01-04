@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\WebSite;
 
-use App\Http\Controllers\Controller;
-use App\Customers\Subscription;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\WebSite\Content;
 
-class SubscriptionController extends Controller
+class ContentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,13 +15,13 @@ class SubscriptionController extends Controller
      */
     public function index()
     {
-        $allSubscriptions = Subscription::all();
+        $allContent = Content::all();
 
-        return response()->json($allSubscriptions);
+        return response()->json($allContent);
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Creates a new content.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -29,16 +29,15 @@ class SubscriptionController extends Controller
     public function create(Request $request)
     {
         $request->validate([
-            'name'          => 'required',
-            'email'         => 'required',
-            'id_car_model'  => 'required'
+            'title'          => 'required',
+            'description'    => 'required',
         ]);
         
-        $data = Subscription::filterValidFields($request->all());
-        $subscription = new Subscription($data);
-        $subscription->save();
+        $data = Content::filterValidFields($request->all());
+        $content = new Content($data);
+        $content->save();
 
-        return response()->json($subscription);
+        return response()->json($content);
     }
 
     /**
@@ -50,9 +49,9 @@ class SubscriptionController extends Controller
     public function show(Request $request)
     {
         $request->validate(['id' => 'required']);
-        $subscription = Subscription::find($request->id);
+        $content = Content::find($request->id);
 
-        return response()->json($subscription);
+        return response()->json($content);
     }
 
     /**
@@ -67,17 +66,17 @@ class SubscriptionController extends Controller
             'id' => 'required|exists:subscription'
         ]);
 
-        $subscription = Subscription::find($request->id);
+        $content = Content::find($request->id);
 
-        $data = Subscription::filterValidFields($request->all());
+        $data = Content::filterValidFields($request->all());
 
         foreach ($data as $key => $value) {
-            $subscription[$key] = $value;
+            $content[$key] = $value;
         }
 
-        $subscription->save();
+        $content->save();
 
-        return response()->json($subscription);
+        return response()->json($content);
 
     }
 
@@ -89,11 +88,11 @@ class SubscriptionController extends Controller
      */
     public function delete(Request $request)
     {
-        $request->validate(['id' => 'required|exists:subscription']);
+        $request->validate(['id' => 'required|exists:website_content']);
 
-        $subscription = Subscription::find($request->id);
-        $subscription->delete();
+        $content = Content::find($request->id);
+        $content->delete();
 
-        return response()->json($subscription);
+        return response()->json($content);
     }
 }

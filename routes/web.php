@@ -114,7 +114,7 @@ Route::prefix('employee')->namespace('Admin')->group(function(){
     Route::post('delete', 'EmployeeController@delete');
 });
 
-// ROUTE GROUP FOR MANAGIN SUBSCRIPTIONS
+// ROUTE GROUP FOR MANAGING SUBSCRIPTIONS
 Route::prefix('subscription')->namespace('WebSite')->group(function() {
     
     // Returns the set of all subscriptions
@@ -131,4 +131,74 @@ Route::prefix('subscription')->namespace('WebSite')->group(function() {
 
     // Deletes specified subscription
     Route::post('delete', 'SubscriptionController@delete');
+});
+
+// ROUTE GROUP FOR MANAGING BEST OFFERS
+Route::prefix('best_offer')->namespace('WebSite')->group(function() {
+    
+    // Returns the set of all best offers
+    Route::get('index', 'BestOfferController@index');
+
+    // Creates a best offer
+    Route::post('create', 'BestOfferController@create');
+
+    // Returns information of specified best offer
+    Route::post('show', 'BestOfferController@show');
+
+    // Deletes specified best offer
+    Route::post('delete', 'BestOfferController@delete');
+});
+
+// ROUTE GROUP FOR MANAGING FEATURED LISTINGS
+Route::prefix('featured_listing')->namespace('WebSite')->group(function() {
+    
+    // Returns the set of all featured listings
+    Route::get('index', 'FeaturedListingController@index');
+
+    // Creates a featured listing
+    Route::post('create', 'FeaturedListingController@create');
+
+    // Returns information of specified featured listing
+    Route::post('show', 'FeaturedListingController@show');
+
+    // Deletes specified featured listing
+    Route::post('delete', 'FeaturedListingController@delete');
+});
+
+// ROUTE GROUP FOR MANAGING TESTIMONIALS
+Route::prefix('testimonial')->namespace('WebSite')->group(function() {
+    
+    // Returns the set of all testimonials
+    Route::get('index', 'TestimonialController@index');
+
+    // Creates a testimonials
+    Route::post('create', 'TestimonialController@create');
+
+    // Returns information of specified testimonials
+    Route::post('show', 'TestimonialController@show');
+
+    // Updates the information of specified testimonials
+    Route::post('update', 'TestimonialController@update');
+
+    // Deletes specified testimonials
+    Route::post('delete', 'TestimonialController@delete');
+});
+
+// ROUTE GROUP FOR MANAGING WEBSITE CONTENT
+Route::prefix('website_content')->namespace('WebSite')->group(function() {
+    
+    // Returns the set of all web site contents
+    Route::get('index', 'ContentController@index');
+
+    // Creates a web site content
+    Route::post('create', 'ContentController@create');
+
+    // Returns information of specified web site content
+    Route::post('show', 'ContentController@show');
+
+    // Updates the information of specified web site content
+    Route::post('update', 'ContentController@update');
+
+    // Deletes specified web site content
+    Route::post('delete', 'ContentController@delete');
 });

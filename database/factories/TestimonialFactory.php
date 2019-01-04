@@ -6,7 +6,7 @@ use App\User;
 
 $factory->define(App\WebSite\Testimonial::class, function (Faker $faker) {
     return [
-        'title' => $faker->title,
+        'title' => $faker->name,
         'description' => $faker->realText($maxNbChars = 100, $indexSize = 1),
         'id_buyer' => function() {
             return Buyer::inRandomOrder()->first()->id;

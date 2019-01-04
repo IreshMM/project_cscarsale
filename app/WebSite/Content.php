@@ -14,4 +14,15 @@ class Content extends Model
     ];
 
     public $timestamps = false;
+
+    public static function filterValidFields($fields) {
+        $validFields = [
+            'title',
+            'description'
+        ];
+
+        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
+
+        return $filteredFieldsAndData;
+    }
 }
