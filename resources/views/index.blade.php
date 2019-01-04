@@ -34,6 +34,7 @@
         function f2(){
              var regex = /^[0-9]*$/;
              
+            
              var x = parseInt(document.lease.Valuation.value)*parseFloat(70/100);
              var L = document.lease.max_lease_amount.value;
              document.lease.max_lease_amount.value = parseInt(document.lease.Valuation.value)*parseFloat(70/100) ;
@@ -45,6 +46,10 @@
             
             if(!(document.getElementById("x1").value.match(regex))){
                 document.lease.result.value = "ERROR";
+            }
+              
+            if(document.lease.Valuation.value==""){
+               alert('please enter your valuation value');
             }
 
         }
@@ -59,7 +64,10 @@
             var y =parseInt(document.lease.lease_amount.value)*parseFloat(17/100);
             var z =parseInt(document.lease.lease_amount.value)+y;
 
-            document.lease.result.value = z/parseInt(document.lease.duration.value);
+            var M = z/parseInt(document.lease.duration.value);
+
+            var round = Math.round(M); 
+            document.lease.result.value= round ;
 
             if(parseInt(document.lease.lease_amount.value)>=L){
                 document.lease.result.value = "ERROR";
@@ -69,6 +77,19 @@
                 document.lease.result.value = "ERROR";
             }
 
+            if(document.getElementById("x1").value==""){
+                alert('please enter your Valuation value')
+            }
+
+            if(document.getElementById("x2").value==""){
+                alert('please enter your Lease Amount value')
+            }
+
+            if(document.getElementById("x3").value==""){
+                alert('please enter your Duration value')
+            }
+
+           
        
         }
 
@@ -85,7 +106,7 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Valuation</label>
-                                    <input class="input--style-4" type="text" name="Valuation" id="x1">
+                                    <input class="input--style-4" type="text" name="Valuation" id="x1" Required>
                                 </div>
                             </div>
 
@@ -108,14 +129,14 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Lease amount(Less than Max lease amount)</label>
-                                    <input class="input--style-4" type="text" name="lease_amount" id="x2">
+                                    <input class="input--style-4" type="text" name="lease_amount" id="x2" Required>
                                 </div>
                             </div>
 
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Duration (Months)</label>
-                                    <input class="input--style-4" type="text" name="duration" id="x3">
+                                    <input class="input--style-4" type="text" name="duration" id="x3" Required>
                                 </div>
                             </div>
 
