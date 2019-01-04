@@ -67,10 +67,10 @@
 
 
 <div class="container seller-form" id="msform">
-  <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
-      <div class="wrapper wrapper--w680">
-          <div class="card card-4">
-              <div class="card-body">
+  <!-- <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins"> -->
+      <!-- <div class="wrapper wrapper--w680"> -->
+          <!-- <div class="card card-4"> -->
+              <!-- <div class="card-body"> -->
                 <H3><b>LEASING CALCULATER<b></H3>
                   <form name = "lease" class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
 						<div class="row row-15 row-fix">
@@ -122,14 +122,12 @@
 
              </form>
             </div>
-					 </div>
-          </div>
-        </div>
-      </div>
+					 <!-- </div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
     </div>
-  </div>
-
-</div>
+  
 <!-- Jquery JS-->
 <script src="vendor/jquery/jquery.min.js"></script>
 <!-- Vendor JS-->
