@@ -17,7 +17,11 @@ class CarListingController extends Controller
      */
     public function index()
     {
-        $carListings = CarListing::paginate(8);
+        $carListings = CarListing::with([
+            'model:id_car_model,name,id_car_make',
+            'model.make:id_car_make,name',
+            'seller:id,first_name,last_name'
+        ])->get();
 
         // return response()->json($carListings);
         return view('admin.vehicles.list')->with('cars', $carListings);

@@ -1,4 +1,4 @@
-@extends('layouts.adminapp') 
+@extends('admin.layouts.adminapp') 
 
 @section('content')
 <div class="box-header">
@@ -16,110 +16,38 @@
             <table id="zero_config" class="table table-striped table-bordered">
                 <thead>
                     <tr>
-                            <th>Seller</th>
-                            <th>Email</th>
-                            <th>Model</th>
-                            <th>Price</th>
-                            <th>Message</th>
-                            <th>Action</th>
-                        
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Cars Sold</th>
+                        <th>City</th>
+                        <th>Phone</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
-                
-                    <tbody>
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                        </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011/07/25</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                        </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Ashton Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>66</td>
-                                <td>2009/01/12</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                            </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Cedric Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>22</td>
-                                <td>2012/03/29</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                        </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Airi Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>33</td>
-                                <td>2008/11/28</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                        </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Brielle Williamson</td>
-                                <td>Integration Specialist</td>
-                                <td>New York</td>
-                                <td>61</td>
-                                <td>2012/12/02</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-success btn-sm"> view </button>
-                                      
-                                    </td>
-                            </tr>
-                           
+                <tbody>
+                    @foreach ($sellers as $item)
+                        <tr>
+                            <td>{{ $item->first_name . $item->last_name }}</td>
+                            <td>{{ $item->email }}</td>
+                            <td>{{ $item->sold_cars_count }}</td>
+                            <td>{{ $item->city }}</td>
+                            <td>{{ $item->phone }}</td>
+                            <td>
+                                <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1" onclick="fillModel(this);">
+                                        View 
+                                </button>
+                            </td>
+                        </tr>
+                    @endforeach
                 </tbody>
                 <tfoot>
                     <tr>
-                            <th>Seller</th>
-                            <th>Email</th>
-                            <th>Model</th>
-                            <th>Price</th>
-                            <th>Message</th>
-                            <th>Action</th>
-                            
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Cars Sold</th>
+                        <th>City</th>
+                        <th>Phone</th>
+                        <th>Action</th>  
                     </tr>
                 </tfoot>
             </table>
@@ -139,80 +67,25 @@
                 <div class="modal-body">
                         <form class="form-horizontal">
                                 <fieldset>
-                             
-                                 <!-- Form Name -->
-                               
-                             
-                                     <!-- Text input-->
-                                    
+                                    @php
+                                        $data = [
+                                            'first_name' => 'First Name',
+                                            'last_name' => 'Last Name',
+                                            'city' => 'City',
+                                            'phone' => 'Phone',
+                                            'email' => 'Email',
+                                            'sold_cars_count' => 'Cars Sold'
+                                        ];
+                                    @endphp
+
+                                    @foreach ($data as $key => $value)
                                         <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers first Name</label>
+                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">{{ $value }}</label>
                                             <div class=" col-sm-6">
-                                                <input type="text" class="form-control"  readonly id="line3">
+                                                <input type="text" class="form-control"  readonly id="{{ $key }}">
                                             </div>
                                         </div>
-                                        <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers last Name</label>
-                                            <div class=" col-sm-6">
-                                                <input type="text" class="form-control"  id="line3" readonly>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Street Address</label>
-                                            <div class=" col-sm-6">
-                                                <input type="text" class="form-control"   id="line3" readonly>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">City</label>
-                                            <div class=" col-sm-6">
-                                                <input type="text" class="form-control"  id="line3" readonly>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Email</label>
-                                            <div class=" col-sm-6">
-                                                <input type="text" class="form-control"   id="line3" readonly>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Phone</label>
-                                            <div class=" col-sm-6">
-                                                <input type="text" class="form-control"   id="line3" readonly>
-                                            </div>
-                                        </div>
-                    
-                                     <div class="form-group row">
-                                         <label for="model" class=" col-sm-5 text-right control-label col-form-label">Model</label>
-                                         <div class="col-sm-6">
-                                             <input type="text" class="form-control" id="model" readonly >
-                                         </div>
-                                     </div>
-                                     <div class="form-group row">
-                                         <label for="manufacture" class=" col-sm-5 text-right control-label col-form-label">Manufacture</label>
-                                         <div class=" col-sm-6">
-                                             <input type="text" class="form-control" id="manufacture"readonly >
-                                         </div>
-                                     </div>
-                                    
-                                     
-                                     <div class="form-group row">
-                                         <label for="line2" class=" col-sm-5 text-right control-label col-form-label">color</label>
-                                         <div class=" col-sm-6">
-                                             <input type="text" class="form-control" id="line2" readonly>
-                                         </div>
-                                     </div>
-                                     <div class="form-group row">
-                                         <label for="line3" class=" col-sm-5 text-right control-label col-form-label">No of cars listed</label>
-                                         <div class=" col-sm-6">
-                                             <input type="text" class="form-control" id="line3" readonly>
-                                         </div>
-                                     </div>
-                                 
-                                     
-             
-                                 
-                                     
+                                    @endforeach
                                  <!-- Button -->
                                  <div class="form-group">
                                      <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
@@ -220,18 +93,17 @@
                                          <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
                                      </div>
                                  </div>
-                                     
                                </fieldset>
                             </form>
                         </div>
                      </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
             </div>
         </div>
 </div>
+
+@endsection
+
 @section('table-script')        
 <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
 <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
@@ -244,4 +116,23 @@
 </script>
 @endsection
 
-    @endsection
+@section('post-script')
+    <script>
+        function fillModel(e) {
+            var data = JSON.parse($(e).attr("data-item"));
+
+            var fieldset = [
+                "first_name",
+                "last_name",
+                "city",
+                "phone",
+                "email",
+                "sold_cars_count",
+            ];
+
+            fieldset.forEach(function(entry) {
+                $("#" + entry).val(data[entry]);
+            });
+        }
+    </script>
+@endsection

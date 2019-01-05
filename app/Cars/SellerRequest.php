@@ -3,6 +3,7 @@
 namespace App\Cars;
 
 use Illuminate\Database\Eloquent\Model;
+use CarListing;
 
 class SellerRequest extends Model
 {
@@ -44,11 +45,12 @@ class SellerRequest extends Model
      * @param string directory to be concatanated to the front.
      * @return array where first two elements are thumbnails.
      */
-    public function getImages($directory) {
+    public function getImages($size) {
+        $directory = "/images";
         $imageLocations = array();
 
         for($i = 1; $i <= $this->images; $i++) {
-            $imageLocations[] = $directory . '/' . strval($this->id_car_listing) . strval($i);
+            $imageLocations[] = '/storage/images/listing_request/' . $size . '/' . strval($this->id_seller_request) . strval($i) . ".jpg";
         }
 
         return $imageLocations;
@@ -74,4 +76,10 @@ class SellerRequest extends Model
 
         return $filteredFieldsAndData;
     }
+
+    public function approve() {
+        $data = CarListing::filterValidFields($this->toArray);
+    }
+
+    const ADMIN_VIEW = "468X280";
 }

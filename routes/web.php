@@ -13,13 +13,16 @@
 
 Auth::routes();
 
-Route::get('/', function () {return view('admin.vehicles.list');});
+Route::get('/', function () {return view('admin.users.addemployee');});
 
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
 Route::prefix('carlisting')->namespace('Listing')->group(function() {
     
     // Returns a set of required car listings for page
     Route::get('index', 'CarListingController@index');
+
+    // Shows the add new car form
+    Route::get('add_new', function() {return view('admin.vehicles.add');});
 
     // Creates a new car listing
     Route::post('create', 'CarListingController@create');

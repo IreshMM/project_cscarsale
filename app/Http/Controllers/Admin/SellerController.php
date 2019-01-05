@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\User;
 
@@ -14,9 +15,10 @@ class SellerController extends Controller
      */
     public function index()
     {
-        $allSellers = User::where('level', 'seller')->paginate(15);
+        $allSellers = User::where('level', 'seller')->withCount('soldCars')->get();
 
-        return response()->json($allSellers);
+        // return response()->json($allSellers);
+        return view('admin.users.sellers')->with('sellers', $allSellers);
     }
 
     /**

@@ -17,7 +17,8 @@ class EmployeeController extends Controller
     {
         $employees = User::where('level', 'employee')->get();
 
-        return response()->json($employees);
+        // return response()->json($employees);
+        return view('admin.users.employee')->with('employees', $employees);
     }
 
     /**

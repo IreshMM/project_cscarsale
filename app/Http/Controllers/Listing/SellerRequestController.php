@@ -15,8 +15,17 @@ class SellerRequestController extends Controller
      */
     public function index()
     {
-        $allSellerRequests = SellerRequest::all();
-        return response()->json($allSellerRequests);
+        $allSellerRequests = SellerRequest::with([
+            'seller:id,first_name,last_name',
+            'model:id_car_model,name',
+        ])->get();
+
+        foreach ($allSellerRequests as $value) {
+            $value->images = $value->getImages(SellerRequest::ADMIN_VIEW);
+        }
+        // return response()->json($allSellerRequests);
+        return view('admin.vehicles.requestlist')->with('requests', $allSellerRequests);
+        
     }
 
     /**
@@ -98,5 +107,15 @@ class SellerRequestController extends Controller
         $sellerRequest->delete();
 
         return $sellerRequest->id_seller_request;
+    }
+
+    public function approve(Request $request) {
+        $request->validate([
+            'id_seller_request' => 'required|exists:seller_request'
+        ]);
+
+        $sellerRequest = SellerRequest::find($request->id_seller_request);
+
+
     }
 }

@@ -1,1291 +1,902 @@
-
-<!-- Google Tag Manager -->
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
 
 <head>
-    <title>Auto Dealer Bootstrap Template</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your description">
-    <meta name="keywords" content="Your keywords">
-    <meta name="author" content="Your name">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-        rel="stylesheet" type="text/css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link href="css/jquery-ui.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/light-gallery.css" rel="stylesheet">
-    <link href="css/elegant-icons.css" rel="stylesheet">
-
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/select2.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/pointer-events.js"></script>
-
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/jquery.superslides.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
-    <script src="js/jquery.caroufredsel.js"></script>
-    <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="js/material-parallax.js"></script>
-    <script src="js/owl-carousel.js"></script>
-
-    <script src="js/rd-mailform.js"></script>
-    <script src="js/rd-navbar.js"></script>
-    <script src="js/rd-instafeed.js"></script>
-    <script src="js/light-gallery.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/waypoint.js"></script>
-    <script src="js/scripts.js"></script>
-    <!--[if lt IE 9]>   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>  <![endif]-->
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png">
+    <title>Matrix Template - The Ultimate Multipurpose admin template</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/libs/jquery-minicolors/jquery.minicolors.css">
+    <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/libs/quill/dist/quill.snow.css">
+    <link href="/dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
-<body class="front" data-spy="scroll" data-target="#top1" data-offset="96">
-    <div id="main">
-    <header class="section page-header">
-    <!-- RD Navbar-->
-    <div class="rd-navbar-wrap">
-        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed"
-            data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
-            data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
-            data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-dark">
-                <div class="rd-navbar-aside">
-                    <div class="block-left">
-                        <ul class="list-inline">
-                            <li>
-                                <div class="unit  align-items-center">
-                                    <div class="unit-left"><span class="icon ei icon_phone novi-icon"></span></div>
-                                    <div class="unit-body"><a href="tel:#">077 7303 563</a></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="unit  align-items-center">
-                                    <div class="unit-left"><span class="icon ei icon_pin novi-icon"></span></div>
-                                    <div class="unit-body"><a href="#">C&S Carsale,Morris Road, Ambalanwatta, Galle</a></div>
-                                </div>
-                            </li>
-                            <li>
-                                <ul class="social-list">
-                                    <li><a href="#" class="icon fa fa-facebook novi-icon"></a></li>
-                                    <li><a href="#" class="icon fa fa-twitter novi-icon"></a></li>
-                                    <li><a href="#" class="icon fa fa-google-plus novi-icon"></a></li>
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header" data-logobg="skin5">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon p-l-10">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="/assets/images/logo-icon.png" alt="homepage" class="light-logo" />
+                           
+                        </b>
+                        <!--End Logo icon -->
+                         <!-- Logo text -->
+                        <span class="logo-text">
+                             <!-- dark Logo text -->
+                             <img src="/assets/images/logo-text.png" alt="homepage" class="light-logo" />
+                            
+                        </span>
+                        <!-- Logo icon -->
+                        <!-- <b class="logo-icon"> -->
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <!-- <img src="/assets/images/logo-text.png" alt="homepage" class="light-logo" /> -->
+                            
+                        <!-- </b> -->
+                        <!--End Logo icon -->
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a></li>
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             <span class="d-none d-md-block">Create New <i class="fa fa-angle-down"></i></span>
+                             <span class="d-block d-md-none"><i class="fa fa-plus"></i></span>   
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <form class="app-search position-absolute">
+                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
+                            </form>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-bell font-24"></i>
+                            </a>
+                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="font-24 mdi mdi-comment-processing"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown" aria-labelledby="2">
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="">
+                                             <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-success btn-circle"><i class="ti-calendar"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Event today</h5> 
+                                                        <span class="mail-desc">Just a reminder that event</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-info btn-circle"><i class="ti-settings"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Settings</h5> 
+                                                        <span class="mail-desc">You can customize this template</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-primary btn-circle"><i class="ti-user"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Pavan kumar</h5> 
+                                                        <span class="mail-desc">Just see the my admin!</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-danger btn-circle"><i class="fa fa-link"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Luanch Admin</h5> 
+                                                        <span class="mail-desc">Just see the my new admin!</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
                                 </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="block-right">
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
-                            </li>
-                            <li>
-                                <a href="#register" data-toggle='modal'>SELL YOUR CAR</a>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
 
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="p-l-30 p-10"><a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a></div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
                 </div>
-            </div>
-            <div class="rd-navbar-main-outer">
-                <div class="rd-navbar-main">
-                    <!-- RD Navbar Panel-->
-                    <div class="rd-navbar-panel">
-                        <!-- RD Navbar Toggle-->
-                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                        <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a class="brand" href="/"><img class="brand-logo-dark" src="images/logo.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="rd-navbar-main-element">
-                        <div class="rd-navbar-nav-wrap">
-                            <!-- RD Navbar Nav-->
-                            <ul class="rd-navbar-nav">
-                                <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
-                                </li>
-                                
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="best" href="#best">Best offers</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact</a>
-                                </li>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="p-t-30">
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Charts</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Widgets</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="tables.html" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu">Tables</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-blur-linear"></i><span class="hide-menu">Full Width</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Forms </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Form Basic </span></a></li>
+                                <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Form Wizard </span></a></li>
                             </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-buttons.html" aria-expanded="false"><i class="mdi mdi-relative-scale"></i><span class="hide-menu">Buttons</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Icons </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="icon-material.html" class="sidebar-link"><i class="mdi mdi-emoticon"></i><span class="hide-menu"> Material Icons </span></a></li>
+                                <li class="sidebar-item"><a href="icon-fontawesome.html" class="sidebar-link"><i class="mdi mdi-emoticon-cool"></i><span class="hide-menu"> Font Awesome Icons </span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-elements.html" aria-expanded="false"><i class="mdi mdi-pencil"></i><span class="hide-menu">Elements</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Addons </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="index2.html" class="sidebar-link"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu"> Dashboard-2 </span></a></li>
+                                <li class="sidebar-item"><a href="pages-gallery.html" class="sidebar-link"><i class="mdi mdi-multiplication-box"></i><span class="hide-menu"> Gallery </span></a></li>
+                                <li class="sidebar-item"><a href="pages-calendar.html" class="sidebar-link"><i class="mdi mdi-calendar-check"></i><span class="hide-menu"> Calendar </span></a></li>
+                                <li class="sidebar-item"><a href="pages-invoice.html" class="sidebar-link"><i class="mdi mdi-bulletin-board"></i><span class="hide-menu"> Invoice </span></a></li>
+                                <li class="sidebar-item"><a href="pages-chat.html" class="sidebar-link"><i class="mdi mdi-message-outline"></i><span class="hide-menu"> Chat Option </span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-account-key"></i><span class="hide-menu">Authentication </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="authentication-login.html" class="sidebar-link"><i class="mdi mdi-all-inclusive"></i><span class="hide-menu"> Login </span></a></li>
+                                <li class="sidebar-item"><a href="authentication-register.html" class="sidebar-link"><i class="mdi mdi-all-inclusive"></i><span class="hide-menu"> Register </span></a></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-alert"></i><span class="hide-menu">Errors </span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="error-403.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 403 </span></a></li>
+                                <li class="sidebar-item"><a href="error-404.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 404 </span></a></li>
+                                <li class="sidebar-item"><a href="error-405.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 405 </span></a></li>
+                                <li class="sidebar-item"><a href="error-500.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 500 </span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-12 d-flex no-block align-items-center">
+                        <h4 class="page-title">Form Basic</h4>
+                        <div class="ml-auto text-right">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
-    </div>
-</header>     <section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="false"
-    data-simulate-touch="false" data-slide-effect="fade">
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <form class="form-horizontal">
+                                <div class="card-body">
+                                    <h4 class="card-title">Personal Info</h4>
+                                    <div class="form-group row">
+                                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">First Name</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" id="fname" placeholder="First Name Here">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-sm-3 text-right control-label col-form-label">Last Name</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" id="lname" placeholder="Last Name Here">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-sm-3 text-right control-label col-form-label">Password</label>
+                                        <div class="col-sm-9">
+                                            <input type="password" class="form-control" id="lname" placeholder="Password Here">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="email1" class="col-sm-3 text-right control-label col-form-label">Company</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" id="email1" placeholder="Company Name Here">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Contact No</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" id="cono1" placeholder="Contact No Here">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Message</label>
+                                        <div class="col-sm-9">
+                                            <textarea class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Form Elements</h5>
+                                <div class="form-group row">
+                                    <label class="col-md-3 m-t-15">Single Select</label>
+                                    <div class="col-md-9">
+                                        <select class="select2 form-control custom-select" style="width: 100%; height:36px;">
+                                            <option>Select</option>
+                                            <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                <option value="AK">Alaska</option>
+                                                <option value="HI">Hawaii</option>
+                                            </optgroup>
+                                            <optgroup label="Pacific Time Zone">
+                                                <option value="CA">California</option>
+                                                <option value="NV">Nevada</option>
+                                                <option value="OR">Oregon</option>
+                                                <option value="WA">Washington</option>
+                                            </optgroup>
+                                            <optgroup label="Mountain Time Zone">
+                                                <option value="AZ">Arizona</option>
+                                                <option value="CO">Colorado</option>
+                                                <option value="ID">Idaho</option>
+                                                <option value="MT">Montana</option>
+                                                <option value="NE">Nebraska</option>
+                                                <option value="NM">New Mexico</option>
+                                                <option value="ND">North Dakota</option>
+                                                <option value="UT">Utah</option>
+                                                <option value="WY">Wyoming</option>
+                                            </optgroup>
+                                            <optgroup label="Central Time Zone">
+                                                <option value="AL">Alabama</option>
+                                                <option value="AR">Arkansas</option>
+                                                <option value="IL">Illinois</option>
+                                                <option value="IA">Iowa</option>
+                                                <option value="KS">Kansas</option>
+                                                <option value="KY">Kentucky</option>
+                                                <option value="LA">Louisiana</option>
+                                                <option value="MN">Minnesota</option>
+                                                <option value="MS">Mississippi</option>
+                                                <option value="MO">Missouri</option>
+                                                <option value="OK">Oklahoma</option>
+                                                <option value="SD">South Dakota</option>
+                                                <option value="TX">Texas</option>
+                                                <option value="TN">Tennessee</option>
+                                                <option value="WI">Wisconsin</option>
+                                            </optgroup>
+                                            <optgroup label="Eastern Time Zone">
+                                                <option value="CT">Connecticut</option>
+                                                <option value="DE">Delaware</option>
+                                                <option value="FL">Florida</option>
+                                                <option value="GA">Georgia</option>
+                                                <option value="IN">Indiana</option>
+                                                <option value="ME">Maine</option>
+                                                <option value="MD">Maryland</option>
+                                                <option value="MA">Massachusetts</option>
+                                                <option value="MI">Michigan</option>
+                                                <option value="NH">New Hampshire</option>
+                                                <option value="NJ">New Jersey</option>
+                                                <option value="NY">New York</option>
+                                                <option value="NC">North Carolina</option>
+                                                <option value="OH">Ohio</option>
+                                                <option value="PA">Pennsylvania</option>
+                                                <option value="RI">Rhode Island</option>
+                                                <option value="SC">South Carolina</option>
+                                                <option value="VT">Vermont</option>
+                                                <option value="VA">Virginia</option>
+                                                <option value="WV">West Virginia</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 m-t-15">Multiple Select</label>
+                                    <div class="col-md-9">
+                                        <select class="select2 form-control m-t-15" multiple="multiple" style="height: 36px;width: 100%;">
+                                            <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                <option value="AK">Alaska</option>
+                                                <option value="HI">Hawaii</option>
+                                            </optgroup>
+                                            <optgroup label="Pacific Time Zone">
+                                                <option value="CA">California</option>
+                                                <option value="NV">Nevada</option>
+                                                <option value="OR">Oregon</option>
+                                                <option value="WA">Washington</option>
+                                            </optgroup>
+                                            <optgroup label="Mountain Time Zone">
+                                                <option value="AZ">Arizona</option>
+                                                <option value="CO">Colorado</option>
+                                                <option value="ID">Idaho</option>
+                                                <option value="MT">Montana</option>
+                                                <option value="NE">Nebraska</option>
+                                                <option value="NM" selected>New Mexico</option>
+                                                <option value="ND">North Dakota</option>
+                                                <option value="UT">Utah</option>
+                                                <option value="WY">Wyoming</option>
+                                            </optgroup>
+                                            <optgroup label="Central Time Zone">
+                                                <option value="AL">Alabama</option>
+                                                <option value="AR">Arkansas</option>
+                                                <option value="IL">Illinois</option>
+                                                <option value="IA">Iowa</option>
+                                                <option value="KS">Kansas</option>
+                                                <option value="KY">Kentucky</option>
+                                                <option value="LA">Louisiana</option>
+                                                <option value="MN">Minnesota</option>
+                                                <option value="MS">Mississippi</option>
+                                                <option value="MO">Missouri</option>
+                                                <option value="OK">Oklahoma</option>
+                                                <option value="SD" selected>South Dakota</option>
+                                                <option value="TX">Texas</option>
+                                                <option value="TN">Tennessee</option>
+                                                <option value="WI">Wisconsin</option>
+                                            </optgroup>
+                                            <optgroup label="Eastern Time Zone">
+                                                <option value="CT">Connecticut</option>
+                                                <option value="DE">Delaware</option>
+                                                <option value="FL">Florida</option>
+                                                <option value="GA">Georgia</option>
+                                                <option value="IN">Indiana</option>
+                                                <option value="ME">Maine</option>
+                                                <option value="MD">Maryland</option>
+                                                <option value="MA">Massachusetts</option>
+                                                <option value="MI">Michigan</option>
+                                                <option value="NH">New Hampshire</option>
+                                                <option value="NJ">New Jersey</option>
+                                                <option value="NY">New York</option>
+                                                <option value="NC">North Carolina</option>
+                                                <option value="OH">Ohio</option>
+                                                <option value="PA">Pennsylvania</option>
+                                                <option value="RI">Rhode Island</option>
+                                                <option value="SC">South Carolina</option>
+                                                <option value="VT">Vermont</option>
+                                                <option value="VA">Virginia</option>
+                                                <option value="WV">West Virginia</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3">Radio Buttons</label>
+                                    <div class="col-md-9">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked" required>
+                                            <label class="custom-control-label" for="customControlValidation1">First One</label>
+                                        </div>
+                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+                                            <label class="custom-control-label" for="customControlValidation2">Second One</label>
+                                        </div>
+                                         <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+                                            <label class="custom-control-label" for="customControlValidation3">Third One</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3">Checkboxes</label>
+                                    <div class="col-md-9">
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="customControlAutosizing1">
+                                            <label class="custom-control-label" for="customControlAutosizing1">First One</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
+                                            <label class="custom-control-label" for="customControlAutosizing2">Second One</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input" id="customControlAutosizing3">
+                                            <label class="custom-control-label" for="customControlAutosizing3">Third One</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3">File Upload</label>
+                                    <div class="col-md-9">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3" for="disabledTextInput">Disabled input</label>
+                                    <div class="col-md-9">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input" disabled>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-top">
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Forms Control</h4>
+                                <div class="form-group">
+                                    <label for="hue-demo">Hue</label>
+                                    <input type="text" id="hue-demo" class="form-control demo" data-control="hue" value="#ff6161">
+                                </div>
+                                <div class="form-group">
+                                    <label for="position-bottom-left">Bottom left (default)</label>
+                                    <input type="text" id="position-bottom-left" class="form-control demo" data-position="bottom left" value="#0088cc">
+                                </div>
+                                <div class="form-group">
+                                    <label for="position-top-right">Top right</label>
+                                    <input type="text" id="position-top-right" class="form-control demo" data-position="top right" value="#0088cc">
+                                </div>
+                                <label>Datepicker</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control mydatepicker" placeholder="mm/dd/yyyy">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    </div>
+                                </div>
+                                <label class="m-t-15">Autoclose Datepicker</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="datepicker-autoclose" placeholder="mm/dd/yyyy">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-top">
+                                <div class="card-body">
+                                    <button type="submit" class="btn btn-success">Save</button>
+                                    <button type="submit" class="btn btn-primary">Reset</button>
+                                    <button type="submit" class="btn btn-info">Edit</button>
+                                    <button type="submit" class="btn btn-danger">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
 
-    <div class="swiper-wrapper text-center">
-        <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-1920x1200.jpg">
-            <div class="swiper-slide-caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <h4> FIND YOUR DREAM CAR </h4>
-                            <h1>BMW M5 GRAN TURISMO</h1>
-                            <h3>MODEL 2017 <span>$64,000</span></h3>
-                            <a class="button" href="#"><span> SEE DETAILS</span></a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title m-b-0">Form Elements</h5>
+                                <div class="form-group m-t-20">
+                                    <label>Date Mask <small class="text-muted">dd/mm/yyyy</small></label>
+                                    <input type="text" class="form-control date-inputmask" id="date-mask" placeholder="Enter Date">
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone <small class="text-muted">(999) 999-9999</small></label>
+                                    <input type="text" class="form-control phone-inputmask" id="phone-mask" placeholder="Enter Phone Number">
+                                </div>
+                                <div class="form-group">
+                                    <label>International Number <small class="text-muted">+19 999 999 999</small></label>
+                                    <input type="text" class="form-control international-inputmask" id="international-mask" placeholder="International Phone Number">
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone / xEx <small class="text-muted">(999) 999-9999 / x999999</small></label>
+                                    <input type="text" class="form-control xphone-inputmask" id="xphone-mask" placeholder="Enter Phone Number">
+                                </div>
+                                <div class="form-group">
+                                    <label>Purchase Order <small class="text-muted">aaaa 9999-****</small></label>
+                                    <input type="text" class="form-control purchase-inputmask" id="purchase-mask" placeholder="Enter Purchase Order">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Form Elements</h5>
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-lg-4 col-md-12 text-right">
+                                        <span>Tooltip Input</span>
+                                    </div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <input type="text" data-toggle="tooltip" title="A Tooltip for the input !" class="form-control" id="validationDefault05" placeholder="Hover For tooltip" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-lg-4 col-md-12 text-right">
+                                        <span>Type Ahead Input</span>
+                                    </div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <input type="text" class="form-control" placeholder="Type here for auto complete.." required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-lg-4 col-md-12 text-right">
+                                        <span>Prepended Input</span>
+                                    </div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">#</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Prepend" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-lg-4 col-md-12 text-right">
+                                        <span>Appended Input</span>
+                                    </div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="5.000" aria-label="Recipient 's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">$</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-lg-4 col-md-12 text-right">
+                                        <span class="text-success">Input with Sccess</span>
+                                    </div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <input type="text" class="form-control is-valid" id="validationServer01">
+                                        <div class="valid-feedback">
+                                            Woohoo!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-lg-4 col-md-12 text-right">
+                                        <span class="text-danger">Input with Error</span>
+                                    </div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <input type="text" class="form-control is-invalid" id="validationServer01">
+                                        <div class="invalid-feedback">
+                                            Please correct the error
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">
+                                        <input type="text" class="form-control" placeholder="col-md-12">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-11">
+                                        <input type="text" class="form-control" placeholder="col-md-11">
+                                    </div>
+                                    <div class="col-lg-1 p-l-0">
+                                        <input type="text" class="form-control" placeholder="col-md-1">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" placeholder="col-md-10">
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <input type="text" class="form-control" placeholder="col-md-2">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" placeholder="col-md-9">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input type="text" class="form-control" placeholder="col-md-3">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control" placeholder="col-md-8">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" placeholder="col-md-4">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-7">
+                                        <input type="text" class="form-control" placeholder="col-md-7">
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <input type="text" class="form-control" placeholder="col-md-5">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" placeholder="col-md-6">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" placeholder="col-md-6">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-5">
+                                        <input type="text" class="form-control" placeholder="col-md-5">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <input type="text" class="form-control" placeholder="col-md-7">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-lg-2">
+                                        <input type="text" class="form-control" placeholder="col-md-2">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input type="text" class="form-control" placeholder="col-md-3">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" placeholder="col-md-4">
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <input type="text" class="form-control" placeholder="col-md-2">
+                                    </div>
+                                    <div class="col-lg-1 p-l-0">
+                                        <input type="text" class="form-control" placeholder="col-md-1">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="swiper-slide context-dark" data-slide-bg="images/slider-2-1920x1200.jpg" style="background-position: 50% 50%;">
-            <div class="swiper-slide-caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <h4> FIND YOUR DREAM CAR </h4>
-                            <h1>Chevrolet Camaro ZL1</h1>
-                            <h3>MODEL 2017 <span>$99,000</span></h3>
-                            <a class="button" href="#"><span> SEE DETAILS</span></a>
+                <!-- editor -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Quill Editor</h4>
+                                <!-- Create the editor container -->
+                                <div id="editor" style="height: 300px;">
+                                    <p>Hello World!</p>
+                                    <p>Some initial <strong>bold</strong> text</p>
+                                    <p>
+                                        <br>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
             </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by Matrix-admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="images/slider-3-1920x1200.jpg" style="background-position: 50% 50%;">
-            <div class="swiper-slide-caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <h4> FIND YOUR DREAM CAR </h4>
-                            <h1>BMW 330e iPERFORMANCE</h1>
-                            <h3>MODEL 2017 <span>$99,000</span></h3>
-                            <a class="button" href="#"><span> SEE DETAILS</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
     </div>
-    <div class="slider-form">
-    <div class="sidebar-form-wrapper">
-        <div class="sidebar-form">
-            <form action="http://127.0.0.1:9191/search" class="form2">
-                <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                    <div class="select1_inner">
-                        <select class="select2 select car-makes" style="width: 100%" name="make">
-                            
-                            <option value="" disabled selected hidden>Select a make</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                    <div class="select1_inner">
-                        <select class="select2 select car-models" style="width: 100%" name="model">
-                            
-                            <option value="0" disabled selected hidden>Select a model</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="select1_wrapper"><label>Location</label>
-                    <div class="select1_inner">
-                        <select class="select2 select" style="width: 100%" name="city">
-                            <option value="Colombo">Colombo</option>
-                            <option value="Galle">Galle</option>
-                            <option value="Anuradhapura">Anuradhapura</option>
-                        </select>
-                    </div>
-                </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="/dist/js/custom.min.js"></script>
+    <!-- This Page JS -->
+    <script src="/assets/libs/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+    <script src="/dist/js/pages/mask/mask.init.js"></script>
+    <script src="/assets/libs/select2/dist/js/select2.full.min.js"></script>
+    <script src="/assets/libs/select2/dist/js/select2.min.js"></script>
+    <script src="/assets/libs/jquery-asColor/dist/jquery-asColor.min.js"></script>
+    <script src="/assets/libs/jquery-asGradient/dist/jquery-asGradient.js"></script>
+    <script src="/assets/libs/jquery-asColorPicker/dist/jquery-asColorPicker.min.js"></script>
+    <script src="/assets/libs/jquery-minicolors/jquery.minicolors.min.js"></script>
+    <script src="/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="/assets/libs/quill/dist/quill.min.js"></script>
+    <script>
+        //***********************************//
+        // For select 2
+        //***********************************//
+        $(".select2").select2();
 
-                <div class="select1_wrapper" style="width: 45%; float:left;"><label>FROM RS.</label>
-                    <div class="select1_inner">
-                        <select class="select2 select" style="width: 100%" name="from">
-                            <option value="1">100000</option>
-                            <option value="1">200000</option>
-                            <option value="1">300000</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="select1_wrapper" style="width: 45%; float:right;"><label>TO RS.</label>
-                    <div class="select1_inner">
-                        <select class="select2 select" style="width: 100%" name="to">
-                            <option value="1">1500000</option>
-                            <option value="1">2000000</option>
-                            <option value="1">4500000</option>
-                        </select>
-                    </div>
-                </div>
-                <button type="submit" class="btn-default btn-form2-submit">SUBMIT FILTERS</button>
-                <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div>
-            </form>
-        </div>
-    </div>
-</div>    <!-- Swiper Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Swiper Navigation-->
-    <div class="swiper-button-prev fa-arrow-left"></div>
-    <div class="swiper-button-next fa-arrow-right"></div>
+        /*colorpicker*/
+        $('.demo').each(function() {
+        //
+        // Dear reader, it's actually very easy to initialize MiniColors. For example:
+        //
+        //  $(selector).minicolors();
+        //
+        // The way I've done it below is just for the demo, so don't get confused
+        // by it. Also, data- attributes aren't supported at this time...they're
+        // only used for this demo.
+        //
+        $(this).minicolors({
+                control: $(this).attr('data-control') || 'hue',
+                position: $(this).attr('data-position') || 'bottom left',
 
-</section>
-
-<section class="form-section">
-    <div class="container">
-        <div class="slider-form">
-    <div class="sidebar-form-wrapper">
-        <div class="sidebar-form">
-            <form action="http://127.0.0.1:9191/search" class="form2">
-                <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                    <div class="select1_inner">
-                        <select class="select2 select car-makes" style="width: 100%" name="make">
-                            
-                            <option value="" disabled selected hidden>Select a make</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                    <div class="select1_inner">
-                        <select class="select2 select car-models" style="width: 100%" name="model">
-                            
-                            <option value="0" disabled selected hidden>Select a model</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="select1_wrapper"><label>Location</label>
-                    <div class="select1_inner">
-                        <select class="select2 select" style="width: 100%" name="city">
-                            <option value="Colombo">Colombo</option>
-                            <option value="Galle">Galle</option>
-                            <option value="Anuradhapura">Anuradhapura</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="select1_wrapper" style="width: 45%; float:left;"><label>FROM RS.</label>
-                    <div class="select1_inner">
-                        <select class="select2 select" style="width: 100%" name="from">
-                            <option value="1">100000</option>
-                            <option value="1">200000</option>
-                            <option value="1">300000</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="select1_wrapper" style="width: 45%; float:right;"><label>TO RS.</label>
-                    <div class="select1_inner">
-                        <select class="select2 select" style="width: 100%" name="to">
-                            <option value="1">1500000</option>
-                            <option value="1">2000000</option>
-                            <option value="1">4500000</option>
-                        </select>
-                    </div>
-                </div>
-                <button type="submit" class="btn-default btn-form2-submit">SUBMIT FILTERS</button>
-                <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div>
-            </form>
-        </div>
-    </div>
-</div>    </div>
-</section>
-
-<script>
-    var getMakesRequest = new XMLHttpRequest();
-    getMakesRequest.open('GET', 'http://127.0.0.1:9191/query/makelist');
-    getMakesRequest.onload = function() {
-        data = JSON.parse(getMakesRequest.responseText);
-        var makeListHTML = "";
-        data.forEach(element => {
-            makeListHTML = makeListHTML + "<option value=" + element.id_car_make + ">" + element.name + "</option>";
-        });
-
-        $(".car-makes").html(makeListHTML);
-    }
-    getMakesRequest.send();
-
-    $(document).ready(function() {
-        $('body').on('change', '.car-makes', function() {
-            $.ajax({
-                method: "GET",
-                url: "http://127.0.0.1:9191/query/modellist",
-                data: {id_car_make: this.value}
-            }).done(function(models) {
-                var modelListHTML = "<option value=\"0\" disabled selected>Select a model</option>";
-                models.forEach(element => {
-                    modelListHTML = modelListHTML + "<option value=" + element.id_car_model + ">" + element.name + "</option>";
-                });
-
-                $(".car-models").html(modelListHTML);
+                change: function(value, opacity) {
+                    if (!value) return;
+                    if (opacity) value += ', ' + opacity;
+                    if (typeof console === 'object') {
+                        console.log(value);
+                    }
+                },
+                theme: 'bootstrap'
             });
-            return false;
+
         });
-    });
-</script>    <div class="section section-md novi-background bg-cover">
-    <div class="container">
+        /*datwpicker*/
+        jQuery('.mydatepicker').datepicker();
+        jQuery('#datepicker-autoclose').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+        var quill = new Quill('#editor', {
+            theme: 'snow'
+        });
 
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="product-item-classic">
-                    <div class="thumbnail clearfix">
-                        <figure class="product-item-img">
-                            <a href="details.html">
-                      <img src="images/home-1-370x200.jpg" alt="" class="img-responsive"> </a>
-                        </figure>
-                        <div class="caption">
-                            <div class="rating-block">
-                                <span class="rating-text">FIRST DRIVE REVIEW</span>
-                                <span class="stars">
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o novi-icon" aria-hidden="true"></i>
-                      </span>
-                            </div>
-                            <div class="product-item-title"><a href="details.html">2010 Ford Mustang / YELLOW</a></div>
-                            <div class="product-item-text">The 2010 Ford Mustang beats its competitors with top safety scores and a large trunk. A redesigned
-                                cabin also helps the Mustang stand out in its class. </div>
-                            <div class="link">
-                                <a href="details.html" class="btn-default btn1">
-                        <span>READ MORE</span>
-                      </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="product-item-classic">
-                    <div class="thumbnail clearfix">
-                        <figure class="product-item-img">
-                            <a href="details.html">
-                      <img src="images/home-2-370x200.jpg" alt="" class="img-responsive"> </a>
-                        </figure>
-                        <div class="caption">
-                            <div class="rating-block">
-                                <span class="rating-text">INSTRUMENTED TEST</span>
-                                <span class="stars">
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-half-o novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o novi-icon" aria-hidden="true"></i>
-                      </span>
-                            </div>
-                            <div class="product-item-title"><a href="details.html">1950 Bugatti / BLACK</a></div>
-                            <div class="product-item-text">The Type 101 was presented at the 1951 Paris Salon, of which two examples were shown. These were
-                                a convertible and a coupe, both bodied by Gangloff.</div>
-                            <div class="link">
-                                <a href="details.html" class="btn-default btn1">
-                        <span>READ MORE</span>
-                      </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="product-item-classic">
-                    <div class="thumbnail clearfix">
-                        <figure class="product-item-img">
-                            <a href="details.html">
-                      <img src="images/home-3-370x200.jpg" alt="" class="img-responsive"> </a>
-                        </figure>
-                        <div class="caption">
-                            <div class="rating-block">
-                                <span class="rating-text">BUYERS INFO</span>
-                                <span class="stars">
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-half-o novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o novi-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o novi-icon" aria-hidden="true"></i>
-                      </span>
-                            </div>
-                            <div class="product-item-title"><a href="details.html">2013 Mercedes C / WHITE</a></div>
-                            <div class="product-item-text">The base 2013 Mercedes C250 is powered by a turbocharged four-cylinder engine that has enough
-                                acceleration to make highway passing maneuvers easy. </div>
-                            <div class="link">
-                                <a href="details.html" class="btn-default btn1">
-                        <span>READ MORE</span>
-                      </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>    <div id="welcome" class="section text-center">
-    <section class="parallax-container parallax1" data-parallax-img="images/parallax-01.jpg">
-        <div class="parallax-content">
-            <div class="container">
-                <div class="brand">
-                    <img src="images/logo-white.png" alt="" class="img-responsive">
-                </div>
-                <div class="section-title">Welcome to our website</div>
-                <div class="row ">
-                    <div class="col-sm-12">
-                        <h2 class="text-accent"> #1 PLACE FOR ALL YOUR AUTOMOTIVE NEEDS</h2>
-                        <p class="text-block-center"> Autozone is a leading digital automotive marketplace designed to connect vehicle buyers and sellers.
-                            Our website lets you research and compare new, certified and used cars by searching for body
-                            type, mileage, price and numerous other criteria. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>    <div id="best" class="section section-md best novi-background bg-cover">
-    <div class="container">
-        <div class="section-title-md">
-            BEST OFFERS FROM AUTOCLUB
-        </div>
-        <div class="tabs-custom tabs-horizontal tabs-corporate" id="tabs-1">
-            <ul class="nav nav-tabs">
-                <li class="active" role="presentation">
-                    <a href="#tabs-1-1" data-toggle="tab">Most researched manufacturers</a>
-                </li>
-                <li role="presentation">
-                    <a href="#tabs-1-2" data-toggle="tab">Latest vehicles on sale</a>
-                </li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane fade in active" id="tabs-1-1">
-                    <div class="row row-fix">
-                        <div class="col-sm-12 col-md-3">
-                            <ul class="product-filter">
-                                <li>
-                                    <a href="#">All manufacturers</a>
-                                </li>
-                                <li>
-                                    <a href="#">ASTON MARTIN</a>
-                                </li>
-                                <li>
-                                    <a href="#">ALPHA ROMEO</a>
-                                </li>
-                                <li>
-                                    <a href="#">AUDI</a>
-                                </li>
-                                <li>
-                                    <a href="#">BMW</a>
-                                </li>
-                                <li>
-                                    <a href="#">LAND ROVER</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mercedes-Benz</a>
-                                </li>
-                                <li>
-                                    <a href="#">PORSCHE</a>
-                                </li>
-                                <li>
-                                    <a href="#">SUZUKI</a>
-                                </li>
-                                <li>
-                                    <a href="#">TOYOTA</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLVO</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLKSWAGEN</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-12 col-md-9">
-                            <div class="row">
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-4-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details"> BMW M6 Sport Hybrid</a></div>
-                                                <div class="info">
-                                                    <span class="price">24,380</span>
-                                                    <span class="speed">35,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">White</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-5-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details"> 2016 Ferrari Testarosa</a></div>
-                                                <div class="info">
-                                                    <span class="price">95,900</span>
-                                                    <span class="speed">99,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Red</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-6-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details"> 2016 Bugatti Veyron</a></div>
-                                                <div class="info">
-                                                    <span class="price">98,995</span>
-                                                    <span class="speed">95,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Blue</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-7-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details"> 2017 Lexus-AMG C63</a></div>
-                                                <div class="info">
-                                                    <span class="price">31,900</span>
-                                                    <span class="speed">12,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Red</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-8-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details"> Mercedes - AMG</a></div>
-                                                <div class="info">
-                                                    <span class="price">18,995</span>
-                                                    <span class="speed">52,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Yellow</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-9-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details"> 2017 Mercedes - AMG</a></div>
-                                                <div class="info">
-                                                    <span class="price">64,380</span>
-                                                    <span class="speed">210 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Black</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="tabs-1-2">
-                    <div class="row row-fix">
-                        <div class="col-sm-12 col-md-3">
-                            <ul class="product-filter">
-                                <li>
-                                    <a href="#">All manufacturers</a>
-                                </li>
-                                <li>
-                                    <a href="#">ASTON MARTIN</a>
-                                </li>
-                                <li>
-                                    <a href="#">ALPHA ROMEO</a>
-                                </li>
-                                <li>
-                                    <a href="#">AUDI</a>
-                                </li>
-                                <li>
-                                    <a href="#">BMW</a>
-                                </li>
-                                <li>
-                                    <a href="#">LAND ROVER</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mercedes-Benz</a>
-                                </li>
-                                <li>
-                                    <a href="#">PORSCHE</a>
-                                </li>
-                                <li>
-                                    <a href="#">SUZUKI</a>
-                                </li>
-                                <li>
-                                    <a href="#">TOYOTA</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLVO</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLKSWAGEN</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-12 col-md-9">
-                            <div class="row">
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-7-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details"> 2017 Lexus-AMG C63</a></div>
-                                                <div class="info">
-                                                    <span class="price">31,900</span>
-                                                    <span class="speed">12,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Red</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-8-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details"> Mercedes - AMG</a></div>
-                                                <div class="info">
-                                                    <span class="price">18,995</span>
-                                                    <span class="speed">52,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Yellow</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-9-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2017</p>
-                                                <div class="product-minimal-title"><a href="details"> 2017 Mercedes - AMG</a></div>
-                                                <div class="info">
-                                                    <span class="price">64,380</span>
-                                                    <span class="speed">210 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Black</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-4-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details"> BMW M6 Sport Hybrid</a></div>
-                                                <div class="info">
-                                                    <span class="price">24,380</span>
-                                                    <span class="speed">35,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">White</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-5-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2016</p>
-                                                <div class="product-minimal-title"><a href="details"> 2016 Ferrari Testarosa</a></div>
-                                                <div class="info">
-                                                    <span class="price">95,900</span>
-                                                    <span class="speed">99,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Red</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xxs-12 col-xs-6 col-sm-4">
-                                    <div class="product-minimal">
-                                        <div class="thumbnail clearfix">
-                                            <figure class="product-minimal-img">
-                                                <a href="details">
-                                <img src="images/home-6-270x150.jpg" alt="" class="img-responsive"> </a>
-                                            </figure>
-                                            <div class="caption">
-                                                <p class="small">REGISTERED 2015</p>
-                                                <div class="product-minimal-title"><a href="details">2016 Bugatti Veyron</a> </div>
-                                                <div class="info">
-                                                    <span class="price">98,995</span>
-                                                    <span class="speed">95,000 KM</span>
-                                                </div>
-                                                <ul class="tag-list">
-                                                    <li><a href="#">Used</a></li>
-                                                    <li><a href="#">2015</a></li>
-                                                    <li><a href="#">Automatic</a></li>
-                                                    <li><a href="#">Blue</a></li>
-                                                    <li><a href="#">Petrol</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>    <div class="parallax-container parallax1" data-parallax-img="images/bg-01-1600x600.jpg">
-    <div class="parallax-content">
-        <div class="section">
-            <div class="container">
-                <div class="row row-fix">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="figure-section">
-                            <div class="section-title">
-                                WORLD’S LEADING CAR DEALER
-                            </div>
-                            <h3>Why People Choose Us</h3>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="figure-section-text">
-                                        <p> As a local, family-owned dealership, we understand the needs of our customers, and
-                                            we give back to our local community. We also offer great benefits to all our
-                                            customers, both new & returning. Feel free to check more reasons for becoming
-                                            our client and having a hassle-free buying experience.</p>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-marked-left">
-                                        <li>
-                                            <a href="#">A wide range of affordable vehicles for everyone</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Certified vehicles of various types and sizes</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Lots of additional products and accessories</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Competitive freight options available to every client</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>    <div class="section section-sm novi-background bg-cover bg-gray-light section-shadow">
-    <div class="container">
-        <div class="row counter-list">
-            <div class="col-sm-6 col-md-3 counter-list-item">
-                <div class="counter-classic">
-                    <div class="counter-classic-inner animated" data-animation="fadeInDown" data-animation-delay="200">
-                        <img src="images/ic1.png" alt="" class="counter-img">
-                        <div class="caption">
-                            <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">1250</span>
-                            </div>
-                            <div class="counter-title">NEW CARS IN STOCK</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 counter-list-item">
-                <div class="counter-classic">
-                    <div class="counter-classic-inner animated" data-animation="fadeInDown" data-animation-delay="200">
-                        <img src="images/ic2.png" alt="" class="counter-img">
-                        <div class="caption">
-                            <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">2120</span>+
-                            </div>
-                            <div class="counter-title">USED CARS IN STOCK</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 counter-list-item">
-                <div class="counter-classic">
-                    <div class="counter-classic-inner animated" data-animation="fadeInDown" data-animation-delay="200">
-                        <img src="images/ic3.png" alt="" class="counter-img">
-                        <div class="caption">
-                            <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">9753</span>
-                            </div>
-                            <div class="counter-title">HAPPY CUSTOMERS</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 counter-list-item">
-                <div class="counter-classic">
-                    <div class="counter-classic-inner animated" data-animation="fadeInDown" data-animation-delay="200">
-                        <img src="images/ic4.png" alt="" class="counter-img">
-                        <div class="caption">
-                            <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">1022</span>
-                            </div>
-                            <div class="counter-title">CAR SPARE PARTS</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>    <div id="testimonials" class="section section-lg testimonials-bg novi-background custom-bg-image">
-
-    <div class="container">
-        <div class="owl-carousel" data-items='1' data-dots='true' data-nav='false' data-stage-padding='15' data-loop='false' data-margin='30'
-            data-mouse-drag="false">
-            <div class="review">
-                <div class="review_inner">
-                    <div class="testimonial-wrapper">
-
-                        <div class="txt2">
-                            <div class="img-wrapper">
-                                <img src="images/customer-1-104x104.jpg" alt="" class="img-responsive"> </div>
-                        </div>
-                        <div class="txt1">
-                            <b>GEORGE SMITH,</b> Customer, RANGE ROVER Owner</div>
-                        <div class="txt3">Autozone has nice cars, great prices, and good service. I brought my old Citroen C4 with which I
-                            had no problems after one month of high mileage use. High price given to me for my car and low
-                            price accepted for the car I was buying was a huge surprise to me. I recommend this car dealer
-                            to everyone! </div>
-                    </div>
-                </div>
-            </div>
-            <div class="review">
-                <div class="review_inner">
-                    <div class="testimonial-wrapper">
-
-                        <div class="txt2">
-                            <div class="img-wrapper">
-                                <img src="images/customer-2-104x104.jpg" alt="" class="img-responsive"> </div>
-                        </div>
-                        <div class="txt1">
-                            <b>JOHN DOE,</b> Customer, RANGE ROVER DISCOVERY Owner</div>
-                        <div class="txt3">I’m glad to be a happy owner of my dream car, Range Rover Discovery, which I bought thanks to the
-                            recommendations of your consultants. The whole process of purchasing was very smooth and the
-                            price was not too high for me. I will definitely recommend this car dealer to all my friends.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="review">
-                <div class="review_inner">
-                    <div class="testimonial-wrapper">
-
-                        <div class="txt2">
-                            <div class="img-wrapper">
-                                <img src="images/customer-3-104x104.jpg" alt="" class="img-responsive"> </div>
-                        </div>
-                        <div class="txt1">
-                            <b>AMANDA RICHARDSON,</b> Customer, RANGE ROVER EVOQUE Owner</div>
-                        <div class="txt3">You guys are really amazing! I have not yet seen a car dealer who offers so much at such an affordable
-                            price. I have found what I wanted in your vehicle catalog. Moreover, I have sold my old car with
-                            the help of your website and your staff provided me with the considerable discount for my new
-                            car.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>    <div class="section pre-footer novi-background bg-cover">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <div class="footer-title">
-                    <span>LATEST NEWS</span>
-                </div>
-
-                <div class="news-minimal">
-                    <p class="news-minimal-text">The 2019 RDX Will Be the Sportiest Lexus Crossover Ever Built</p>
-                    <div class="news-minimal-link">
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="news-minimal">
-                    <p class="news-minimal-text">Chevrolet is Discontinuing Corvettes for the Next Model Year</p>
-                    <div class="news-minimal-link">
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="news-minimal">
-                    <p class="news-minimal-text">Infiniti Reveals the Completely Redone 2019 QX50 for the US and Europe</p>
-                    <div class="news-minimal-link">
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="footer-title">
-                    <span>LATEST Cars</span>
-                </div>
-                <div class="footer-product">
-                    <figure class="footer-product-img">
-                        <a href="#">
-                    <img src="images/footer-1-80x65.jpg" alt="" class="img-responsive">
-                  </a>
-
-                    </figure>
-                    <div class="caption">
-                        <p class="title"><a href="#"> LAMBORGHINI Aventador</a></p>
-                        <div class="product-info">35,000 KM</div>
-                        <div class="product-link">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-product">
-                    <figure class="footer-product-img">
-                        <a href="#">
-                    <img src="images/footer-2-80x65.jpg" alt="" class="img-responsive">
-                  </a>
-
-                    </figure>
-                    <div class="caption">
-                        <p class="title"><a href="#"> BUGATTI CHIRON</a></p>
-                        <div class="product-info">35,000 KM</div>
-                        <div class="product-link">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-product">
-                    <figure class="footer-product-img">
-                        <a href="#">
-                    <img src="images/footer-3-80x65.jpg" alt="" class="img-responsive">
-                  </a>
-
-                    </figure>
-                    <div class="caption">
-                        <p class="title"><a href="#"> FERRARI TESTAROSA</a></p>
-                        <div class="product-info">35,000 KM</div>
-                        <div class="product-link">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="footer-title">
-                    <span>CONTACT US</span>
-                </div>
-                <address>
-                <span aria-hidden="true" class="fa fa-map-marker novi-icon"></span>
-                <a href="#">202 W 7th St, Suite 233 Los Angeles, California 90014 USA </a></address>
-                <div class="footer-info">
-                    <div class="info-phone">
-                        <span aria-hidden="true" class="fa fa-phone novi-icon"></span> Phone: <a href="tel:#"> 1-800- 624-5462</a>                        </div>
-                    <div class="info-fax">
-                        <span aria-hidden="true" class="fa fa-fax novi-icon"></span>FAX:
-                        <a href="tel:#">1-800- 624-5462</a> </div>
-                    <div class="info-email">
-                        <span aria-hidden="true" class="fa fa-envelope novi-icon"></span>Email:
-                        <a href="mailto:#" tabindex="-1">info@demolink.org</a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="footer-title">
-                    <span>instagram</span>
-                </div>
-                <article class="instafeed" data-instafeed-tagname="14633_autodealer" data-instafeed-get="tagged" data-instafeed-sort="least-liked"
-                    data-lightgallery="group">
-                    <div class="row row-10 row-narrow">
-                        <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
-                    <div class="thumbnail-creative-overlay"></div></a>
-                        </div>
-                        <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
-                    <div class="thumbnail-creative-overlay"></div></a>
-                        </div>
-                        <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
-                    <div class="thumbnail-creative-overlay"></div></a>
-                        </div>
-                        <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
-                    <div class="thumbnail-creative-overlay"></div></a>
-                        </div>
-                        <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
-                    <div class="thumbnail-creative-overlay"></div></a>
-                        </div>
-                        <div class="col-xs-4" data-instafeed-item=""><a class="thumbnail-creative" data-lightgallery="item" href="#" data-images-standard_resolution-url="href"><img src="images/_blank.png" alt="" data-images-thumbnail-url="src"/>
-                    <div class="thumbnail-creative-overlay"></div></a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-
-    </div>
-</div>    <div class="modal fade popup-form" id="SignIn" tabindex="-1" role="dialog" >
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-body">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title"> Sign In</h4>
-            <form class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
-            <div class="row row-fix">
-                <div class="col-sm-12">
-                <div class="form-group form-wrap"><label for="singInName" >Your
-                    Name</label><input type="text" class="form-control" id="singInName" name="name"   data-constraints='@Required'>
-                </div>
-                </div>
-                <div class="col-sm-12">
-                <div class="form-group form-wrap">
-                    <label for="password">Password</label><input type="password" class="form-control" id="password" name="pas"  data-constraints='@Required'>
-                </div>
-                </div>
-            </div>
-
-            <button type="submit" class="btn-default btn-form2-submit">Submit</button>
-            </form>
-        </div>
-        
-        </div>
-    </div>
-</div>    <div class="modal fade popup-form" id="register" tabindex="-1" role="dialog" >
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-body">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title"> register</h4>
-            <form class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
-            <div class="row row-fix">
-                <div class="col-sm-12">
-                <div class="form-group form-wrap"><label for="regName">Your
-                    Name</label><input type="text" class="form-control" id="regName" name="name"  data-constraints='@Required'>
-                </div>
-                </div>
-                <div class="col-sm-12">
-                <div class="form-group form-wrap">
-                    <label for="regEmail">Email</label><input type="text" class="form-control" id="regEmail" name="email"  data-constraints='@Required  @Email'>
-                </div>
-                </div>
-                <div class="col-sm-12">
-                <div class="form-group form-wrap">
-                    <label for="passwordReg">Password</label><input type="password" class="form-control" id="passwordReg" name="pas" data-constraints='@Required'>
-                </div>
-                </div>
-            </div>
-
-            <button type="submit" class="btn-default btn-form2-submit">Register</button>
-            </form>
-        </div>
-
-        </div>
-    </div>
-</div>
-    <div class="snackbars" id="form-output-global"></div>
-    <script src="js/bootstrap.min.js"></script>
-    <footer class="section novi-background bg-cover">
-
-    <div class="container">
-        <div class="row-flex">
-
-            <div class="right-block">
-                <div class="social-footer">
-                    <ul class="social-footer-list">
-                        <li>
-                            <a href="#">
-                      <span aria-hidden="true" class="ei social_facebook_square novi-icon"></span>
-                    </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                      <span aria-hidden="true" class="ei social_twitter_square novi-icon"></span>
-                    </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                      <span aria-hidden="true" class="ei social_pinterest_square novi-icon"></span>
-                    </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                      <span aria-hidden="true" class="ei social_googleplus_square novi-icon"></span>
-                    </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                      <span aria-hidden="true" class="ei social_youtube_square novi-icon"></span>
-                    </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                      <span aria-hidden="true" class="ei social_skype_square novi-icon"></span>
-                    </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-menu">
-                    <ul class="footer-menu-list">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="left-block">
-                <div class="footer-logo">
-                    <a href="/" class="logo2">
-                  <img src="images/logo-white.png" alt="" class="img-responsive"> </a>
-                </div>
-                <div><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Autozone</span><span>.&nbsp;</span></div>
-            </div>
-        </div>
-
-    </div>
-
-</footer>    </div>
-
+    </script>
 </body>
 
 </html>

@@ -45,11 +45,12 @@ class CarListing extends Model
      * @param string directory to be concatanated to the front.
      * @return array where first two elements are thumbnails.
      */
-    public function getImages($directory) {
+    public function getImages() {
+        $directory = "/images";
         $imageLocations = array();
 
         for($i = 1; $i <= $this->images; $i++) {
-            $imageLocations[] = $directory . '/' . strval($this->id_car_listing) . strval($i);
+            $imageLocations[] = $directory . '/' . strval($this->id_car_listing) . strval($i) . '.jpg';
         }
 
         return $imageLocations;

@@ -9,12 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png">
     <title>C & S car sale</title>
     <!-- Custom CSS -->
-    <link href="assets/libs/flot/css/float-chart.css" rel="stylesheet">
+    <link href="/assets/libs/flot/css/float-chart.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="dist/css/style.min.css" rel="stylesheet">
+    <link href="/dist/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,7 +49,9 @@
     <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <!--Image uploader-->
 
-    @yield('chart-script') @yield('custom-script') @yield('custom-css')
+    @yield('chart-script')
+    @yield('custom-script')
+    @yield('custom-css')
 
 </head>
 
@@ -107,7 +109,6 @@
 
     <script src="/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
     
-    @yield('table-script')
     <!--table this page js 
 
      <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
@@ -119,6 +120,9 @@
           ****************************************/
          $('#zero_config').DataTable();
      </script>-->
+
+     @yield('post-script')
+     @yield('table-script')
 </body>
 
 </html>

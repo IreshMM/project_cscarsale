@@ -1,4 +1,4 @@
-@extends('layouts.adminapp') 
+@extends('admin.layouts.adminapp') 
 
 @section('content')
 <div class="box-header">
@@ -24,69 +24,26 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Tel no</th>
-                        <th>Position</th>
-                        <th>Image</th>
                         <th>ACtion</th>
                         
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach ($employees as $item)
+                        <tr>
+                            <td>{{ $item->first_name . $item->last_name }}</td>
+                            <td>{{ $item->email }}</td>
+                            <td>{{ $item->phone }}</td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" href="/updateEmp">Update></a>
+                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
+                                    View 
+                                </button>
+                                <a class="btn btn-danger btn-sm" href="/sell">Delete</a>   
+                            </td>
+                        </tr>
+                    @endforeach
                     
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>
-                           
-                                    <a class="btn btn-primary btn-sm" href="/updateEmp">Update></a>
-                                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                        View 
-                                    </button>
-
-
-                                    
-                                    <a class="btn btn-danger btn-sm" href="/sell">Delete</a>  
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011/07/25</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm">Update</button>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                            </button>                                       
-                                        <button type="button" class="btn btn-danger btn-sm"> Delete </button>
-                                      
-                                    </td>
-                            </tr>
-                           
-                            <tr>
-                                <td>Brielle Williamson</td>
-                                <td>Integration Specialist</td>
-                                <td>New York</td>
-                                <td>61</td>
-                                <td>2012/12/02</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm">Update</button>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
-                                                View 
-                                        </button>
-                                        <button type="button" class="btn btn-danger btn-sm"> Delete </button>
-                                      
-                                    </td>
-                            </tr>
-                           
-                   
-                  
                 </tbody>
                 <tfoot>
                     <tr>
