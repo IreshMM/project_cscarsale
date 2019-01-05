@@ -7,22 +7,22 @@
 
 
 
-  <div class="container">
-    <canvas id="myChart"></canvas>
+  <div class="containe">
+    <canvas id="mypieChart"></canvas>
   </div>
 
   <script>
-    let myChart = document.getElementById('myChart').getContext('2d');
+    let myChart = document.getElementById('mypieChart').getContext('2d');
 
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'open sans';
     Chart.defaults.global.defaultFontSize = 18;
     Chart.defaults.global.defaultFontColor = '#777';
 
-    let massPopChart = new Chart(myChart, {
-      type:'horizontalBar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+    let massPopChart = new Chart(mypieChart, {
+      type:'pie', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
       data:{
-        labels:['Sedan', 'Mini-Car', 'Van', 'Mini-Van', 'Trucks', 'Wagon'],
+        labels:['Sedans', 'Mini-Car', 'Van', 'Mini-Van', 'Trucks', 'Wagon'],
         datasets:[{
 					  label:'Sales',
           data:[
@@ -35,12 +35,12 @@
           ],
           //backgroundColor:'green',
           backgroundColor:[
-            'rgba(39, 169, 227, 0.6)',
-            'rgba(31, 38, 45, 0.6)',
-						'rgba(39, 169, 227, 0.6)',
-            'rgba(31, 38, 45, 0.6)',
-						'rgba(39, 169, 227, 0.6)',
-            'rgba(31, 38, 45, 0.6)',
+            'rgba(255, 99, 132, 0.6)',
+            'rgba(54, 162, 235, 0.6)',
+            'rgba(255, 206, 86, 0.6)',
+            'rgba(75, 192, 192, 0.6)',
+            'rgba(153, 102, 255, 0.6)',
+            'rgba(255, 159, 64, 0.6)',
 
           ],
           borderWidth:1,
@@ -52,7 +52,7 @@
       options:{
         title:{
           display:true,
-          text:'Sales In This Month',
+          text:'Sales in this Month',
           fontSize:25
         },
         legend:{

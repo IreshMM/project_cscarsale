@@ -5,13 +5,9 @@
 
 
 @section('content')
-
-
-
-  @include('Reports/tableinvest')
-  <br>
-  @include('Reports/tablesold')
-  <br>
-  @include('Reports/charttype')
-
+  @include('Reports/tablesProfit')
+  <br><br><br>
+  <!-- @include('Reports/charttype') -->
+  @include('Reports/chartpie')
+  @include('Reports/tablesSales')
 @endsection
