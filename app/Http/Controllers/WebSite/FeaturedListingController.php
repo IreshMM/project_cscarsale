@@ -17,7 +17,10 @@ class FeaturedListingController extends Controller
     {
         $featuredListings = FeaturedListing::with('carListing')->get();
 
-        return response()->json($featuredListings);
+        //return response()->json($featuredListings);
+        
+        return view('admin.website.homePage')->with('featured', $featuredListings);
+
     }
 
     /**

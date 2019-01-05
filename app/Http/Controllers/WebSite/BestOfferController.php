@@ -17,7 +17,9 @@ class BestOfferController extends Controller
     {
         $bestOffers = BestOffer::with('carListing')->get();
 
-        return response()->json($bestOffers);
+        //return response()->json($bestOffers);
+        return view('admin.website.homePage')->with('bestOffers',$bestOffers);
+
     }
 
     /**
