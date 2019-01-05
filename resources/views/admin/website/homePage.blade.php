@@ -2,76 +2,7 @@
 
 @section('content')
 
-<style>
-.preview-images-zone {
-    width: 100%;
-    border: 1px solid #ddd;
-    min-height: 180px;
-    /* display: flex; */
-    padding: 5px 5px 0px 5px;
-    position: relative;
-    overflow:auto;
-}
-.preview-images-zone > .preview-image:first-child {
-    height: 185px;
-    width: 185px;
-    position: relative;
-    margin-right: 5px;
-}
-.preview-images-zone > .preview-image {
-    height: 90px;
-    width: 90px;
-    position: relative;
-    margin-right: 5px;
-    float: left;
-    margin-bottom: 5px;
-}
-.preview-images-zone > .preview-image > .image-zone {
-    width: 100%;
-    height: 100%;
-}
-.preview-images-zone > .preview-image > .image-zone > img {
-    width: 100%;
-    height: 100%;
-}
-.preview-images-zone > .preview-image > .tools-edit-image {
-    position: absolute;
-    z-index: 100;
-    color: #fff;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    display: none;
-}
-.preview-images-zone > .preview-image > .image-cancel {
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: bold;
-    margin-right: 10px;
-    cursor: pointer;
-    display: none;
-    z-index: 100;
-}
-.preview-image:hover > .image-zone {
-    cursor: move;
-    opacity: .5;
-}
-.preview-image:hover > .tools-edit-image,
-.preview-image:hover > .image-cancel {
-    display: block;
-}
-.ui-sortable-helper {
-    width: 90px !important;
-    height: 90px !important;
-}
 
-.container {
-    padding-top: 50px;
-}
-</style>
 {{-- Adding images to slider --}}
 @section('custom-script')
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -82,43 +13,54 @@
         <div class="row">
             <div class="col-sm-8">
               <h4 class="box-title"> Details Of HOME Page </h4>
-           </div>
+                
+              <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                   </div>
+                 </div>
+             </div>
        </div> 
-</div>       
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Slider Images</h5>       
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <div class="container">
-            <fieldset class="form-group">
-                <a href="javascript:void(0)" onclick="$('#pro-image').click()">Upload Image</a>
-                <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
-            </fieldset>
-            <div class="preview-images-zone">
-                <div class="preview-image preview-show-1">
-                    <div class="image-cancel" data-no="1">x</div>
-                    <div class="image-zone"><img id="pro-img-1" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny85NTkvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzYzOTcxNjY1LmpwZw=="></div>
-                    <div class="tools-edit-image"><a href="javascript:void(0)" data-no="1" class="btn btn-light btn-edit-image">edit</a></div>
-                 </div>
-                <div class="preview-image preview-show-2">
-                    <div class="image-cancel" data-no="2">x</div>
-                    <div class="image-zone"><img id="pro-img-2" src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/flip.jpg"></div>
-                    <div class="tools-edit-image"><a href="javascript:void(0)" data-no="2" class="btn btn-light btn-edit-image">edit</a></div>
-                 </div>
-                <div class="preview-image preview-show-3">
-                    <div class="image-cancel" data-no="3">x</div>
-                    <div class="image-zone"><img id="pro-img-3" src="http://i.stack.imgur.com/WCveg.jpg"></div>
-                    <div class="tools-edit-image"><a href="javascript:void(0)" data-no="3" class="btn btn-light btn-edit-image">edit</a></div>
-                 </div>
-            </div>
-        </div>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        
-        <a href="#" class="btn btn-primary">Add</a>
-    </div>
 </div>
+   
 
-{{-- <!--Featured cars--> --}}
+
+{{--Featured cars---}}
 <div class="card">
     <div class="card-body">
         <h5 class="card-title">Featured Vehicles</h5>
@@ -143,7 +85,7 @@
                             <td>{{ $item->selling_price }}</td>
                             <td>{{ $item->mileage }}</td>
                             <td data-item="{{ $item }}">
-                            <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View2" onclick="fillModel(this)">View</button>
+                            <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View-featured" onclick="fillModel(this)">View</button>
                             <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button> 
                             </td>
                          </tr>
@@ -151,7 +93,7 @@
                  </tbody>
              </table>
             {{-- To add featured cars to the list modal button --}}
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#featured" >Add</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-featured" >Add</button>
          </div>
     </div>
 </div> 
@@ -181,7 +123,7 @@
                                 <td>{{ $item->selling_price }}</td>
                                 <td>{{ $item->mileage }}</td>
                                 <td data-item="{{ $item }}">
-                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View2" onclick="fillModel(this)">View</button>
+                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View-best" onclick="fillModel(this)">View</button>
                                 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button> 
                                 </td>
                                 </tr>
@@ -189,7 +131,7 @@
                      </tbody>
              </table>
              {{-- modal button for add Best offers --}}
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#best">Add</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-best">Add</button>
          </div>
      </div>
  </div> 
@@ -235,7 +177,7 @@
  </div> {{-- end of Welcome note --}}
      
 {{--Modal  view  best offers car details --}}
-<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="View-best" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -302,8 +244,8 @@
     </div>
 
 
-<!-- Modal  for select best offer cars from  car list-->
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="best" aria-hidden="true">
+{{--Modal  for select best offer cars from  car list--}}
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="add-best" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -313,83 +255,69 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                        
-                                <div class="card">
-                                    <div class="card-body">
-                                            <form class="form-inline">
-                                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                            </form>
-                                    </div>
-                                   
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Model</th>
-                                                <th scope="col">Manufacture</th>
-                                                <th scope="col">Price</th>
-                                                <th scope="col">Image</th>
-                                                <th scope="col">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                    <td>Brielle Williamson</td>
-                                                    <td>Integration Specialist</td>
-                                                    <td>New York</td>
-                                                    <td>61</td>
-                                                <td>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </a>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                        </i><i class="mdi mdi-close"></i>
-                                                    </a>     
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                    <td>Brielle Williamson</td>
-                                                    <td>Integration Specialist</td>
-                                                    <td>New York</td>
-                                                    <td>61</td>
-                                                <td>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </a>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                        </i><i class="mdi mdi-close"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                    <td>Brielle Williamson</td>
-                                                    <td>Integration Specialist</td>
-                                                    <td>New York</td>
-                                                    <td>61</td>
-                                                <td>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </a>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                        </i><i class="mdi mdi-close"></i>
-                                                    </a>
-                                                </td>  
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                </div>
+                    <div class="card">
+                        <div class="card-body">
+                             <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                             </form>
+                        </div>
+                                
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Model</th>
+                                    <th scope="col">Manufacture</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Image</th>
+                                    <th scope="col">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Brielle Williamson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>New York</td>
+                                    <td>61</td>
+                                    <td>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                        <i class="mdi mdi-check"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        </i><i class="mdi mdi-close"></i>
+                                    </a>     
+                                    </td>
+                                </tr>
+                                <tr>
+                                        <td>Brielle Williamson</td>
+                                        <td>Integration Specialist</td>
+                                        <td>New York</td>
+                                        <td>61</td>
+                                    <td>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                            <i class="mdi mdi-check"></i>
+                                        </a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                            </i><i class="mdi mdi-close"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                         </table>
+                     </div>
+                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
+                 </div>
+             </div>
+         </div>
+     </div>
 
 
 {{---- Modal  view  featured car details---------------------------------------------------- --}}
-<div class="modal fade" id="View1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="View-featured" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -458,8 +386,8 @@
      </div>
  </div>
 
-<!-- Modal  for featured cars from  car list------------------------------>
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="featured" aria-hidden="true">
+{{--Modal  for featured cars from  car list--}}
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="add-featured" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -470,71 +398,57 @@
             </div>
             <div class="modal-body">
                     
-                            <div class="card">
-                                <div class="card-body">
-                                        <form class="form-inline">
-                                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                        </form>
-                                </div>
-                               
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Model</th>
-                                            <th scope="col">Manufacture</th>
-                                            <th scope="col">Price</th>
-                                            <th scope="col">Image</th>
-                                            <th scope="col">Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                                <td>Brielle Williamson</td>
-                                                <td>Integration Specialist</td>
-                                                <td>New York</td>
-                                                <td>61</td>
-                                            <td>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                    <i class="mdi mdi-check"></i>
-                                                </a>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                    </i><i class="mdi mdi-close"></i>
-                                                </a>     
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                                <td>Brielle Williamson</td>
-                                                <td>Integration Specialist</td>
-                                                <td>New York</td>
-                                                <td>61</td>
-                                            <td>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                    <i class="mdi mdi-check"></i>
-                                                </a>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                    </i><i class="mdi mdi-close"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                                <td>Brielle Williamson</td>
-                                                <td>Integration Specialist</td>
-                                                <td>New York</td>
-                                                <td>61</td>
-                                            <td>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                    <i class="mdi mdi-check"></i>
-                                                </a>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                    </i><i class="mdi mdi-close"></i>
-                                                </a>
-                                            </td>  
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-            </div>
+                <div class="card">
+                    <div class="card-body">
+                            <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                    </div>
+                    
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Model</th>
+                                <th scope="col">Manufacture</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Brielle Williamson</td>
+                                <td>Integration Specialist</td>
+                                <td>New York</td>
+                                <td>61</td>
+                                <td>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                    <i class="mdi mdi-check"></i>
+                                </a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                    </i><i class="mdi mdi-close"></i>
+                                </a>     
+                                </td>
+                            </tr>
+                            <tr>
+                                    <td>Brielle Williamson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>New York</td>
+                                    <td>61</td>
+                                    <td>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
+                                        <i class="mdi mdi-check"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                        </i><i class="mdi mdi-close"></i>
+                                    </a>
+                                    </td>
+                            </tr>
+                        </tbody>
+                     </table>
+                 </div>
+             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
@@ -571,21 +485,35 @@
          </div>
  </div> {{-- finish delete modal --}}
      
-@section('post-script')
-    <script>
-        function fillModel(e) {
-            var data = JSON.parse($(e).parent().attr("data-item"));
-            $("#model").val(data.model.name);
-            $("#manufacturer").val(data.model.make.name);
-            $("#price").val(data.selling_price);
-            $("#mileage").val(data.mileage);
-            $("#color").val(data.color);
-            $("#year").val(data.year);
-            $("#seller").val(data.seller.first_name + " " + data.seller.last_name);
-            $("#description").val(data.seller_description);
-        }
-    </script>
-@endsection    
+ @section('post-script')
+ <script>
+     function fillModel(e) {
+         var data = JSON.parse($(e).parent().attr("data-item"));
+         console.log(data);
+         $("#model").val(data.model.name);
+         $("#manufacturer").val(data.model.make.name);
+         $("#price").val(data.selling_price);
+         $("#mileage").val(data.mileage);
+         $("#color").val(data.color);
+         $("#year").val(data.year);
+         $("#seller").val(data.seller.first_name + " " + data.seller.last_name);
+         $("#description").val(data.seller_description);
+
+         var id_car_listing = data.id_car_listing;
+         var no_of_images = data.images;
+         
+         var htmlString = "";
+         for(var i = 0; i < no_of_images; i++) {
+             htmlString = htmlString
+                                 + '<div class="carousel-item ' + (i == 0 ? 'active' : '') + '">'
+                                 + '<img class="d-block w-100" src="storage/images/car_listing/468X280/' 
+                                 + id_car_listing + (i + 1) + '" alt="First slide"></div>';
+         }
+
+         console.log(htmlString);
+     }
+ </script>
+
 
 <!--*******-------------------->
 <script src="/assets/libs/quill/dist/quill.min.js"></script>
@@ -598,53 +526,7 @@
             
 </script>
 
-<script>
-$(document).ready(function() {
-    document.getElementById('pro-image').addEventListener('change', readImage, false);
-    
-    $( ".preview-images-zone" ).sortable();
-    
-    $(document).on('click', '.image-cancel', function() {
-        let no = $(this).data('no');
-        $(".preview-image.preview-show-"+no).remove();
-    });
-});
 
-
-
-var num = 4;
-function readImage() {
-    if (window.File && window.FileList && window.FileReader) {
-        var files = event.target.files; //FileList object
-        var output = $(".preview-images-zone");
-
-        for (let i = 0; i < files.length; i++) {
-            var file = files[i];
-            if (!file.type.match('image')) continue;
-            
-            var picReader = new FileReader();
-            
-            picReader.addEventListener('load', function (event) {
-                var picFile = event.target;
-                var html =  '<div class="preview-image preview-show-' + num + '">' +
-                            '<div class="image-cancel" data-no="' + num + '">x</div>' +
-                            '<div class="image-zone"><img id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
-                            '<div class="tools-edit-image"><a href="javascript:void(0)" data-no="' + num + '" class="btn btn-light btn-edit-image">edit</a></div>' +
-                            '</div>';
-
-                output.append(html);
-                num = num + 1;
-            });
-
-            picReader.readAsDataURL(file);
-        }
-        $("#pro-image").val('');
-    } else {
-        console.log('Browser not support');
-    }
-}
-
-</script>
        <!-- this page js -->
        <script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
        <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
