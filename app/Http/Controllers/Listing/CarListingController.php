@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Listing;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Intervention\Image\ImageManagerStatic as Image;
+
 use App\Cars\CarListing;
 use App\Cars\SoldCar;
 use App\Customers\Buyer;
+
 
 class CarListingController extends Controller
 {
@@ -35,23 +38,38 @@ class CarListingController extends Controller
      */
     public function create(Request $request)
     {
-        // return $request->all();
         $request->validate([
             'id_car_model'  => 'required|exists:car_model',
-            'id_seller'     => 'required|exists:users,id',
-            'condition'     => 'required',
             'mileage'       => 'required',
             'color'         => 'required',
             'year'          => 'required',
-            'images'        => 'required',
             'city'          => 'required',
             'buying_price'  => 'required',
-            'selling'       => 'required'
+            'selling_price' => 'required'
         ]);
 
         $data = CarListing::filterValidFields($request->all());
         $newListing = $this->createCarListing($data);
-        return response()->json($newListing);
+        
+        // Handling images
+        $files = $request->allFiles();
+        
+        // dd($files);
+
+        $i = 1;
+        foreach ($files as $image) {
+            $fileToBeSaved = Image::make($image->getRealPath());
+            $sizes = ["468X280" => [468, 280]];
+
+            foreach ($sizes as $key => $value) {
+                $fileToBeSaved->encode('jpg')->fit($value[0], $value[1])
+                ->save('storage\\images\\car_listing\\' . $key . '\\' . $newListing->id_car_listing . $i . '.jpg');
+            }
+            $i++;
+        }
+        
+        // return response()->json($newListing);
+        return back()->with('success','Car Listing created successfully!');
     }
 
     /**
@@ -130,8 +148,11 @@ class CarListingController extends Controller
      */
     public function createCarListing($data) {
         $newListing = new CarListing($data);
+        $newListing->condition = "Used";
+        $newListing->images = 5;
+        $newListing->id_seller = 1;
         $newListing->save();
-        return $data;
+        return $newListing;
     }
 
 

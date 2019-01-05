@@ -3,7 +3,7 @@
 namespace App\Cars;
 
 use Illuminate\Database\Eloquent\Model;
-use CarListing;
+use App\Cars\CarListing;
 
 class SellerRequest extends Model
 {
@@ -77,9 +77,16 @@ class SellerRequest extends Model
         return $filteredFieldsAndData;
     }
 
-    public function approve() {
-        $data = CarListing::filterValidFields($this->toArray);
-    }
+    public function approve($sellingPrice) {
+        $data = CarListing::filterValidFields($this->toArray());
+        $newCarListing = new CarListing($data);
+        $newCarListing->buying_price = $this->price;
+        $newCarListing->selling_price = $sellingPrice;
 
+        $this->delete();
+        $newCarListing->save();
+        return $newCarListing;
+    }
+    
     const ADMIN_VIEW = "468X280";
 }
