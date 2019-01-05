@@ -201,6 +201,7 @@
     <script>
         function fillModel(e) {
             var data = JSON.parse($(e).parent().attr("data-item"));
+            console.log(data);
             $("#model").val(data.model.name);
             $("#manufacturer").val(data.model.make.name);
             $("#price").val(data.selling_price);
@@ -209,6 +210,19 @@
             $("#year").val(data.year);
             $("#seller").val(data.seller.first_name + " " + data.seller.last_name);
             $("#description").val(data.seller_description);
+
+            var id_car_listing = data.id_car_listing;
+            var no_of_images = data.images;
+            
+            var htmlString = "";
+            for(var i = 0; i < no_of_images; i++) {
+                htmlString = htmlString
+                                    + '<div class="carousel-item ' + (i == 0 ? 'active' : '') + '">'
+                                    + '<img class="d-block w-100" src="storage/images/car_listing/468X280/' 
+                                    + id_car_listing + (i + 1) + '" alt="First slide"></div>';
+            }
+
+            console.log(htmlString);
         }
     </script>
 @endsection
