@@ -82,6 +82,7 @@
                 </div>
             </div>
             <div class="container-fluid">
+                @include('admin.inc.partials.flash-messages')
                 @yield('content')
             </div>
         </div>

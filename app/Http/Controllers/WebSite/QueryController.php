@@ -8,7 +8,7 @@ use App\Cars\CarMake;
 use App\Cars\CarModel;
 use App\Cars\CarListing;
 
-class SearchController extends Controller
+class QueryController extends Controller
 {
     public function getMakeList() {
         $makes = CarMake::all();

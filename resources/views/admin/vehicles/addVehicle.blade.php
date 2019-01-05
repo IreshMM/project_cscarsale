@@ -83,90 +83,116 @@
         <div class="container-fluid">
             
             <div class="card">
-                <form class="form-horizontal">
+                <form class="form-horizontal" action="{{ route('car_listing.create') }}" method="post" enctype="multipart/form-data">
                     <div class="card-body">
                         <h4 class="card-title">New Vehicle details</h4>
                         <div class="form-group row">
-                            <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
+                            <label for="make" class="col-sm-3 text-right control-label col-form-label">Make</label>
+                                <div class=" col-sm-6">
+                                    <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;" name="id_car_make">
+                                        
+                                    </select>
+                                </div>
+                        </div>
+                        <div class="form-group row">
+                                <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
+                                <div class=" col-sm-6">
+                                    <select class="select2 form-control custom-select car-models" style="width: 100%; height:36px;" name="id_car_model">
+                                        
+                                    </select>
+                                </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Buying Price</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="model" >
+                                <input type="text" class="form-control" id="price" name="buying_price">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="manufacture" class="col-sm-3 text-right control-label col-form-label">Manufacture</label>
-                            <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="manufacture" >
+                                <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
+                                <div class=" col-sm-6">
+                                    <input type="text" class="form-control" id="price" name="selling_price">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Price</label>
-                            <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="price" >
-                            </div>
-                        </div>
                         <div class="form-group row">
                             <label for="mileage" class="col-sm-3 text-right control-label col-form-label">Mileage</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="mileage">
+                                <input type="text" class="form-control" id="mileage" name="mileage">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="line2" class="col-sm-3 text-right control-label col-form-label">color</label>
+                            <label for="line2" class="col-sm-3 text-right control-label col-form-label">Color</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="line2">
+                                <input type="text" class="form-control" id="color" name="color">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="line3" class="col-sm-3 text-right control-label col-form-label">year</label>
+                            <label for="line3" class="col-sm-3 text-right control-label col-form-label">Year</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="line3">
+                                <input type="text" class="form-control" id="year" name="year">
                             </div>
                         </div>
-                       
+                        <div class="form-group row">
+                                <label for="model" class="col-sm-3 text-right control-label col-form-label">District</label>
+                                <div class=" col-sm-6">
+                                    <select class="select2 form-control custom-select" style="width: 100%; height:36px;" name="city">
+                                        <option value="Anuradhapura">Anuradhapura</option>
+                                        <option value="Galle">Galle</option>
+                                        <option value="Colombo">Colombo</option>
+                                    </select>
+                                </div>
+                        </div>
                         <div class="form-group row">
                             <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Description</label>
-                            <div class=" col-sm-6">
-                                <textarea class="form-control"></textarea>
+                            <div class="col-sm-6">
+                                <textarea id="seller_description" class="form-control" name="seller_description"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="form-group row">
-                            <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Images</label>
-       
-                                <div class="col-sm-6">              
-                                         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-                                         <div class="container">
-                                             <fieldset class="form-group">
-                                                 <a href="javascript:void(0)" onclick="$('#pro-image').click()">Upload Image</a>
-                                                 <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
-                                             </fieldset>
-                                             <div class="preview-images-zone">
-                                                 <div class="preview-image preview-show-1">
-                                                     <div class="image-cancel" data-no="1">x</div>
-                                                     <div class="image-zone"><img id="pro-img-1" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny85NTkvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzYzOTcxNjY1LmpwZw=="></div>
-                                                     <div class="tools-edit-image"><a href="javascript:void(0)" data-no="1" class="btn btn-light btn-edit-image">edit</a></div>
-                                                 </div>
-                                                 <div class="preview-image preview-show-2">
-                                                     <div class="image-cancel" data-no="2">x</div>
-                                                     <div class="image-zone"><img id="pro-img-2" src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/flip.jpg"></div>
-                                                     <div class="tools-edit-image"><a href="javascript:void(0)" data-no="2" class="btn btn-light btn-edit-image">edit</a></div>
-                                                 </div>
-                                                 <div class="preview-image preview-show-3">
-                                                     <div class="image-cancel" data-no="3">x</div>
-                                                     <div class="image-zone"><img id="pro-img-3" src="http://i.stack.imgur.com/WCveg.jpg"></div>
-                                                     <div class="tools-edit-image"><a href="javascript:void(0)" data-no="3" class="btn btn-light btn-edit-image">edit</a></div>
-                                                 </div>
-                                             </div>
-                                         </div>
-                                         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-                                         <br>
-                                         
+                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                        <div class="col-sm-6">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
+                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                <div class="invalid-feedback">Example invalid custom file feedback</div>
                             </div>
-                       </div>
-                            
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                        <div class="col-sm-6">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
+                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                        <div class="col-sm-6">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
+                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                        <div class="col-sm-6">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
+                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="border-top">
                             <div class="card-body">
-                                <button type="button" class="btn btn-primary">Submit</button>
+                                <input type="submit" value="Submit" class="btn btn-primary">
                             </div>
                         </div>
                 </form>
@@ -175,50 +201,44 @@
     </div>
 
     <script>
-            $(document).ready(function() {
-                document.getElementById('pro-image').addEventListener('change', readImage, false);
-                
-                $( ".preview-images-zone" ).sortable();
-                
-                $(document).on('click', '.image-cancel', function() {
-                    let no = $(this).data('no');
-                    $(".preview-image.preview-show-"+no).remove();
+            var getMakesRequest = new XMLHttpRequest();
+            getMakesRequest.open('GET', '{{ route('resource.make_list') }}');
+            getMakesRequest.onload = function() {
+                data = JSON.parse(getMakesRequest.responseText);
+                var makeListHTML = "";
+                data.forEach(element => {
+                    makeListHTML = makeListHTML + "<option value=" + element.id_car_make + ">" + element.name + "</option>";
                 });
-            });
-            
-            
-            
-            var num = 4;
-            function readImage() {
-                if (window.File && window.FileList && window.FileReader) {
-                    var files = event.target.files; //FileList object
-                    var output = $(".preview-images-zone");
-            
-                    for (let i = 0; i < files.length; i++) {
-                        var file = files[i];
-                        if (!file.type.match('image')) continue;
-                        
-                        var picReader = new FileReader();
-                        
-                        picReader.addEventListener('load', function (event) {
-                            var picFile = event.target;
-                            var html =  '<div class="preview-image preview-show-' + num + '">' +
-                                        '<div class="image-cancel" data-no="' + num + '">x</div>' +
-                                        '<div class="image-zone"><img id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
-                                        '<div class="tools-edit-image"><a href="javascript:void(0)" data-no="' + num + '" class="btn btn-light btn-edit-image">edit</a></div>' +
-                                        '</div>';
-            
-                            output.append(html);
-                            num = num + 1;
-                        });
-            
-                        picReader.readAsDataURL(file);
-                    }
-                    $("#pro-image").val('');
-                } else {
-                    console.log('Browser not support');
-                }
+
+                $(".car-makes").html(makeListHTML);
             }
+            getMakesRequest.send();
+
+            $(document).ready(function() {
+
+                // AJAX Request for update models
+                $('body').on('change', '.car-makes', function() {
+                    console.log("Somehgi");
+                    $.ajax({
+                        method: "GET",
+                        url: "{{ route('resource.model_list') }}",
+                        data: {id_car_make: this.value}
+                    }).done(function(models) {
+                        var modelListHTML = "<option value=\"0\" disabled selected>Select a model</option>";
+                        models.forEach(element => {
+                            modelListHTML = modelListHTML + "<option value=" + element.id_car_model + ">" + element.name + "</option>";
+                        });
+
+                        $(".car-models").html(modelListHTML);
+                    });
+                    return false;
+                });
+
+                $('.custom-file-input').change(function() {
+                    $(this).next().html($(this).val());
+                })
+
+            });
             
             </script>
 @endsection

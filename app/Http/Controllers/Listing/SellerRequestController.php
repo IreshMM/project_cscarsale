@@ -110,12 +110,15 @@ class SellerRequestController extends Controller
     }
 
     public function approve(Request $request) {
+        // return response()->json($request->all());
         $request->validate([
-            'id_seller_request' => 'required|exists:seller_request'
+            'id_seller_request' => 'required|exists:seller_request',
+            'selling_price' => 'required'
         ]);
 
         $sellerRequest = SellerRequest::find($request->id_seller_request);
+        $newListing = $sellerRequest->approve($request->selling_price);
 
-
+        return $newListing;
     }
 }
