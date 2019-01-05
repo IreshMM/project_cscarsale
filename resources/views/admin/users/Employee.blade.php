@@ -39,7 +39,8 @@
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
                                     View 
                                 </button>
-                                <a class="btn btn-danger btn-sm" href="/sell">Delete</a>   
+                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button>
+  
                             </td>
                         </tr>
                     @endforeach
@@ -160,6 +161,38 @@
         </div>
     </div>
 </div>
+
+
+
+<!-- Modal  for delete -->
+<div class="modal modal-danger fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Delete confirmation</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title text-center" id="myModalLabel"></h4>
+             </div>
+         <form action=" " method="post">
+            {{method_field('delete')}}
+            {{csrf_field()}}
+         <div class="modal-body">
+                <p class="text-center">
+                    Are you sure you want to delete this?
+                </p>
+                <input type="hidden" name="category_id" id="cat_id" value="">
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">No, Cancel</button>
+            <button type="submit" class="btn btn-warning">Yes, Delete</button>
+        </div>
+    </form>
+        </div>
+    </div>
+</div>
+
+
 
 
  <!-- this page js -->
