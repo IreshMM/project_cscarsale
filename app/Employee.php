@@ -22,7 +22,8 @@ class Employee extends Model
     public $timestamps = true;
     public $incrementing = false;
 
-    public function user() {
-        $this->hasOne('App\User');
+    public function user()
+    {
+        return $this->hasOne('App\User', 'id', 'id');
     }
 }

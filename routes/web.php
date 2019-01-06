@@ -13,7 +13,7 @@
 
 Auth::routes();
 
-Route::get('/', function () {return view('admin.website.homePage');})->name('home');
+Route::get('/', function () {return view('admin.website.homePage2');})->name('home');
 
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
 Route::prefix('car_listing')->name('car_listing.')->namespace('Listing')->group(function() {
@@ -72,12 +72,14 @@ Route::prefix('employee')->name('employee.')->namespace('Admin')->group(function
     Route::get('index', 'EmployeeController@index')->name('index');
 
     // Creates an employee
+    Route::get('create', 'EmployeeController@showCreateForm')->name('create-form');
     Route::post('create', 'EmployeeController@create')->name('create');
 
     // Returns the information of specified employee
     Route::post('show', 'EmployeeController@show')->name('show');
 
     // Updates the specified employee information
+    Route::get('update', 'EmployeeController@showUpdateForm')->name('update-form');
     Route::post('update', 'EmployeeController@update')->name('update');
 
     // Deletes the specified employee
@@ -168,6 +170,10 @@ Route::prefix('website_content')->name('website_content.')->namespace('Admin')->
     // Returns the view for updating Terms of service  on website
     Route::get('tos', 'WebSiteController@tos')->name('tos');
     Route::post('set_tos', "WebSiteController@setTos")->name('set_tos');
+
+
+    //Set welcome note and title
+    Route::post('set_welcome', 'WebSiteController@setWelcomeNote')->name('set_welcome');
 });
 
 

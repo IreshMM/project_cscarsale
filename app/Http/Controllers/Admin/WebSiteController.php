@@ -14,9 +14,10 @@ class WebSiteController extends Controller
 {
     public function index() {
         $carListings = CarListing::all();
-        $featuredListings = FeaturedListing::all();
-        $bestOffers = BestOffer::all();
-        
+        $featuredListings = FeaturedListing::with(['carListing', 'carListing.seller', 'carListing.model'])->get();
+        $bestOffers = BestOffer::with(['carListing', 'carListing.seller', 'carListing.model'])->get();
+        // dd($bestOffers);
+        // return response()->json($featuredListings);
         $welcomeNoteTitle = Content::where('title', 'welcome_note_title')->first()->description;
         $welcomeNote = Content::where('title', 'welcome_note')->first()->description;
 
@@ -34,7 +35,7 @@ class WebSiteController extends Controller
             'bestoffers' => $bestOffers
         ];
 
-        return view('admin.website.homePage')->with($data);
+        return view('admin.website.homePage2')->with($data);
     }
 
     public function contact() {
@@ -99,6 +100,24 @@ class WebSiteController extends Controller
         $tos->save();
 
         return back()->with('success', 'Successfully changed');
+    }
+    
+    public function setWelcomeNote(Request $request) {
+        // dd($request);
+        $request->validate([
+            'welcome_note' => 'required',
+            'welcome_note_title' => 'required'
+        ]);
+
+        $welcomeNote = Content::where('title', 'welcome_note')->first();
+        $welcomeNote->description = $request->welcome_note;
+        $welcomeNote->save();
+
+        $welcomeNoteTitle = Content::where('title', 'welcome_note_title')->first();
+        $welcomeNoteTitle->description = $request->welcome_note_title;
+        $welcomeNoteTitle->save();
+
+        return back()->with('success', 'Updated successfully');
     }
 
 }

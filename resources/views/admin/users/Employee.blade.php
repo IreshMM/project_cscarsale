@@ -23,7 +23,9 @@
                     <tr>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Tel no</th>
+                        <th>Mobile</th>
+                        <th>Position</th>
+                        <th>Hired date</th>
                         <th>ACtion</th>
                         
                     </tr>
@@ -31,9 +33,11 @@
                 <tbody>
                     @foreach ($employees as $item)
                         <tr>
-                            <td>{{ $item->first_name . $item->last_name }}</td>
-                            <td>{{ $item->email }}</td>
-                            <td>{{ $item->phone }}</td>
+                            <td>{{ $item->user->first_name . $item->user->last_name }}</td>
+                            <td>{{ $item->user->email }}</td>
+                            <td>{{ $item->user->phone }}</td>
+                            <td>{{ $item->position }}</td>
+                            <td>{{ $item->hired_date }}</td>
                             <td>
                                 <a class="btn btn-primary btn-sm" href="/updateEmp">Update></a>
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
@@ -50,10 +54,10 @@
                     <tr>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Tel no</th>
+                        <th>Mobile</th>
                         <th>Position</th>
-                        <th>Image</th>
-                        <th>Action</th>
+                        <th>Hired date</th>
+                        <th>ACtion</th>
                             
                     </tr>
                 </tfoot>
@@ -174,8 +178,8 @@
                <h4 class="modal-title text-center" id="myModalLabel"></h4>
              </div>
          <form action=" " method="post">
-            {{method_field('delete')}}
-            {{csrf_field()}}
+            {{-- {{method_field('delete')}}
+            {{csrf_field()}} --}}
          <div class="modal-body">
                 <p class="text-center">
                     Are you sure you want to delete this?

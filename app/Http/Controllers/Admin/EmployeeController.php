@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\User;
+use App\Employee;
 
 class EmployeeController extends Controller
 {
@@ -15,7 +16,7 @@ class EmployeeController extends Controller
      */
     public function index()
     {
-        $employees = User::where('level', 'employee')->get();
+        $employees = Employee::all();
 
         // return response()->json($employees);
         return view('admin.users.employee')->with('employees', $employees);
@@ -64,6 +65,10 @@ class EmployeeController extends Controller
         $employee = User::where('level', 'employee')->where('id', $request->id_employee)->first();
 
         return response()->json($employee);
+    }
+
+    public function showCreateForm() {
+        return view('admin.users.addEmployee');
     }
 
     /**
