@@ -17,7 +17,7 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/light-gallery.css" rel="stylesheet">
     <link href="css/elegant-icons.css" rel="stylesheet">
-  
+    @yield('custom-css')
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/select2.css" rel="stylesheet">
