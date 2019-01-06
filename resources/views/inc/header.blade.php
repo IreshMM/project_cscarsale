@@ -71,6 +71,8 @@
                                     </ul>
                                 </li> --}}
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="best" href="#best">Best offers</a></li>
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="leasecal" href="#leasecal">SELL YOUR CAR</a></li>
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="leasecal" href="#leasecal">LEASE CALCULATER</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact</a>

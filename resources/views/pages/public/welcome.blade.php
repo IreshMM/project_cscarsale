@@ -7,6 +7,7 @@
     @include('inc.partials.welcome.offers')
     @include('inc.partials.welcome.whyus')
     @include('inc.partials.welcome.numbers')
+    @include('inc.partials.welcome.lease')
     @include('inc.partials.welcome.testimonials')
     @include('inc.partials.welcome.prefooter')
     @include('inc.modals.login')
