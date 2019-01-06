@@ -1,0 +1,9268 @@
+754,2,Wagon,\N
+754,4,5,\N
+754,6,1695,mm
+754,5,4350,mm
+754,7,1530,mm
+754,8,2550,mm
+754,9,1465,mm
+754,10,1455,mm
+754,38,160,mm
+754,12,Gasoline,\N
+754,13,1496,cm3
+754,14,110,bhp
+754,15,to 5 800,RPM
+754,16,143,Nm
+754,17,Multi-point fuel injection,\N
+754,19,Inline,\N
+754,20,4,\N
+754,39,4,\N
+754,22,95 RON,\N
+754,41,Independent\, MacPherson Struts,\N
+754,42,Torsion beam,\N
+754,24,Continuously variable transmission (CVT),\N
+754,27,Front wheel drive,\N
+754,29,ventilated disc,\N
+754,30,drum,\N
+754,34,1160,kg
+754,35,42,litre
+754,1564,to 4 800,RPM
+754,47,73,mm
+754,48,89.4,mm
+754,57,10.2,m
+754,7,1545,mm
+754,42,De-Dion,\N
+754,27,All wheel drive (AWD),\N
+754,34,1230,kg
+754,57,10.4,m
+765,47,73,mm
+765,48,89.4,mm
+765,26,6,\N
+765,57,10.8,m
+765,2,Coupe,\N
+765,4,4,\N
+765,6,1740,mm
+765,5,4080,mm
+765,7,1395,mm
+765,8,2425,mm
+765,9,1515,mm
+765,45,385,litre
+765,10,1500,mm
+765,38,150,mm
+765,44,583,litre
+765,12,Hybrid,\N
+765,13,1497,cm3
+765,14,114,bhp
+765,15,to 6 100,RPM
+765,16,174,N*m
+765,17,Multi-point fuel injection,\N
+765,19,Inline,\N
+765,20,4,\N
+765,39,4,\N
+765,22,95 RON,\N
+765,41,MacPherson Struts\, Stabilizer bar,\N
+765,42,Torsion\, Stabilizer bar,\N
+765,24,Manual,\N
+765,27,Front wheel drive,\N
+765,29,ventilated disc,\N
+765,30,Disc,\N
+765,32,200,km/h
+765,33,10.1,second
+765,50,6.1,litre
+765,51,4.4,litre
+765,52,5,litre
+765,34,1160,kg
+765,58,1520,kg
+765,35,40,litre
+765,62,from 660 to 910,km
+765,37,EURO V,\N
+765,1564,to 4 800,RPM
+765,1565,360,kg
+766,47,81,mm
+766,48,87.3,mm
+766,2,Crossover,\N
+766,4,7,\N
+766,6,1775,mm
+766,5,4285,mm
+766,7,1669,mm
+766,8,2700,mm
+766,9,1515,mm
+766,10,1505,mm
+766,38,185,mm
+766,12,Gasoline,\N
+766,13,1799,cm3
+766,14,140,bhp
+766,15,to 6 300,RPM
+766,16,174,Nm
+766,17,Multi-point fuel injection,\N
+766,19,Inline,\N
+766,20,4,\N
+766,39,4,\N
+766,22,95 RON,\N
+766,41,MacPherson Struts,\N
+766,24,Automatic,\N
+766,27,Front wheel drive,\N
+766,29,ventilated disc,\N
+766,57,10.6,m
+766,32,175,km/h
+766,52,8.6,litre
+766,35,55,litre
+766,50,9.2,litre
+766,51,6.6,litre
+766,62,from 600 to 830,km
+766,33,12,second
+766,1564,to 4 300,RPM
+766,26,5,\N
+766,34,1410,kg
+766,42,Double wishbone,\N
+766,30,Disc,\N
+766,27,All wheel drive (AWD),\N
+766,34,1480,kg
+766,35,50,litre
+766,50,9.9,litre
+766,51,6.9,litre
+766,52,9.1,litre
+766,62,from 510 to 720,km
+766,32,173,km/h
+766,33,13.6,second
+766,48,96.9,mm
+766,7,1670,mm
+766,13,1997,cm3
+766,14,150,bhp
+766,15,to 6 200,RPM
+766,16,190,Nm
+766,34,1430,kg
+766,50,10.1,litre
+766,51,6.8,litre
+766,62,from 540 to 810,km
+766,33,10.8,second
+766,1564,to 4 200,RPM
+766,34,1500,kg
+766,50,10.9,litre
+766,51,7.3,litre
+766,52,9.8,litre
+766,62,from 460 to 680,km
+766,32,169,km/h
+766,33,12.2,second
+769,47,86,mm
+769,48,86,mm
+769,2,Minivan,\N
+769,4,6,\N
+769,6,1795,mm
+769,5,4285,mm
+769,7,1610,mm
+769,8,2680,mm
+769,9,1550,mm
+769,10,1560,mm
+769,38,155,mm
+769,12,Gasoline,\N
+769,13,1998,cm3
+769,14,156,bhp
+769,15,to 6 500,RPM
+769,16,188,Nm
+769,17,Multi-point fuel injection,\N
+769,19,Inline,\N
+769,20,4,\N
+769,39,4,\N
+769,22,95 RON,\N
+769,41,MacPherson Struts,\N
+769,42,Double wishbone,\N
+769,24,Automatic,\N
+769,27,Front wheel drive,\N
+769,29,ventilated disc,\N
+769,30,Disc,\N
+769,34,1430,kg
+769,35,58,litre
+769,1564,to 4 000,RPM
+769,26,5,\N
+769,57,10.4,m
+769,7,1635,mm
+769,9,1545,mm
+769,10,1550,mm
+769,27,All wheel drive (AWD),\N
+769,34,1480,kg
+769,35,50,litre
+769,26,4,\N
+771,47,87,mm
+771,48,99,mm
+771,2,Minivan,\N
+771,4,8,\N
+771,6,1830,mm
+771,5,4845,mm
+771,7,1790,mm
+771,8,2900,mm
+771,9,1590,mm
+771,10,1590,mm
+771,38,150,mm
+771,12,Gasoline,\N
+771,13,2354,cm3
+771,14,160,bhp
+771,15,to 5 500,RPM
+771,16,218,Nm
+771,17,Multi-point fuel injection,\N
+771,19,Inline,\N
+771,20,4,\N
+771,39,4,\N
+771,22,95 RON,\N
+771,41,Double wishbone,\N
+771,42,Double wishbone,\N
+771,24,Automatic,\N
+771,27,Front wheel drive,\N
+771,29,ventilated disc,\N
+771,30,Disc,\N
+771,34,1830,kg
+771,35,70,litre
+771,1564,to 4 500,RPM
+771,26,5,\N
+771,57,11.4,m
+771,7,1810,mm
+771,9,1585,mm
+771,10,1585,mm
+771,38,165,mm
+771,27,All wheel drive (AWD),\N
+771,34,1900,kg
+773,47,73,mm
+773,48,89.4,mm
+773,2,Sedan,\N
+773,4,5,\N
+773,6,1690,mm
+773,5,4390,mm
+773,7,1485,mm
+773,8,2540,mm
+773,9,1445,mm
+773,10,1455,mm
+773,38,150,mm
+773,12,Gasoline,\N
+773,13,1496,cm3
+773,14,110,bhp
+773,15,to 5 800,RPM
+773,16,143,Nm
+773,17,Multi-point fuel injection,\N
+773,19,Inline,\N
+773,20,4,\N
+773,39,4,\N
+773,22,95 RON,\N
+773,41,Independent\, MacPherson Struts,\N
+773,42,Torsion beam\, spring,\N
+773,24,Continuously variable transmission (CVT),\N
+773,27,Front wheel drive,\N
+773,29,ventilated disc,\N
+773,30,drum,\N
+773,57,9.4,m
+773,34,1060,kg
+773,35,42,litre
+773,1564,to 4 800,RPM
+773,7,1510,mm
+773,42,De-Dion,\N
+773,27,All wheel drive (AWD),\N
+773,57,9.8,m
+773,34,1130,kg
+775,47,75,mm
+775,48,94.4,mm
+775,26,5,\N
+775,2,Minivan,\N
+775,4,6,\N
+775,6,1810,mm
+775,5,4285,mm
+775,7,1610,mm
+775,8,2685,mm
+775,9,1555,mm
+775,45,439,litre
+775,10,1575,mm
+775,38,155,mm
+775,44,1600,litre
+775,12,Gasoline,\N
+775,13,1668,cm3
+775,14,125,bhp
+775,15,to 6 300,RPM
+775,16,154,Nm
+775,17,Multi-point fuel injection,\N
+775,19,Inline,\N
+775,20,4,\N
+775,39,4,\N
+775,22,95 RON,\N
+775,41,Independent\, MacPherson Struts\, Stabilizer bar,\N
+775,42,Independent\, Double wishbone\, Dampers\, Stabilizer bar,\N
+775,24,Manual,\N
+775,27,Front wheel drive,\N
+775,29,ventilated disc,\N
+775,30,Disc,\N
+775,32,182,km/h
+775,33,12.3,second
+775,50,9.3,litre
+775,51,6.5,litre
+775,52,7.5,litre
+775,34,1366,kg
+775,58,1890,kg
+775,35,58,litre
+775,62,from 620 to 890,km
+775,37,EURO IV,\N
+775,1564,to 4 800,RPM
+775,57,11.2,m
+775,1565,524,kg
+775,1567,3390,kg
+775,47,86,mm
+775,48,86,mm
+775,26,6,\N
+775,13,1998,cm3
+775,14,150,bhp
+775,15,to 6 500,RPM
+775,16,192,Nm
+775,32,195,km/h
+775,33,10.5,second
+775,50,11,litre
+775,51,6.9,litre
+775,52,8.4,litre
+775,34,1418,kg
+775,58,1970,kg
+775,62,from 530 to 840,km
+775,1564,to 4 000,RPM
+775,1565,552,kg
+775,1567,3470,kg
+775,47,85,mm
+775,48,97.1,mm
+775,12,Disel,\N
+775,13,2204,cm3
+775,14,140,bhp
+775,15,to 4 000,RPM
+775,16,340,Nm
+775,17,Common Rail,\N
+775,46,Turbo,\N
+775,22,Disel,\N
+775,32,192,km/h
+775,33,10.2,second
+775,50,8,litre
+775,51,5.3,litre
+775,52,6.3,litre
+775,34,1598,kg
+775,58,2130,kg
+775,62,from 730 to 1 090,km
+775,1564,to 2 000,RPM
+775,1566,Present,\N
+775,57,11.6,m
+775,1565,532,kg
+775,1567,3630,kg
+787,47,73,mm
+787,48,89.4,mm
+787,2,Minivan,\N
+787,4,7,\N
+787,6,1685,mm
+787,5,4070,mm
+787,7,1740,mm
+787,8,2740,mm
+787,9,1460,mm
+787,10,1440,mm
+787,38,155,mm
+787,12,Gasoline,\N
+787,13,1496,cm3
+787,14,110,bhp
+787,15,to 5 800,RPM
+787,16,143,Nm
+787,17,Multi-point fuel injection,\N
+787,19,Inline,\N
+787,20,4,\N
+787,39,4,\N
+787,22,92 RON,\N
+787,41,MacPherson Struts,\N
+787,42,Dependent\, Axle,\N
+787,24,Continuously variable transmission (CVT),\N
+787,27,Front wheel drive,\N
+787,29,ventilated disc,\N
+787,30,Disc,\N
+787,34,1300,kg
+787,35,42,litre
+787,1564,to 4 800,RPM
+787,14,90,bhp
+787,15,to 5 500,RPM
+787,16,131,Nm
+787,39,2,\N
+787,34,1270,kg
+787,1564,to 2 700,RPM
+787,7,1760,mm
+787,42,De-Dion,\N
+787,27,All wheel drive (AWD),\N
+787,34,1340,kg
+787,48,89.7,mm
+791,47,81,mm
+791,48,89,mm
+791,2,Wagon,\N
+791,4,5,\N
+791,6,1695,mm
+791,5,4570,mm
+791,7,1485,mm
+791,8,2620,mm
+791,9,1475,mm
+791,10,1475,mm
+791,38,160,mm
+791,12,Gasoline,\N
+791,13,1834,cm3
+791,14,140,bhp
+791,15,to 6 300,RPM
+791,16,170,Nm
+791,17,Multi-point fuel injection,\N
+791,19,Inline,\N
+791,20,4,\N
+791,39,4,\N
+791,22,95 RON,\N
+791,41,Double wishbone,\N
+791,42,Double wishbone,\N
+791,24,Automatic,\N
+791,27,Front wheel drive,\N
+791,29,ventilated disc,\N
+791,30,drum,\N
+791,34,1200,kg
+791,35,52,litre
+791,1564,to 5 200,RPM
+791,26,4,\N
+791,57,10.8,m
+791,26,5,\N
+791,24,Manual,\N
+791,34,1180,kg
+797,47,82,mm
+797,48,75.6,mm
+797,26,5,\N
+797,2,Sedan,\N
+797,4,5,\N
+797,6,1695,mm
+797,5,4555,mm
+797,7,1425,mm
+797,8,2770,mm
+797,9,1465,mm
+797,10,1465,mm
+797,38,155,mm
+797,12,Gasoline,\N
+797,13,1998,cm3
+797,14,160,bhp
+797,15,from 6 700,RPM
+797,16,186,Nm
+797,17,Injector,\N
+797,19,Inline,\N
+797,20,4,\N
+797,39,4,\N
+797,22,92 RON,\N
+797,41,Double wishbone,\N
+797,42,Double wishbone,\N
+797,24,Manual,\N
+797,27,Front wheel drive,\N
+797,29,ventilated disc,\N
+797,30,Disc,\N
+797,57,11,m
+797,52,8.7,litre
+797,34,1300,kg
+797,35,65,litre
+797,1564,to 4 000,RPM
+797,47,85,mm
+797,48,86,mm
+797,13,2451,cm3
+797,14,180,bhp
+797,15,from 6 500,RPM
+797,16,226,Nm
+797,20,5,\N
+797,24,Automatic,\N
+797,52,9.8,litre
+797,34,1340,kg
+797,1564,to 3 800,RPM
+797,26,4,\N
+798,47,89,mm
+798,48,93,mm
+798,2,Pickup,\N
+798,4,5,\N
+798,6,1976,mm
+798,5,5252,mm
+798,7,1785,mm
+798,8,3098,mm
+798,9,1704,mm
+798,10,1699,mm
+798,38,208,mm
+798,12,Gasoline,\N
+798,13,3471,cm3
+798,14,250,bhp
+798,15,to 5 700,RPM
+798,16,332,Nm
+798,17,Multi-point fuel injection,\N
+798,19,V-type,\N
+798,20,6,\N
+798,39,4,\N
+798,22,95 RON,\N
+798,41,Independent\, MacPherson Struts,\N
+798,42,Multi wishbone,\N
+798,24,Automatic,\N
+798,27,Four wheel drive (4WD),\N
+798,29,ventilated disc,\N
+798,30,Disc,\N
+798,50,14.1,litre
+798,51,9.8,litre
+798,34,2047,kg
+798,58,2745,kg
+798,35,83,litre
+798,62,from 590 to 850,km
+798,1564,to 4 300,RPM
+798,26,5,\N
+798,57,13,m
+798,1565,698,kg
+798,1567,5013,kg
+799,47,84,mm
+799,48,89,mm
+799,2,Minivan,\N
+799,4,4,\N
+799,6,1695,mm
+799,5,3950,mm
+799,7,1750,mm
+799,8,2500,mm
+799,9,1485,mm
+799,10,1485,mm
+799,38,140,mm
+799,12,Gasoline,\N
+799,13,1973,cm3
+799,14,131,bhp
+799,15,to 5 500,RPM
+799,16,186,Nm
+799,17,Multi-point fuel injection,\N
+799,19,Inline,\N
+799,20,4,\N
+799,39,4,\N
+799,22,80 RON,\N
+799,41,Strut,\N
+799,42,Double wishbone,\N
+799,24,Automatic,\N
+799,27,All wheel drive (AWD),\N
+799,29,Disc,\N
+799,30,drum,\N
+799,33,7.6,second
+799,50,9.2,litre
+799,51,5.6,litre
+799,34,1400,kg
+799,35,65,litre
+799,62,from 710 to 1 160,km
+799,1564,to 4 200,RPM
+799,26,4,\N
+799,14,130,bhp
+799,27,Front wheel drive,\N
+799,50,8.9,litre
+799,51,5.4,litre
+799,34,1330,kg
+799,62,from 730 to 1 200,km
+799,33,7.2,second
+799,5,3935,mm
+799,7,1735,mm
+799,9,1490,mm
+799,45,340,litre
+799,10,1490,mm
+799,44,920,litre
+799,14,140,bhp
+799,32,160,km/h
+799,50,8,litre
+799,51,5.2,litre
+799,34,1370,kg
+799,58,1645,kg
+799,62,from 810 to 1 250,km
+799,7,1760,mm
+799,34,1420,kg
+799,58,1695,kg
+799,50,10,litre
+799,51,6,litre
+799,62,from 650 to 1 080,km
+800,47,87,mm
+800,48,84.4,mm
+800,26,6,\N
+800,52,10,litre
+800,37,EURO V,\N
+800,2,Roadster,\N
+800,4,2,\N
+800,6,1750,mm
+800,5,4135,mm
+800,7,1270,mm
+800,8,2400,mm
+800,9,1470,mm
+800,45,141,litre
+800,10,1510,mm
+800,38,130,mm
+800,12,Gasoline,\N
+800,13,1997,cm3
+800,14,237,bhp
+800,15,to 8 300,RPM
+800,16,208,Nm
+800,17,Multi-point fuel injection,\N
+800,19,Inline,\N
+800,20,4,\N
+800,39,4,\N
+800,22,98 RON,\N
+800,41,Independent\, Double wishbone\, spring\, Stabilizer bar,\N
+800,42,Independent\, Double wishbone\, spring\, Stabilizer bar,\N
+800,24,Manual,\N
+800,27,Rear wheel drive,\N
+800,29,ventilated disc,\N
+800,30,Disc,\N
+800,32,241,km/h
+800,33,6.2,second
+800,50,13.9,litre
+800,51,7.8,litre
+800,34,1311,kg
+800,35,50,litre
+800,62,from 360 to 640,km
+800,1564,to 7 500,RPM
+800,57,10.8,m
+800,44,141,litre
+800,50,13.7,litre
+800,51,8,litre
+800,34,1250,kg
+800,62,from 360 to 630,km
+800,48,90.7,mm
+800,13,2157,cm3
+800,14,239,bhp
+800,15,to 7 800,RPM
+800,16,221,N*m
+800,34,1270,kg
+800,1564,from 6 500 to 7 500,RPM
+800,16,221,Nm
+800,32,251,km/h
+800,34,1299,kg
+802,47,85,mm
+802,48,95,mm
+802,2,Minivan,\N
+802,4,5,\N
+802,6,1790,mm
+802,5,4760,mm
+802,7,1640,mm
+802,8,2830,mm
+802,9,1525,mm
+802,45,280,litre
+802,10,1545,mm
+802,38,170,mm
+802,44,1237,litre
+802,12,Gasoline,\N
+802,13,2156,cm3
+802,14,150,bhp
+802,15,to 5 600,RPM
+802,16,198,Nm
+802,17,Multi-point fuel injection,\N
+802,19,Inline,\N
+802,20,4,\N
+802,39,4,\N
+802,22,95 RON,\N
+802,41,Double wishbone\, Stabilizer bar,\N
+802,42,Double wishbone\, Stabilizer bar,\N
+802,24,Automatic,\N
+802,27,Front wheel drive,\N
+802,29,ventilated disc,\N
+802,30,Disc,\N
+802,32,183,km/h
+802,33,12.1,second
+802,52,10,litre
+802,35,65,litre
+802,1564,to 4 600,RPM
+802,26,4,\N
+802,57,11.4,m
+802,34,1465,kg
+802,58,2170,kg
+802,1565,705,kg
+802,1567,3370,kg
+802,47,86,mm
+802,48,97,mm
+802,52,10.8,litre
+802,13,2254,cm3
+802,15,to 5 700,RPM
+802,16,200,Nm
+802,32,185,km/h
+802,33,12,second
+802,50,14.2,litre
+802,51,8.8,litre
+802,62,from 460 to 740,km
+802,1564,to 4 700,RPM
+802,57,12.2,m
+805,47,66,mm
+805,48,64,mm
+805,57,9,m
+805,2,Minivan,\N
+805,4,4,\N
+805,6,1475,mm
+805,5,3395,mm
+805,7,1620,mm
+805,8,2360,mm
+805,9,1305,mm
+805,10,1295,mm
+805,38,155,mm
+805,12,Gasoline,\N
+805,13,656,cm3
+805,14,52,bhp
+805,15,from 7 200,RPM
+805,16,61,Nm
+805,17,Multi-point fuel injection,\N
+805,19,Inline,\N
+805,20,3,\N
+805,39,4,\N
+805,22,95 RON,\N
+805,41,Strut,\N
+805,42,De-Dion,\N
+805,24,Automatic,\N
+805,27,Front wheel drive,\N
+805,29,Disc,\N
+805,30,drum,\N
+805,34,820,kg
+805,58,1040,kg
+805,35,31,litre
+805,1564,to 4 500,RPM
+805,26,3,\N
+805,14,64,bhp
+805,15,from 6 000,RPM
+805,16,93,Nm
+805,46,Turbo,\N
+805,22,92 RON,\N
+805,34,920,kg
+805,58,1140,kg
+805,1564,to 4 000,RPM
+806,47,66,mm
+806,48,64,mm
+806,57,9,m
+806,2,Hatchback,\N
+806,4,4,\N
+806,6,1395,mm
+806,5,3295,mm
+806,7,1350,mm
+806,8,2330,mm
+806,9,1225,mm
+806,10,1225,mm
+806,38,155,mm
+806,12,Gasoline,\N
+806,13,656,cm3
+806,14,48,bhp
+806,15,from 6 300,RPM
+806,16,57,Nm
+806,17,Multi-point fuel injection,\N
+806,19,Inline,\N
+806,20,4,\N
+806,39,3,\N
+806,22,95 RON,\N
+806,41,Helical springs,\N
+806,42,Helical springs,\N
+806,24,Automatic,\N
+806,27,Front wheel drive,\N
+806,29,Disc,\N
+806,30,drum,\N
+806,35,30,litre
+806,32,140,km/h
+806,1564,to 5 500,RPM
+806,26,3,\N
+806,34,680,kg
+806,14,58,bhp
+806,15,from 7 300,RPM
+806,16,60,Nm
+806,32,150,km/h
+806,1564,to 6 200,RPM
+806,26,5,\N
+806,24,Manual,\N
+807,47,85,mm
+807,48,81.5,mm
+807,2,Sedan,\N
+807,4,5,\N
+807,6,1695,mm
+807,5,4635,mm
+807,7,1420,mm
+807,8,2665,mm
+807,9,1480,mm
+807,10,1480,mm
+807,38,155,mm
+807,12,Gasoline,\N
+807,13,1849,cm3
+807,14,140,bhp
+807,15,to 6 100,RPM
+807,16,169,Nm
+807,17,Multi-point fuel injection,\N
+807,19,Inline,\N
+807,20,4,\N
+807,39,4,\N
+807,22,95 RON,\N
+807,41,Double wishbone,\N
+807,42,Double wishbone,\N
+807,24,Automatic,\N
+807,27,Front wheel drive,\N
+807,29,ventilated disc,\N
+807,30,Disc,\N
+807,34,1260,kg
+807,35,60,litre
+807,1564,to 5 000,RPM
+807,26,4,\N
+807,57,10.8,m
+807,48,88,mm
+807,13,1997,cm3
+807,14,150,bhp
+807,15,to 6 000,RPM
+807,16,186,Nm
+807,34,1300,kg
+807,14,180,bhp
+807,15,to 7 000,RPM
+807,16,192,Nm
+807,34,1320,kg
+807,1564,to 5 500,RPM
+807,26,5,\N
+807,24,Manual,\N
+807,34,1270,kg
+807,14,200,bhp
+807,15,to 7 200,RPM
+807,16,196,Nm
+807,1564,to 6 600,RPM
+869,38,126,mm
+869,44,500,litre
+869,2,Sedan,\N
+869,4,5,\N
+869,6,1820,mm
+869,5,4800,mm
+869,7,1455,mm
+869,8,2850,mm
+869,9,1545,mm
+869,45,500,litre
+869,10,1565,mm
+869,12,Gasoline,\N
+869,13,1991,cm3
+869,14,211,bhp
+869,15,to 5 500,RPM
+869,16,350,Nm
+869,17,direct injection,\N
+869,46,Turbo,\N
+869,19,Inline,\N
+869,20,4,\N
+869,39,4,\N
+869,22,95 RON,\N
+869,41,Independent\, Double wishbone,\N
+869,42,Independent\, Multi wishbone,\N
+869,24,Automatic,\N
+869,27,Rear wheel drive,\N
+869,29,ventilated disc,\N
+869,30,ventilated disc,\N
+869,32,245,km/h
+869,33,7.3,second
+869,50,9.3,litre
+869,51,5.7,litre
+869,52,7,litre
+869,34,1642,kg
+869,35,80,litre
+869,62,from 860 to 1 400,km
+869,37,EURO V,\N
+869,1564,from 1 250 to 3 500,RPM
+869,1566,Present,\N
+869,26,7,\N
+869,57,12,m
+869,44,400,litre
+869,9,1535,mm
+869,45,400,litre
+869,10,1560,mm
+869,12,Hybrid,\N
+869,13,3498,cm3
+869,14,298,bhp
+869,15,to 6 500,RPM
+869,16,338,Nm
+869,19,V-type,\N
+869,20,6,\N
+869,41,Independent\, Double wishbone\, spring,\N
+869,42,Independent\, Multi wishbone\, spring,\N
+869,27,Four wheel drive (4WD),\N
+869,32,250,km/h
+869,33,5.5,second
+869,50,9.6,litre
+869,51,5.3,litre
+869,52,6.8,litre
+869,34,1861,kg
+869,35,70,litre
+869,62,from 730 to 1 320,km
+869,1564,to 5 000,RPM
+869,57,12.2,m
+869,5,4790,mm
+869,9,1544,mm
+869,10,1570,mm
+869,14,302,bhp
+869,15,to 6 800,RPM
+869,33,5.1,second
+869,50,8.2,litre
+869,51,5.1,litre
+869,52,6.2,litre
+869,35,67,litre
+869,62,from 820 to 1 310,km
+869,37,EURO VI,\N
+869,1564,to 4 800,RPM
+869,57,11.2,m
+873,47,95.5,mm
+873,48,81.4,mm
+873,2,Crossover,\N
+873,4,7,\N
+873,6,1960,mm
+873,5,4990,mm
+873,7,1742,mm
+873,8,2900,mm
+873,9,1670,mm
+873,45,446,litre
+873,44,787,litre
+873,10,1670,mm
+873,38,165,mm
+873,12,Gasoline,\N
+873,13,3498,cm3
+873,14,265,bhp
+873,15,to 6 400,RPM
+873,16,336,Nm
+873,17,Multi-point fuel injection,\N
+873,19,V-type,\N
+873,20,6,\N
+873,39,4,\N
+873,22,95 RON,\N
+873,41,Independent\, spring,\N
+873,42,Independent\, Multi wishbone\, spring,\N
+873,24,Continuously variable transmission (CVT),\N
+873,27,Front wheel drive,\N
+873,29,ventilated disc,\N
+873,30,ventilated disc,\N
+873,32,190,km/h
+873,33,8,second
+873,50,11.2,litre
+873,51,8.7,litre
+873,52,10.2,litre
+873,34,1941,kg
+873,35,74,litre
+873,62,from 660 to 850,km
+873,1564,to 4 400,RPM
+873,5,5093,mm
+873,45,447,litre
+873,44,2166,litre
+873,38,187,mm
+873,14,262,bhp
+873,16,334,Nm
+873,17,direct injection,\N
+873,27,All wheel drive (AWD),\N
+873,33,8.4,second
+873,50,14.4,litre
+873,51,8.5,litre
+873,52,10.7,litre
+873,34,2082,kg
+873,58,2680,kg
+873,35,73,litre
+873,62,from 510 to 860,km
+873,57,11.8,m
+873,1565,598,kg
+874,44,376,litre
+874,2,Crossover,\N
+874,4,5,\N
+874,6,1925,mm
+874,5,4865,mm
+874,7,1650,mm
+874,8,2885,mm
+874,9,1635,mm
+874,45,376,litre
+874,10,1640,mm
+874,38,184,mm
+874,12,Disel,\N
+874,13,2993,cm3
+874,14,238,bhp
+874,15,to 3 750,RPM
+874,16,550,Nm
+874,17,Common Rail,\N
+874,46,Turbo,\N
+874,19,V-type,\N
+874,20,6,\N
+874,39,4,\N
+874,22,Disel,\N
+874,41,Independent\, Double wishbone\, Dampers\, Stabilizer bar,\N
+874,42,Independent\, Multi wishbone\, spring\, Stabilizer bar,\N
+874,24,Automatic,\N
+874,27,Four wheel drive (4WD),\N
+874,29,ventilated disc,\N
+874,30,ventilated disc,\N
+874,32,212,km/h
+874,33,8.3,second
+874,50,11.2,litre
+874,51,7.8,litre
+874,52,9,litre
+874,34,2080,kg
+874,35,90,litre
+874,62,from 800 to 1 150,km
+874,1564,from 1 750 to 2 500,RPM
+874,1566,Present,\N
+874,26,7,\N
+874,12,Gasoline,\N
+874,13,3696,cm3
+874,14,333,bhp
+874,15,to 7 000,RPM
+874,16,363,Nm
+874,17,Multi-point fuel injection,\N
+874,22,95 RON,\N
+874,57,11.2,m
+874,32,233,km/h
+874,33,6.8,second
+874,50,17.1,litre
+874,51,9.4,litre
+874,52,12.2,litre
+874,34,2010,kg
+874,62,from 530 to 960,km
+874,1564,to 5 200,RPM
+874,13,5026,cm3
+874,14,400,bhp
+874,15,to 6 500,RPM
+874,16,500,Nm
+874,20,8,\N
+874,32,250,km/h
+874,33,5.8,second
+874,50,18.8,litre
+874,51,9.8,litre
+874,52,13.1,litre
+874,34,2107,kg
+874,62,from 480 to 920,km
+874,1564,to 4 400,RPM
+753,47,87,mm
+753,48,99.1,mm
+753,2,Sedan,\N
+753,4,5,\N
+753,6,1850,mm
+753,5,4890,mm
+753,7,1465,mm
+753,8,2775,mm
+753,9,1585,mm
+753,45,495,litre
+753,38,146,mm
+753,10,1582,mm
+753,12,Gasoline,\N
+753,13,2356,cm3
+753,14,180,bhp
+753,15,to 6 200,RPM
+753,16,228,Nm
+753,17,Multi-point fuel injection,\N
+753,19,Inline,\N
+753,20,4,\N
+753,39,4,\N
+753,22,92 RON,\N
+753,41,Independent\, MacPherson Struts\, Stabilizer bar,\N
+753,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+753,24,Automatic,\N
+753,27,Front wheel drive,\N
+753,29,ventilated disc,\N
+753,30,Disc,\N
+753,57,11.4,m
+753,32,214,km/h
+753,33,10.1,second
+753,50,11.7,litre
+753,51,6.2,litre
+753,52,8.2,litre
+753,34,1495,kg
+753,58,1920,kg
+753,35,65,litre
+753,62,from 560 to 1 050,km
+753,1564,to 4 000,RPM
+753,26,5,\N
+753,1565,416,kg
+753,44,495,litre
+753,48,99,mm
+753,9,1595,mm
+753,38,145,mm
+753,10,1595,mm
+753,14,185,bhp
+753,15,to 6 400,RPM
+753,16,247,Nm
+753,24,Continuously variable transmission (CVT),\N
+753,50,8.7,litre
+753,51,6.5,litre
+753,52,7.8,litre
+753,62,from 750 to 1 000,km
+753,1564,to 3 900,RPM
+753,26,6,\N
+753,24,Manual,\N
+753,32,226,km/h
+753,33,9.3,second
+753,50,10.8,litre
+753,52,7.9,litre
+753,62,from 600 to 1 050,km
+753,50,9.8,litre
+753,51,6.9,litre
+753,52,8.4,litre
+753,62,from 660 to 940,km
+753,47,89,mm
+753,48,93,mm
+753,10,1605,mm
+753,13,3471,cm3
+753,14,281,bhp
+753,16,342,Nm
+753,19,V-type,\N
+753,20,6,\N
+753,57,11.8,m
+753,32,230,km/h
+753,33,7.2,second
+753,50,13.6,litre
+753,51,6.4,litre
+753,52,9.1,litre
+753,62,from 480 to 1 020,km
+753,1564,to 4 900,RPM
+753,2,Coupe,\N
+753,6,1849,mm
+753,5,4806,mm
+753,7,1435,mm
+753,8,2725,mm
+753,16,181,Nm
+753,22,95 RON,\N
+753,41,Independent\, spring,\N
+753,42,Independent\, spring,\N
+753,50,9,litre
+753,51,6.7,litre
+753,52,8.1,litre
+753,62,from 720 to 970,km
+753,16,340,Nm
+753,50,11.2,litre
+753,51,7.4,litre
+753,52,9.4,litre
+753,62,from 580 to 880,km
+753,1564,to 5 200,RPM
+753,50,13.1,litre
+753,51,8.4,litre
+753,52,10.7,litre
+753,62,from 500 to 770,km
+759,47,73,mm
+759,48,80,mm
+759,26,5,\N
+759,37,EURO IV,\N
+759,2,Sedan,\N
+759,4,5,\N
+759,6,1695,mm
+759,5,4420,mm
+759,7,1470,mm
+759,8,2540,mm
+759,9,1492,mm
+759,38,135,mm
+759,10,1475,mm
+759,12,Gasoline,\N
+759,13,1339,cm3
+759,14,100,bhp
+759,15,to 6 000,RPM
+759,16,127,Nm
+759,17,Multi-point fuel injection,\N
+759,19,Inline,\N
+759,20,4,\N
+759,39,4,\N
+759,22,92 RON,\N
+759,41,Independent\, MacPherson Struts,\N
+759,42,Torsion beam\, spring,\N
+759,24,Manual,\N
+759,27,Front wheel drive,\N
+759,29,ventilated disc,\N
+759,30,drum,\N
+759,57,10.6,m
+759,32,182,km/h
+759,34,1101,kg
+759,35,42,litre
+759,50,7.3,litre
+759,51,5.2,litre
+759,52,6,litre
+759,62,from 580 to 810,km
+759,33,11.6,second
+759,1564,to 4 800,RPM
+759,58,1540,kg
+759,1565,439,kg
+759,45,506,litre
+759,44,506,litre
+759,1567,2340,kg
+759,5,4395,mm
+759,8,2550,mm
+759,9,1490,mm
+759,38,150,mm
+759,13,1497,cm3
+759,14,120,bhp
+759,15,to 6 600,RPM
+759,16,145,Nm
+759,22,95 RON,\N
+759,34,1085,kg
+759,48,89.4,mm
+762,45,420,litre
+762,47,75,mm
+762,48,84.5,mm
+762,26,5,\N
+762,32,170,km/h
+762,50,8.7,litre
+762,51,6.8,litre
+762,2,Sedan,\N
+762,4,5,\N
+762,6,1690,mm
+762,5,4415,mm
+762,7,1395,mm
+762,8,2550,mm
+762,9,1450,mm
+762,38,150,mm
+762,10,1455,mm
+762,12,Gasoline,\N
+762,13,1493,cm3
+762,14,90,bhp
+762,15,from 6 000,RPM
+762,16,119,Nm
+762,17,Monoinjection,\N
+762,19,Inline,\N
+762,20,4,\N
+762,39,4,\N
+762,22,80 RON,\N
+762,41,Helical springs,\N
+762,42,Helical springs,\N
+762,24,Manual,\N
+762,27,Front wheel drive,\N
+762,29,ventilated disc,\N
+762,30,drum,\N
+762,52,8.3,litre
+762,34,950,kg
+762,35,55,litre
+762,62,from 630 to 810,km
+762,1564,to 4 500,RPM
+762,44,420,litre
+762,48,90,mm
+762,13,1590,cm3
+762,14,112,bhp
+762,15,from 6 300,RPM
+762,16,137,Nm
+762,17,Multi-point fuel injection,\N
+762,32,185,km/h
+762,33,10.6,second
+762,50,9.8,litre
+762,51,7.1,litre
+762,52,9.1,litre
+762,34,1080,kg
+762,58,1580,kg
+762,62,from 560 to 770,km
+762,1564,to 5 200,RPM
+762,14,122,bhp
+762,15,from 6 800,RPM
+762,16,140,Nm
+762,32,190,km/h
+762,33,10,second
+762,1564,to 5 700,RPM
+762,2,Hatchback,\N
+762,5,4265,mm
+762,9,1475,mm
+762,45,370,litre
+762,38,160,mm
+762,44,820,litre
+762,10,1470,mm
+762,22,95 RON,\N
+762,32,180,km/h
+763,47,81,mm
+763,48,96.9,mm
+763,2,Crossover,\N
+763,4,5,\N
+763,6,1820,mm
+763,5,4570,mm
+763,7,1685,mm
+763,8,2620,mm
+763,9,1565,mm
+763,45,589,litre
+763,38,170,mm
+763,44,1669,litre
+763,10,1565,mm
+763,12,Gasoline,\N
+763,13,1997,cm3
+763,14,155,bhp
+763,15,to 6 500,RPM
+763,16,192,Nm
+763,17,Multi-point fuel injection,\N
+763,19,Inline,\N
+763,20,4,\N
+763,39,4,\N
+763,22,92 RON,\N
+763,41,Independent\, MacPherson Struts,\N
+763,42,Double wishbone,\N
+763,24,Automatic,\N
+763,27,Four wheel drive (4WD),\N
+763,29,ventilated disc,\N
+763,30,Disc,\N
+763,57,11,m
+763,32,182,km/h
+763,35,58,litre
+763,50,10,litre
+763,51,6,litre
+763,52,7.5,litre
+763,62,from 580 to 970,km
+763,37,EURO V,\N
+763,33,12.3,second
+763,1564,to 4 300,RPM
+763,26,5,\N
+763,34,1513,kg
+763,58,2100,kg
+763,1565,587,kg
+763,1567,3600,kg
+763,14,150,bhp
+763,16,190,Nm
+763,41,Independent\, MacPherson Struts\, Stabilizer bar,\N
+763,42,Independent\, Double wishbone\, Stabilizer bar,\N
+763,30,ventilated disc,\N
+763,33,12.8,second
+763,50,10.2,litre
+763,51,6.3,litre
+763,52,7.7,litre
+763,34,1561,kg
+763,62,from 570 to 920,km
+763,37,EURO IV,\N
+763,1565,539,kg
+763,26,6,\N
+763,42,Independent\, Multi wishbone,\N
+763,24,Manual,\N
+763,32,190,km/h
+763,33,10.4,second
+763,50,10.5,litre
+763,52,7.9,litre
+763,34,1555,kg
+763,62,from 550 to 920,km
+763,1565,565,kg
+763,48,96.6,mm
+763,33,10,second
+763,50,9.3,litre
+763,52,7.4,litre
+763,34,1488,kg
+763,58,2075,kg
+763,62,from 620 to 920,km
+763,1567,3775,kg
+763,15,to 6 200,RPM
+763,16,191,Nm
+763,22,95 RON,\N
+763,24,Continuously variable transmission (CVT),\N
+763,27,Front wheel drive,\N
+763,34,1460,kg
+763,47,85,mm
+763,12,Disel,\N
+763,13,2199,cm3
+763,15,to 4 000,RPM
+763,16,350,Nm
+763,17,Common Rail,\N
+763,46,Turbo,\N
+763,22,Disel,\N
+763,33,9.7,second
+763,50,6.5,litre
+763,51,5.1,litre
+763,52,5.6,litre
+763,34,1623,kg
+763,62,from 890 to 1 140,km
+763,1564,to 2 000,RPM
+763,1566,Present,\N
+763,58,2200,kg
+763,1567,4200,kg
+763,38,165,mm
+763,50,8.9,litre
+763,51,6.2,litre
+763,52,7.2,litre
+763,62,from 650 to 940,km
+763,34,1427,kg
+763,58,1955,kg
+763,1565,528,kg
+763,1567,3655,kg
+763,1565,577,kg
+763,47,87,mm
+763,48,99,mm
+763,13,2354,cm3
+763,14,187,bhp
+763,15,to 7 000,RPM
+763,16,220,Nm
+763,57,11.2,m
+763,50,9.2,litre
+763,51,6.6,litre
+763,52,8.1,litre
+763,62,from 630 to 880,km
+763,1564,to 4 400,RPM
+763,34,1554,kg
+763,44,1146,litre
+763,14,190,bhp
+763,42,Independent\, Multi wishbone\, spring,\N
+763,32,184,km/h
+763,33,10.7,second
+763,50,11.9,litre
+763,51,6.5,litre
+763,52,8.4,litre
+763,34,1569,kg
+763,58,2070,kg
+763,62,from 490 to 890,km
+763,1565,462,kg
+764,47,81,mm
+764,48,77.4,mm
+764,26,5,\N
+764,52,9.2,litre
+764,2,Targa,\N
+764,4,2,\N
+764,6,1695,mm
+764,5,3995,mm
+764,7,1255,mm
+764,8,2370,mm
+764,9,1475,mm
+764,38,140,mm
+764,10,1465,mm
+764,12,Gasoline,\N
+764,13,1595,cm3
+764,14,170,bhp
+764,15,to 7 800,RPM
+764,16,157,N*m
+764,17,Multi-point fuel injection,\N
+764,19,Inline,\N
+764,20,4,\N
+764,39,4,\N
+764,22,95 RON,\N
+764,41,Double wishbone,\N
+764,42,Double wishbone,\N
+764,24,Manual,\N
+764,27,Front wheel drive,\N
+764,29,ventilated disc,\N
+764,30,Disc,\N
+764,57,10.2,m
+764,32,222,km/h
+764,33,7.5,second
+764,50,11.1,litre
+764,51,6.3,litre
+764,34,1090,kg
+764,35,45,litre
+764,62,from 410 to 710,km
+764,1564,to 7 300,RPM
+767,2,Crossover,\N
+767,4,5,\N
+767,6,1900,mm
+767,5,5020,mm
+767,7,1560,mm
+767,8,2800,mm
+767,9,1665,mm
+767,45,457,litre
+767,10,1665,mm
+767,38,205,mm
+767,44,728,litre
+767,12,Gasoline,\N
+767,13,2354,cm3
+767,14,194,bhp
+767,15,to 7 000,RPM
+767,16,220,Nm
+767,17,Multi-point fuel injection,\N
+767,19,Inline,\N
+767,20,4,\N
+767,47,87,mm
+767,48,99,mm
+767,39,4,\N
+767,22,92 RON,\N
+767,41,Independent\, Double wishbone\, Stabilizer bar,\N
+767,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+767,24,Automatic,\N
+767,27,Front wheel drive,\N
+767,29,ventilated disc,\N
+767,30,Disc,\N
+767,57,12.2,m
+767,32,190,km/h
+767,33,11.1,second
+767,50,12,litre
+767,51,6.4,litre
+767,52,8.4,litre
+767,34,1698,kg
+767,35,70,litre
+767,62,from 580 to 1 090,km
+767,37,EURO V,\N
+767,1564,to 4 400,RPM
+767,1566,Present,\N
+767,26,5,\N
+767,58,2170,kg
+767,1565,472,kg
+767,5,4999,mm
+767,8,2797,mm
+767,44,757,litre
+767,13,3471,cm3
+767,14,281,bhp
+767,15,to 6 200,RPM
+767,16,342,Nm
+767,19,V-type,\N
+767,20,6,\N
+767,47,89,mm
+767,48,93,mm
+767,50,14.4,litre
+767,51,7.2,litre
+767,52,9.8,litre
+767,34,1865,kg
+767,62,from 490 to 970,km
+767,32,194,km/h
+767,33,8.1,second
+767,1564,to 4 900,RPM
+767,26,6,\N
+767,58,2320,kg
+767,1565,455,kg
+767,27,Four wheel drive (4WD),\N
+767,30,ventilated disc,\N
+768,47,75,mm
+768,48,85,mm
+768,2,Sedan,\N
+768,4,5,\N
+768,6,1695,mm
+768,5,4480,mm
+768,7,1390,mm
+768,8,2620,mm
+768,9,1475,mm
+768,38,150,mm
+768,10,1475,mm
+768,12,Gasoline,\N
+768,13,1493,cm3
+768,14,105,bhp
+768,15,to 6 400,RPM
+768,16,133,Nm
+768,17,Multi-point fuel injection,\N
+768,19,Inline,\N
+768,20,4,\N
+768,39,4,\N
+768,22,95 RON,\N
+768,41,Double wishbone,\N
+768,42,Double wishbone,\N
+768,24,Automatic,\N
+768,27,Front wheel drive,\N
+768,29,ventilated disc,\N
+768,30,drum,\N
+768,57,10,m
+768,34,1030,kg
+768,35,45,litre
+768,1564,to 4 500,RPM
+768,26,4,\N
+768,26,5,\N
+768,24,Manual,\N
+768,29,Disc,\N
+768,34,1010,kg
+768,48,90,mm
+768,13,1590,cm3
+768,14,120,bhp
+768,16,144,Nm
+768,34,1070,kg
+768,1564,to 5 000,RPM
+768,34,1050,kg
+770,47,87,mm
+770,48,99,mm
+770,2,Crossover,\N
+770,4,5,\N
+770,6,1815,mm
+770,5,4323,mm
+770,7,1788,mm
+770,8,2575,mm
+770,9,1577,mm
+770,10,1582,mm
+770,38,175,mm
+770,12,Gasoline,\N
+770,13,2354,cm3
+770,14,166,bhp
+770,15,to 5 800,RPM
+770,16,218,Nm
+770,17,Multi-point fuel injection,\N
+770,19,Inline,\N
+770,20,4,\N
+770,39,4,\N
+770,22,95 RON,\N
+770,41,MacPherson Struts\, Stabilizer bar,\N
+770,42,Double wishbone,\N
+770,24,Automatic,\N
+770,27,Front wheel drive,\N
+770,29,ventilated disc,\N
+770,30,Disc,\N
+770,35,60,litre
+770,50,10.5,litre
+770,51,8.1,litre
+770,62,from 570 to 740,km
+770,37,EURO IV,\N
+770,1564,to 4 000,RPM
+770,26,4,\N
+770,57,10.5,m
+770,34,1595,kg
+770,45,710,litre
+770,44,2185,litre
+770,6,1816,mm
+770,27,All wheel drive (AWD),\N
+770,50,11,litre
+770,51,8.3,litre
+770,34,1659,kg
+770,62,from 550 to 720,km
+770,26,5,\N
+770,24,Manual,\N
+770,50,11.3,litre
+770,51,8.7,litre
+770,34,1562,kg
+770,62,from 530 to 690,km
+770,51,8.8,litre
+770,62,from 530 to 680,km
+770,34,1623,kg
+774,2,Hatchback,\N
+774,4,5,\N
+774,6,1695,mm
+774,5,3955,mm
+774,7,1525,mm
+774,8,2530,mm
+774,9,1490,mm
+774,38,135,mm
+774,10,1480,mm
+774,12,Gasoline,\N
+774,13,1317,cm3
+774,14,100,bhp
+774,15,to 6 000,RPM
+774,16,119,Nm
+774,17,Multi-point fuel injection,\N
+774,19,Inline,\N
+774,20,4,\N
+774,39,4,\N
+774,22,95 RON,\N
+774,41,Independent\, MacPherson Struts,\N
+774,42,Torsion beam\, spring,\N
+774,24,Continuously variable transmission (CVT),\N
+774,27,Front wheel drive,\N
+774,29,ventilated disc,\N
+774,30,drum,\N
+774,57,9.4,m
+774,34,970,kg
+774,35,32,litre
+774,1564,to 5 000,RPM
+774,47,73,mm
+774,48,78.7,mm
+774,7,1550,mm
+774,9,1480,mm
+774,38,150,mm
+774,10,1470,mm
+774,42,De-Dion,\N
+774,27,All wheel drive (AWD),\N
+774,57,9.8,m
+774,34,1070,kg
+774,35,40,litre
+774,26,5,\N
+774,24,Manual,\N
+774,34,1000,kg
+774,48,89.4,mm
+774,13,1496,cm3
+774,14,132,bhp
+774,16,155,Nm
+774,34,1120,kg
+774,1564,to 4 600,RPM
+774,34,1050,kg
+779,47,89,mm
+779,48,93,mm
+779,57,11.4,m
+779,2,Sedan,\N
+779,4,5,\N
+779,6,1845,mm
+779,5,4940,mm
+779,7,1475,mm
+779,8,2800,mm
+779,9,1580,mm
+779,38,145,mm
+779,10,1580,mm
+779,12,Gasoline,\N
+779,13,3471,cm3
+779,14,280,bhp
+779,15,to 6 200,RPM
+779,16,342,Nm
+779,17,Multi-point fuel injection,\N
+779,19,V-type,\N
+779,20,6,\N
+779,39,4,\N
+779,22,95 RON,\N
+779,41,Double wishbone,\N
+779,42,Double wishbone,\N
+779,24,Automatic,\N
+779,27,Front wheel drive,\N
+779,29,ventilated disc,\N
+779,30,Disc,\N
+779,34,1600,kg
+779,35,70,litre
+779,1564,to 5 000,RPM
+779,26,5,\N
+780,47,86,mm
+780,48,86,mm
+780,26,6,\N
+780,2,Coupe,\N
+780,4,4,\N
+780,6,1725,mm
+780,5,4400,mm
+780,7,1400,mm
+780,8,2570,mm
+780,38,112,mm
+780,12,Gasoline,\N
+780,13,1998,cm3
+780,14,200,bhp
+780,15,to 7 400,RPM
+780,16,192,Nm
+780,17,Multi-point fuel injection,\N
+780,19,Inline,\N
+780,20,4,\N
+780,39,4,\N
+780,22,98 RON,\N
+780,41,Strut,\N
+780,42,Double wishbone,\N
+780,24,Manual,\N
+780,27,Front wheel drive,\N
+780,29,ventilated disc,\N
+780,30,Disc,\N
+780,35,50,litre
+780,50,9.5,litre
+780,51,5,litre
+780,62,from 530 to 1 000,km
+780,1564,to 6 000,RPM
+780,57,11.6,m
+780,34,1160,kg
+782,44,883,litre
+782,26,5,\N
+782,37,EURO IV,\N
+782,2,Hatchback,\N
+782,4,5,\N
+782,6,1695,mm
+782,5,3900,mm
+782,7,1525,mm
+782,8,2500,mm
+782,9,1495,mm
+782,45,366,litre
+782,38,130,mm
+782,10,1475,mm
+782,12,Gasoline,\N
+782,13,1198,cm3
+782,14,90,bhp
+782,15,to 6 000,RPM
+782,16,114,Nm
+782,19,Inline,\N
+782,20,4,\N
+782,22,95 RON,\N
+782,41,Independent\, MacPherson Struts,\N
+782,24,Manual,\N
+782,27,Front wheel drive,\N
+782,29,ventilated disc,\N
+782,30,Disc,\N
+782,57,10.1,m
+782,32,177,km/h
+782,33,12.5,second
+782,50,6.5,litre
+782,51,4.5,litre
+782,52,5.3,litre
+782,34,1047,kg
+782,58,1520,kg
+782,35,42,litre
+782,62,from 650 to 930,km
+782,1564,to 4 900,RPM
+782,17,Multi-point fuel injection,\N
+782,39,4,\N
+782,47,73,mm
+782,48,71.6,mm
+782,1565,473,kg
+782,1567,2520,kg
+782,42,Semi dependent\, Torsion beam,\N
+783,44,452,litre
+783,47,89,mm
+783,48,93,mm
+783,2,Sedan,\N
+783,4,5,\N
+783,6,1847,mm
+783,5,4957,mm
+783,7,1452,mm
+783,8,2800,mm
+783,9,1580,mm
+783,45,452,litre
+783,38,145,mm
+783,10,1591,mm
+783,12,Gasoline,\N
+783,13,3471,cm3
+783,14,295,bhp
+783,15,to 6 200,RPM
+783,16,353,Nm
+783,17,Multi-point fuel injection,\N
+783,19,V-type,\N
+783,20,6,\N
+783,39,4,\N
+783,22,95 RON,\N
+783,41,Double wishbone,\N
+783,42,Double wishbone,\N
+783,24,Automatic,\N
+783,27,All wheel drive (AWD),\N
+783,29,ventilated disc,\N
+783,30,Disc,\N
+783,32,250,km/h
+783,33,7.3,second
+783,50,17.2,litre
+783,51,8.9,litre
+783,52,12,litre
+783,34,1864,kg
+783,58,2310,kg
+783,35,73,litre
+783,62,from 420 to 820,km
+783,1564,to 5 000,RPM
+783,26,5,\N
+783,57,12.4,m
+783,1565,446,kg
+783,1567,3910,kg
+783,57,11.6,m
+783,6,1845,mm
+783,5,4930,mm
+783,7,1455,mm
+783,9,1575,mm
+783,10,1585,mm
+783,14,300,bhp
+783,42,Multi wishbone,\N
+783,34,1760,kg
+784,47,71,mm
+784,48,55.4,mm
+784,57,9,m
+784,2,Hatchback,\N
+784,4,4,\N
+784,6,1475,mm
+784,5,3395,mm
+784,7,1630,mm
+784,8,2420,mm
+784,9,1295,mm
+784,38,150,mm
+784,10,1300,mm
+784,12,Gasoline,\N
+784,13,658,cm3
+784,14,52,bhp
+784,15,to 7 100,RPM
+784,16,60,Nm
+784,17,Multi-point fuel injection,\N
+784,19,Inline,\N
+784,20,3,\N
+784,39,2,\N
+784,22,95 RON,\N
+784,41,MacPherson Struts,\N
+784,42,De-Dion,\N
+784,24,Automatic,\N
+784,27,All wheel drive (AWD),\N
+784,29,Disc,\N
+784,30,drum,\N
+784,35,31,litre
+784,50,6.1,litre
+784,51,4.1,litre
+784,52,4.9,litre
+784,62,from 510 to 760,km
+784,1564,to 3 600,RPM
+784,26,4,\N
+784,34,910,kg
+784,7,1610,mm
+784,9,1305,mm
+784,42,Dependent\, Beam\, spring,\N
+784,27,Front wheel drive,\N
+784,34,820,kg
+784,35,30,litre
+784,50,5.5,litre
+784,51,3.8,litre
+784,52,4.5,litre
+784,62,from 550 to 790,km
+784,14,64,bhp
+784,15,to 6 000,RPM
+784,16,93,Nm
+784,46,Turbo,\N
+784,29,ventilated disc,\N
+784,50,6.6,litre
+784,51,4,litre
+784,52,5,litre
+784,62,from 470 to 780,km
+784,1564,to 4 000,RPM
+784,1566,Present,\N
+784,34,920,kg
+784,50,6,litre
+784,51,3.7,litre
+784,52,4.6,litre
+784,62,from 500 to 810,km
+784,34,840,kg
+785,47,75,mm
+785,48,76,mm
+785,2,Hatchback,\N
+785,4,5,\N
+785,6,1645,mm
+785,5,3785,mm
+785,7,1490,mm
+785,8,2360,mm
+785,9,1425,mm
+785,38,155,mm
+785,10,1400,mm
+785,12,Gasoline,\N
+785,13,1343,cm3
+785,14,66,bhp
+785,15,to 5 000,RPM
+785,16,111,Nm
+785,17,Multi-point fuel injection,\N
+785,19,Inline,\N
+785,20,4,\N
+785,39,2,\N
+785,22,95 RON,\N
+785,41,MacPherson Struts,\N
+785,42,Dependent\, Beam\, spring,\N
+785,24,Automatic,\N
+785,27,Front wheel drive,\N
+785,29,ventilated disc,\N
+785,30,drum,\N
+785,57,10.2,m
+785,32,148,km/h
+785,33,16.3,second
+785,50,7.2,litre
+785,51,4.9,litre
+785,34,920,kg
+785,35,40,litre
+785,52,6.5,litre
+785,62,from 560 to 820,km
+785,1564,to 2 500,RPM
+785,26,3,\N
+785,7,1510,mm
+785,10,1425,mm
+785,42,De-Dion,\N
+785,24,Continuously variable transmission (CVT),\N
+785,27,All wheel drive (AWD),\N
+785,34,1040,kg
+785,26,5,\N
+785,52,6,litre
+785,24,Manual,\N
+785,32,154,km/h
+785,33,14.9,second
+785,50,6.3,litre
+785,51,4.7,litre
+785,34,900,kg
+785,62,from 630 to 850,km
+785,33,16,second
+785,32,145,km/h
+785,33,18.7,second
+785,50,8.3,litre
+785,51,6,litre
+785,52,7.8,litre
+785,34,1020,kg
+785,62,from 480 to 670,km
+785,33,14.6,second
+785,34,880,kg
+790,47,87,mm
+790,48,99,mm
+790,2,Minivan,\N
+790,4,8,\N
+790,6,1800,mm
+790,5,4800,mm
+790,7,1565,mm
+790,8,2830,mm
+790,9,1560,mm
+790,38,150,mm
+790,10,1560,mm
+790,12,Gasoline,\N
+790,13,2354,cm3
+790,14,173,bhp
+790,15,to 6 000,RPM
+790,16,222,Nm
+790,17,Multi-point fuel injection,\N
+790,19,Inline,\N
+790,20,4,\N
+790,39,4,\N
+790,22,95 RON,\N
+790,41,Double wishbone,\N
+790,24,Automatic,\N
+790,27,All wheel drive (AWD),\N
+790,29,ventilated disc,\N
+790,30,Disc,\N
+790,35,60,litre
+790,1564,to 4 300,RPM
+790,26,5,\N
+790,57,10.8,m
+790,34,1660,kg
+790,42,Double wishbone,\N
+790,7,1545,mm
+790,24,Continuously variable transmission (CVT),\N
+790,27,Front wheel drive,\N
+790,34,1600,kg
+792,2,Wagon,\N
+792,4,2,\N
+792,6,1695,mm
+792,5,4350,mm
+792,7,1515,mm
+792,8,2550,mm
+792,9,1475,mm
+792,38,160,mm
+792,10,1465,mm
+792,12,Gasoline,\N
+792,13,1496,cm3
+792,14,90,bhp
+792,15,to 5 500,RPM
+792,16,131,Nm
+792,17,Multi-point fuel injection,\N
+792,19,Inline,\N
+792,20,4,\N
+792,39,2,\N
+792,22,95 RON,\N
+792,41,MacPherson Struts,\N
+792,42,Dependent\, Beam\, spring,\N
+792,24,Automatic,\N
+792,27,Front wheel drive,\N
+792,29,ventilated disc,\N
+792,30,drum,\N
+792,34,1150,kg
+792,35,42,litre
+792,1564,to 2 700,RPM
+792,47,73,mm
+792,48,89.4,mm
+792,26,5,\N
+792,57,10.2,m
+792,1570,1780x1285x930,mm
+792,7,1525,mm
+792,9,1465,mm
+792,38,145,mm
+792,10,1455,mm
+792,42,De-Dion,\N
+792,27,All wheel drive (AWD),\N
+792,34,1220,kg
+792,57,10.4,m
+793,47,93.4,mm
+793,48,77,mm
+793,2,Crossover,\N
+793,4,5,\N
+793,6,1788,mm
+793,5,4679,mm
+793,7,1742,mm
+793,8,2703,mm
+793,9,1514,mm
+793,10,1519,mm
+793,12,Gasoline,\N
+793,13,3165,cm3
+793,14,208,bhp
+793,15,to 5 400,RPM
+793,16,290,Nm
+793,17,Multi-point fuel injection,\N
+793,19,V-type,\N
+793,20,6,\N
+793,39,4,\N
+793,22,95 RON,\N
+793,41,Double wishbone,\N
+793,42,Double wishbone,\N
+793,24,Automatic,\N
+793,27,All wheel drive (AWD),\N
+793,29,Disc,\N
+793,30,Disc,\N
+793,35,80,litre
+793,50,15.6,litre
+793,51,10.4,litre
+793,52,14,litre
+793,62,from 510 to 770,km
+793,32,178,km/h
+793,33,11.3,second
+793,1564,to 3 000,RPM
+793,26,4,\N
+793,57,11.7,m
+793,34,1781,kg
+793,45,934,litre
+793,44,934,litre
+793,27,Rear wheel drive,\N
+793,50,14.5,litre
+793,51,9.7,litre
+793,52,13.1,litre
+793,62,from 550 to 820,km
+793,32,184,km/h
+793,33,9.8,second
+793,34,1657,kg
+793,26,5,\N
+793,24,Manual,\N
+793,50,16.4,litre
+793,52,14.4,litre
+793,62,from 490 to 770,km
+793,32,183,km/h
+793,33,9.7,second
+793,34,1751,kg
+793,32,191,km/h
+793,50,14.9,litre
+793,52,13.3,litre
+793,34,1716,kg
+793,62,from 540 to 820,km
+793,33,8.8,second
+794,47,89,mm
+794,48,93,mm
+794,2,Crossover,\N
+794,4,8,\N
+794,6,1995,mm
+794,5,4850,mm
+794,7,1846,mm
+794,8,2775,mm
+794,9,1720,mm
+794,45,589,litre
+794,38,204,mm
+794,44,589,litre
+794,10,1715,mm
+794,12,Gasoline,\N
+794,13,3471,cm3
+794,14,250,bhp
+794,15,to 5 700,RPM
+794,16,343,Nm
+794,17,Multi-point fuel injection,\N
+794,19,Inline,\N
+794,20,6,\N
+794,39,4,\N
+794,22,92 RON,\N
+794,41,MacPherson Struts\, Stabilizer bar,\N
+794,42,Multi wishbone\, Trailing arms\, Stabilizer bar,\N
+794,24,Automatic,\N
+794,27,Front wheel drive,\N
+794,29,ventilated disc,\N
+794,30,Disc,\N
+794,58,2700,kg
+794,35,80,litre
+794,50,13.8,litre
+794,51,10.2,litre
+794,62,from 580 to 780,km
+794,1564,to 4 800,RPM
+794,26,5,\N
+794,34,1944,kg
+794,1565,756,kg
+794,1567,4290,kg
+794,57,12,m
+794,5,4870,mm
+794,7,1845,mm
+794,8,2780,mm
+794,9,1725,mm
+794,38,203,mm
+794,44,1680,litre
+794,10,1740,mm
+794,14,257,bhp
+794,16,347,Nm
+794,19,V-type,\N
+794,27,All wheel drive (AWD),\N
+794,32,180,km/h
+794,33,9.9,second
+794,50,16.3,litre
+794,51,9.2,litre
+794,52,11.8,litre
+794,34,2062,kg
+794,58,2765,kg
+794,62,from 490 to 870,km
+794,1565,703,kg
+794,1568,1325/1525,kg
+794,1567,4810,kg
+795,2,Coupe,\N
+795,4,4,\N
+795,6,1765,mm
+795,5,4440,mm
+795,7,1315,mm
+795,8,2550,mm
+795,9,1525,mm
+795,45,284,litre
+795,38,140,mm
+795,10,1515,mm
+795,12,Gasoline,\N
+795,13,1997,cm3
+795,14,133,bhp
+795,15,to 5 300,RPM
+795,16,179,Nm
+795,17,Multi-point fuel injection,\N
+795,19,Inline,\N
+795,20,4,\N
+795,39,4,\N
+795,22,92 RON,\N
+795,41,Double wishbone,\N
+795,42,Double wishbone,\N
+795,24,Automatic,\N
+795,27,Front wheel drive,\N
+795,29,ventilated disc,\N
+795,30,Disc,\N
+795,32,201,km/h
+795,33,10.8,second
+795,50,12.6,litre
+795,51,7.3,litre
+795,34,1269,kg
+795,58,1720,kg
+795,35,60,litre
+795,52,9.2,litre
+795,62,from 480 to 820,km
+795,1564,to 5 000,RPM
+795,26,4,\N
+795,57,11,m
+795,1565,384,kg
+795,44,284,litre
+795,1567,2280,kg
+795,26,5,\N
+795,6,1750,mm
+795,5,4545,mm
+795,8,2585,mm
+795,22,95 RON,\N
+795,24,Manual,\N
+795,33,9.2,second
+795,34,1240,kg
+795,58,1680,kg
+795,1565,440,kg
+795,1567,2880,kg
+795,13,2157,cm3
+795,14,185,bhp
+795,15,to 7 000,RPM
+795,16,206,Nm
+795,32,228,km/h
+795,33,7.5,second
+795,50,14.9,litre
+795,51,7.8,litre
+795,34,1346,kg
+795,58,1740,kg
+795,52,10.4,litre
+795,62,from 400 to 770,km
+795,1564,to 5 300,RPM
+795,1567,2940,kg
+795,14,200,bhp
+795,15,to 7 100,RPM
+795,16,210,Nm
+795,50,10.5,litre
+795,51,8,litre
+795,34,1298,kg
+795,62,from 570 to 750,km
+795,52,9.5,litre
+795,15,from 7 000,RPM
+795,50,12.8,litre
+795,51,7.7,litre
+795,34,1319,kg
+795,62,from 470 to 780,km
+795,1565,421,kg
+795,50,9.5,litre
+795,51,7.6,litre
+795,34,1268,kg
+795,62,from 630 to 790,km
+801,47,86,mm
+801,48,71.6,mm
+801,2,Sedan,\N
+801,4,5,\N
+801,6,1785,mm
+801,5,4840,mm
+801,7,1420,mm
+801,8,2745,mm
+801,9,1555,mm
+801,38,155,mm
+801,10,1535,mm
+801,12,Gasoline,\N
+801,13,2495,cm3
+801,14,200,bhp
+801,15,to 6 200,RPM
+801,16,240,Nm
+801,17,Multi-point fuel injection,\N
+801,19,V-type,\N
+801,20,6,\N
+801,39,4,\N
+801,22,95 RON,\N
+801,41,Double wishbone,\N
+801,42,Double wishbone,\N
+801,24,Automatic,\N
+801,27,Front wheel drive,\N
+801,29,ventilated disc,\N
+801,30,Disc,\N
+801,34,1490,kg
+801,35,65,litre
+801,1564,to 4 600,RPM
+801,26,4,\N
+801,57,11.2,m
+801,47,89,mm
+801,48,86,mm
+801,13,3210,cm3
+801,14,225,bhp
+801,15,to 5 500,RPM
+801,16,294,Nm
+801,34,1520,kg
+801,1564,to 4 500,RPM
+803,47,88,mm
+803,48,96.9,mm
+803,2,Minivan,\N
+803,4,8,\N
+803,6,1695,mm
+803,5,4690,mm
+803,7,1830,mm
+803,8,2855,mm
+803,9,1470,mm
+803,38,150,mm
+803,10,1460,mm
+803,12,Gasoline,\N
+803,13,1997,cm3
+803,14,150,bhp
+803,15,from 6 200,RPM
+803,16,193,Nm
+803,17,Multi-point fuel injection,\N
+803,19,Inline,\N
+803,20,4,\N
+803,39,4,\N
+803,22,95 RON,\N
+803,41,Independent\, MacPherson Struts,\N
+803,42,De-Dion,\N
+803,24,Automatic,\N
+803,27,All wheel drive (AWD),\N
+803,29,ventilated disc,\N
+803,30,Disc,\N
+803,57,9.6,m
+803,34,1650,kg
+803,35,60,litre
+803,1564,to 4 200,RPM
+803,26,5,\N
+803,7,1815,mm
+803,38,155,mm
+803,15,to 6 200,RPM
+803,42,Torsion beam\, spring,\N
+803,24,Continuously variable transmission (CVT),\N
+803,27,Front wheel drive,\N
+803,57,10.6,m
+803,34,1580,kg
+804,47,81,mm
+804,48,87.3,mm
+804,2,Minivan,\N
+804,4,7,\N
+804,6,1695,mm
+804,5,4570,mm
+804,7,1545,mm
+804,8,2740,mm
+804,9,1470,mm
+804,38,150,mm
+804,10,1470,mm
+804,12,Gasoline,\N
+804,13,1799,cm3
+804,14,140,bhp
+804,15,to 6 300,RPM
+804,16,174,Nm
+804,17,Multi-point fuel injection,\N
+804,19,Inline,\N
+804,20,4,\N
+804,39,4,\N
+804,22,95 RON,\N
+804,41,Independent\, MacPherson Struts,\N
+804,42,Double wishbone,\N
+804,24,Automatic,\N
+804,27,Front wheel drive,\N
+804,29,ventilated disc,\N
+804,30,Disc,\N
+804,57,10.8,m
+804,34,1350,kg
+804,35,55,litre
+804,1564,to 4 300,RPM
+804,26,5,\N
+804,7,1570,mm
+804,27,All wheel drive (AWD),\N
+804,57,11.2,m
+804,34,1430,kg
+804,35,50,litre
+804,48,96.9,mm
+804,13,1997,cm3
+804,14,150,bhp
+804,15,to 6 200,RPM
+804,16,190,Nm
+804,34,1440,kg
+804,1564,to 4 200,RPM
+804,24,Continuously variable transmission (CVT),\N
+868,47,92,mm
+868,48,82,mm
+868,52,12.5,litre
+868,2,Sedan,\N
+868,4,5,\N
+868,6,1840,mm
+868,5,5000,mm
+868,7,1490,mm
+868,8,2870,mm
+868,9,1580,mm
+868,10,1560,mm
+868,38,140,mm
+868,12,Gasoline,\N
+868,13,4494,cm3
+868,14,340,bhp
+868,15,to 6 400,RPM
+868,16,446,Nm
+868,17,Injector,\N
+868,19,V-type,\N
+868,20,8,\N
+868,39,4,\N
+868,22,95 RON,\N
+868,41,Helical springs,\N
+868,42,Helical springs,\N
+868,24,Automatic,\N
+868,27,Rear wheel drive,\N
+868,29,ventilated disc,\N
+868,30,Disc,\N
+868,32,230,km/h
+868,33,5,second
+868,34,1770,kg
+868,35,85,litre
+868,1564,to 4 000,RPM
+868,26,5,\N
+753,47,85,mm
+753,48,97,mm
+753,37,EURO V,\N
+753,2,Wagon,\N
+753,6,1840,mm
+753,5,4750,mm
+753,7,1470,mm
+753,8,2750,mm
+753,45,406,litre
+753,38,135,mm
+753,44,1252,litre
+753,10,1600,mm
+753,12,Disel,\N
+753,13,2199,cm3
+753,14,150,bhp
+753,15,to 4 000,RPM
+753,16,350,Nm
+753,17,Common Rail,\N
+753,46,Turbo,\N
+753,22,Disel,\N
+753,41,Independent\, Multi wishbone\, Stabilizer bar,\N
+753,32,207,km/h
+753,33,9.7,second
+753,50,8.6,litre
+753,51,5.4,litre
+753,52,6.6,litre
+753,34,1629,kg
+753,58,2100,kg
+753,62,from 760 to 1 200,km
+753,1564,to 2 000,RPM
+753,1565,471,kg
+753,50,7.4,litre
+753,51,4.9,litre
+753,52,5.8,litre
+753,62,from 880 to 1 330,km
+753,13,2354,cm3
+753,14,201,bhp
+753,15,to 7 000,RPM
+753,16,234,Nm
+753,32,222,km/h
+753,50,12.7,litre
+753,34,1594,kg
+753,58,2085,kg
+753,62,from 510 to 940,km
+753,1564,to 4 300,RPM
+753,1565,491,kg
+753,48,96.9,mm
+753,5,4725,mm
+753,7,1440,mm
+753,8,2705,mm
+753,9,1589,mm
+753,45,467,litre
+753,10,1588,mm
+753,30,ventilated disc,\N
+753,57,11.7,m
+753,33,10,second
+753,50,8.1,litre
+753,51,5,litre
+753,52,6.1,litre
+753,58,2110,kg
+753,62,from 800 to 1 300,km
+753,34,1700,kg
+753,1565,410,kg
+753,44,467,litre
+753,6,1760,mm
+753,8,2720,mm
+753,9,1515,mm
+753,45,518,litre
+753,38,140,mm
+753,10,1530,mm
+753,13,1998,cm3
+753,14,155,bhp
+753,15,to 6 000,RPM
+753,16,190,Nm
+753,32,205,km/h
+753,33,9.9,second
+753,50,10.9,litre
+753,51,6.8,litre
+753,52,8.3,litre
+753,34,1532,kg
+753,58,2030,kg
+753,62,from 600 to 960,km
+753,1564,to 4 500,RPM
+753,57,11.6,m
+753,1565,498,kg
+753,44,1657,litre
+753,14,190,bhp
+753,15,to 6 800,RPM
+753,16,223,Nm
+753,32,212,km/h
+753,50,14.3,litre
+753,51,7.5,litre
+753,52,10,litre
+753,58,2060,kg
+753,62,from 450 to 870,km
+753,34,1578,kg
+753,1565,482,kg
+753,47,86,mm
+753,6,1730,mm
+753,5,4740,mm
+753,7,1445,mm
+753,8,2665,mm
+753,9,1490,mm
+753,38,160,mm
+753,10,1490,mm
+753,13,2254,cm3
+753,14,160,bhp
+753,15,to 5 700,RPM
+753,16,214,Nm
+753,41,Independent\, Double wishbone\, Dampers\, Stabilizer bar,\N
+753,32,197,km/h
+753,50,11.8,litre
+753,51,7.6,litre
+753,52,10.4,litre
+753,34,1380,kg
+753,58,1855,kg
+753,35,60,litre
+753,62,from 510 to 790,km
+753,26,4,\N
+753,1565,525,kg
+753,6,1816,mm
+753,5,4813,mm
+753,7,1450,mm
+753,8,2741,mm
+753,9,1552,mm
+753,45,396,litre
+753,44,396,litre
+753,10,1554,mm
+753,15,to 5 500,RPM
+753,16,218,Nm
+753,41,Independent\, Multi wishbone\, spring\, Stabilizer bar,\N
+753,42,Independent\, Multi wishbone\, spring\, Stabilizer bar,\N
+753,29,Disc,\N
+753,30,drum,\N
+753,32,215,km/h
+753,33,9.2,second
+753,50,11.4,litre
+753,51,7,litre
+753,52,9.8,litre
+753,34,1385,kg
+753,58,1851,kg
+753,62,from 570 to 930,km
+753,57,11.3,m
+753,1565,466,kg
+753,48,95,mm
+753,6,1780,mm
+753,5,4675,mm
+753,7,1390,mm
+753,8,2715,mm
+753,13,2156,cm3
+753,15,to 5 600,RPM
+753,16,198,Nm
+753,32,210,km/h
+753,52,9.6,litre
+753,34,1335,kg
+753,62,from 570 to 960,km
+753,58,1905,kg
+753,1565,570,kg
+753,48,88,mm
+753,6,1695,mm
+753,5,4685,mm
+753,13,1996,cm3
+753,14,133,bhp
+753,15,to 5 300,RPM
+753,16,179,N*m
+753,41,Helical springs,\N
+753,50,10,litre
+753,51,6,litre
+753,52,8,litre
+753,62,from 600 to 1 000,km
+753,32,200,km/h
+753,33,9,second
+753,1564,to 5 000,RPM
+753,9,1475,mm
+753,10,1480,mm
+753,34,1240,kg
+753,58,1760,kg
+753,45,448,litre
+753,44,448,litre
+753,42,Helical springs,\N
+753,2,Hatchback,\N
+753,6,1750,mm
+753,5,4595,mm
+753,7,1430,mm
+753,8,2675,mm
+753,13,1997,cm3
+753,14,147,bhp
+753,50,10.5,litre
+753,62,from 620 to 940,km
+753,32,209,km/h
+753,33,10.3,second
+753,16,184,Nm
+753,1564,to 4 800,RPM
+753,57,11.5,m
+753,9,1499,mm
+753,10,1513,mm
+753,34,1430,kg
+753,58,1890,kg
+753,1565,460,kg
+753,45,427,litre
+753,44,427,litre
+761,47,75,mm
+761,48,79,mm
+761,2,Hatchback,\N
+761,4,5,\N
+761,6,1695,mm
+761,5,4140,mm
+761,7,1440,mm
+761,8,2575,mm
+761,9,1470,mm
+761,45,315,litre
+761,38,150,mm
+761,44,610,litre
+761,10,1470,mm
+761,12,Gasoline,\N
+761,13,1396,cm3
+761,14,90,bhp
+761,15,to 5 600,RPM
+761,16,130,Nm
+761,17,Multi-point fuel injection,\N
+761,19,Inline,\N
+761,20,4,\N
+761,39,4,\N
+761,22,95 RON,\N
+761,41,Independent\, MacPherson Struts,\N
+761,42,Double wishbone,\N
+761,24,Automatic,\N
+761,27,Front wheel drive,\N
+761,29,ventilated disc,\N
+761,30,Disc,\N
+761,32,167,km/h
+761,33,14.2,second
+761,50,9.7,litre
+761,51,5.8,litre
+761,52,7.2,litre
+761,34,1149,kg
+761,58,1600,kg
+761,35,50,litre
+761,62,from 520 to 860,km
+761,37,EURO IV,\N
+761,1564,to 4 300,RPM
+761,26,4,\N
+761,57,11.4,m
+761,1565,451,kg
+761,1567,2600,kg
+761,26,5,\N
+761,24,Manual,\N
+761,32,177,km/h
+761,33,11.8,second
+761,50,8,litre
+761,51,5.4,litre
+761,52,6.3,litre
+761,34,1122,kg
+761,58,1575,kg
+761,62,from 630 to 930,km
+761,1565,453,kg
+761,1567,2775,kg
+761,48,90,mm
+761,13,1590,cm3
+761,14,110,bhp
+761,16,152,Nm
+761,32,182,km/h
+761,33,11.7,second
+761,50,9.8,litre
+761,34,1173,kg
+761,58,1635,kg
+761,62,from 510 to 860,km
+761,1565,462,kg
+761,1567,2635,kg
+761,47,79,mm
+761,48,86,mm
+761,12,Disel,\N
+761,13,1686,cm3
+761,14,100,bhp
+761,15,to 4 400,RPM
+761,16,220,Nm
+761,17,Common Rail,\N
+761,46,Turbo,\N
+761,39,2,\N
+761,22,Disel,\N
+761,33,11.2,second
+761,50,6.2,litre
+761,51,4.3,litre
+761,52,5,litre
+761,34,1232,kg
+761,58,1725,kg
+761,62,from 810 to 1 160,km
+761,37,EURO III,\N
+761,1564,to 2 800,RPM
+761,1565,493,kg
+761,1567,2925,kg
+761,47,76,mm
+761,48,88,mm
+761,26,6,\N
+761,37,EURO V,\N
+761,6,1770,mm
+761,5,4370,mm
+761,7,1470,mm
+761,8,2595,mm
+761,9,1530,mm
+761,45,477,litre
+761,38,140,mm
+761,44,1378,litre
+761,10,1530,mm
+761,13,1597,cm3
+761,14,120,bhp
+761,15,to 4 000,RPM
+761,16,300,Nm
+761,42,Semi dependent\, Torsion beam,\N
+761,57,11.3,m
+761,32,207,km/h
+761,33,10.5,second
+761,50,4,litre
+761,51,3.3,litre
+761,52,3.6,litre
+761,34,1378,kg
+761,58,1870,kg
+761,62,from 1 250 to 1 520,km
+761,1564,to 2 000,RPM
+761,47,73,mm
+761,48,80,mm
+761,6,1765,mm
+761,5,4255,mm
+761,7,1460,mm
+761,8,2635,mm
+761,9,1504,mm
+761,45,485,litre
+761,10,1510,mm
+761,13,1339,cm3
+761,15,to 6 000,RPM
+761,16,127,Nm
+761,33,13,second
+761,50,7.3,litre
+761,51,5,litre
+761,52,5.9,litre
+761,34,1157,kg
+761,58,1650,kg
+761,62,from 680 to 1 000,km
+761,1564,to 4 800,RPM
+761,57,10.2,m
+761,44,1352,litre
+761,1567,3050,kg
+761,47,81,mm
+761,48,77.4,mm
+761,4,4,\N
+761,5,4180,mm
+761,7,1360,mm
+761,8,2620,mm
+761,9,1480,mm
+761,45,405,litre
+761,38,135,mm
+761,44,405,litre
+761,10,1480,mm
+761,13,1595,cm3
+761,14,185,bhp
+761,15,to 8 200,RPM
+761,16,159,Nm
+761,41,Double wishbone,\N
+761,34,1050,kg
+761,35,45,litre
+761,1564,to 7 500,RPM
+761,57,10.8,m
+761,48,84.5,mm
+761,5,4190,mm
+761,7,1375,mm
+761,9,1478,mm
+761,45,225,litre
+761,38,100,mm
+761,44,600,litre
+761,10,1488,mm
+761,13,1493,cm3
+761,14,114,bhp
+761,15,to 6 500,RPM
+761,16,134,Nm
+761,22,92 RON,\N
+761,30,drum,\N
+761,58,1580,kg
+761,51,5.9,litre
+761,52,7.3,litre
+761,62,from 460 to 760,km
+761,32,172,km/h
+761,33,12,second
+761,1564,to 5 500,RPM
+761,57,10,m
+761,34,1000,kg
+761,1565,580,kg
+761,1567,2280,kg
+761,15,from 6 500,RPM
+761,16,140,Nm
+761,24,Continuously variable transmission (CVT),\N
+761,32,170,km/h
+761,33,10.7,second
+761,50,8.6,litre
+761,51,6.1,litre
+761,52,7,litre
+761,34,1005,kg
+761,62,from 520 to 740,km
+761,1564,to 5 000,RPM
+761,1565,575,kg
+761,1567,2380,kg
+761,52,8.4,litre
+761,14,160,bhp
+761,15,to 7 600,RPM
+761,16,150,Nm
+761,33,8,second
+761,50,11,litre
+761,51,6.9,litre
+761,34,1065,kg
+761,58,1550,kg
+761,62,from 410 to 650,km
+761,1564,to 7 000,RPM
+761,1565,485,kg
+761,1567,2550,kg
+761,45,190,litre
+761,44,510,litre
+761,48,76,mm
+761,5,4080,mm
+761,7,1345,mm
+761,8,2570,mm
+761,9,1475,mm
+761,38,160,mm
+761,10,1465,mm
+761,13,1343,cm3
+761,14,75,bhp
+761,15,to 6 300,RPM
+761,16,102,Nm
+761,17,Carburetor,\N
+761,29,Disc,\N
+761,33,11,second
+761,34,925,kg
+761,58,1370,kg
+761,1564,to 3 100,RPM
+761,57,10.5,m
+761,1565,445,kg
+761,5,4070,mm
+761,7,1350,mm
+761,16,119,Nm
+761,50,9.5,litre
+761,62,from 470,km
+761,33,10.1,second
+761,1564,to 4 700,RPM
+761,57,10.6,m
+761,34,965,kg
+761,58,1460,kg
+761,1565,495,kg
+761,32,180,km/h
+761,33,9.7,second
+761,50,8.8,litre
+761,34,935,kg
+761,62,from 510,km
+761,1565,525,kg
+761,14,125,bhp
+761,16,142,Nm
+761,58,1500,kg
+761,50,9.9,litre
+761,62,from 450,km
+761,32,192,km/h
+761,1564,to 5 200,RPM
+761,34,1015,kg
+761,50,8.9,litre
+761,32,195,km/h
+761,33,8.7,second
+761,34,985,kg
+761,1565,515,kg
+761,32,215,km/h
+761,33,7.3,second
+761,52,7.5,litre
+761,34,1080,kg
+761,57,11.2,m
+761,1565,380,kg
+761,2,Sedan,\N
+761,5,4460,mm
+761,7,1390,mm
+761,10,1487,mm
+761,50,10.3,litre
+761,52,7.6,litre
+761,62,from 440 to 740,km
+761,33,13.7,second
+761,16,124,Nm
+761,1564,to 4 500,RPM
+761,34,990,kg
+761,58,1665,kg
+761,1565,675,kg
+761,45,410,litre
+761,44,410,litre
+761,1567,2465,kg
+761,62,from 510 to 760,km
+761,1565,700,kg
+761,5,4450,mm
+761,10,1475,mm
+761,14,105,bhp
+761,15,to 6 400,RPM
+761,16,133,Nm
+761,6,1680,mm
+761,5,3965,mm
+761,7,1330,mm
+761,8,2500,mm
+761,9,1450,mm
+761,10,1455,mm
+761,32,175,km/h
+761,50,8.5,litre
+761,62,from 530,km
+761,16,112,Nm
+761,57,9.6,m
+761,34,850,kg
+761,58,1340,kg
+761,1565,490,kg
+761,45,196,litre
+761,44,337,litre
+761,1567,2040,kg
+761,7,1335,mm
+761,14,91,bhp
+761,16,118,Nm
+761,1564,to 4 000,RPM
+761,5,4405,mm
+761,15,to 5 500,RPM
+761,16,129,Nm
+761,34,993,kg
+761,50,6.5,litre
+761,62,from 690,km
+761,32,160,km/h
+761,1565,507,kg
+761,45,381,litre
+761,44,381,litre
+761,1567,2400,kg
+761,34,950,kg
+761,1565,550,kg
+761,45,441,litre
+761,48,94.4,mm
+761,2,Coupe,\N
+761,5,4438,mm
+761,7,1399,mm
+761,13,1668,cm3
+761,16,153,Nm
+761,58,1615,kg
+761,51,5.7,litre
+761,62,from 520 to 880,km
+761,33,11.1,second
+761,57,11.6,m
+761,34,1187,kg
+761,1565,428,kg
+761,44,441,litre
+761,1567,2615,kg
+761,32,201,km/h
+761,52,6.7,litre
+761,34,1162,kg
+761,58,1590,kg
+761,51,5.5,litre
+761,62,from 570 to 910,km
+761,33,9.6,second
+761,1567,2790,kg
+763,5,4530,mm
+763,7,1675,mm
+763,45,524,litre
+763,38,185,mm
+763,44,1532,litre
+763,50,10.9,litre
+763,51,6.7,litre
+763,52,8.2,litre
+763,62,from 530 to 870,km
+763,32,177,km/h
+763,33,12.2,second
+763,1564,to 4 200,RPM
+763,57,11.8,m
+763,34,1504,kg
+763,58,2080,kg
+763,1565,576,kg
+763,1567,3580,kg
+763,50,10.4,litre
+763,62,from 560 to 870,km
+763,33,10.2,second
+763,34,1469,kg
+763,58,2050,kg
+763,1565,581,kg
+763,1567,3650,kg
+763,48,97.1,mm
+763,13,2204,cm3
+763,14,140,bhp
+763,16,340,Nm
+763,1567,4160,kg
+763,50,8.1,litre
+763,51,5.7,litre
+763,52,6.5,litre
+763,62,from 720 to 1 020,km
+763,32,187,km/h
+763,33,10.3,second
+763,34,1587,kg
+763,58,2160,kg
+763,1565,573,kg
+763,14,166,bhp
+763,15,to 5 800,RPM
+763,16,218,Nm
+763,57,10.8,m
+764,2,Hatchback,\N
+764,4,4,\N
+764,6,1625,mm
+764,5,3675,mm
+764,7,1290,mm
+764,8,2200,mm
+764,38,165,mm
+764,13,1342,cm3
+764,14,80,bhp
+764,41,Torsion,\N
+764,29,Disc,\N
+764,35,41,litre
+764,15,to 6 000,RPM
+764,16,110,N*m
+764,1564,to 3 500,RPM
+764,17,Carburetor,\N
+764,47,74,mm
+764,48,78,mm
+764,57,8.6,m
+764,9,1400,mm
+764,10,1415,mm
+764,34,760,kg
+764,42,Axle,\N
+764,30,drum,\N
+763,47,86,mm
+763,48,86,mm
+763,6,1780,mm
+763,5,4535,mm
+763,7,1710,mm
+763,9,1535,mm
+763,45,525,litre
+763,38,205,mm
+763,44,850,litre
+763,10,1535,mm
+763,13,1998,cm3
+763,32,167,km/h
+763,33,12,second
+763,50,12.3,litre
+763,51,7.6,litre
+763,52,9.3,litre
+763,34,1370,kg
+763,58,1960,kg
+763,62,from 470 to 760,km
+763,37,EURO III,\N
+763,1564,to 4 000,RPM
+763,26,4,\N
+763,57,10.4,m
+763,1565,590,kg
+763,1567,3160,kg
+763,14,158,bhp
+763,14,162,bhp
+763,15,to 6 000,RPM
+763,16,219,Nm
+763,1564,to 3 600,RPM
+763,57,10.6,m
+763,34,1451,kg
+763,34,1505,kg
+763,45,374,litre
+763,44,670,litre
+763,47,84,mm
+763,48,89,mm
+763,6,1750,mm
+763,5,4520,mm
+763,38,210,mm
+763,13,1973,cm3
+763,14,128,bhp
+763,15,to 5 500,RPM
+763,16,182,Nm
+763,41,Independent\, Torsion\, Double wishbone,\N
+763,30,drum,\N
+763,32,166,km/h
+763,50,13.2,litre
+763,51,8.5,litre
+763,52,10.2,litre
+763,62,from 440 to 680,km
+763,37,EURO II,\N
+763,33,12.5,second
+763,34,1330,kg
+763,58,1900,kg
+763,1565,570,kg
+763,1567,3400,kg
+763,5,4470,mm
+763,7,1705,mm
+763,13,1972,cm3
+763,14,130,bhp
+763,16,184,Nm
+763,32,156,km/h
+763,33,13.5,second
+763,50,10.8,litre
+763,51,7.7,litre
+763,52,10.1,litre
+763,34,1380,kg
+763,62,from 540 to 750,km
+768,5,4415,mm
+768,10,1465,mm
+768,14,130,bhp
+768,15,to 6 600,RPM
+768,16,145,Nm
+768,34,1080,kg
+768,1564,to 5 200,RPM
+768,47,81,mm
+768,48,89,mm
+768,13,1834,cm3
+768,14,140,bhp
+768,15,to 6 300,RPM
+768,16,171,Nm
+768,34,1090,kg
+768,57,10.8,m
+767,9,1648,mm
+767,10,1648,mm
+767,44,1452,litre
+767,14,275,bhp
+767,16,339,Nm
+767,22,95 RON,\N
+767,41,Independent\, Multi wishbone,\N
+767,42,Independent\, Multi wishbone,\N
+767,57,12,m
+767,33,8.9,second
+767,50,14.7,litre
+767,51,10.4,litre
+767,52,11.2,litre
+767,34,1846,kg
+767,58,2300,kg
+767,62,from 480 to 670,km
+767,1564,to 5 000,RPM
+767,1565,464,kg
+770,5,4300,mm
+770,7,1790,mm
+770,9,1575,mm
+770,10,1580,mm
+770,14,160,bhp
+770,15,to 5 500,RPM
+770,41,MacPherson Struts,\N
+770,34,1560,kg
+770,1564,to 4 500,RPM
+780,47,75,mm
+780,48,90,mm
+780,2,hardtop,\N
+780,4,5,\N
+780,6,1695,mm
+780,5,4480,mm
+780,7,1340,mm
+780,8,2600,mm
+780,9,1475,mm
+780,38,150,mm
+780,10,1475,mm
+780,13,1590,cm3
+780,14,120,bhp
+780,15,to 6 300,RPM
+780,16,142,Nm
+780,22,95 RON,\N
+780,41,Double wishbone,\N
+780,24,Automatic,\N
+780,1564,to 5 500,RPM
+780,26,4,\N
+780,34,1070,kg
+780,26,5,\N
+780,14,105,bhp
+780,16,135,Nm
+780,17,Carburetor,\N
+780,1564,to 4 500,RPM
+780,34,1030,kg
+780,34,1150,kg
+780,5,4390,mm
+780,7,1325,mm
+780,8,2550,mm
+780,34,1050,kg
+774,48,80,mm
+774,5,3900,mm
+774,8,2500,mm
+774,10,1475,mm
+774,13,1339,cm3
+774,14,99,bhp
+774,16,126,Nm
+774,34,1020,kg
+774,35,42,litre
+774,1564,to 4 800,RPM
+774,14,120,bhp
+774,15,to 6 600,RPM
+774,16,145,Nm
+774,30,Disc,\N
+774,34,1110,kg
+780,47,80,mm
+780,48,87.2,mm
+780,5,4380,mm
+780,7,1335,mm
+780,10,1465,mm
+780,13,1797,cm3
+780,14,170,bhp
+780,15,to 7 200,RPM
+780,16,174,Nm
+780,14,180,bhp
+780,15,to 7 600,RPM
+780,34,1100,kg
+780,1564,to 6 200,RPM
+780,2,Sedan,\N
+780,5,4525,mm
+780,7,1370,mm
+780,8,2620,mm
+780,38,160,mm
+780,10,1455,mm
+780,27,All wheel drive (AWD),\N
+780,30,drum,\N
+780,34,1180,kg
+780,1564,to 3 000,RPM
+780,47,81,mm
+780,34,1140,kg
+784,34,890,kg
+780,6,1655,mm
+780,7,1345,mm
+780,8,2520,mm
+780,38,165,mm
+780,13,1488,cm3
+780,14,75,bhp
+780,41,MacPherson Struts,\N
+780,22,92 RON,\N
+780,15,to 6 000,RPM
+780,16,115,Nm
+780,1564,to 3 500,RPM
+780,47,74,mm
+780,48,86.5,mm
+780,9,1415,mm
+780,10,1415,mm
+780,34,910,kg
+780,42,Trailing arms,\N
+780,6,1665,mm
+780,14,99,bhp
+780,15,to 6 500,RPM
+780,16,125,Nm
+780,1564,to 4 000,RPM
+780,34,970,kg
+793,6,1689,mm
+793,5,4483,mm
+793,7,1689,mm
+793,8,2761,mm
+793,9,1445,mm
+793,45,991,litre
+793,10,1450,mm
+793,14,177,bhp
+793,15,to 5 200,RPM
+793,16,255,Nm
+793,35,83,litre
+793,50,14.3,litre
+793,52,13,litre
+793,62,from 580 to 860,km
+793,32,180,km/h
+793,33,11.1,second
+793,1564,to 4 000,RPM
+793,57,11.5,m
+793,34,1608,kg
+793,44,991,litre
+793,9,1435,mm
+793,10,1448,mm
+793,14,192,bhp
+793,15,to 5 600,RPM
+793,29,ventilated disc,\N
+793,50,15.4,litre
+793,62,from 540 to 800,km
+793,32,179,km/h
+793,33,12.4,second
+793,34,1750,kg
+793,1565,991,kg
+793,50,14.1,litre
+793,51,9.5,litre
+793,52,12.8,litre
+793,62,from 590 to 870,km
+793,33,10.1,second
+792,47,75,mm
+792,48,76,mm
+792,5,4570,mm
+792,7,1460,mm
+792,8,2620,mm
+792,38,175,mm
+792,10,1475,mm
+792,13,1343,cm3
+792,14,91,bhp
+792,15,to 6 300,RPM
+792,16,113,Nm
+792,39,4,\N
+792,41,Double wishbone,\N
+792,24,Manual,\N
+792,35,52,litre
+792,1564,to 4 800,RPM
+792,57,10,m
+792,34,1030,kg
+792,58,1540,kg
+792,1570,1720x1275x875,mm
+792,42,Double wishbone,\N
+792,48,84.5,mm
+792,13,1493,cm3
+792,14,105,bhp
+792,15,to 6 400,RPM
+792,16,133,Nm
+792,34,1060,kg
+792,58,1570,kg
+792,1564,to 4 500,RPM
+792,26,4,\N
+792,48,90,mm
+792,4,2,5
+792,38,165,mm
+792,13,1590,cm3
+792,14,120,bhp
+792,16,144,Nm
+792,35,47,litre
+792,1564,to 5 000,RPM
+792,34,1140,kg
+792,58,1565,kg
+792,1570,1025x1300x875,mm
+792,34,1120,kg
+792,58,1530,kg
+795,47,85,mm
+795,48,88,mm
+795,7,1290,mm
+795,45,278,litre
+795,38,145,mm
+795,13,1996,cm3
+795,34,1193,kg
+795,50,10.8,litre
+795,62,from 560,km
+795,57,12.1,m
+795,1565,527,kg
+795,44,278,litre
+795,47,87,mm
+795,48,90.7,mm
+795,13,2156,cm3
+795,15,to 6 800,RPM
+795,16,218,Nm
+795,34,1300,kg
+795,1564,to 5 500,RPM
+795,57,9.7,m
+795,1565,420,kg
+795,13,2258,cm3
+795,14,160,bhp
+795,15,to 5 800,RPM
+795,16,209,Nm
+795,34,1265,kg
+795,1564,to 4 500,RPM
+795,1565,455,kg
+801,47,82,mm
+801,48,75.6,mm
+801,7,1405,mm
+801,8,2840,mm
+801,9,1520,mm
+801,38,160,mm
+801,10,1510,mm
+801,13,1996,cm3
+801,14,160,bhp
+801,15,to 6 700,RPM
+801,16,186,Nm
+801,19,Inline,\N
+801,20,5,\N
+801,34,1360,kg
+801,1564,to 4 000,RPM
+801,57,11,m
+801,47,85,mm
+801,48,86.4,mm
+801,13,2451,cm3
+801,14,180,bhp
+801,15,to 6 500,RPM
+801,16,226,Nm
+801,34,1380,kg
+801,1564,to 3 800,RPM
+803,47,84,mm
+803,48,89,mm
+803,5,4605,mm
+803,8,2800,mm
+803,9,1485,mm
+803,10,1480,mm
+803,13,1972,cm3
+803,14,125,bhp
+803,15,to 5 500,RPM
+803,16,181,Nm
+803,42,Double wishbone,\N
+803,34,1460,kg
+803,35,65,litre
+803,26,4,\N
+803,57,11.2,m
+803,7,1845,mm
+803,9,1480,mm
+803,38,165,mm
+803,10,1475,mm
+803,34,1520,kg
+809,2,Sedan,\N
+809,4,5,\N
+809,6,1695,mm
+809,5,4690,mm
+809,7,1355,mm
+809,8,2805,mm
+809,38,155,mm
+809,12,Gasoline,\N
+809,13,1996,cm3
+809,14,160,bhp
+809,16,186,Nm
+809,17,Injector,\N
+809,19,Inline,\N
+809,20,5,\N
+809,39,5,\N
+809,22,95 RON,\N
+809,41,Multi wishbone,\N
+809,42,Multi wishbone,\N
+809,24,Automatic,\N
+809,27,Front wheel drive,\N
+809,29,ventilated disc,\N
+809,30,Disc,\N
+809,35,65,litre
+809,1564,to 4 000,RPM
+809,26,4,\N
+809,34,1320,kg
+803,48,86,mm
+803,5,4630,mm
+803,7,1770,mm
+803,13,1998,cm3
+803,14,155,bhp
+803,15,to 6 000,RPM
+803,16,188,Nm
+803,34,1500,kg
+803,35,57,litre
+803,1564,to 4 500,RPM
+758,47,75,mm
+758,48,84.5,mm
+758,2,Hatchback,\N
+758,4,5,\N
+758,6,1640,mm
+758,5,3775,mm
+758,7,1650,mm
+758,8,2360,mm
+758,9,1425,mm
+758,10,1420,mm
+758,38,155,mm
+758,12,Gasoline,\N
+758,13,1493,cm3
+758,14,98,bhp
+758,15,to 6 300,RPM
+758,16,133,Nm
+758,17,Multi-point fuel injection,\N
+758,19,Inline,\N
+758,20,4,\N
+758,39,4,\N
+758,22,95 RON,\N
+758,41,Independent\, MacPherson Struts,\N
+758,42,Torsion beam\, spring,\N
+758,24,Continuously variable transmission (CVT),\N
+758,27,Front wheel drive,\N
+758,29,ventilated disc,\N
+758,30,drum,\N
+758,57,9.6,m
+758,34,1110,kg
+758,35,40,litre
+758,1564,to 3 500,RPM
+759,5,4430,mm
+759,24,Automatic,\N
+759,6,1690,mm
+759,5,4390,mm
+759,7,1485,mm
+759,8,2450,mm
+759,9,1455,mm
+759,45,500,litre
+759,10,1455,mm
+759,38,145,mm
+759,14,83,bhp
+759,15,to 5 700,RPM
+759,16,119,Nm
+759,57,9.8,m
+759,1564,to 2 800,RPM
+759,34,1095,kg
+759,44,500,litre
+759,30,Disc,\N
+759,32,175,km/h
+759,33,13.4,second
+759,50,7.1,litre
+759,51,4.8,litre
+759,34,1045,kg
+759,52,5.6,litre
+759,62,from 590 to 880,km
+759,58,1510,kg
+759,1565,465,kg
+759,38,160,mm
+759,15,to 5 800,RPM
+759,16,132,Nm
+759,34,1065,kg
+759,47,72,mm
+759,48,76,mm
+759,2,Hatchback,\N
+759,6,1620,mm
+759,5,3560,mm
+759,7,1335,mm
+759,8,2400,mm
+759,9,1400,mm
+759,10,1410,mm
+759,13,1237,cm3
+759,14,76,bhp
+759,15,to 6 500,RPM
+759,16,98,Nm
+759,17,Carburetor,\N
+759,57,9.4,m
+759,34,700,kg
+759,35,40,litre
+759,1564,to 4 000,RPM
+759,26,4,\N
+759,15,from 6 500,RPM
+759,29,Disc,\N
+759,57,9.2,m
+759,34,680,kg
+759,47,74,mm
+759,5,3605,mm
+759,13,1296,cm3
+759,16,113,Nm
+759,34,780,kg
+759,1564,to 5 500,RPM
+759,14,82,bhp
+759,16,103,Nm
+759,34,750,kg
+759,16,114,Nm
+759,17,direct injection,\N
+759,34,760,kg
+759,34,730,kg
+779,47,86,mm
+779,48,86,mm
+779,6,1820,mm
+779,5,4805,mm
+779,7,1455,mm
+779,8,2740,mm
+779,9,1555,mm
+779,10,1555,mm
+779,38,155,mm
+779,13,2997,cm3
+779,14,250,bhp
+779,15,to 6 000,RPM
+779,16,296,Nm
+779,57,11,m
+779,34,1530,kg
+779,48,71.6,mm
+779,4,4,\N
+779,6,1785,mm
+779,5,4840,mm
+779,7,1420,mm
+779,8,2745,mm
+779,10,1535,mm
+779,13,2495,cm3
+779,14,200,bhp
+779,16,240,Nm
+779,34,1490,kg
+779,35,65,litre
+779,1564,to 4 600,RPM
+779,26,4,\N
+779,57,11.2,m
+779,13,3210,cm3
+779,14,225,bhp
+779,15,to 5 500,RPM
+779,16,294,Nm
+779,34,1520,kg
+779,1564,to 4 500,RPM
+779,47,82,mm
+779,48,75.6,mm
+779,7,1405,mm
+779,8,2840,mm
+779,9,1520,mm
+779,10,1510,mm
+779,38,160,mm
+779,13,1996,cm3
+779,14,160,bhp
+779,15,to 6 700,RPM
+779,16,186,Nm
+779,19,Inline,\N
+779,20,5,\N
+779,34,1360,kg
+779,1564,to 4 000,RPM
+779,47,85,mm
+779,48,86.4,mm
+779,13,2451,cm3
+779,14,180,bhp
+779,15,to 6 500,RPM
+779,16,226,Nm
+779,34,1380,kg
+779,1564,to 3 800,RPM
+779,14,190,bhp
+779,16,237,Nm
+779,47,90,mm
+779,48,84,mm
+779,6,1800,mm
+779,5,4870,mm
+779,7,1415,mm
+779,9,1550,mm
+779,13,3206,cm3
+779,14,210,bhp
+779,15,to 5 300,RPM
+779,57,10.6,m
+790,47,86,mm
+790,48,97,mm
+790,4,7,\N
+790,6,1770,mm
+790,5,4765,mm
+790,7,1660,mm
+790,9,1525,mm
+790,10,1540,mm
+790,38,155,mm
+790,13,2253,cm3
+790,14,150,bhp
+790,15,to 5 600,RPM
+790,16,204,Nm
+790,34,1590,kg
+790,1564,to 4 700,RPM
+790,26,4,\N
+790,57,11.4,m
+790,7,1645,mm
+790,34,1520,kg
+790,35,65,litre
+779,6,1775,mm
+779,5,4830,mm
+779,7,1355,mm
+779,8,2805,mm
+779,34,1400,kg
+794,4,5,8
+794,6,1963,mm
+794,5,4775,mm
+794,7,1793,mm
+794,8,2700,mm
+794,9,1685,mm
+794,45,461,litre
+794,10,1690,mm
+794,38,180,mm
+794,44,2557,litre
+794,14,240,bhp
+794,15,to 5 400,RPM
+794,16,328,Nm
+794,41,Strut,\N
+794,50,14.1,litre
+794,51,10,litre
+794,34,2007,kg
+794,35,73,litre
+794,62,from 520 to 730,km
+794,1564,to 4 500,RPM
+804,47,75,mm
+804,48,94,mm
+804,5,4550,mm
+804,7,1605,mm
+804,8,2720,mm
+804,13,1668,cm3
+804,14,130,bhp
+804,16,155,Nm
+804,30,drum,\N
+804,34,1370,kg
+804,1564,to 4 800,RPM
+804,26,4,\N
+804,57,10.6,m
+804,48,94.4,mm
+804,7,1590,mm
+804,45,158,litre
+804,10,1490,mm
+804,44,435,litre
+804,14,125,bhp
+804,16,154,Nm
+804,34,1433,kg
+804,58,1990,kg
+804,57,11,m
+804,1565,557,kg
+804,24,Manual,\N
+804,32,190,km/h
+804,33,11.1,second
+804,50,9.9,litre
+804,51,6.5,litre
+804,34,1333,kg
+804,52,7.7,litre
+804,62,from 560 to 850,km
+804,1565,657,kg
+804,1567,3190,kg
+804,47,86,mm
+804,48,86,mm
+804,13,1998,cm3
+804,14,158,bhp
+804,15,to 6 500,RPM
+804,34,1460,kg
+804,1564,to 4 000,RPM
+804,14,156,bhp
+804,16,192,Nm
+804,41,Strut,\N
+804,42,Wishbone,\N
+804,32,199,km/h
+804,33,11.2,second
+804,50,12.7,litre
+804,51,7.1,litre
+804,34,1400,kg
+804,58,2055,kg
+804,52,9.1,litre
+804,62,from 430 to 770,km
+804,1565,655,kg
+804,1567,3155,kg
+804,42,Torsion beam\, spring,\N
+804,32,204,km/h
+804,33,9.4,second
+804,50,11.3,litre
+804,51,7,litre
+804,52,8.6,litre
+804,34,1375,kg
+804,58,2030,kg
+804,62,from 490 to 790,km
+804,1567,3430,kg
+808,47,66,mm
+808,48,64,mm
+808,26,5,\N
+808,32,130,km/h
+808,50,10,litre
+808,51,6,litre
+808,58,1170,kg
+808,2,Minivan,\N
+808,4,4,\N
+808,6,1475,mm
+808,5,3395,mm
+808,7,1775,mm
+808,8,2420,mm
+808,9,1295,mm
+808,10,1310,mm
+808,38,190,mm
+808,12,Gasoline,\N
+808,13,656,cm3
+808,14,46,bhp
+808,15,to 5 500,RPM
+808,16,59,Nm
+808,17,Multi-point fuel injection,\N
+808,19,Inline,\N
+808,20,3,\N
+808,39,4,\N
+808,22,95 RON,\N
+808,41,Wishbone,\N
+808,42,De-Dion,\N
+808,24,Manual,\N
+808,27,Rear wheel drive,\N
+808,29,Disc,\N
+808,30,drum,\N
+808,57,9,m
+808,34,950,kg
+808,35,37,litre
+808,62,from 370 to 620,km
+808,1564,to 5 000,RPM
+808,13,659,cm3
+808,14,64,bhp
+808,15,to 6 000,RPM
+808,16,93,Nm
+808,46,Turbo,\N
+808,27,Four wheel drive (4WD),\N
+808,50,6,litre
+808,34,1010,kg
+808,58,1230,kg
+808,62,from 620,km
+808,1564,to 3 700,RPM
+810,47,66,mm
+810,48,64,mm
+810,32,130,km/h
+810,50,10,litre
+810,51,6.2,litre
+810,58,1180,kg
+810,2,Hatchback,\N
+810,4,4,\N
+810,6,1475,mm
+810,5,3395,mm
+810,7,1675,mm
+810,8,2360,mm
+810,9,1280,mm
+810,10,1290,mm
+810,38,195,mm
+810,12,Gasoline,\N
+810,13,656,cm3
+810,14,52,bhp
+810,15,from 7 200,RPM
+810,16,61,Nm
+810,17,Multi-point fuel injection,\N
+810,19,Inline,\N
+810,20,3,\N
+810,39,4,\N
+810,22,95 RON,\N
+810,41,MacPherson Struts,\N
+810,42,De-Dion,\N
+810,24,Automatic,\N
+810,27,All wheel drive (AWD),\N
+810,29,Disc,\N
+810,30,drum,\N
+810,57,9.2,m
+810,34,960,kg
+810,35,35,litre
+810,62,from 350 to 560,km
+810,1564,to 4 000,RPM
+810,26,4,\N
+810,51,6.4,litre
+810,58,1190,kg
+810,13,659,cm3
+810,14,64,bhp
+810,15,from 6 000,RPM
+810,16,93,Nm
+810,46,Turbo,\N
+810,34,970,kg
+810,62,from 350 to 550,km
+810,1564,to 3 700,RPM
+875,2,Crossover,\N
+875,4,7,\N
+875,6,2030,mm
+875,5,5290,mm
+875,7,1925,mm
+875,8,3075,mm
+875,9,1715,mm
+875,45,470,litre
+875,10,1725,mm
+875,38,257,mm
+875,44,2693,litre
+875,12,Gasoline,\N
+875,13,5552,cm3
+875,14,405,bhp
+875,15,to 5 800,RPM
+875,16,560,Nm
+875,17,Multi-point fuel injection,\N
+875,19,V-type,\N
+875,20,8,\N
+875,39,4,\N
+875,22,95 RON,\N
+875,41,Independent\, Multi wishbone,\N
+875,42,Independent\, Multi wishbone,\N
+875,24,Automatic,\N
+875,27,All wheel drive (AWD),\N
+875,29,ventilated disc,\N
+875,30,ventilated disc,\N
+875,32,210,km/h
+875,33,6.5,second
+875,50,20.6,litre
+875,51,11,litre
+875,52,14.5,litre
+875,34,2800,kg
+875,35,100,litre
+875,62,from 490 to 910,km
+875,37,EURO IV,\N
+875,1564,to 4 000,RPM
+875,26,7,\N
+875,17,direct injection,\N
+875,58,3400,kg
+875,57,12.6,m
+875,1565,600,kg
+862,44,775,litre
+862,47,95.5,mm
+862,48,81.4,mm
+862,2,Crossover,\N
+862,4,5,\N
+862,6,1925,mm
+862,5,4805,mm
+862,7,1650,mm
+862,8,2850,mm
+862,9,1590,mm
+862,45,775,litre
+862,38,195,mm
+862,10,1640,mm
+862,12,Gasoline,\N
+862,13,3498,cm3
+862,14,280,bhp
+862,15,to 6 200,RPM
+862,16,366,Nm
+862,17,Multi-point fuel injection,\N
+862,19,V-type,\N
+862,20,6,\N
+862,39,4,\N
+862,22,95 RON,\N
+862,41,Independent\, spring,\N
+862,42,Independent\, spring,\N
+862,24,Automatic,\N
+862,27,All wheel drive (AWD),\N
+862,29,ventilated disc,\N
+862,30,ventilated disc,\N
+862,32,221,km/h
+862,33,7.4,second
+862,50,14.7,litre
+862,51,10.7,litre
+862,52,12,litre
+862,34,1900,kg
+862,58,2430,kg
+862,35,90,litre
+862,62,from 610 to 840,km
+862,1564,to 4 800,RPM
+862,26,5,\N
+862,27,Rear wheel drive,\N
+862,33,7.1,second
+862,50,13.9,litre
+862,51,10.2,litre
+862,52,11.5,litre
+862,34,1840,kg
+862,58,2340,kg
+753,47,81,mm
+753,14,156,bhp
+753,16,192,Nm
+753,33,10.8,second
+753,51,6.1,litre
+753,58,2015,kg
+753,62,from 600 to 1 070,km
+753,1564,to 4 200,RPM
+753,1565,483,kg
+753,33,8.1,second
+753,50,12.5,litre
+753,52,9.2,litre
+753,34,1559,kg
+753,58,2050,kg
+753,62,from 520 to 880,km
+753,33,9.4,second
+753,50,6.8,litre
+753,51,4.4,litre
+753,52,5.3,litre
+753,34,1632,kg
+753,62,from 960 to 1 480,km
+753,1565,398,kg
+753,38,150,mm
+753,32,227,km/h
+753,33,9.6,second
+753,50,12,litre
+753,51,6.3,litre
+753,34,1602,kg
+753,62,from 540 to 1 030,km
+753,1565,428,kg
+753,33,8,second
+753,50,11.6,litre
+753,52,8.6,litre
+753,34,1570,kg
+753,58,1995,kg
+753,62,from 560 to 940,km
+753,1565,425,kg
+753,13,2204,cm3
+753,14,140,bhp
+753,50,7.5,litre
+753,51,4.8,litre
+753,34,1645,kg
+753,62,from 870 to 1 350,km
+753,1565,455,kg
+753,32,220,km/h
+753,33,8.4,second
+753,50,13.4,litre
+753,51,7.7,litre
+753,62,from 490 to 840,km
+753,58,1871,kg
+753,52,9.7,litre
+753,34,1415,kg
+753,32,219,km/h
+753,33,9.8,second
+753,1565,456,kg
+753,32,203,km/h
+753,50,11.3,litre
+753,51,7.2,litre
+753,52,9.9,litre
+753,62,from 580 to 900,km
+753,33,10.6,second
+753,34,1375,kg
+753,1565,530,kg
+753,52,9.5,litre
+753,62,from 600 to 940,km
+753,32,194,km/h
+753,33,11,second
+761,48,87.3,mm
+761,6,1755,mm
+761,5,4557,mm
+761,7,1435,mm
+761,8,2670,mm
+761,9,1499,mm
+761,45,353,litre
+761,44,353,litre
+761,10,1522,mm
+761,38,157,mm
+761,13,1798,cm3
+761,14,142,bhp
+761,16,173,Nm
+761,42,Multi wishbone,\N
+761,50,7.1,litre
+761,52,6.2,litre
+761,34,1285,kg
+761,62,from 700 to 1 000,km
+761,50,7.2,litre
+761,52,6.4,litre
+761,34,1225,kg
+761,62,from 690 to 930,km
+761,32,187,km/h
+761,33,10.2,second
+761,50,8.7,litre
+761,52,6.6,litre
+761,34,1153,kg
+761,58,1605,kg
+761,1565,452,kg
+761,1567,2805,kg
+761,5,4285,mm
+761,7,1495,mm
+761,8,2685,mm
+761,9,1472,mm
+761,45,125,litre
+761,44,732,litre
+761,10,1489,mm
+761,32,165,km/h
+761,33,14.8,second
+761,34,1159,kg
+761,58,1620,kg
+761,62,from 510 to 880,km
+761,57,11.8,m
+761,1565,461,kg
+761,1567,2620,kg
+761,6,1715,mm
+761,45,325,litre
+761,32,176,km/h
+761,50,8.3,litre
+761,34,1125,kg
+761,62,from 600 to 930,km
+761,1565,475,kg
+761,1567,2800,kg
+761,16,120,Nm
+761,33,13.4,second
+761,58,1540,kg
+761,1567,2340,kg
+761,16,109,Nm
+761,33,13.9,second
+761,34,930,kg
+761,1564,to 3 000,RPM
+761,1565,570,kg
+761,1567,2300,kg
+761,33,10.8,second
+761,34,940,kg
+761,1564,to 4 600,RPM
+761,1565,600,kg
+761,32,188,km/h
+761,50,8.1,litre
+761,52,6.5,litre
+761,34,975,kg
+761,62,from 560 to 820,km
+761,1565,605,kg
+761,6,1670,mm
+761,32,168,km/h
+761,50,7.9,litre
+761,34,832,kg
+761,62,from 570,km
+761,58,1310,kg
+761,1565,487,kg
+761,1567,2010,kg
+761,50,9,litre
+761,62,from 500,km
+761,34,868,kg
+761,1565,472,kg
+761,34,820,kg
+761,14,107,bhp
+761,32,190,km/h
+761,34,904,kg
+761,1565,466,kg
+761,1567,2070,kg
+761,34,995,kg
+761,1565,505,kg
+761,1567,2200,kg
+763,33,10.1,second
+763,50,11.7,litre
+763,52,9.1,litre
+763,34,1360,kg
+763,58,1930,kg
+763,62,from 500 to 750,km
+763,1567,3430,kg
+763,34,1477,kg
+763,32,174,km/h
+763,50,12.6,litre
+763,51,8.6,litre
+763,52,10.6,litre
+763,62,from 460 to 670,km
+763,33,10.5,second
+763,14,145,bhp
+763,16,178,Nm
+763,32,170,km/h
+763,33,11.4,second
+763,51,8,litre
+763,52,10.7,litre
+763,34,1390,kg
+763,62,from 500 to 730,km
+763,1564,to 5 200,RPM
+768,34,1040,kg
+768,34,1020,kg
+768,34,1110,kg
+774,16,127,Nm
+774,34,990,kg
+778,2,Hatchback,\N
+778,4,2,\N
+778,6,1695,mm
+778,5,3940,mm
+778,7,1355,mm
+778,8,2400,mm
+778,9,1435,mm
+778,45,139,litre
+778,38,150,mm
+778,10,1325,mm
+778,12,Hybrid,\N
+778,13,995,cm3
+778,14,82,bhp
+778,15,to 5 700,RPM
+778,16,88,Nm
+778,17,Multi-point fuel injection,\N
+778,19,Inline,\N
+778,20,4,\N
+778,47,72,mm
+778,48,81.5,mm
+778,39,4,\N
+778,22,95 RON,\N
+778,41,Independent\, MacPherson Struts,\N
+778,42,Torsion beam\, spring,\N
+778,24,Continuously variable transmission (CVT),\N
+778,27,Front wheel drive,\N
+778,29,ventilated disc,\N
+778,30,drum,\N
+778,35,40,litre
+778,1564,to 4 800,RPM
+778,57,9.6,m
+778,34,850,kg
+778,44,139,litre
+778,14,77,bhp
+778,24,Manual,\N
+778,26,5,\N
+778,32,112,km/h
+778,33,12.5,second
+778,52,3.4,litre
+778,34,820,kg
+778,50,4.1,litre
+778,51,3,litre
+778,62,from 980 to 1 330,km
+780,34,1060,kg
+780,48,77.4,mm
+780,13,1595,cm3
+780,14,150,bhp
+780,15,to 7 100,RPM
+780,16,150,Nm
+780,34,1130,kg
+780,14,160,bhp
+780,16,152,Nm
+780,1564,to 7 000,RPM
+780,34,1110,kg
+780,34,1000,kg
+780,34,1080,kg
+780,34,980,kg
+782,44,845,litre
+782,48,73.4,mm
+782,52,5.5,litre
+782,6,1675,mm
+782,5,3845,mm
+782,8,2450,mm
+782,9,1460,mm
+782,45,353,litre
+782,10,1445,mm
+782,38,150,mm
+782,13,1246,cm3
+782,14,77,bhp
+782,15,to 5 700,RPM
+782,16,110,Nm
+782,39,2,\N
+782,42,Semi dependent\, Beam\, Stabilizer bar,\N
+782,30,drum,\N
+782,32,170,km/h
+782,33,13.4,second
+782,50,6.8,litre
+782,51,4.7,litre
+782,34,980,kg
+782,58,1470,kg
+782,62,from 620 to 890,km
+782,37,EURO III,\N
+782,1564,to 2 800,RPM
+782,57,9.4,m
+782,1565,490,kg
+782,1567,2470,kg
+783,47,90,mm
+783,48,91,mm
+783,6,1810,mm
+783,5,4980,mm
+783,7,1430,mm
+783,8,2910,mm
+783,9,1550,mm
+783,45,450,litre
+783,10,1540,mm
+783,38,160,mm
+783,13,3474,cm3
+783,14,205,bhp
+783,15,to 5 200,RPM
+783,16,297,Nm
+783,27,Front wheel drive,\N
+783,32,215,km/h
+783,33,9.1,second
+783,34,1670,kg
+783,58,2180,kg
+783,35,68,litre
+783,1564,to 2 800,RPM
+783,26,4,\N
+783,44,450,litre
+784,34,810,kg
+784,7,1590,mm
+784,38,155,mm
+784,34,950,kg
+792,34,1040,kg
+792,58,1550,kg
+793,52,12.9,litre
+793,34,1630,kg
+793,62,from 580 to 870,km
+793,32,190,km/h
+793,33,9.5,second
+795,50,11.3,litre
+795,62,from 530,km
+795,34,1208,kg
+795,1565,512,kg
+795,16,212,Nm
+795,32,226,km/h
+795,34,1305,kg
+795,50,10.9,litre
+795,62,from 550,km
+795,1565,415,kg
+795,34,1290,kg
+795,1565,430,kg
+803,7,1785,mm
+803,38,170,mm
+803,35,55,litre
+803,47,87,mm
+803,48,99,mm
+803,13,2354,cm3
+803,14,162,bhp
+803,15,to 5 700,RPM
+803,16,218,Nm
+803,1564,to 4 000,RPM
+803,34,1640,kg
+809,45,440,litre
+809,47,82,mm
+809,48,75,mm
+809,26,5,\N
+809,6,1775,mm
+809,5,4830,mm
+809,7,1375,mm
+809,9,1520,mm
+809,10,1510,mm
+809,14,165,bhp
+809,15,from 6 700,RPM
+809,17,Multi-point fuel injection,\N
+809,39,4,\N
+809,41,Helical springs,\N
+809,42,Helical springs,\N
+809,24,Manual,\N
+809,32,200,km/h
+809,52,7,litre
+809,34,1360,kg
+809,44,440,litre
+809,47,85,mm
+809,48,86,mm
+809,6,1780,mm
+809,5,4835,mm
+809,7,1370,mm
+809,13,2451,cm3
+809,14,190,bhp
+809,15,from 6 500,RPM
+809,16,237,Nm
+809,32,210,km/h
+809,1564,to 3 800,RPM
+809,34,1380,kg
+867,2,Cabriolet,\N
+867,4,2,\N
+867,6,1689,mm
+867,5,4796,mm
+867,7,1379,mm
+867,8,2616,mm
+867,12,Gasoline,\N
+867,13,2966,cm3
+867,14,164,bhp
+867,19,V-type,\N
+867,20,6,\N
+867,41,Strut,\N
+867,42,Helical springs,\N
+867,24,Automatic,\N
+867,27,Rear wheel drive,\N
+867,29,Disc,\N
+867,22,95 RON,\N
+867,15,to 5 600,RPM
+867,16,244,Nm
+867,1564,to 4 400,RPM
+867,17,Multi-point fuel injection,\N
+867,39,2,\N
+867,26,4,\N
+867,34,1622,kg
+867,45,348,litre
+867,44,348,litre
+867,30,drum,\N
+867,2,Coupe,\N
+867,34,1512,kg
+867,45,328,litre
+867,44,328,litre
+868,47,93,mm
+868,48,76,mm
+868,6,1820,mm
+868,5,5070,mm
+868,7,1440,mm
+868,8,2830,mm
+868,9,1540,mm
+868,10,1540,mm
+868,13,4130,cm3
+868,14,269,bhp
+868,15,from 5 600,RPM
+868,16,378,Nm
+868,32,232,km/h
+868,34,1760,kg
+868,26,4,\N
+868,6,1825,mm
+868,5,5075,mm
+868,7,1430,mm
+868,8,2880,mm
+868,9,1570,mm
+868,10,1570,mm
+868,14,282,bhp
+868,15,from 6 000,RPM
+868,16,396,Nm
+868,32,246,km/h
+868,52,13.8,litre
+868,34,1750,kg
+871,2,Crossover,\N
+871,4,7,\N
+871,6,2030,mm
+871,5,5290,mm
+871,7,1925,mm
+871,8,3075,mm
+871,9,1715,mm
+871,45,470,litre
+871,38,257,mm
+871,44,2693,litre
+871,10,1725,mm
+871,12,Gasoline,\N
+871,13,5552,cm3
+871,14,405,bhp
+871,15,to 5 800,RPM
+871,16,560,Nm
+871,17,Multi-point fuel injection,\N
+871,19,V-type,\N
+871,20,8,\N
+871,39,4,\N
+871,22,95 RON,\N
+871,41,Independent\, Multi wishbone\, Stabilizer bar,\N
+871,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+871,24,Automatic,\N
+871,27,All wheel drive (AWD),\N
+871,29,ventilated disc,\N
+871,30,ventilated disc,\N
+871,32,210,km/h
+871,33,6.5,second
+871,50,20.6,litre
+871,51,11,litre
+871,34,2800,kg
+871,58,3400,kg
+871,35,100,litre
+871,52,14.5,litre
+871,62,from 490 to 910,km
+871,37,EURO IV,\N
+871,1564,to 4 000,RPM
+871,26,7,\N
+871,57,12.6,m
+871,1565,600,kg
+870,47,95.5,mm
+870,48,86,mm
+870,37,EURO V,\N
+870,2,Coupe,\N
+870,4,4,\N
+870,6,1820,mm
+870,5,4653,mm
+870,7,1395,mm
+870,8,2850,mm
+870,9,1545,mm
+870,45,249,litre
+870,38,135,mm
+870,10,1560,mm
+870,12,Gasoline,\N
+870,13,3696,cm3
+870,14,333,bhp
+870,15,to 7 000,RPM
+870,16,363,Nm
+870,17,Multi-point fuel injection,\N
+870,19,V-type,\N
+870,20,6,\N
+870,39,4,\N
+870,22,95 RON,\N
+870,41,Independent\, Double wishbone\, Stabilizer bar,\N
+870,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+870,24,Automatic,\N
+870,27,Rear wheel drive,\N
+870,29,ventilated disc,\N
+870,30,ventilated disc,\N
+870,32,250,km/h
+870,33,5.9,second
+870,50,15.3,litre
+870,51,8.9,litre
+870,52,11.2,litre
+870,34,1785,kg
+870,35,80,litre
+870,62,from 520 to 900,km
+870,1564,to 5 200,RPM
+870,26,7,\N
+870,57,11,m
+870,44,249,litre
+870,2,Cabriolet,\N
+870,6,1850,mm
+870,5,4660,mm
+870,7,1400,mm
+870,45,70,litre
+870,38,135.5,mm
+870,44,333,litre
+870,33,6.4,second
+870,50,16.2,litre
+870,52,11.6,litre
+870,34,1996,kg
+870,62,from 490 to 900,km
+774,12,Hybrid,\N
+774,14,110,bhp
+774,16,134,Nm
+774,22,92 RON,\N
+774,24,Automatic,\N
+774,34,1080,kg
+774,26,7,\N
+753,33,11.5,second
+753,52,8.8,litre
+753,34,1564,kg
+753,62,from 520 to 970,km
+862,47,93,mm
+862,48,82.7,mm
+862,13,4494,cm3
+862,14,319,bhp
+862,15,to 6 400,RPM
+862,16,466,Nm
+862,20,8,\N
+862,30,Disc,\N
+862,32,225,km/h
+862,33,6.3,second
+862,50,15.7,litre
+862,51,12.4,litre
+862,52,13.5,litre
+862,34,2005,kg
+862,58,2478,kg
+862,62,from 570 to 730,km
+862,1564,to 4 000,RPM
+780,34,1020,kg
+780,48,89,mm
+780,13,1834,cm3
+780,14,145,bhp
+780,16,170,Nm
+780,1564,to 5 200,RPM
+803,47,86,mm
+803,5,4670,mm
+803,8,2805,mm
+803,38,160,mm
+803,14,160,bhp
+803,15,from 6 500,RPM
+803,16,191,Nm
+803,34,1490,kg
+803,7,1860,mm
+803,34,1540,kg
+753,45,492,litre
+753,38,147,mm
+753,57,12,m
+753,44,492,litre
+753,34,1612,kg
+794,37,EURO IV,\N
+794,4,7,8
+794,5,4875,mm
+794,38,200,mm
+794,14,249,bhp
+794,41,MacPherson Struts,\N
+794,42,Independent\, Multi wishbone\, Trailing arms,\N
+794,57,11.26,m
+794,50,15.8,litre
+794,51,9.1,litre
+794,52,11.6,litre
+794,34,2057,kg
+794,62,from 510 to 880,km
+794,1565,708,kg
+794,4,7,\N
+794,45,217,litre
+794,44,217,litre
+794,42,Independent\, Multi wishbone,\N
+794,34,2109,kg
+794,1565,656,kg
+753,57,10.98,m
+753,37,EURO IV,\N
+753,5,4726,mm
+753,9,1580,mm
+753,45,464,litre
+753,10,1580,mm
+753,14,200,bhp
+753,16,230,Nm
+753,41,Independent\, Double wishbone\, Stabilizer bar,\N
+753,42,Independent\, Double wishbone\, Dampers\, Stabilizer bar,\N
+753,57,11,m
+753,51,6.6,litre
+753,34,1595,kg
+753,62,from 540 to 980,km
+753,1565,435,kg
+753,44,464,litre
+753,1568,1055/1095,kg
+753,1567,3630,kg
+753,33,8.3,second
+753,50,11.9,litre
+753,34,1523,kg
+753,62,from 550 to 930,km
+753,1565,472,kg
+753,1568,1055/950,kg
+753,1567,3595,kg
+753,6,1811,mm
+753,5,4765,mm
+753,7,1415,mm
+753,8,2670,mm
+753,45,366,litre
+753,14,166,bhp
+753,15,to 5 800,RPM
+753,16,217,Nm
+753,32,223,km/h
+753,50,11.1,litre
+753,34,1370,kg
+753,62,from 590 to 960,km
+753,1565,480,kg
+753,44,366,litre
+753,32,218,km/h
+753,33,9.1,second
+753,34,1358,kg
+753,62,from 560 to 960,km
+753,1565,493,kg
+753,52,8.9,litre
+753,62,from 580 to 940,km
+753,32,217,km/h
+763,50,11.1,litre
+763,51,6.8,litre
+763,34,1534,kg
+763,62,from 520 to 850,km
+763,1565,546,kg
+763,51,6.9,litre
+763,34,1499,kg
+763,62,from 550 to 840,km
+763,1565,551,kg
+763,14,182,bhp
+763,15,to 6 800,RPM
+763,50,10.1,litre
+763,51,7.5,litre
+763,52,9,litre
+763,62,from 570 to 770,km
+763,34,1598,kg
+763,6,1785,mm
+763,5,4635,mm
+763,8,2630,mm
+763,9,1540,mm
+763,45,527,litre
+763,38,200,mm
+763,44,1568,litre
+763,10,1560,mm
+763,34,1497,kg
+763,58,2020,kg
+763,1565,523,kg
+763,1567,3520,kg
+763,33,10.8,second
+763,50,11.5,litre
+763,62,from 500 to 760,km
+763,1567,3490,kg
+763,34,1473,kg
+763,58,1990,kg
+763,1565,517,kg
+763,34,1500,kg
+763,45,445,litre
+763,14,148,bhp
+763,16,180,Nm
+763,32,171,km/h
+763,50,11,litre
+763,51,7.9,litre
+763,52,10.3,litre
+763,62,from 530 to 730,km
+763,33,13.4,second
+763,1564,to 4 500,RPM
+763,34,1472,kg
+763,15,to 6 300,RPM
+763,32,172,km/h
+763,52,9.6,litre
+763,32,173,km/h
+763,50,11.4,litre
+763,62,from 510 to 730,km
+763,33,11.3,second
+763,34,1410,kg
+763,33,11.8,second
+779,5,4960,mm
+779,5,4855,mm
+779,34,1540,kg
+780,32,235,km/h
+780,50,12.4,litre
+780,5,4385,mm
+780,7,1385,mm
+780,9,1490,mm
+780,38,130,mm
+780,10,1490,mm
+780,14,220,bhp
+780,15,to 8 000,RPM
+780,16,206,Nm
+780,62,from 400,km
+780,57,10.6,m
+782,45,379,litre
+782,41,Independent\, MacPherson Struts\, Stabilizer bar,\N
+782,42,Torsion beam\, Stabilizer bar,\N
+782,57,10.4,m
+782,50,6.6,litre
+782,51,4.6,litre
+782,34,1070,kg
+782,58,1580,kg
+782,62,from 640 to 910,km
+782,48,71.58,mm
+782,1565,510,kg
+782,1567,2580,kg
+782,48,74.3,mm
+782,5,3855,mm
+782,9,1440,mm
+782,45,380,litre
+782,44,1325,litre
+782,10,1430,mm
+782,14,78,bhp
+782,34,1015,kg
+782,58,1490,kg
+782,1565,475,kg
+782,1567,2490,kg
+782,48,89.4,mm
+782,13,1497,cm3
+782,14,110,bhp
+782,16,143,Nm
+782,22,92 RON,\N
+782,24,Continuously variable transmission (CVT),\N
+782,34,1050,kg
+782,52,6.1,litre
+782,1564,to 4 800,RPM
+782,52,6,litre
+782,34,1025,kg
+783,48,96,mm
+783,37,EURO V,\N
+783,5,4985,mm
+783,7,1450,mm
+783,38,135,mm
+783,10,1583,mm
+783,13,3664,cm3
+783,16,371,Nm
+783,41,Independent\, Multi wishbone,\N
+783,42,Independent\, Multi wishbone,\N
+783,57,11.9,m
+783,33,7.1,second
+783,50,16.3,litre
+783,52,11.6,litre
+783,34,1954,kg
+783,62,from 450 to 820,km
+783,1565,356,kg
+784,34,900,kg
+794,6,1969,mm
+794,5,4774,mm
+794,7,1821,mm
+794,9,1689,mm
+794,38,181,mm
+794,44,461,litre
+794,10,1694,mm
+794,14,244,bhp
+794,15,to 5 750,RPM
+794,16,240,Nm
+794,35,77,litre
+794,50,13.3,litre
+794,51,8.9,litre
+794,62,from 580 to 870,km
+794,34,1931,kg
+794,1565,769,kg
+794,6,1669,mm
+794,51,9.7,litre
+794,34,2021,kg
+794,62,from 550 to 790,km
+794,1565,679,kg
+794,1567,4745,kg
+804,4,5,\N
+804,34,1380,kg
+804,5,4575,mm
+804,8,2725,mm
+804,38,140,mm
+804,37,EURO IV,\N
+804,57,11.7,m
+804,16,188,Nm
+804,34,1418,kg
+761,14,130,bhp
+761,15,to 7 000,RPM
+761,16,139,Nm
+761,34,1030,kg
+761,1564,to 5 300,RPM
+761,34,1010,kg
+761,6,1753,mm
+761,5,4503,mm
+761,8,2700,mm
+761,9,1500,mm
+761,45,389,litre
+761,13,1799,cm3
+761,14,140,bhp
+761,16,174,Nm
+761,34,1240,kg
+761,44,389,litre
+761,34,1200,kg
+761,9,1505,mm
+761,38,116,mm
+761,57,11,m
+761,34,1320,kg
+761,45,415,litre
+761,44,1282,litre
+761,52,6.9,litre
+761,62,from 560 to 880,km
+761,6,1760,mm
+761,5,4250,mm
+761,32,205,km/h
+761,33,10,second
+761,50,10,litre
+761,34,1324,kg
+761,58,1800,kg
+761,62,from 500 to 860,km
+761,1565,476,kg
+761,50,8.4,litre
+761,51,5.2,litre
+761,34,1265,kg
+761,58,1750,kg
+761,62,from 600 to 960,km
+761,47,85,mm
+761,48,97.1,mm
+761,13,2204,cm3
+761,16,340,Nm
+761,33,8.6,second
+761,50,6.6,litre
+761,52,5.1,litre
+761,34,1322,kg
+761,58,1890,kg
+761,62,from 760 to 1 160,km
+761,1566,Present,\N
+761,1565,568,kg
+761,1567,3390,kg
+761,6,1785,mm
+761,5,4275,mm
+761,24,Electronic,\N
+761,57,11.1,m
+761,33,8.9,second
+761,62,from 600 to 910,km
+761,34,1166,kg
+761,1565,584,kg
+761,1567,3150,kg
+761,34,1160,kg
+761,48,91.7,mm
+761,50,6.7,litre
+761,51,4.4,litre
+761,52,5.2,litre
+761,34,1283,kg
+761,62,from 750 to 1 140,km
+761,1565,607,kg
+761,7,1430,mm
+761,10,1490,mm
+761,38,130,mm
+761,33,12.1,second
+761,34,1203,kg
+761,1565,402,kg
+761,33,10.4,second
+761,34,1227,kg
+761,58,1610,kg
+761,57,10.4,m
+761,1565,383,kg
+761,1567,2810,kg
+761,5,4455,mm
+761,7,1400,mm
+761,9,1468,mm
+761,45,448,litre
+761,10,1468,mm
+761,14,129,bhp
+761,16,155,Nm
+761,52,7.9,litre
+761,62,from 570 to 850,km
+761,32,189,km/h
+761,34,1197,kg
+761,44,448,litre
+761,6,1690,mm
+761,5,4480,mm
+761,8,2625,mm
+761,16,154,Nm
+761,34,1207,kg
+761,1565,349,kg
+761,15,to 6 200,RPM
+761,32,200,km/h
+761,50,9.3,litre
+761,58,1570,kg
+761,62,from 540 to 880,km
+761,1565,397,kg
+761,1567,2770,kg
+761,52,6.8,litre
+761,34,1182,kg
+761,62,from 560 to 910,km
+761,44,368,litre
+761,6,1699,mm
+761,5,4280,mm
+761,7,1501,mm
+761,8,2680,mm
+761,9,1471,mm
+761,45,368,litre
+761,10,1491,mm
+761,33,14.6,second
+761,58,1640,kg
+761,34,1229,kg
+761,1565,411,kg
+761,1567,2640,kg
+761,33,11.9,second
+761,34,1195,kg
+761,1565,405,kg
+761,1567,2795,kg
+761,34,1236,kg
+761,1565,420,kg
+761,32,185,km/h
+761,33,10.3,second
+761,34,1210,kg
+761,1565,400,kg
+761,33,11.4,second
+761,50,6.3,litre
+761,34,1359,kg
+761,58,1760,kg
+761,62,from 790 to 1 140,km
+761,1564,from 1 800 to 2 800,RPM
+761,1565,401,kg
+761,7,1491,mm
+761,33,14.4,second
+761,34,1194,kg
+761,1565,406,kg
+761,33,11.6,second
+761,34,1167,kg
+761,1565,408,kg
+761,33,12.2,second
+761,34,1219,kg
+761,1565,416,kg
+761,34,1192,kg
+761,1565,413,kg
+761,34,1332,kg
+761,1565,393,kg
+753,48,96.7,mm
+753,38,136,mm
+753,12,Hybrid,\N
+753,13,1993,cm3
+753,14,143,bhp
+753,16,175,Nm
+753,52,3.3,litre
+753,34,1580,kg
+753,22,95 RON\, 92 RON,\N
+753,32,211,km/h
+753,50,11,litre
+753,62,from 590 to 940,km
+780,15,to 6 400,RPM
+780,16,144,Nm
+780,1564,to 5 000,RPM
+780,16,175,Nm
+780,34,1120,kg
+780,34,1090,kg
+780,7,1390,mm
+780,34,1170,kg
+755,47,82,mm
+755,48,75.6,mm
+755,2,Sedan,\N
+755,4,5,\N
+755,6,1695,mm
+755,5,4555,mm
+755,7,1425,mm
+755,8,2770,mm
+755,9,1465,mm
+755,10,1465,mm
+755,38,155,mm
+755,12,Gasoline,\N
+755,13,1996,cm3
+755,14,160,bhp
+755,15,to 6 700,RPM
+755,16,186,Nm
+755,17,Multi-point fuel injection,\N
+755,19,Inline,\N
+755,20,5,\N
+755,39,4,\N
+755,22,95 RON,\N
+755,41,Double wishbone,\N
+755,42,Double wishbone,\N
+755,24,Automatic,\N
+755,27,Front wheel drive,\N
+755,29,ventilated disc,\N
+755,30,Disc,\N
+755,57,11,m
+755,52,9.1,litre
+755,34,1300,kg
+755,35,65,litre
+755,1564,to 4 000,RPM
+755,26,4,\N
+755,26,5,\N
+755,24,Manual,\N
+755,47,85,mm
+755,48,86.4,mm
+755,13,2451,cm3
+755,14,180,bhp
+755,15,to 6 500,RPM
+755,16,225,Nm
+755,34,1340,kg
+755,1564,to 3 800,RPM
+775,47,81,mm
+775,48,87.3,mm
+775,13,1799,cm3
+775,16,174,Nm
+775,42,Independent\, Double wishbone\, spring\, Stabilizer bar,\N
+775,24,Automatic,\N
+775,32,185,km/h
+775,33,12.5,second
+775,50,10.6,litre
+775,51,6.6,litre
+775,52,8.1,litre
+775,34,1420,kg
+775,62,from 550 to 880,km
+775,1564,to 4 300,RPM
+775,57,10.5,m
+775,1565,470,kg
+775,32,190,km/h
+775,33,10.6,second
+775,50,9.4,litre
+775,51,6.3,litre
+775,34,1394,kg
+775,62,from 620 to 920,km
+775,1565,496,kg
+788,47,93,mm
+788,48,78,mm
+788,26,6,\N
+788,2,Coupe,\N
+788,4,2,\N
+788,6,1810,mm
+788,5,4430,mm
+788,7,1160,mm
+788,8,2530,mm
+788,9,1510,mm
+788,10,1530,mm
+788,38,125,mm
+788,12,Gasoline,\N
+788,13,3179,cm3
+788,14,280,bhp
+788,15,to 7 300,RPM
+788,16,304,Nm
+788,17,Multi-point fuel injection,\N
+788,19,V-type,\N
+788,20,6,\N
+788,39,4,\N
+788,22,95 RON,\N
+788,41,Double wishbone,\N
+788,42,Double wishbone,\N
+788,24,Manual,\N
+788,27,Rear wheel drive,\N
+788,29,ventilated disc,\N
+788,30,ventilated disc,\N
+788,57,11.6,m
+788,32,280,km/h
+788,33,5,second
+788,52,10,litre
+788,34,1270,kg
+788,35,70,litre
+788,1564,to 5 300,RPM
+761,16,113,Nm
+761,34,980,kg
+763,5,4605,mm
+763,9,1585,mm
+763,10,1595,mm
+763,13,1597,cm3
+763,14,160,bhp
+763,41,MacPherson Struts,\N
+763,42,Independent\, Lever\, spring,\N
+763,57,11.9,m
+763,32,197,km/h
+763,50,5.6,litre
+763,51,4.8,litre
+763,52,5.1,litre
+763,34,1724,kg
+763,62,from 1 040 to 1 210,km
+763,47,76,mm
+763,48,88,mm
+763,26,9,\N
+763,1565,499,kg
+763,14,120,bhp
+763,16,300,Nm
+763,33,11.2,second
+763,50,4.6,litre
+763,51,4.2,litre
+763,52,4.4,litre
+763,34,1592,kg
+763,62,from 1 260 to 1 380,km
+763,38,155,mm
+763,32,202,km/h
+763,33,9.6,second
+763,50,5.3,litre
+763,51,4.7,litre
+763,52,4.9,litre
+763,34,1718,kg
+763,62,from 1 090 to 1 230,km
+763,5,4580,mm
+763,7,1695,mm
+763,38,180,mm
+763,10,1585,mm
+763,13,2356,cm3
+763,14,188,bhp
+763,15,to 6 400,RPM
+763,16,245,Nm
+763,17,direct injection,\N
+763,34,1640,kg
+763,62,from 570 to 890,km
+763,1564,to 3 900,RPM
+763,48,99.1,mm
+763,1565,460,kg
+770,6,2047,mm
+770,5,4315,mm
+770,16,161,Nm
+770,42,MacPherson Struts\, spring\, Stabilizer bar,\N
+770,50,11.7,litre
+770,51,9.3,litre
+770,52,10.6,litre
+770,62,from 510 to 650,km
+770,34,1605,kg
+770,45,711,litre
+770,44,2112,litre
+770,50,12.3,litre
+770,51,9.7,litre
+770,34,1651,kg
+770,62,from 490 to 620,km
+770,50,13,litre
+770,51,10.2,litre
+770,52,11.7,litre
+770,34,1600,kg
+770,62,from 460 to 590,km
+770,50,13.6,litre
+770,51,10.5,litre
+770,52,12,litre
+770,62,from 440 to 570,km
+770,34,1619,kg
+777,2,Crossover,\N
+777,4,5,\N
+777,6,1695,mm
+777,5,4095,mm
+777,7,1580,mm
+777,8,2460,mm
+777,9,1470,mm
+777,45,285,litre
+777,10,1455,mm
+777,38,175,mm
+777,12,Gasoline,\N
+777,13,1590,cm3
+777,14,105,bhp
+777,15,to 6 200,RPM
+777,16,138,Nm
+777,17,Multi-point fuel injection,\N
+777,19,Inline,\N
+777,20,4,\N
+777,39,4,\N
+777,22,95 RON,\N
+777,41,MacPherson Struts,\N
+777,42,Dependent\, Axle,\N
+777,24,Continuously variable transmission (CVT),\N
+777,27,Front wheel drive,\N
+777,29,ventilated disc,\N
+777,30,Disc,\N
+777,34,1200,kg
+777,35,55,litre
+777,37,EURO III,\N
+777,1564,to 3 400,RPM
+777,47,75,mm
+777,48,90,mm
+777,57,9.9,m
+777,44,285,litre
+777,42,De-Dion,\N
+777,27,All wheel drive (AWD),\N
+777,30,drum,\N
+777,32,152,km/h
+777,33,13.7,second
+777,50,9.9,litre
+777,51,7.5,litre
+777,34,1260,kg
+777,52,8.4,litre
+777,62,from 560 to 730,km
+777,14,125,bhp
+777,15,to 6 700,RPM
+777,16,144,Nm
+777,1564,to 4 900,RPM
+777,24,Manual,\N
+777,32,165,km/h
+777,33,11.7,second
+777,51,7.2,litre
+777,34,1180,kg
+777,52,8.2,litre
+777,62,from 560 to 760,km
+777,26,5,\N
+777,32,162,km/h
+777,33,12.7,second
+777,50,10.4,litre
+777,51,7.6,litre
+777,34,1240,kg
+777,52,8.6,litre
+777,62,from 530 to 720,km
+777,32,170,km/h
+777,33,11.2,second
+777,34,1266,kg
+777,5,3995,mm
+777,7,1575,mm
+777,8,2360,mm
+777,32,163,km/h
+777,33,11.4,second
+777,50,10.5,litre
+777,51,7.3,litre
+777,34,1130,kg
+777,52,8.3,litre
+777,62,from 520 to 750,km
+777,57,9,m
+777,33,13.1,second
+777,51,7.7,litre
+777,34,1190,kg
+777,52,8.7,litre
+777,62,from 520 to 710,km
+777,34,1110,kg
+777,33,12,second
+777,34,1160,kg
+777,33,10.8,second
+777,34,1195,kg
+777,34,1140,kg
+777,7,1670,mm
+777,34,1170,kg
+777,34,1120,kg
+777,34,1210,kg
+777,34,1270,kg
+777,34,1280,kg
+777,34,1230,kg
+777,33,11.3,second
+777,34,1317,kg
+763,10,1590,mm
+763,34,1568,kg
+763,62,from 570 to 870,km
+763,1565,502,kg
+763,50,9.8,litre
+763,51,6.4,litre
+763,62,from 590 to 910,km
+774,38,145,mm
+774,34,1170,kg
+753,6,1854,mm
+753,45,388,litre
+753,10,1590,mm
+753,16,245,Nm
+753,50,9.1,litre
+753,34,1473,kg
+753,62,from 710 to 970,km
+753,44,388,litre
+753,50,10.2,litre
+753,52,8.7,litre
+753,62,from 640 to 940,km
+753,14,278,bhp
+753,16,341,Nm
+753,1564,to 5 300,RPM
+2112,2,Sedan,\N
+2112,4,5,\N
+2112,6,1845,mm
+2112,5,4945,mm
+2112,7,1500,mm
+2112,8,2900,mm
+2112,9,1575,mm
+2112,45,500,litre
+2112,10,1570,mm
+2112,38,149.1,mm
+2112,12,Gasoline,\N
+2112,13,2496,cm3
+2112,14,222,bhp
+2112,15,to 4 800,RPM
+2112,16,253,Nm
+2112,17,Multi-point fuel injection,\N
+2112,19,V-type,\N
+2112,20,6,\N
+2112,39,4,\N
+2112,22,95 RON,\N
+2112,41,Independent\, Double wishbone,\N
+2112,42,Independent\, Multi wishbone,\N
+2112,24,Automatic,\N
+2112,27,Rear wheel drive,\N
+2112,29,ventilated disc,\N
+2112,30,ventilated disc,\N
+2112,57,11.2,m
+2112,32,231,km/h
+2112,33,9.2,second
+2112,50,13.3,litre
+2112,51,7.9,litre
+2112,52,9.9,litre
+2112,34,1680,kg
+2112,58,2200,kg
+2112,35,80,litre
+2112,62,from 600 to 1 010,km
+2112,37,EURO V,\N
+2112,1564,to 4 800,RPM
+2112,1566,Present,\N
+2112,47,85,mm
+2112,48,73.3,mm
+2112,26,7,\N
+2112,1565,520,kg
+2112,44,500,litre
+2112,7,1515,mm
+2112,10,1565,mm
+2112,38,144.8,mm
+2112,13,3696,cm3
+2112,14,333,bhp
+2112,15,to 7 000,RPM
+2112,16,363,Nm
+2112,27,All wheel drive (AWD),\N
+2112,57,11.4,m
+2112,32,246,km/h
+2112,33,6.3,second
+2112,50,15.3,litre
+2112,51,8.4,litre
+2112,52,10.9,litre
+2112,34,1790,kg
+2112,58,2380,kg
+2112,62,from 520 to 950,km
+2112,1564,to 5 200,RPM
+2112,47,95.5,mm
+2112,48,86,mm
+2112,1565,590,kg
+2112,38,144.7,mm
+2112,13,5552,cm3
+2112,14,408,bhp
+2112,15,to 6 000,RPM
+2112,16,550,Nm
+2112,17,direct injection,\N
+2112,20,8,\N
+2112,41,Independent\, Double wishbone\, Dampers,\N
+2112,42,Independent\, Multi wishbone\, Dampers,\N
+2112,32,250,km/h
+2112,33,5.4,second
+2112,50,18.7,litre
+2112,51,8.9,litre
+2112,52,12.5,litre
+2112,34,1850,kg
+2112,62,from 430 to 900,km
+2112,1564,to 4 400,RPM
+2112,47,98,mm
+2112,48,92,mm
+2112,1565,530,kg
+2112,5,4980,mm
+2112,38,151.7,mm
+2112,15,to 6 400,RPM
+2112,41,Independent\, Double wishbone\, Stabilizer bar,\N
+2112,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+2112,34,1765,kg
+2112,38,145.9,mm
+2112,34,1865,kg
+2112,38,143.9,mm
+2112,33,5.3,second
+2112,34,1940,kg
+771,13,2997,cm3
+771,14,250,bhp
+771,15,to 6 000,RPM
+771,16,309,Nm
+771,19,V-type,\N
+771,20,6,\N
+771,1564,to 5 000,RPM
+771,47,86,mm
+771,48,86,mm
+771,34,1980,kg
+768,7,1405,mm
+768,38,160,mm
+768,27,All wheel drive (AWD),\N
+768,34,1150,kg
+768,35,47,litre
+768,34,1130,kg
+795,5,4520,mm
+795,14,135,bhp
+795,15,to 5 200,RPM
+795,16,192,Nm
+795,34,1250,kg
+795,48,95,mm
+795,15,to 6 000,RPM
+795,16,201,Nm
+795,34,1260,kg
+795,1564,to 5 200,RPM
+795,34,1220,kg
+795,34,1230,kg
+795,14,220,bhp
+795,15,to 7 200,RPM
+795,16,221,Nm
+795,34,1270,kg
+795,1564,to 6 500,RPM
+753,5,4665,mm
+753,45,459,litre
+753,10,1510,mm
+753,52,5.4,litre
+753,34,1470,kg
+753,50,7.1,litre
+753,51,4.5,litre
+753,62,from 920 to 1 440,km
+753,44,459,litre
+761,7,1405,mm
+761,16,144,Nm
+761,27,All wheel drive (AWD),\N
+761,34,1140,kg
+761,34,1120,kg
+761,34,1090,kg
+761,33,8.1,second
+761,58,1765,kg
+761,1567,2765,kg
+795,1565,490,kg
+795,1565,450,kg
+795,34,1210,kg
+795,1565,510,kg
+795,1565,480,kg
+804,34,1320,kg
+804,34,1490,kg
+804,5,4555,mm
+804,34,1480,kg
+804,1564,to 4 600,RPM
+761,33,11.3,second
+761,58,1745,kg
+761,1567,2945,kg
+761,14,85,bhp
+761,16,104,Nm
+761,34,920,kg
+761,16,125,Nm
+761,34,970,kg
+761,15,to 6 800,RPM
+761,16,138,Nm
+761,14,94,bhp
+761,16,131,Nm
+761,14,155,bhp
+761,15,to 7 300,RPM
+761,1564,to 6 500,RPM
+761,14,170,bhp
+761,15,to 7 800,RPM
+761,16,156,Nm
+761,1564,to 7 300,RPM
+761,62,from 540,km
+761,32,162,km/h
+761,1565,460,kg
+761,34,870,kg
+761,16,143,Nm
+761,34,915,kg
+761,1564,to 5 700,RPM
+761,58,1380,kg
+761,1565,465,kg
+761,5,4010,mm
+761,9,1440,mm
+761,10,1445,mm
+761,14,150,bhp
+761,52,7.4,litre
+761,32,208,km/h
+761,1564,to 7 100,RPM
+761,58,1470,kg
+761,1565,440,kg
+761,1567,2170,kg
+764,6,1675,mm
+764,5,3755,mm
+764,7,1270,mm
+764,8,2300,mm
+764,9,1450,mm
+764,10,1455,mm
+764,38,150,mm
+764,13,1493,cm3
+764,14,105,bhp
+764,15,to 6 500,RPM
+764,16,306,N*m
+764,34,820,kg
+764,1564,to 4 500,RPM
+764,47,75,mm
+764,48,84.5,mm
+764,57,9,m
+801,14,190,bhp
+801,16,237,Nm
+801,22,98 RON,\N
+790,5,4770,mm
+790,7,1570,mm
+790,14,190,bhp
+790,15,to 6 800,RPM
+790,16,232,Nm
+790,30,ventilated disc,\N
+790,34,1690,kg
+790,1564,to 4 500,RPM
+790,7,1550,mm
+790,14,200,bhp
+790,34,1640,kg
+753,5,4945,mm
+753,10,1585,mm
+753,14,145,bhp
+753,33,11.7,second
+753,50,10.1,litre
+753,51,5.8,litre
+753,52,7.4,litre
+753,62,from 640 to 1 120,km
+753,14,188,bhp
+753,50,10.4,litre
+753,52,7.7,litre
+753,34,1615,kg
+753,62,from 630 to 1 080,km
+753,13,2997,cm3
+753,14,249,bhp
+753,16,297,Nm
+753,50,13.7,litre
+753,34,1729,kg
+753,62,from 470 to 980,km
+753,1564,to 5 500,RPM
+753,47,83,mm
+753,48,86,mm
+785,7,1515,mm
+785,14,91,bhp
+785,15,to 6 300,RPM
+785,16,114,Nm
+785,39,4,\N
+785,52,8,litre
+785,34,960,kg
+785,50,8.8,litre
+785,51,5.9,litre
+785,62,from 450 to 680,km
+785,32,163,km/h
+785,33,12,second
+785,1564,to 4 800,RPM
+790,5,4750,mm
+790,13,2156,cm3
+790,14,145,bhp
+790,16,196,Nm
+790,34,1530,kg
+790,1564,to 4 600,RPM
+790,47,85,mm
+790,48,95,mm
+790,34,1470,kg
+794,6,1997,mm
+794,5,4954,mm
+794,7,1788,mm
+794,8,2820,mm
+794,9,1684,mm
+794,45,305,litre
+794,44,1779,litre
+794,10,1706,mm
+794,13,2997,cm3
+794,15,to 6 000,RPM
+794,16,294,Nm
+794,41,Independent\, MacPherson Struts,\N
+794,57,11.42,m
+794,32,192,km/h
+794,33,9.1,second
+794,50,14.3,litre
+794,51,8.2,litre
+794,52,10.4,litre
+794,34,2008,kg
+794,58,2650,kg
+794,35,73.8,litre
+794,62,from 520 to 900,km
+794,1564,to 5 000,RPM
+794,47,86,mm
+794,48,86,mm
+794,26,6,\N
+794,1565,594,kg
+19516,2,Crossover,\N
+19516,4,5,\N
+19516,6,1815,mm
+19516,5,4425,mm
+19516,7,1515,mm
+19516,8,2700,mm
+19516,45,430,litre
+19516,12,Gasoline,\N
+19516,13,1991,cm3
+19516,14,211,bhp
+19516,15,to 5 500,RPM
+19516,16,350,Nm
+19516,17,direct injection,\N
+19516,46,Turbo,\N
+19516,19,Inline,\N
+19516,20,4,\N
+19516,39,4,\N
+19516,22,95 RON,\N
+19516,41,MacPherson Struts,\N
+19516,42,Multi wishbone,\N
+19516,24,Electronic,\N
+19516,27,All wheel drive (AWD),\N
+19516,29,ventilated disc,\N
+19516,30,Disc,\N
+19516,52,6.4,litre
+19516,35,56,litre
+19516,32,230,km/h
+19516,33,7.3,second
+19516,1564,from 1 200 to 4 000,RPM
+19516,47,83,mm
+19516,48,92,mm
+19516,26,7,\N
+19516,9,1572,mm
+19516,10,1573,mm
+19516,44,430,litre
+19516,38,202,mm
+19516,50,8.9,litre
+19516,51,5.7,litre
+19516,62,from 630 to 980,km
+19516,12,Disel,\N
+19516,13,2143,cm3
+19516,14,170,bhp
+19516,15,from 3 400 to 4 000,RPM
+19516,17,Common Rail,\N
+19516,22,Disel,\N
+19516,50,6,litre
+19516,51,4.3,litre
+19516,52,4.9,litre
+19516,62,from 930 to 1 300,km
+19516,37,EURO VI,\N
+19516,32,215,km/h
+19516,33,8.5,second
+19516,1564,from 1 400 to 3 400,RPM
+19516,48,99,mm
+19516,57,11.4,m
+19516,34,1610,kg
+19516,58,2075,kg
+19516,1565,465,kg
+19516,1567,3875,kg
+791,13,1972,cm3
+791,14,145,bhp
+791,15,to 6 200,RPM
+791,16,178,Nm
+791,34,1210,kg
+791,35,53,litre
+791,47,84,mm
+791,7,1500,mm
+791,10,1455,mm
+791,27,All wheel drive (AWD),\N
+791,34,1270,kg
+765,45,393,litre
+765,44,587,litre
+765,33,10,second
+765,1564,to 1 500,RPM
+763,33,10.6,second
+763,50,9.5,litre
+763,34,1682,kg
+763,58,2220,kg
+763,62,from 610 to 940,km
+763,1565,538,kg
+763,1567,3720,kg
+763,50,8,litre
+763,51,5.6,litre
+763,34,1622,kg
+763,62,from 730 to 1 040,km
+763,1567,2160,kg
+870,5,4690,mm
+870,13,2997,cm3
+870,14,405,bhp
+870,15,to 6 400,RPM
+870,16,475,Nm
+870,17,direct injection,\N
+870,46,Biturbo,\N
+870,41,Independent\, MacPherson Struts,\N
+870,42,Independent\, Multi wishbone,\N
+870,27,All wheel drive (AWD),\N
+870,52,9.3,litre
+870,50,13.3,litre
+870,51,7,litre
+870,62,from 600 to 1 140,km
+870,33,5.1,second
+870,1564,from 1 600 to 5 200,RPM
+870,57,12,m
+870,9,1560,mm
+870,10,1585,mm
+870,38,125,mm
+870,34,1914,kg
+870,58,2265,kg
+870,45,342,litre
+870,44,342,litre
+791,14,150,bhp
+791,16,184,Nm
+791,34,1300,kg
+791,1564,to 4 500,RPM
+791,7,1450,mm
+791,34,1240,kg
+791,7,1465,mm
+791,10,1470,mm
+791,34,1220,kg
+765,50,5.6,litre
+765,51,5,litre
+765,52,5.3,litre
+765,62,from 710 to 800,km
+765,15,to 6 000,RPM
+765,16,145,Nm
+765,24,Continuously variable transmission (CVT),\N
+765,9,1520,mm
+765,34,1247,kg
+765,58,1540,kg
+765,1565,293,kg
+765,45,225,litre
+765,44,401,litre
+776,35,42,litre
+776,22,95 RON,\N
+776,13,1496,cm3
+776,14,88,bhp
+776,15,to 5 400,RPM
+776,16,132,Nm
+776,1564,to 4 200,RPM
+776,12,Hybrid,\N
+776,19,Inline,\N
+776,17,Multi-point fuel injection,\N
+776,20,4,\N
+776,39,2,\N
+776,47,73,mm
+776,48,89.4,mm
+776,24,Continuously variable transmission (CVT),\N
+776,27,Front wheel drive,\N
+776,57,10.2,m
+776,4,6,7
+776,5,4215,mm
+776,6,1695,mm
+776,7,1715,mm
+776,8,2740,mm
+776,9,1480,mm
+776,10,1475,mm
+776,38,150,mm
+776,34,1420,kg
+776,41,MacPherson Struts,\N
+776,42,Beam\, spring,\N
+776,29,ventilated disc,\N
+776,30,drum,\N
+776,2,Minivan,\N
+776,4,6,\N
+776,34,1390,kg
+800,50,11.8,litre
+800,51,8.4,litre
+800,62,from 420 to 600,km
+800,32,239,km/h
+800,33,5.8,second
+800,16,220,Nm
+800,1564,to 6 800,RPM
+807,34,1230,kg
+807,14,145,bhp
+807,16,179,Nm
+763,50,9,litre
+763,52,7.8,litre
+763,62,from 640 to 910,km
+778,50,4.6,litre
+778,51,4.2,litre
+778,52,4.4,litre
+778,62,from 870 to 950,km
+778,37,EURO V,\N
+778,32,182,km/h
+778,33,12.4,second
+778,13,1339,cm3
+778,14,102,bhp
+778,15,to 5 800,RPM
+778,16,121,Nm
+778,1564,to 4 500,RPM
+778,39,2,\N
+778,47,73,mm
+778,48,80,mm
+778,57,11.1,m
+778,4,5,\N
+778,5,4390,mm
+778,7,1425,mm
+778,8,2550,mm
+778,9,1490,mm
+778,10,1480,mm
+778,38,145,mm
+778,34,1190,kg
+778,58,1650,kg
+778,1565,460,kg
+778,45,339,litre
+778,44,408,litre
+778,30,Disc,\N
+753,50,9.6,litre
+753,62,from 680 to 1 070,km
+753,34,1502,kg
+753,58,1990,kg
+753,1565,488,kg
+753,51,5.9,litre
+753,52,7.3,litre
+753,62,from 680 to 1 100,km
+753,15,to 6 300,RPM
+753,1564,from 4 100 to 5 000,RPM
+753,34,1351,kg
+753,51,5.6,litre
+753,62,from 640 to 1 160,km
+753,34,1361,kg
+753,58,1930,kg
+753,50,10.3,litre
+753,52,9.3,litre
+753,62,from 580 to 870,km
+753,32,196,km/h
+753,14,135,bhp
+753,16,182,Nm
+753,7,1410,mm
+753,50,12.4,litre
+753,62,from 480 to 780,km
+753,33,8.6,second
+753,16,206,Nm
+753,34,1290,kg
+753,62,from 550 to 870,km
+753,34,1270,kg
+753,62,from 630 to 1 050,km
+753,10,1515,mm
+753,34,1393,kg
+753,1565,527,kg
+753,33,10.5,second
+753,34,1427,kg
+753,52,9,litre
+753,33,7.8,second
+753,34,1456,kg
+753,1565,464,kg
+753,62,from 470 to 940,km
+753,34,1489,kg
+753,1565,431,kg
+753,50,10.7,litre
+753,62,from 610 to 960,km
+753,32,190,km/h
+753,33,12.2,second
+753,13,1590,cm3
+753,14,115,bhp
+753,15,to 6 500,RPM
+753,16,140,Nm
+753,1564,to 5 100,RPM
+753,47,75,mm
+753,48,90,mm
+753,34,1230,kg
+753,58,1740,kg
+753,1565,510,kg
+753,33,10.4,second
+753,13,1850,cm3
+753,14,136,bhp
+753,48,81.5,mm
+753,34,1405,kg
+753,1565,485,kg
+753,50,12.6,litre
+753,62,from 520 to 930,km
+753,32,195,km/h
+753,33,11.3,second
+753,62,from 570 to 940,km
+753,34,1508,kg
+753,1565,390,kg
+753,33,10.9,second
+753,34,1525,kg
+753,1565,365,kg
+753,32,240,km/h
+753,15,to 8 000,RPM
+753,5,4700,mm
+753,6,1650,mm
+753,34,1500,kg
+753,58,1775,kg
+753,1565,275,kg
+753,45,350,litre
+753,44,350,litre
+753,41,Independent\, Multi wishbone\, Double wishbone\, Dampers\, Stabilizer bar,\N
+753,50,12.9,litre
+753,51,7.8,litre
+753,62,from 500 to 830,km
+753,22,98 RON,\N
+753,32,228,km/h
+753,13,2157,cm3
+753,14,212,bhp
+753,15,to 7 200,RPM
+753,16,215,Nm
+753,1564,to 6 700,RPM
+753,9,1495,mm
+753,10,1504,mm
+753,34,1345,kg
+753,58,1820,kg
+753,45,430,litre
+753,44,430,litre
+753,41,Double wishbone,\N
+753,42,A few levers and rods,\N
+753,62,from 530 to 830,km
+753,32,185,km/h
+753,33,11.6,second
+753,14,148,bhp
+753,16,183,Nm
+753,27,All wheel drive (AWD),\N
+753,5,4635,mm
+753,7,1420,mm
+753,34,1250,kg
+753,58,1730,kg
+753,50,10.6,litre
+753,62,from 570 to 880,km
+753,16,186,Nm
+753,34,1280,kg
+753,1565,450,kg
+753,50,9.5,litre
+753,62,from 680 to 1 020,km
+753,16,172,Nm
+753,6,1715,mm
+753,7,1380,mm
+753,1565,580,kg
+753,45,405,litre
+753,44,405,litre
+753,62,from 640 to 980,km
+753,33,11.4,second
+753,14,131,bhp
+753,15,to 5 400,RPM
+753,16,178,Nm
+753,62,from 630 to 940,km
+753,32,199,km/h
+753,33,13.1,second
+753,62,from 580 to 830,km
+753,32,216,km/h
+753,13,2259,cm3
+753,14,158,bhp
+753,34,1320,kg
+753,58,1880,kg
+753,1565,560,kg
+753,62,from 550 to 1 000,km
+753,32,178,km/h
+753,13,1848,cm3
+753,14,105,bhp
+753,16,143,N*m
+753,1564,to 3 500,RPM
+753,48,81,mm
+753,34,1150,kg
+753,62,from 600 to 860,km
+753,32,184,km/h
+753,14,90,bhp
+753,15,from 5 500,RPM
+753,16,149,N*m
+753,1564,to 2 700,RPM
+753,17,Carburetor,\N
+753,34,1220,kg
+753,14,110,bhp
+753,16,159,N*m
+753,1564,to 3 700,RPM
+753,50,14,litre
+753,51,8,litre
+753,62,from 430 to 750,km
+753,15,to 6 100,RPM
+753,16,186,N*m
+753,13,2155,cm3
+753,15,to 5 900,RPM
+753,16,198,N*m
+753,34,1305,kg
+753,58,1840,kg
+761,51,6.4,litre
+761,62,from 500 to 780,km
+761,22,98 RON,\N
+761,13,2354,cm3
+761,14,204,bhp
+761,16,230,Nm
+761,1564,to 4 400,RPM
+761,47,87,mm
+761,48,99,mm
+761,6,1752,mm
+761,62,from 570 to 1 000,km
+761,32,209,km/h
+761,33,10.9,second
+761,57,10.48,m
+761,5,4300,mm
+761,9,1540,mm
+761,10,1540,mm
+761,34,1261,kg
+761,58,1790,kg
+761,44,1210,litre
+761,41,Independent\, MacPherson Struts\, spring\, Stabilizer bar,\N
+761,30,ventilated disc,\N
+761,51,4.7,litre
+761,52,5.4,litre
+761,62,from 760 to 1 060,km
+761,34,1181,kg
+761,58,1680,kg
+761,1565,499,kg
+761,1567,2880,kg
+761,51,4.9,litre
+761,52,5.8,litre
+761,62,from 680 to 1 020,km
+761,32,212,km/h
+761,33,9.1,second
+761,34,1381,kg
+761,1565,489,kg
+761,1567,3310,kg
+761,50,5.1,litre
+761,51,3.7,litre
+761,52,4.2,litre
+761,62,from 980 to 1 350,km
+761,32,217,km/h
+761,33,8.3,second
+761,13,2199,cm3
+761,16,350,Nm
+761,48,96.9,mm
+761,34,1441,kg
+761,58,1910,kg
+761,1565,470,kg
+761,1567,3410,kg
+761,7,1415,mm
+761,9,1495,mm
+761,10,1525,mm
+761,34,1249,kg
+761,45,250,litre
+761,44,250,litre
+761,34,1284,kg
+761,51,5.1,litre
+761,62,from 600 to 980,km
+761,34,1165,kg
+761,1565,585,kg
+761,1567,2915,kg
+761,50,8.2,litre
+761,62,from 610 to 930,km
+761,33,12.3,second
+761,58,1660,kg
+761,1565,494,kg
+761,1567,2660,kg
+761,33,11.5,second
+761,34,1311,kg
+761,1565,449,kg
+761,1567,2960,kg
+761,51,5.6,litre
+761,52,7.8,litre
+761,62,from 560 to 890,km
+761,5,4440,mm
+761,6,1751,mm
+761,7,1396,mm
+761,8,2650,mm
+761,10,1526,mm
+761,34,1205,kg
+761,44,325,litre
+761,50,9.6,litre
+761,52,8.2,litre
+761,62,from 520 to 850,km
+761,32,210,km/h
+761,7,1395,mm
+761,34,1178,kg
+761,57,11.56,m
+761,5,4545,mm
+761,1565,500,kg
+761,45,440,litre
+761,44,440,litre
+761,41,MacPherson Struts\, Stabilizer bar,\N
+761,50,9.2,litre
+761,62,from 540 to 980,km
+761,34,1110,kg
+761,62,from 580 to 910,km
+761,34,1121,kg
+761,50,10.1,litre
+761,34,1155,kg
+761,62,from 520 to 800,km
+761,58,1720,kg
+761,1565,720,kg
+761,1567,2720,kg
+761,34,1025,kg
+761,1565,695,kg
+761,34,1060,kg
+761,5,4395,mm
+761,34,960,kg
+761,5,4397,mm
+761,34,1033,kg
+761,58,1520,kg
+761,1567,2520,kg
+761,16,135,Nm
+761,34,1150,kg
+761,34,1130,kg
+761,34,1170,kg
+761,62,from 490,km
+761,34,1138,kg
+761,1565,382,kg
+761,52,7.7,litre
+761,5,4230,mm
+761,34,901,kg
+761,1565,469,kg
+761,45,383,litre
+761,44,383,litre
+761,33,9.8,second
+761,34,883,kg
+761,34,932,kg
+761,1565,438,kg
+761,7,1380,mm
+761,9,1445,mm
+761,34,1020,kg
+761,62,from 520,km
+761,34,942,kg
+761,58,1400,kg
+761,1565,458,kg
+761,1567,2100,kg
+761,34,1100,kg
+761,50,7,litre
+761,35,55,litre
+761,62,from 790,km
+761,5,4315,mm
+761,34,1059,kg
+761,1565,541,kg
+761,45,380,litre
+761,44,830,litre
+761,2,Liftback,\N
+761,62,from 620,km
+761,14,113,bhp
+761,1564,to 5 100,RPM
+761,34,1097,kg
+761,1565,553,kg
+761,1567,2850,kg
+761,33,13.2,second
+761,34,1119,kg
+761,1565,531,kg
+761,1567,2650,kg
+761,32,197,km/h
+761,33,9.9,second
+761,14,126,bhp
+761,34,1148,kg
+761,1565,502,kg
+783,13,2675,cm3
+783,14,180,bhp
+783,15,to 6 000,RPM
+783,16,226,Nm
+783,1564,to 4 500,RPM
+783,47,87,mm
+783,48,75,mm
+783,57,11,m
+783,4,4,5
+783,5,4775,mm
+783,6,1745,mm
+783,7,1370,mm
+783,8,2705,mm
+783,9,1500,mm
+783,10,1500,mm
+783,2,Coupe,\N
+783,32,223,km/h
+783,13,3206,cm3
+783,15,to 5 500,RPM
+783,16,293,Nm
+783,1564,to 4 400,RPM
+783,48,84,mm
+783,24,Manual,\N
+783,57,11.3,m
+783,5,4950,mm
+783,7,1410,mm
+783,38,150,mm
+783,34,1590,kg
+783,58,2150,kg
+783,1565,560,kg
+783,45,427,litre
+783,44,427,litre
+783,34,1610,kg
+783,1565,530,kg
+783,14,215,bhp
+783,16,299,Nm
+783,57,10.6,m
+783,5,4940,mm
+783,7,1405,mm
+783,38,155,mm
+783,34,1560,kg
+779,24,Manual,\N
+779,5,4690,mm
+779,6,1695,mm
+779,9,1465,mm
+779,10,1470,mm
+779,34,1280,kg
+779,34,1300,kg
+862,50,16.8,litre
+862,51,13.1,litre
+862,52,14.7,litre
+862,62,from 540 to 690,km
+862,33,6.4,second
+862,14,324,bhp
+862,15,to 6 000,RPM
+862,16,454,Nm
+753,50,9.4,litre
+753,52,7.2,litre
+753,62,from 690 to 1 100,km
+753,10,1589,mm
+753,34,1449,kg
+753,58,1935,kg
+753,1568,1020/920,kg
+753,1567,3435,kg
+753,52,7.5,litre
+753,62,from 640 to 1 100,km
+753,34,1499,kg
+753,58,1960,kg
+753,1568,1045/920,kg
+753,1567,3460,kg
+753,8,2680,mm
+753,33,7.9,second
+753,34,1398,kg
+753,1565,522,kg
+753,62,from 550 to 960,km
+753,57,10.8,m
+753,50,14.6,litre
+753,51,9,litre
+753,52,10.3,litre
+753,62,from 450 to 720,km
+753,33,9.5,second
+763,51,7.1,litre
+763,52,8.5,litre
+763,62,from 590 to 820,km
+763,34,1543,kg
+778,50,4.3,litre
+778,51,4,litre
+778,52,4.1,litre
+778,62,from 930 to 1 000,km
+778,9,1480,mm
+778,10,1470,mm
+778,13,1496,cm3
+778,14,125,bhp
+778,15,to 6 000,RPM
+778,16,142,Nm
+778,48,89.4,mm
+778,5,4395,mm
+778,7,1435,mm
+778,34,1200,kg
+778,45,450,litre
+778,44,891,litre
+753,62,from 560 to 900,km
+753,57,11.1,m
+753,4,4,\N
+753,6,1785,mm
+753,7,1405,mm
+753,9,1555,mm
+753,10,1535,mm
+753,58,1850,kg
+753,62,from 610 to 970,km
+753,32,221,km/h
+753,34,1340,kg
+753,51,7.1,litre
+753,35,64,litre
+753,62,from 570 to 900,km
+753,33,8.8,second
+761,50,11.6,litre
+761,51,7.6,litre
+761,52,9.1,litre
+761,62,from 470 to 720,km
+761,14,116,bhp
+761,5,4425,mm
+761,7,1410,mm
+761,9,1465,mm
+761,1565,530,kg
+761,44,1312,litre
+761,2,Wagon,\N
+761,32,186,km/h
+761,33,12.8,second
+761,34,1256,kg
+761,1565,394,kg
+761,50,10.2,litre
+761,51,6.8,litre
+761,52,8,litre
+761,62,from 540 to 810,km
+761,15,to 6 600,RPM
+761,34,1175,kg
+761,58,1670,kg
+761,57,9.8,m
+761,5,4235,mm
+761,7,1515,mm
+761,38,175,mm
+761,34,1180,kg
+761,14,102,bhp
+761,15,to 5 900,RPM
+761,1564,to 4 900,RPM
+761,5,4400,mm
+761,34,998,kg
+761,45,365,litre
+761,44,365,litre
+761,62,from 480,km
+761,34,1028,kg
+761,34,1063,kg
+761,58,1530,kg
+761,1565,467,kg
+761,1567,2230,kg
+761,34,1037,kg
+761,1567,2530,kg
+761,16,145,Nm
+761,5,4390,mm
+761,34,1070,kg
+783,50,12.6,litre
+783,51,7.1,litre
+783,52,8.8,litre
+783,62,from 540 to 960,km
+783,22,92 RON,\N
+783,32,210,km/h
+783,33,8,second
+783,13,2493,cm3
+783,14,173,bhp
+783,16,217,Nm
+783,1564,from 2 500 to 6 000,RPM
+783,47,84,mm
+783,57,12.2,m
+783,5,4810,mm
+783,6,1735,mm
+783,7,1390,mm
+783,8,2760,mm
+783,9,1490,mm
+783,10,1450,mm
+783,34,1350,kg
+783,58,1850,kg
+783,1565,500,kg
+783,1568,995/855,kg
+783,1567,3350,kg
+783,32,213,km/h
+783,33,8.8,second
+783,14,169,bhp
+783,15,to 5 900,RPM
+783,16,225,Nm
+783,39,2,\N
+783,57,12.5,m
+783,5,4845,mm
+783,6,1750,mm
+783,10,1460,mm
+783,34,1420,kg
+783,58,1980,kg
+783,45,420,litre
+783,44,420,litre
+783,1567,2540,kg
+753,6,1725,mm
+753,7,1400,mm
+753,10,1475,mm
+753,34,1435,kg
+753,45,980,litre
+753,44,1830,litre
+756,35,65,litre
+756,22,95 RON,\N
+756,13,2253,cm3
+756,14,150,bhp
+756,15,to 5 800,RPM
+756,16,206,Nm
+756,1564,to 4 800,RPM
+756,12,Gasoline,\N
+756,19,Inline,\N
+756,17,Multi-point fuel injection,\N
+756,20,4,\N
+756,39,4,\N
+756,47,86,mm
+756,48,97,mm
+756,24,Automatic,\N
+756,26,4,\N
+756,27,Front wheel drive,\N
+756,57,11.2,m
+756,4,5,\N
+756,5,4700,mm
+756,6,1790,mm
+756,7,1500,mm
+756,8,2765,mm
+756,9,1555,mm
+756,10,1540,mm
+756,38,155,mm
+756,34,1500,kg
+756,41,Double wishbone,\N
+756,42,Double wishbone,\N
+756,29,ventilated disc,\N
+756,30,Disc,\N
+756,2,Wagon,\N
+756,35,60,litre
+756,13,2254,cm3
+756,27,All wheel drive (AWD),\N
+756,57,11.4,m
+756,5,4795,mm
+756,6,1810,mm
+756,7,1545,mm
+756,38,185,mm
+756,34,1620,kg
+756,13,2997,cm3
+756,14,215,bhp
+756,16,272,Nm
+756,1564,to 5 000,RPM
+756,19,V-type,\N
+756,20,6,\N
+756,48,86,mm
+756,26,5,\N
+756,34,1580,kg
+756,35,61,litre
+756,38,160,mm
+756,34,1690,kg
+771,5,4840,mm
+771,34,1780,kg
+771,34,1850,kg
+771,34,1890,kg
+771,34,1970,kg
+787,5,4055,mm
+798,51,10.1,litre
+798,62,from 590 to 820,km
+798,15,to 5 750,RPM
+798,1564,to 4 500,RPM
+798,34,2041,kg
+798,1565,704,kg
+800,22,95 RON,\N
+800,14,247,bhp
+800,16,218,Nm
+800,29,Disc,\N
+800,30,ventilated disc,\N
+765,33,9.9,second
+765,38,135,mm
+765,34,1147,kg
+765,58,1522,kg
+765,1565,375,kg
+769,13,2354,cm3
+769,14,162,bhp
+769,15,to 5 700,RPM
+769,16,218,Nm
+769,47,87,mm
+769,48,99,mm
+769,5,4300,mm
+769,7,1600,mm
+769,9,1555,mm
+769,10,1565,mm
+769,38,145,mm
+800,35,55,litre
+805,27,All wheel drive (AWD),\N
+805,34,880,kg
+807,14,148,bhp
+807,16,183,Nm
+807,27,All wheel drive (AWD),\N
+807,7,1440,mm
+807,34,1370,kg
+861,50,14.3,litre
+861,51,8.4,litre
+861,52,10.6,litre
+861,35,80,litre
+861,62,from 560 to 950,km
+861,22,95 RON,\N
+861,37,EURO IV,\N
+861,32,210,km/h
+861,33,9.4,second
+861,13,2496,cm3
+861,14,222,bhp
+861,15,from 6 400,RPM
+861,16,252,Nm
+861,1564,to 4 800,RPM
+861,12,Gasoline,\N
+861,19,V-type,\N
+861,17,Multi-point fuel injection,\N
+861,20,6,\N
+861,39,4,\N
+861,24,Automatic,\N
+861,26,7,\N
+861,27,All wheel drive (AWD),\N
+861,57,11,m
+861,4,5,\N
+861,5,4635,mm
+861,6,1800,mm
+861,7,1600,mm
+861,8,2800,mm
+861,9,1540,mm
+861,10,1545,mm
+861,38,147,mm
+861,34,1842,kg
+861,45,309,litre
+861,44,309,litre
+861,1568,976/866,kg
+861,41,Independent\, Multi wishbone,\N
+861,42,Independent\, Multi wishbone,\N
+861,29,ventilated disc,\N
+861,30,ventilated disc,\N
+861,2,Crossover,\N
+861,13,3498,cm3
+861,14,301,bhp
+861,15,to 6 800,RPM
+861,16,343,Nm
+861,47,95.5,mm
+861,48,81.4,mm
+861,26,5,\N
+861,27,Rear wheel drive,\N
+861,5,4630,mm
+861,7,1575,mm
+861,50,15,litre
+861,51,10,litre
+861,52,12,litre
+861,62,from 530 to 800,km
+861,32,231,km/h
+861,33,6,second
+861,27,Four wheel drive (4WD),\N
+861,38,149,mm
+861,34,1932,kg
+861,50,15.9,litre
+861,51,10.2,litre
+861,52,12.3,litre
+861,62,from 500 to 780,km
+861,14,302,bhp
+861,15,from 6 800,RPM
+861,17,Injector,\N
+861,38,148,mm
+861,34,1793,kg
+861,30,Disc,\N
+861,50,15.7,litre
+861,52,12.1,litre
+861,62,from 510 to 800,km
+861,32,240,km/h
+861,33,6.4,second
+861,13,3696,cm3
+861,14,330,bhp
+861,15,from 7 000,RPM
+861,16,361,Nm
+861,1564,to 5 200,RPM
+861,34,1870,kg
+861,1568,1010/860,kg
+865,52,11.8,litre
+865,35,72,litre
+865,22,95 RON,\N
+865,32,206,km/h
+865,13,2960,cm3
+865,14,200,bhp
+865,15,to 6 000,RPM
+865,16,260,Nm
+865,1564,to 4 400,RPM
+865,12,Gasoline,\N
+865,19,V-type,\N
+865,17,Multi-point fuel injection,\N
+865,20,6,\N
+865,39,4,\N
+865,47,87,mm
+865,48,83,mm
+865,24,Automatic,\N
+865,26,4,\N
+865,27,Rear wheel drive,\N
+865,4,5,\N
+865,5,4860,mm
+865,6,1770,mm
+865,7,1390,mm
+865,8,2761,mm
+865,9,1501,mm
+865,10,1501,mm
+865,38,150,mm
+865,34,1601,kg
+865,45,185,litre
+865,44,185,litre
+865,41,Helical springs,\N
+865,42,Helical springs,\N
+865,29,ventilated disc,\N
+865,30,ventilated disc,\N
+865,2,Sedan,\N
+865,50,16.1,litre
+865,51,9.3,litre
+865,52,12.6,litre
+865,62,from 450 to 770,km
+865,22,92 RON,\N
+865,14,213,bhp
+865,16,262,Nm
+865,1564,to 4 800,RPM
+865,8,2760,mm
+865,9,1500,mm
+865,10,1500,mm
+865,34,1600,kg
+865,30,drum,\N
+866,50,13.1,litre
+866,51,9.8,litre
+866,52,11.2,litre
+866,35,74,litre
+866,62,from 560 to 760,km
+866,22,98 RON,\N
+866,32,194,km/h
+866,33,8,second
+866,13,3498,cm3
+866,14,262,bhp
+866,15,to 6 400,RPM
+866,16,336,Nm
+866,1564,to 4 400,RPM
+866,12,Gasoline,\N
+866,19,V-type,\N
+866,17,Multi-point fuel injection,\N
+866,20,6,\N
+866,39,4,\N
+866,47,95.5,mm
+866,48,81.4,mm
+866,24,Continuously variable transmission (CVT),\N
+866,27,Front wheel drive,\N
+866,57,11.8,m
+866,4,7,\N
+866,5,4989,mm
+866,6,1961,mm
+866,7,1722,mm
+866,8,2901,mm
+866,9,1670,mm
+866,10,1670,mm
+866,38,165,mm
+866,34,1941,kg
+866,45,447,litre
+866,44,447,litre
+866,41,Independent\, Stabilizer bar,\N
+866,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+866,29,ventilated disc,\N
+866,30,ventilated disc,\N
+866,2,Crossover,\N
+866,50,14.4,litre
+866,51,8.5,litre
+866,52,10.7,litre
+866,62,from 510 to 870,km
+866,22,95 RON,\N
+866,37,EURO IV,\N
+866,32,190,km/h
+866,33,8.4,second
+866,16,334,Nm
+866,27,Four wheel drive (4WD),\N
+866,6,1960,mm
+866,7,1742,mm
+866,8,2900,mm
+866,38,180,mm
+866,34,2082,kg
+866,58,2616,kg
+866,1565,534,kg
+866,45,175,litre
+866,44,787,litre
+866,41,Independent\, MacPherson Struts\, spring,\N
+866,42,Independent\, Multi wishbone\, spring,\N
+869,50,6,litre
+869,51,4.1,litre
+869,52,4.8,litre
+869,62,from 1 120 to 1 630,km
+869,22,Disel,\N
+869,32,230,km/h
+869,33,8.5,second
+869,13,2143,cm3
+869,14,170,bhp
+869,15,from 3 000 to 4 200,RPM
+869,16,400,Nm
+869,1564,from 1 400 to 2 800,RPM
+869,12,Disel,\N
+869,47,83,mm
+869,48,99,mm
+869,57,11.4,m
+869,34,1641,kg
+869,45,510,litre
+869,44,510,litre
+869,50,5.6,litre
+869,51,3.7,litre
+869,52,4.4,litre
+869,62,from 1 200 to 1 810,km
+869,24,Manual,\N
+869,26,6,\N
+869,50,11.7,litre
+869,51,8.1,litre
+869,52,10.2,litre
+869,35,76,litre
+869,62,from 650 to 940,km
+869,13,3696,cm3
+869,14,328,bhp
+869,15,to 7 000,RPM
+869,16,365,Nm
+869,1564,to 5 200,RPM
+869,47,95.5,mm
+869,48,86,mm
+869,5,4783,mm
+869,6,1824,mm
+869,7,1443,mm
+869,9,1519,mm
+869,10,1529,mm
+869,34,1621,kg
+869,41,Independent\, Double wishbone\, Dampers\, Stabilizer bar,\N
+869,42,Independent\, Multi wishbone\, spring\, Stabilizer bar,\N
+869,27,All wheel drive (AWD),\N
+869,7,1453,mm
+869,34,1700,kg
+759,50,7.4,litre
+759,51,5.3,litre
+759,52,6.1,litre
+759,62,from 570 to 790,km
+759,33,11.8,second
+759,34,1118,kg
+759,1565,422,kg
+759,34,1150,kg
+763,50,4.8,litre
+763,51,4.3,litre
+763,52,4.5,litre
+763,62,from 1 210 to 1 350,km
+763,34,1611,kg
+763,1565,489,kg
+763,1567,3800,kg
+782,52,5.4,litre
+782,62,from 650 to 890,km
+782,32,182,km/h
+782,33,11,second
+782,13,1339,cm3
+782,14,100,bhp
+782,16,127,Nm
+782,48,80,mm
+782,34,1071,kg
+782,58,1555,kg
+782,1565,484,kg
+782,45,335,litre
+782,1567,2555,kg
+782,62,from 650 to 910,km
+782,32,181,km/h
+782,33,13.5,second
+782,24,Electronic,\N
+782,34,1080,kg
+782,50,8.8,litre
+782,51,5.5,litre
+782,52,6.7,litre
+782,62,from 480 to 760,km
+782,14,120,bhp
+782,15,to 6 600,RPM
+782,16,145,Nm
+782,24,Automatic,\N
+782,57,9.8,m
+782,9,1492,mm
+782,34,1115,kg
+782,45,337,litre
+782,44,848,litre
+782,50,7,litre
+782,51,5.2,litre
+782,52,5.8,litre
+782,62,from 600 to 810,km
+785,50,7.4,litre
+785,51,5.3,litre
+785,52,6.9,litre
+785,62,from 540 to 750,km
+785,34,940,kg
+785,32,162,km/h
+785,33,12.2,second
+785,34,980,kg
+785,41,Stabilizer bar,\N
+785,50,6.5,litre
+785,51,4.8,litre
+785,52,6.1,litre
+785,62,from 620 to 830,km
+785,14,65,bhp
+785,16,108,Nm
+785,5,3784,mm
+785,7,1525,mm
+785,34,913,kg
+785,58,1365,kg
+785,1565,452,kg
+785,45,227,litre
+785,44,227,litre
+785,50,7.7,litre
+785,51,5.6,litre
+785,52,7.2,litre
+785,62,from 520 to 710,km
+785,32,150,km/h
+785,33,15.9,second
+785,1565,425,kg
+785,50,7.3,litre
+785,62,from 550 to 750,km
+785,33,15.7,second
+792,1570,1015x1285x930,mm
+795,34,1280,kg
+795,16,219,Nm
+862,50,11.2,litre
+862,51,7.8,litre
+862,52,9,litre
+862,62,from 800 to 1 150,km
+862,22,Disel,\N
+862,37,EURO V,\N
+862,32,212,km/h
+862,33,8.3,second
+862,13,2993,cm3
+862,14,238,bhp
+862,15,to 3 750,RPM
+862,16,550,Nm
+862,1564,from 1 750 to 2 500,RPM
+862,12,Disel,\N
+862,17,direct injection,\N
+862,46,Turbo,\N
+862,1566,Present,\N
+862,26,7,\N
+862,57,11.2,m
+862,5,4865,mm
+862,8,2885,mm
+862,9,1635,mm
+862,38,184,mm
+862,34,2080,kg
+862,58,2690,kg
+862,1565,610,kg
+862,45,376,litre
+862,44,376,litre
+862,41,Independent\, Double wishbone,\N
+862,42,Independent\, Multi wishbone,\N
+862,29,Disc,\N
+862,50,17.1,litre
+862,51,9.4,litre
+862,52,12.2,litre
+862,62,from 530 to 960,km
+862,37,EURO IV,\N
+862,32,233,km/h
+862,33,6.8,second
+862,13,3696,cm3
+862,14,333,bhp
+862,15,to 7 000,RPM
+862,16,363,Nm
+862,1564,to 5 200,RPM
+862,47,95,mm
+862,48,86,mm
+862,34,2010,kg
+862,58,2520,kg
+862,1565,510,kg
+862,41,Independent\, MacPherson Struts,\N
+862,50,18.8,litre
+862,51,9.8,litre
+862,52,13.1,litre
+862,62,from 480 to 920,km
+862,32,250,km/h
+862,33,5.8,second
+862,13,5026,cm3
+862,14,400,bhp
+862,15,to 6 500,RPM
+862,16,500,Nm
+862,1564,to 4 400,RPM
+862,34,2107,kg
+862,58,2595,kg
+862,1565,488,kg
+864,50,13.8,litre
+864,51,8.1,litre
+864,52,10.2,litre
+864,35,80,litre
+864,62,from 580 to 990,km
+864,22,95 RON,\N
+864,32,232,km/h
+864,33,8.9,second
+864,13,2496,cm3
+864,14,222,bhp
+864,15,to 6 400,RPM
+864,16,253,Nm
+864,1564,to 4 800,RPM
+864,12,Gasoline,\N
+864,19,V-type,\N
+864,17,Multi-point fuel injection,\N
+864,20,6,\N
+864,39,4,\N
+864,24,Automatic,\N
+864,26,7,\N
+864,27,Rear wheel drive,\N
+864,4,5,\N
+864,5,4780,mm
+864,6,1770,mm
+864,7,1470,mm
+864,8,2850,mm
+864,9,1520,mm
+864,10,1530,mm
+864,38,132.4,mm
+864,34,1732,kg
+864,45,430,litre
+864,44,430,litre
+864,41,Independent\, Multi wishbone,\N
+864,42,Independent\, Multi wishbone,\N
+864,29,ventilated disc,\N
+864,30,ventilated disc,\N
+864,2,Sedan,\N
+864,50,16.8,litre
+864,51,9.7,litre
+864,52,12.3,litre
+864,62,from 480 to 820,km
+864,32,240,km/h
+864,33,6,second
+864,13,3696,cm3
+864,14,330,bhp
+864,15,to 7 000,RPM
+864,16,361,Nm
+864,1564,to 5 200,RPM
+864,47,95,mm
+864,48,86,mm
+864,27,All wheel drive (AWD),\N
+864,38,132,mm
+864,34,1844,kg
+867,50,15.3,litre
+867,51,8.4,litre
+867,52,9.9,litre
+867,35,80,litre
+867,62,from 520 to 950,km
+867,37,EURO V,\N
+867,32,240,km/h
+867,33,6.3,second
+867,13,3696,cm3
+867,14,333,bhp
+867,15,to 7 000,RPM
+867,16,363,Nm
+867,1564,to 5 200,RPM
+867,39,4,\N
+867,26,7,\N
+867,27,All wheel drive (AWD),\N
+867,57,11.4,m
+867,4,5,\N
+867,5,4945,mm
+867,6,1845,mm
+867,7,1515,mm
+867,8,2900,mm
+867,9,1575,mm
+867,10,1565,mm
+867,38,144.7,mm
+867,34,1815,kg
+867,58,2380,kg
+867,1565,565,kg
+867,45,500,litre
+867,44,500,litre
+867,41,Independent\, Double wishbone,\N
+867,42,Independent\, Multi wishbone,\N
+867,29,ventilated disc,\N
+867,30,ventilated disc,\N
+867,2,Sedan,\N
+867,50,18.7,litre
+867,51,8.9,litre
+867,52,12.5,litre
+867,62,from 430 to 900,km
+867,32,250,km/h
+867,33,5.3,second
+867,13,5552,cm3
+867,14,408,bhp
+867,15,to 6 000,RPM
+867,16,550,Nm
+867,17,direct injection,\N
+867,20,8,\N
+867,47,98,mm
+867,48,92,mm
+867,57,11.2,m
+867,10,1570,mm
+867,34,1865,kg
+867,1565,515,kg
+753,50,15.2,litre
+753,51,10.4,litre
+753,52,12.2,litre
+753,62,from 430 to 630,km
+753,33,7.4,second
+753,14,240,bhp
+753,15,to 6 250,RPM
+753,16,287,Nm
+753,34,1545,kg
+753,1565,415,kg
+753,62,from 560 to 980,km
+753,32,253,km/h
+753,14,255,bhp
+753,16,315,Nm
+753,5,4854,mm
+753,34,1588,kg
+753,58,2020,kg
+753,1565,432,kg
+753,45,317,litre
+753,44,317,litre
+753,50,14.8,litre
+753,51,7.9,litre
+753,52,11.1,litre
+753,62,from 440 to 820,km
+753,32,250,km/h
+753,33,7.1,second
+753,34,1535,kg
+753,58,1950,kg
+753,52,10.9,litre
+753,62,from 520 to 830,km
+753,33,8.7,second
+753,34,1400,kg
+753,52,11,litre
+753,62,from 520 to 810,km
+753,32,186,km/h
+753,33,11.2,second
+753,16,211,Nm
+753,62,from 620 to 910,km
+753,32,188,km/h
+753,13,1849,cm3
+753,14,125,bhp
+753,16,165,Nm
+753,50,9.9,litre
+753,62,from 610 to 940,km
+753,32,189,km/h
+753,16,169,Nm
+753,38,132,mm
+753,1565,490,kg
+753,32,206,km/h
+753,1565,500,kg
+753,62,from 530 to 850,km
+753,62,from 480 to 860,km
+753,32,229,km/h
+753,33,7.7,second
+753,16,196,Nm
+753,1564,to 6 600,RPM
+753,34,1300,kg
+753,58,1430,kg
+753,1565,430,kg
+753,62,from 590 to 920,km
+753,62,from 630 to 900,km
+753,33,12.6,second
+753,5,4770,mm
+753,7,1425,mm
+753,34,1395,kg
+753,62,from 520 to 870,km
+753,32,192,km/h
+753,34,1365,kg
+753,1565,515,kg
+753,51,7.3,litre
+753,62,from 590 to 890,km
+753,32,187,km/h
+753,62,from 580 to 890,km
+753,16,199,Nm
+753,50,12.3,litre
+753,62,from 530 to 820,km
+753,32,204,km/h
+753,62,from 600 to 920,km
+753,32,193,km/h
+753,33,12.1,second
+753,14,132,bhp
+753,16,188,Nm
+753,5,4785,mm
+753,6,1781,mm
+753,34,1425,kg
+753,34,1450,kg
+753,62,from 630 to 970,km
+753,33,11.1,second
+753,62,from 640 to 970,km
+753,62,from 660 to 980,km
+759,22,Gas,\N
+759,14,102,bhp
+759,12,Gas,\N
+759,57,10,m
+759,5,4415,mm
+759,34,1221,kg
+759,50,8.9,litre
+759,52,6.6,litre
+759,62,from 470 to 790,km
+759,34,1125,kg
+759,1565,415,kg
+759,50,7.9,litre
+759,52,6.3,litre
+759,62,from 530 to 790,km
+759,34,1090,kg
+759,1565,450,kg
+761,50,4.4,litre
+761,51,4.2,litre
+761,52,4.3,litre
+761,62,from 1 140 to 1 190,km
+761,13,1497,cm3
+761,14,93,bhp
+761,12,Hybrid,\N
+761,48,89.4,mm
+761,5,4504,mm
+761,34,1305,kg
+761,45,303,litre
+761,44,303,litre
+761,62,from 570 to 890,km
+761,14,141,bhp
+761,57,10.84,m
+761,38,165,mm
+761,34,1289,kg
+761,1565,403,kg
+761,42,Independent\, Multi wishbone,\N
+761,34,1244,kg
+761,1565,387,kg
+761,50,13.1,litre
+761,51,7.3,litre
+761,52,10.8,litre
+761,62,from 380 to 680,km
+761,32,220,km/h
+761,33,7.6,second
+761,13,1998,cm3
+761,14,197,bhp
+761,16,188,Nm
+761,1564,to 6 100,RPM
+761,47,86,mm
+761,6,1750,mm
+761,7,1359,mm
+761,8,2649,mm
+761,34,1307,kg
+761,50,5.3,litre
+761,51,5.3,litre
+761,52,5.3,litre
+761,62,from 940 to 940,km
+761,16,132,Nm
+761,5,4556,mm
+761,8,2669,mm
+761,9,1501,mm
+761,10,1529,mm
+761,34,1300,kg
+761,45,302,litre
+761,44,302,litre
+761,14,202,bhp
+761,5,4470,mm
+761,9,1492,mm
+761,10,1516,mm
+761,38,147,mm
+761,34,1347,kg
+761,50,7.6,litre
+761,62,from 660 to 1 020,km
+761,14,83,bhp
+761,15,to 5 700,RPM
+761,1565,510,kg
+761,52,5.7,litre
+761,33,16.1,second
+761,15,to 5 800,RPM
+761,1564,to 4 200,RPM
+761,14,115,bhp
+761,34,1250,kg
+761,34,1190,kg
+761,62,from 500 to 820,km
+761,33,8.5,second
+761,34,1264,kg
+761,50,10.4,litre
+761,62,from 480 to 850,km
+761,13,1997,cm3
+761,16,190,Nm
+761,34,1290,kg
+761,1567,2560,kg
+761,50,6.9,litre
+761,62,from 720 to 980,km
+761,33,15,second
+761,13,1399,cm3
+761,52,7.1,litre
+761,62,from 510 to 890,km
+761,62,from 610 to 890,km
+761,14,118,bhp
+761,15,to 6 100,RPM
+761,16,149,Nm
+761,34,1137,kg
+761,32,191,km/h
+761,34,1177,kg
+761,62,from 590 to 930,km
+761,16,151,Nm
+761,34,1105,kg
+761,52,8.3,litre
+761,62,from 530 to 850,km
+761,32,203,km/h
+761,51,6.3,litre
+761,52,8.8,litre
+761,62,from 490 to 790,km
+761,62,from 530 to 980,km
+761,5,4488,mm
+761,38,145,mm
+761,33,9.3,second
+761,58,1675,kg
+761,1567,2875,kg
+761,34,1280,kg
+761,62,from 670,km
+761,62,from 640 to 780,km
+761,38,104,mm
+761,34,1116,kg
+761,14,82,bhp
+761,16,103,Nm
+761,1564,to 3 500,RPM
+761,34,840,kg
+761,34,810,kg
+761,34,1040,kg
+761,34,910,kg
+761,34,890,kg
+761,50,9.1,litre
+761,62,from 600,km
+761,16,117,Nm
+761,34,1112,kg
+761,1565,488,kg
+761,33,13.1,second
+763,50,13.1,litre
+763,51,7.4,litre
+763,62,from 440 to 780,km
+763,34,1597,kg
+763,52,9.5,litre
+763,14,170,bhp
+763,34,1560,kg
+768,14,94,bhp
+768,15,to 5 500,RPM
+768,16,131,Nm
+768,34,1000,kg
+768,34,1120,kg
+774,34,1140,kg
+780,14,118,bhp
+780,16,137,Nm
+780,10,1435,mm
+780,34,990,kg
+782,50,7.3,litre
+782,51,5.1,litre
+782,62,from 580 to 820,km
+782,32,171,km/h
+782,33,12.3,second
+782,14,83,bhp
+782,16,119,Nm
+782,34,1041,kg
+782,1565,429,kg
+782,50,7.2,litre
+782,52,5.9,litre
+782,32,162,km/h
+782,33,14.3,second
+782,34,1066,kg
+782,1565,434,kg
+783,57,10.4,m
+783,5,4880,mm
+783,8,2830,mm
+783,34,1570,kg
+783,14,235,bhp
+783,15,to 6 300,RPM
+783,16,289,Nm
+783,1564,to 5 200,RPM
+783,57,11.2,m
+783,5,4955,mm
+783,32,226,km/h
+783,16,287,Nm
+783,57,11.1,m
+783,5,4885,mm
+783,34,1600,kg
+783,1565,550,kg
+783,45,417,litre
+783,44,417,litre
+783,34,1580,kg
+783,1565,570,kg
+784,52,4.7,litre
+784,35,35,litre
+784,62,from 570 to 950,km
+784,7,1575,mm
+784,34,870,kg
+784,50,6.2,litre
+784,62,from 500 to 760,km
+784,15,to 6 700,RPM
+784,16,61,Nm
+784,1564,to 3 800,RPM
+784,34,930,kg
+784,50,5.6,litre
+784,51,3.9,litre
+784,62,from 630 to 900,km
+784,34,860,kg
+792,58,1535,kg
+792,58,1505,kg
+792,58,1515,kg
+792,58,1545,kg
+793,50,11.8,litre
+793,51,8.2,litre
+793,52,10.8,litre
+793,62,from 700 to 1 010,km
+793,32,162,km/h
+793,33,13.1,second
+793,13,2581,cm3
+793,14,122,bhp
+793,15,to 4 600,RPM
+793,16,204,Nm
+793,1564,to 2 600,RPM
+793,19,Inline,\N
+793,20,4,\N
+793,39,2,\N
+793,47,93,mm
+793,48,95,mm
+793,34,1550,kg
+793,50,15.2,litre
+793,52,13.8,litre
+793,62,from 550 to 800,km
+793,32,174,km/h
+793,51,9.8,litre
+793,62,from 580 to 850,km
+793,32,185,km/h
+793,33,10.8,second
+793,51,10.2,litre
+793,62,from 530 to 810,km
+793,33,11.5,second
+793,34,1720,kg
+793,50,15.7,litre
+793,51,10.3,litre
+793,52,13.9,litre
+793,33,10.9,second
+795,14,130,bhp
+795,16,191,Nm
+795,1564,to 4 000,RPM
+795,1565,470,kg
+803,14,135,bhp
+803,16,184,Nm
+803,5,4610,mm
+803,34,1560,kg
+864,50,12.4,litre
+864,51,8,litre
+864,52,9.1,litre
+864,35,76,litre
+864,62,from 610 to 950,km
+864,37,EURO IV,\N
+864,13,3498,cm3
+864,14,306,bhp
+864,15,to 6 500,RPM
+864,16,353,Nm
+864,48,81,mm
+864,26,5,\N
+864,5,4750,mm
+864,6,1733,mm
+864,7,1468,mm
+864,10,1529,mm
+864,34,1720,kg
+864,58,2172,kg
+864,45,411,litre
+864,44,411,litre
+864,41,Independent\, MacPherson Struts\, spring\, Stabilizer bar,\N
+864,42,Pneumatic elastic element,\N
+864,29,Disc,\N
+864,30,Disc,\N
+864,50,12.1,litre
+864,51,7.8,litre
+864,52,9,litre
+864,62,from 630 to 970,km
+864,24,Manual,\N
+864,26,6,\N
+864,50,10.5,litre
+864,52,9.4,litre
+864,62,from 720 to 970,km
+864,14,320,bhp
+864,16,366,Nm
+864,50,10.2,litre
+864,51,7.4,litre
+864,52,9.2,litre
+864,62,from 750 to 1 030,km
+867,50,13.3,litre
+867,51,7.9,litre
+867,62,from 600 to 1 010,km
+867,32,231,km/h
+867,33,9.2,second
+867,13,2496,cm3
+867,14,222,bhp
+867,15,to 4 800,RPM
+867,16,253,Nm
+867,1564,to 4 800,RPM
+867,7,1500,mm
+867,38,149,mm
+867,34,1680,kg
+867,41,Independent\, Multi wishbone,\N
+867,52,10.9,litre
+867,32,246,km/h
+867,47,95,mm
+867,48,86,mm
+867,34,1790,kg
+867,1565,590,kg
+867,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+867,33,5.4,second
+867,34,1850,kg
+867,1565,530,kg
+867,51,10.2,litre
+867,52,13.8,litre
+867,62,to 780,km
+867,32,230,km/h
+867,33,7,second
+867,13,4494,cm3
+867,14,340,bhp
+867,15,to 6 400,RPM
+867,16,451,Nm
+867,1564,to 4 000,RPM
+867,47,92,mm
+867,48,82,mm
+867,26,5,\N
+867,5,5100,mm
+867,6,1770,mm
+867,7,1465,mm
+867,8,2800,mm
+867,9,1510,mm
+867,10,1510,mm
+867,38,140,mm
+867,34,1750,kg
+867,58,2190,kg
+867,45,379,litre
+867,44,379,litre
+867,41,Trailing arms,\N
+867,42,Independent\, Lever\, Dampers\, spring\, Stabilizer bar,\N
+867,30,Disc,\N
+867,50,13.9,litre
+867,51,10.8,litre
+867,62,from 580 to 740,km
+867,32,235,km/h
+867,33,5.8,second
+867,14,344,bhp
+867,47,93,mm
+867,48,82.7,mm
+790,50,13,litre
+790,51,9.3,litre
+790,35,79.5,litre
+790,62,from 610 to 850,km
+790,22,92 RON,\N
+790,13,3471,cm3
+790,14,213,bhp
+790,15,to 5 200,RPM
+790,16,310,Nm
+790,19,V-type,\N
+790,20,6,\N
+790,47,89,mm
+790,48,93,mm
+790,57,11.5,m
+790,5,5110,mm
+790,6,1938,mm
+790,7,1739,mm
+790,8,3000,mm
+790,9,1678,mm
+790,10,1678,mm
+790,34,1926,kg
+790,45,1078,litre
+790,44,1078,litre
+790,41,Independent\, MacPherson Struts,\N
+758,24,Automatic,\N
+758,26,4,\N
+758,34,1080,kg
+758,27,All wheel drive (AWD),\N
+758,7,1670,mm
+758,10,1425,mm
+758,34,1180,kg
+758,42,De-Dion,\N
+862,50,16.6,litre
+862,51,9,litre
+862,52,11.8,litre
+862,62,from 540 to 1 000,km
+862,32,228,km/h
+862,33,6.9,second
+862,14,307,bhp
+862,15,to 6 800,RPM
+862,16,355,Nm
+862,34,1953,kg
+862,58,2240,kg
+862,41,Independent\, Multi wishbone,\N
+862,33,5,second
+862,58,2320,kg
+804,34,1390,kg
+804,14,154,bhp
+804,16,186,Nm
+804,34,1410,kg
+759,14,78,bhp
+759,15,to 5 600,RPM
+759,16,131,Nm
+759,1564,to 2 700,RPM
+759,39,2,\N
+759,24,Continuously variable transmission (CVT),\N
+759,9,1440,mm
+759,10,1440,mm
+759,14,110,bhp
+759,16,141,Nm
+867,50,17.7,litre
+867,51,13.5,litre
+867,35,75,litre
+867,62,from 420 to 560,km
+867,32,225,km/h
+867,14,325,bhp
+867,16,336,Nm
+867,5,4930,mm
+867,6,1806,mm
+867,7,1509,mm
+867,9,1536,mm
+867,10,1549,mm
+867,38,124,mm
+867,34,1810,kg
+867,45,388,litre
+867,44,388,litre
+867,41,Independent\, Multi wishbone\, spring\, Stabilizer bar,\N
+867,42,Multi wishbone\, Stabilizer bar,\N
+867,50,14.7,litre
+867,51,11.2,litre
+867,62,from 510 to 670,km
+867,34,1894,kg
+867,50,19.7,litre
+867,51,10.3,litre
+867,52,13.7,litre
+867,62,from 410 to 780,km
+867,32,238,km/h
+867,33,6.2,second
+867,14,339,bhp
+867,16,425,Nm
+867,5,4935,mm
+867,6,1795,mm
+867,9,1535,mm
+867,10,1535,mm
+867,38,127,mm
+867,34,1868,kg
+753,50,14.9,litre
+753,52,11.9,litre
+753,33,7.3,second
+753,16,286,Nm
+753,34,1491,kg
+753,1565,459,kg
+753,50,15.8,litre
+753,52,12.7,litre
+753,62,from 410 to 770,km
+753,32,256,km/h
+753,33,6.7,second
+753,34,1481,kg
+753,1565,469,kg
+753,51,8.1,litre
+753,52,12.1,litre
+753,62,from 440 to 800,km
+753,33,7.5,second
+753,14,244,bhp
+753,62,from 570 to 980,km
+753,32,252,km/h
+753,14,253,bhp
+753,50,15.9,litre
+753,51,8.5,litre
+753,52,12.8,litre
+753,62,from 410 to 760,km
+753,33,6.8,second
+753,52,12,litre
+753,62,from 440 to 810,km
+753,32,251,km/h
+753,32,254,km/h
+753,33,6.6,second
+763,34,1593,kg
+763,1565,483,kg
+763,51,5.9,litre
+763,52,6.7,litre
+763,62,from 720 to 980,km
+763,32,183,km/h
+763,58,2140,kg
+763,1565,548,kg
+763,1567,3640,kg
+763,34,1450,kg
+763,51,8.1,litre
+763,62,from 570 to 720,km
+763,50,10.3,litre
+763,52,9.7,litre
+763,62,from 560 to 770,km
+763,34,1418,kg
+763,32,157,km/h
+763,33,13.1,second
+763,15,to 5 400,RPM
+763,50,12.7,litre
+763,51,8.4,litre
+763,52,9.9,litre
+763,62,from 460 to 690,km
+763,14,147,bhp
+763,1565,560,kg
+763,1567,3130,kg
+763,33,12.7,second
+763,62,from 490 to 690,km
+782,51,4.8,litre
+782,62,from 640 to 880,km
+782,33,11.4,second
+782,34,1012,kg
+782,58,1610,kg
+782,1565,598,kg
+782,1567,2610,kg
+782,50,6.7,litre
+782,62,from 630 to 910,km
+782,32,175,km/h
+782,33,12.8,second
+782,34,1140,kg
+782,58,1535,kg
+782,1565,395,kg
+782,1567,2535,kg
+782,32,185,km/h
+782,5,3920,mm
+782,1565,420,kg
+782,1567,2335,kg
+782,41,MacPherson Struts\, Stabilizer bar,\N
+782,33,13.3,second
+782,1565,449,kg
+782,32,160,km/h
+782,33,14.5,second
+782,58,1510,kg
+782,1565,454,kg
+782,1567,2510,kg
+783,14,307,bhp
+783,16,370,Nm
+783,5,4995,mm
+783,34,1875,kg
+783,14,309,bhp
+783,34,1820,kg
+761,34,1146,kg
+761,1565,504,kg
+761,1565,501,kg
+761,14,117,bhp
+761,32,202,km/h
+761,34,1134,kg
+761,34,1114,kg
+761,34,1260,kg
+753,62,from 580 to 960,km
+753,34,1355,kg
+753,1565,495,kg
+753,1565,445,kg
+753,50,14.2,litre
+753,51,8.3,litre
+753,62,from 460 to 780,km
+753,16,265,Nm
+753,34,1530,kg
+753,34,1325,kg
+753,62,from 590 to 910,km
+753,32,201,km/h
+753,33,10.2,second
+753,5,4715,mm
+753,50,12.2,litre
+753,52,10.6,litre
+753,62,from 580 to 910,km
+753,62,from 610 to 1 000,km
+753,34,1295,kg
+761,50,11.2,litre
+761,62,from 490 to 810,km
+761,33,15.1,second
+761,34,1220,kg
+761,51,6.7,litre
+761,62,from 580 to 820,km
+761,33,16.3,second
+761,15,from 5 700,RPM
+761,1565,430,kg
+761,33,13.3,second
+761,15,from 6 400,RPM
+761,1565,520,kg
+761,1567,2610,kg
+761,62,from 630 to 960,km
+761,1564,to 5 400,RPM
+761,38,110,mm
+761,50,11.3,litre
+761,51,7.4,litre
+761,62,from 490 to 740,km
+761,33,8.8,second
+761,13,1797,cm3
+761,14,169,bhp
+761,15,from 7 600,RPM
+761,16,166,Nm
+761,1564,to 6 300,RPM
+761,48,87.2,mm
+761,58,1710,kg
+761,1567,2910,kg
+761,62,from 770 to 1 280,km
+761,13,1994,cm3
+761,15,from 4 200,RPM
+761,16,210,Nm
+761,17,direct injection,\N
+761,47,84.5,mm
+761,48,88.9,mm
+761,34,1230,kg
+761,58,1730,kg
+753,62,from 720 to 1 000,km
+753,33,14.3,second
+753,16,158,Nm
+753,6,1720,mm
+753,62,from 630 to 960,km
+753,62,from 550 to 920,km
+753,34,1330,kg
+753,1565,520,kg
+753,62,from 610 to 980,km
+753,1565,550,kg
+753,50,5.8,litre
+753,51,4,litre
+753,52,5.1,litre
+753,62,from 1 120 to 1 630,km
+753,13,1994,cm3
+753,15,to 4 200,RPM
+753,16,210,Nm
+753,1566,Present,\N
+753,39,2,\N
+753,47,84,mm
+753,1565,535,kg
+753,50,11.5,litre
+753,16,200,Nm
+753,34,1350,kg
+753,52,8.5,litre
+753,62,from 620 to 980,km
+753,62,from 580 to 920,km
+753,32,191,km/h
+753,16,201,Nm
+753,5,4795,mm
+753,38,158,mm
+753,34,1410,kg
+753,58,1985,kg
+753,1565,575,kg
+753,62,from 590 to 930,km
+753,14,137,bhp
+753,1564,to 4 700,RPM
+753,1565,590,kg
+753,14,152,bhp
+753,1565,585,kg
+753,50,13.9,litre
+753,52,11.8,litre
+753,62,from 470 to 780,km
+753,32,208,km/h
+753,14,203,bhp
+753,52,10.1,litre
+753,62,from 530 to 840,km
+753,33,8.5,second
+753,13,2258,cm3
+753,16,221,Nm
+753,52,10.8,litre
+753,62,from 510 to 830,km
+753,52,11.3,litre
+753,62,from 430 to 790,km
+753,32,243,km/h
+753,14,220,bhp
+753,33,10.7,second
+753,62,from 580 to 930,km
+753,32,198,km/h
+753,50,14.1,litre
+753,51,8.6,litre
+753,62,from 460 to 760,km
+753,32,231,km/h
+753,51,8.2,litre
+753,52,11.7,litre
+753,62,from 470 to 790,km
+753,62,from 560 to 890,km
+753,1565,600,kg
+753,62,from 450 to 760,km
+753,10,1500,mm
+753,44,739,litre
+753,62,from 640 to 960,km
+753,52,10.2,litre
+753,62,from 560 to 880,km
+754,7,1520,mm
+754,38,150,mm
+754,34,1220,kg
+754,30,Disc,\N
+754,57,10.6,m
+754,7,1505,mm
+756,7,1485,mm
+756,38,140,mm
+756,34,1510,kg
+761,14,201,bhp
+761,34,1323,kg
+761,45,344,litre
+761,44,344,litre
+761,62,from 690 to 1 000,km
+761,9,1438,mm
+761,10,1355,mm
+761,34,1202,kg
+761,5,4458,mm
+761,7,1397,mm
+761,16,121,Nm
+761,5,4535,mm
+761,10,1528,mm
+761,38,154,mm
+761,34,1239,kg
+761,45,340,litre
+761,44,340,litre
+761,50,12.6,litre
+761,52,10.6,litre
+761,62,from 400 to 680,km
+761,32,218,km/h
+761,33,7.8,second
+761,34,1345,kg
+761,50,12.7,litre
+761,51,7,litre
+761,62,from 390 to 710,km
+761,32,235,km/h
+761,33,6.6,second
+761,16,193,Nm
+761,1564,to 5 600,RPM
+761,7,1445,mm
+761,38,125,mm
+761,62,from 550 to 930,km
+761,1565,484,kg
+761,32,199,km/h
+761,35,30,litre
+761,62,from 460 to 680,km
+761,22,Gas,\N
+761,33,12.6,second
+761,16,148,Nm
+761,12,Gas,\N
+761,34,1317,kg
+761,52,8.1,litre
+761,62,from 550 to 850,km
+761,50,5.2,litre
+761,52,4.6,litre
+761,62,from 960 to 1 160,km
+761,14,95,bhp
+761,16,123,Nm
+761,45,350,litre
+761,44,350,litre
+761,34,1336,kg
+761,50,14,litre
+761,51,7.8,litre
+761,52,11.5,litre
+761,62,from 360 to 640,km
+761,32,240,km/h
+761,14,225,bhp
+761,15,to 8 000,RPM
+761,16,215,Nm
+761,5,4540,mm
+761,10,1515,mm
+761,34,1270,kg
+761,34,1238,kg
+761,58,1700,kg
+761,1565,362,kg
+761,14,215,bhp
+761,16,202,Nm
+761,5,4135,mm
+761,50,12.3,litre
+761,52,8.9,litre
+761,62,from 410 to 710,km
+761,14,200,bhp
+761,15,to 7 400,RPM
+761,16,196,Nm
+761,1564,to 5 900,RPM
+761,57,12.2,m
+761,7,1425,mm
+761,50,11.1,litre
+761,52,9.6,litre
+761,62,from 450 to 740,km
+761,32,213,km/h
+761,14,162,bhp
+761,16,179,Nm
+761,5,4209,mm
+761,34,1262,kg
+761,35,60,litre
+761,1564,to 3 300,RPM
+761,34,1213,kg
+761,45,341,litre
+761,44,341,litre
+761,34,1241,kg
+761,62,from 690 to 980,km
+761,34,1115,kg
+761,1565,435,kg
+761,45,450,litre
+761,44,450,litre
+761,62,from 680 to 940,km
+761,34,1087,kg
+761,1565,463,kg
+761,62,from 620 to 890,km
+761,32,184,km/h
+761,34,1129,kg
+761,1565,441,kg
+761,62,from 600 to 860,km
+761,33,10.6,second
+761,1565,415,kg
+761,32,193,km/h
+761,34,1111,kg
+761,62,from 430 to 610,km
+761,14,101,bhp
+761,15,to 3 100,RPM
+761,34,1216,kg
+761,52,10.9,litre
+761,62,from 380 to 660,km
+761,32,231,km/h
+761,33,6.9,second
+761,4,4,5
+761,34,1204,kg
+761,1565,346,kg
+761,45,314,litre
+761,44,671,litre
+761,51,7.9,litre
+761,62,from 360 to 630,km
+761,32,236,km/h
+761,50,6,litre
+761,52,4.9,litre
+761,62,from 830 to 1 160,km
+761,33,12.9,second
+761,16,160,Nm
+761,58,1595,kg
+761,33,13.5,second
+761,62,from 560 to 780,km
+761,62,from 680 to 960,km
+761,62,from 530 to 760,km
+761,32,181,km/h
+761,50,7.5,litre
+761,62,from 670 to 960,km
+761,51,6,litre
+761,62,from 510 to 750,km
+761,32,178,km/h
+761,33,12.4,second
+761,62,from 580 to 850,km
+761,34,1152,kg
+761,1565,418,kg
+761,34,1126,kg
+761,1565,444,kg
+761,34,1186,kg
+761,50,9.4,litre
+761,62,from 530 to 820,km
+761,32,198,km/h
+761,34,1098,kg
+761,50,10.8,litre
+761,62,from 460 to 750,km
+761,52,9.7,litre
+761,62,from 450 to 720,km
+761,5,4206,mm
+761,8,2510,mm
+761,34,1245,kg
+761,50,10.7,litre
+761,51,7.5,litre
+761,52,8.6,litre
+761,62,from 510 to 730,km
+761,57,10.3,m
+761,5,4325,mm
+761,34,1085,kg
+761,1565,555,kg
+761,33,15.6,second
+761,1565,450,kg
+761,50,11.7,litre
+761,51,6.6,litre
+761,62,from 550 to 830,km
+761,32,223,km/h
+761,50,7.8,litre
+761,62,from 710 to 1 250,km
+761,32,173,km/h
+761,14,86,bhp
+761,15,to 4 500,RPM
+761,16,170,Nm
+761,34,1188,kg
+761,1565,532,kg
+761,15,to 4 200,RPM
+761,34,1198,kg
+761,62,from 410 to 700,km
+761,7,1365,mm
+761,1565,513,kg
+761,33,9.2,second
+761,34,1049,kg
+761,1565,551,kg
+761,62,from 470 to 610,km
+761,38,115,mm
+761,5,4105,mm
+761,58,1440,kg
+761,45,328,litre
+761,44,648,litre
+761,34,955,kg
+761,38,155,mm
+761,7,1490,mm
+761,10,1450,mm
+761,62,from 480 to 670,km
+761,38,185,mm
+761,16,141,Nm
+761,52,8.5,litre
+761,62,from 460 to 640,km
+761,34,900,kg
+761,5,3995,mm
+766,50,18.3,litre
+766,51,12.1,litre
+766,52,16.3,litre
+766,35,81,litre
+766,62,from 440 to 670,km
+766,32,167,km/h
+766,33,12.5,second
+766,13,3947,cm3
+766,14,180,bhp
+766,15,to 4 750,RPM
+766,16,312,Nm
+766,1564,to 3 100,RPM
+766,19,V-type,\N
+766,20,8,\N
+766,39,2,\N
+766,47,94,mm
+766,48,71.1,mm
+766,26,4,\N
+766,57,11.9,m
+766,5,4535,mm
+766,6,1800,mm
+766,7,1950,mm
+766,8,2540,mm
+766,9,1485,mm
+766,10,1485,mm
+766,38,240,mm
+766,34,1970,kg
+766,41,Axle\, spring,\N
+766,42,Axle\, spring,\N
+766,29,Disc,\N
+766,4,5,\N
+766,5,4465,mm
+766,34,1920,kg
+769,13,1668,cm3
+769,14,130,bhp
+769,15,to 6 300,RPM
+769,16,155,Nm
+769,1564,to 4 800,RPM
+769,47,75,mm
+769,48,94.4,mm
+769,57,9.8,m
+769,30,drum,\N
+769,34,1360,kg
+769,34,1440,kg
+770,32,182,km/h
+770,5,4328,mm
+770,7,1765,mm
+770,10,1588,mm
+770,38,158,mm
+770,34,1631,kg
+770,45,736,litre
+770,44,2183,litre
+770,34,1598,kg
+770,5,4326,mm
+770,7,1762,mm
+770,34,1629,kg
+771,34,1820,kg
+771,4,7,\N
+771,5,4920,mm
+771,6,1845,mm
+771,22,98 RON,\N
+771,13,3471,cm3
+771,14,279,bhp
+771,15,to 6 200,RPM
+771,16,343,Nm
+771,47,89,mm
+771,48,93,mm
+771,57,11.6,m
+771,34,2030,kg
+771,14,300,bhp
+771,16,353,Nm
+771,34,1960,kg
+771,34,2020,kg
+773,13,1339,cm3
+773,14,86,bhp
+773,15,to 5 700,RPM
+773,16,119,Nm
+773,1564,to 2 800,RPM
+773,39,2,\N
+773,48,80,mm
+773,5,4310,mm
+773,8,2450,mm
+773,9,1455,mm
+773,34,1040,kg
+773,34,1120,kg
+773,14,90,bhp
+773,15,to 5 500,RPM
+773,16,131,Nm
+773,1564,to 2 700,RPM
+774,26,6,\N
+774,57,10.4,m
+774,9,1475,mm
+774,10,1465,mm
+774,14,88,bhp
+774,15,to 5 800,RPM
+774,16,121,Nm
+774,1564,to 4 500,RPM
+774,39,2,\N
+774,14,114,bhp
+774,16,144,Nm
+774,5,3915,mm
+774,34,1160,kg
+774,10,1460,mm
+774,34,1060,kg
+774,34,1090,kg
+774,14,125,bhp
+774,15,from 3 695 to 1.3,RPM
+774,16,256,Nm
+774,1564,to 3 056,RPM
+774,12,Electric,\N
+774,5,4114,mm
+774,6,1719,mm
+774,7,1580,mm
+774,8,2450,mm
+774,9,1486,mm
+774,10,1463,mm
+774,34,1475,kg
+774,42,Multi wishbone,\N
+774,34,1010,kg
+774,50,7.1,litre
+774,51,5.5,litre
+774,62,from 560 to 730,km
+774,13,1497,cm3
+774,14,118,bhp
+774,16,143,Nm
+774,57,10.5,m
+774,5,4105,mm
+774,9,1492,mm
+774,34,1151,kg
+774,45,585,litre
+774,44,1622,litre
+774,50,7.2,litre
+774,51,5.7,litre
+774,62,from 560 to 700,km
+774,34,1119,kg
+774,5,3920,mm
+774,14,86,bhp
+774,15,to 5 700,RPM
+774,1564,to 2 800,RPM
+774,5,3845,mm
+774,6,1675,mm
+774,9,1455,mm
+774,10,1445,mm
+774,5,3850,mm
+774,9,1440,mm
+774,10,1430,mm
+774,34,1128,kg
+774,34,1040,kg
+776,14,118,bhp
+776,15,to 6 600,RPM
+776,16,144,Nm
+776,1564,to 4 800,RPM
+776,12,Gasoline,\N
+776,39,4,\N
+776,24,Automatic,\N
+776,26,5,\N
+776,27,All wheel drive (AWD),\N
+776,57,10.4,m
+776,7,1745,mm
+776,10,1465,mm
+776,34,1410,kg
+776,42,De-Dion,\N
+776,34,1330,kg
+776,34,1290,kg
+776,4,5,7
+776,34,1370,kg
+776,4,7,\N
+776,34,1280,kg
+776,42,Dependent\, Beam,\N
+776,4,7,8
+776,34,1310,kg
+779,14,260,bhp
+779,15,to 6 100,RPM
+779,16,314,Nm
+779,1564,to 3 500,RPM
+779,57,12,m
+779,4,4,5
+779,5,4860,mm
+779,6,1795,mm
+779,34,1550,kg
+780,16,191,Nm
+780,7,1395,mm
+780,9,1485,mm
+780,10,1485,mm
+780,38,145,mm
+780,34,1230,kg
+780,16,118,Nm
+780,34,1200,kg
+780,50,8,litre
+780,62,from 630 to 1 000,km
+780,38,149,mm
+780,34,1190,kg
+780,51,5.2,litre
+780,62,from 630 to 960,km
+780,38,152,mm
+780,16,186,Nm
+780,7,1330,mm
+780,9,1480,mm
+780,38,135,mm
+780,50,12.1,litre
+780,51,6.9,litre
+780,52,8.8,litre
+780,62,from 410 to 720,km
+780,32,233,km/h
+780,33,6.7,second
+780,14,190,bhp
+780,15,to 7 900,RPM
+780,16,178,Nm
+780,1564,to 7 300,RPM
+780,7,1320,mm
+780,9,1482,mm
+780,10,1480,mm
+780,34,1125,kg
+780,7,1365,mm
+780,14,113,bhp
+780,26,3,\N
+780,5,4280,mm
+780,8,2450,mm
+780,34,930,kg
+780,41,Torsion\, Stabilizer bar,\N
+780,2,Hatchback,\N
+780,14,133,bhp
+780,34,960,kg
+780,50,8.4,litre
+780,62,from 600,km
+780,32,160,km/h
+780,14,85,bhp
+780,16,126,Nm
+780,1564,to 3 750,RPM
+780,17,Injector,\N
+780,39,3,\N
+780,57,10.8,m
+780,5,4350,mm
+780,9,1420,mm
+780,34,965,kg
+780,58,1460,kg
+780,1565,495,kg
+780,1568,575/320,kg
+780,2,Liftback,\N
+780,50,8.9,litre
+780,62,from 560,km
+780,32,168,km/h
+780,33,11.4,second
+780,34,945,kg
+780,1565,515,kg
+780,1568,665/390,kg
+780,14,100,bhp
+780,16,121,Nm
+782,50,4.6,litre
+782,51,4.4,litre
+782,52,4.5,litre
+782,35,40,litre
+782,62,from 870 to 910,km
+782,37,EURO V,\N
+782,33,12.1,second
+782,14,88,bhp
+782,15,to 5 800,RPM
+782,16,121,Nm
+782,1564,to 4 500,RPM
+782,12,Hybrid,\N
+782,57,10.82,m
+782,8,2495,mm
+782,34,1209,kg
+782,58,1600,kg
+782,1565,466,kg
+782,45,303,litre
+782,51,4.9,litre
+782,52,5.6,litre
+782,62,from 630 to 860,km
+782,33,11.8,second
+782,16,128,Nm
+782,57,10.48,m
+782,5,3915,mm
+782,34,1112,kg
+782,1565,498,kg
+782,62,from 480,km
+782,9,1476,mm
+782,10,1459,mm
+782,34,1125,kg
+782,34,1095,kg
+783,51,9.3,litre
+783,52,12.2,litre
+783,62,from 400 to 730,km
+783,33,9.3,second
+783,13,3473,cm3
+783,14,208,bhp
+783,16,303,Nm
+783,57,11.8,m
+783,6,1820,mm
+783,8,2905,mm
+783,9,1555,mm
+783,10,1545,mm
+783,38,144,mm
+783,34,1800,kg
+783,1565,380,kg
+783,1567,3680,kg
+783,16,312,Nm
+783,7,1435,mm
+784,50,5.1,litre
+784,62,from 610 to 780,km
+784,57,9.4,m
+784,7,1655,mm
+784,9,1285,mm
+784,10,1290,mm
+784,50,4.8,litre
+784,62,from 620 to 810,km
+784,7,1635,mm
+784,34,940,kg
+784,7,1595,mm
+784,62,from 580 to 950,km
+784,7,1580,mm
+784,34,880,kg
+784,62,from 630 to 920,km
+784,13,656,cm3
+784,39,4,\N
+784,47,66,mm
+784,48,64,mm
+784,26,3,\N
+784,8,2360,mm
+784,10,1295,mm
+784,14,50,bhp
+784,15,to 7 000,RPM
+784,1564,to 4 500,RPM
+784,7,1605,mm
+784,34,800,kg
+784,24,Manual,\N
+784,26,5,\N
+784,34,850,kg
+784,34,790,kg
+784,14,48,bhp
+784,15,to 6 300,RPM
+784,16,49,Nm
+784,1564,to 5 500,RPM
+784,5,3295,mm
+784,6,1395,mm
+784,8,2330,mm
+784,9,1225,mm
+784,10,1225,mm
+784,34,760,kg
+784,42,Independent\, Beam\, spring,\N
+784,34,750,kg
+785,5,3780,mm
+785,52,6.6,litre
+785,62,from 550 to 820,km
+785,32,147,km/h
+785,33,15.3,second
+785,5,3750,mm
+785,34,820,kg
+785,50,6.2,litre
+785,51,4.5,litre
+785,52,5.8,litre
+785,62,from 650 to 890,km
+785,33,13.3,second
+785,34,790,kg
+785,51,5.2,litre
+785,52,6.8,litre
+785,62,from 560 to 770,km
+785,33,14.3,second
+785,34,840,kg
+785,51,5,litre
+785,52,6.7,litre
+785,62,from 540 to 800,km
+785,32,146,km/h
+785,33,15.6,second
+785,51,4.6,litre
+785,52,5.9,litre
+785,62,from 650 to 870,km
+785,33,13.9,second
+785,34,830,kg
+785,33,14.7,second
+785,34,870,kg
+788,50,17.1,litre
+788,51,8.7,litre
+788,52,10.5,litre
+788,62,from 410 to 800,km
+788,22,92 RON,\N
+788,32,270,km/h
+788,33,7.5,second
+788,13,2977,cm3
+788,14,256,bhp
+788,15,from 6 800,RPM
+788,16,294,Nm
+788,1564,to 5 400,RPM
+788,47,90,mm
+788,24,Automatic,\N
+788,26,4,\N
+788,57,15.4,m
+788,7,1170,mm
+788,38,135,mm
+788,34,1430,kg
+788,2,Targa,\N
+788,50,16.8,litre
+788,51,9.1,litre
+788,52,11.9,litre
+788,62,from 420 to 770,km
+788,15,from 7 300,RPM
+788,34,1400,kg
+788,14,274,bhp
+788,16,284,Nm
+788,26,5,\N
+788,34,1230,kg
+788,32,274,km/h
+788,34,1320,kg
+788,32,260,km/h
+788,14,261,bhp
+788,34,1410,kg
+790,35,50,litre
+790,13,2356,cm3
+790,14,175,bhp
+790,15,to 6 200,RPM
+790,16,225,Nm
+790,1564,to 4 000,RPM
+790,48,99.1,mm
+790,5,4830,mm
+790,7,1715,mm
+790,8,2900,mm
+790,34,1770,kg
+790,42,De-Dion,\N
+790,35,55,litre
+790,7,1695,mm
+790,34,1700,kg
+790,42,Torsion beam\, spring,\N
+790,14,185,bhp
+790,15,to 6 400,RPM
+790,16,235,Nm
+790,17,direct injection,\N
+790,6,1820,mm
+790,34,1810,kg
+790,4,7,8
+790,7,1685,mm
+790,38,145,mm
+790,50,10.9,litre
+790,51,7.1,litre
+790,52,9.2,litre
+790,62,from 730 to 1 120,km
+790,14,250,bhp
+790,15,to 5 700,RPM
+790,16,338,Nm
+790,1564,to 4 800,RPM
+790,26,6,\N
+790,57,11.2,m
+790,5,5153,mm
+790,6,2011,mm
+790,7,1737,mm
+790,9,1730,mm
+790,10,1732,mm
+790,38,151,mm
+790,34,1996,kg
+790,45,846,litre
+790,44,2636,litre
+790,42,Multi wishbone,\N
+790,34,1610,kg
+790,50,12.1,litre
+790,52,8.9,litre
+790,62,from 500 to 850,km
+790,37,EURO IV,\N
+790,14,179,bhp
+790,15,to 6 500,RPM
+790,16,218,Nm
+790,5,4810,mm
+790,34,1645,kg
+790,58,2270,kg
+790,1565,625,kg
+790,45,259,litre
+790,44,708,litre
+790,1567,3270,kg
+790,22,98 RON,\N
+790,14,204,bhp
+790,15,to 7 000,RPM
+790,16,230,Nm
+790,14,206,bhp
+790,34,1630,kg
+790,50,11.7,litre
+790,51,7.2,litre
+790,52,9.7,litre
+790,62,from 680 to 1 100,km
+790,38,171,mm
+790,34,1969,kg
+790,24,Manual,\N
+790,34,2070,kg
+790,57,10.4,m
+790,50,13.3,litre
+790,51,8.5,litre
+790,35,80,litre
+790,62,from 600 to 940,km
+790,14,247,bhp
+790,15,to 5 750,RPM
+790,16,325,Nm
+790,1564,to 5 000,RPM
+790,5,5132,mm
+790,6,1958,mm
+790,7,1748,mm
+790,9,1694,mm
+790,10,1697,mm
+790,34,1993,kg
+790,45,1934,litre
+790,44,1934,litre
+790,42,Independent\, Multi wishbone,\N
+790,14,160,bhp
+790,15,to 5 500,RPM
+790,34,1550,kg
+790,15,from 5 500,RPM
+790,41,Wishbone,\N
+790,5,5105,mm
+790,7,1747,mm
+790,10,1696,mm
+790,45,1087,litre
+790,44,2579,litre
+790,15,to 5 800,RPM
+790,16,206,Nm
+790,5,4845,mm
+790,7,1640,mm
+790,9,1565,mm
+790,34,1710,kg
+790,30,drum,\N
+790,7,1615,mm
+790,38,140,mm
+790,34,1650,kg
+790,13,2997,cm3
+790,14,210,bhp
+790,16,270,Nm
+790,48,86,mm
+790,34,1790,kg
+790,34,1730,kg
+790,14,243,bhp
+790,16,327,Nm
+790,6,1920,mm
+790,34,1950,kg
+790,5,4835,mm
+790,7,1655,mm
+790,10,1555,mm
+790,38,170,mm
+790,34,1670,kg
+790,7,1630,mm
+790,6,1795,mm
+790,38,165,mm
+790,16,264,Nm
+790,5,4840,mm
+790,6,1790,mm
+790,7,1650,mm
+795,50,10.6,litre
+795,51,8.7,litre
+795,62,from 570 to 690,km
+795,14,195,bhp
+795,16,156,Nm
+795,1564,to 5 250,RPM
+795,5,4521,mm
+795,6,1752,mm
+795,7,1320,mm
+795,9,1524,mm
+795,10,1513,mm
+795,34,1379,kg
+795,34,1310,kg
+800,34,1260,kg
+800,32,257,km/h
+800,33,5.5,second
+800,5,4117,mm
+800,7,1288,mm
+800,34,1254,kg
+801,14,260,bhp
+801,15,to 6 100,RPM
+801,16,314,Nm
+801,1564,to 3 500,RPM
+801,26,5,\N
+801,57,12,m
+801,5,4860,mm
+801,6,1795,mm
+801,34,1550,kg
+803,47,81,mm
+803,34,1680,kg
+803,34,1600,kg
+803,34,1710,kg
+803,34,1630,kg
+803,34,1610,kg
+803,5,4640,mm
+803,34,1530,kg
+803,5,4660,mm
+803,34,1590,kg
+803,15,to 6 500,RPM
+803,5,4680,mm
+803,6,1725,mm
+803,16,220,Nm
+803,1564,to 3 600,RPM
+803,34,1620,kg
+803,57,11,m
+804,34,1360,kg
+807,13,2156,cm3
+807,14,220,bhp
+807,16,221,Nm
+807,1564,to 6 700,RPM
+807,47,87,mm
+807,48,90.7,mm
+807,57,11.2,m
+807,5,4680,mm
+807,6,1720,mm
+807,7,1405,mm
+807,9,1485,mm
+807,10,1485,mm
+807,38,140,mm
+807,34,1330,kg
+862,50,18.3,litre
+862,51,9.6,litre
+862,52,12.8,litre
+862,62,from 490 to 940,km
+862,32,300,km/h
+862,33,5.5,second
+862,14,420,bhp
+862,16,520,Nm
+862,41,Independent\, Double wishbone\, spring,\N
+862,42,Independent\, Multi wishbone\, spring\, Stabilizer bar,\N
+864,50,16.2,litre
+864,51,8.9,litre
+864,52,11.6,litre
+864,62,from 490 to 900,km
+864,32,250,km/h
+864,33,6.4,second
+864,14,333,bhp
+864,16,363,Nm
+864,4,4,\N
+864,5,4660,mm
+864,6,1850,mm
+864,7,1400,mm
+864,9,1545,mm
+864,10,1560,mm
+864,38,135.5,mm
+864,34,1988,kg
+864,45,70,litre
+864,44,333,litre
+864,2,Cabriolet,\N
+864,50,15.3,litre
+864,52,11.2,litre
+864,62,from 520 to 900,km
+864,33,5,second
+864,5,4653,mm
+864,6,1820,mm
+864,7,1395,mm
+864,38,135,mm
+864,34,1710,kg
+864,45,249,litre
+864,44,249,litre
+864,2,Coupe,\N
+864,50,16.4,litre
+864,51,9.5,litre
+864,52,12,litre
+864,62,from 490 to 840,km
+864,5,4655,mm
+864,10,1545,mm
+864,38,134,mm
+864,34,1774,kg
+864,45,242,litre
+864,44,242,litre
+864,50,15.8,litre
+864,51,11.9,litre
+864,62,from 510 to 670,km
+864,33,5.7,second
+864,50,16,litre
+864,51,9.2,litre
+864,52,11.8,litre
+864,62,from 500 to 870,km
+864,14,325,bhp
+864,16,267,Nm
+864,51,9.8,litre
+864,35,75,litre
+864,62,from 600 to 770,km
+864,33,6.8,second
+864,14,260,bhp
+864,15,to 6 000,RPM
+864,16,352,Nm
+864,5,4735,mm
+864,6,1750,mm
+864,7,1465,mm
+864,9,1514,mm
+864,10,1506,mm
+864,38,160,mm
+864,34,1510,kg
+864,45,475,litre
+864,44,475,litre
+864,41,A few levers and rods,\N
+864,42,Independent\, Double wishbone\, Stabilizer bar,\N
+864,50,13.9,litre
+864,62,from 540 to 770,km
+864,33,6.5,second
+864,14,280,bhp
+864,15,to 6 200,RPM
+864,50,11.7,litre
+864,51,8.7,litre
+864,62,from 650 to 870,km
+864,5,4628,mm
+864,6,1816,mm
+864,7,1392,mm
+864,9,1534,mm
+864,10,1534,mm
+864,34,1600,kg
+864,58,1978,kg
+864,45,211,litre
+864,44,211,litre
+864,41,Helical springs,\N
+864,42,Helical springs,\N
+864,50,11.4,litre
+864,62,from 670 to 870,km
+864,33,5.8,second
+864,14,296,bhp
+864,16,350,Nm
+864,52,8.7,litre
+864,35,60,litre
+864,22,92 RON,\N
+864,32,209,km/h
+864,13,1998,cm3
+864,14,140,bhp
+864,16,180,Nm
+864,19,Inline,\N
+864,20,4,\N
+864,47,86,mm
+864,26,4,\N
+864,27,Front wheel drive,\N
+864,5,4510,mm
+864,6,1690,mm
+864,8,2600,mm
+864,9,1470,mm
+864,10,1460,mm
+864,34,1321,kg
+864,45,470,litre
+864,44,470,litre
+864,50,10,litre
+864,51,7.6,litre
+864,62,from 600 to 790,km
+864,32,210,km/h
+864,33,9.5,second
+864,14,145,bhp
+864,16,185,Nm
+864,9,1415,mm
+864,10,1455,mm
+864,38,150,mm
+864,34,1325,kg
+864,45,380,litre
+864,44,380,litre
+864,62,from 590 to 770,km
+864,5,4555,mm
+864,6,1700,mm
+864,8,2550,mm
+867,50,17.9,litre
+867,51,9.6,litre
+867,52,12.6,litre
+867,62,from 450 to 830,km
+867,33,6.4,second
+867,13,3498,cm3
+867,14,307,bhp
+867,15,to 6 800,RPM
+867,38,125,mm
+867,58,2240,kg
+867,50,17.2,litre
+867,51,10.6,litre
+867,52,13.6,litre
+867,62,from 470 to 750,km
+867,32,206,km/h
+867,33,6.7,second
+867,50,17,litre
+867,51,9.4,litre
+867,52,13.1,litre
+867,62,from 440 to 800,km
+867,32,224,km/h
+867,33,6.9,second
+867,14,280,bhp
+867,15,to 6 200,RPM
+867,16,366,Nm
+867,48,81,mm
+867,5,4890,mm
+867,6,1800,mm
+867,7,1510,mm
+867,8,2905,mm
+867,9,1530,mm
+867,10,1545,mm
+867,38,130,mm
+867,34,1740,kg
+867,50,17.4,litre
+867,51,9.8,litre
+867,62,from 430 to 770,km
+867,33,7.1,second
+867,50,19.6,litre
+867,62,from 380 to 740,km
+867,16,461,Nm
+867,58,2320,kg
+871,50,19.8,litre
+871,51,13.9,litre
+871,35,105,litre
+871,62,from 530 to 760,km
+871,32,203,km/h
+871,33,7.3,second
+871,14,320,bhp
+871,15,to 5 200,RPM
+871,16,529,Nm
+871,1564,to 3 400,RPM
+871,26,5,\N
+871,4,5,\N
+871,5,5255,mm
+871,6,2015,mm
+871,7,1998,mm
+871,8,3130,mm
+871,10,1715,mm
+871,38,270,mm
+871,34,2754,kg
+871,45,1734,litre
+871,44,1734,litre
+871,41,Independent\, MacPherson Struts,\N
+871,42,Independent\, Multi wishbone,\N
+871,50,15,litre
+871,51,12,litre
+871,35,80,litre
+871,62,from 530 to 670,km
+871,32,177,km/h
+871,33,9,second
+871,13,3498,cm3
+871,14,243,bhp
+871,15,from 6 000,RPM
+871,16,359,Nm
+871,1564,to 3 200,RPM
+871,17,Injector,\N
+871,20,6,\N
+871,47,95,mm
+871,48,81,mm
+871,26,4,\N
+871,27,Rear wheel drive,\N
+871,5,4651,mm
+871,6,1839,mm
+871,7,1796,mm
+871,8,2700,mm
+871,9,1539,mm
+871,10,1544,mm
+871,38,210,mm
+871,34,1900,kg
+871,45,1076,litre
+871,44,2407,litre
+871,41,Helical springs,\N
+871,42,Helical springs,\N
+871,30,drum,\N
+871,50,15.7,litre
+871,51,13.1,litre
+871,52,14.4,litre
+871,62,from 510 to 610,km
+871,33,9.3,second
+871,34,2025,kg
+871,33,11,second
+871,13,3275,cm3
+871,14,170,bhp
+871,15,from 4 800,RPM
+871,16,266,Nm
+871,1564,to 2 800,RPM
+871,47,91,mm
+871,48,83,mm
+871,27,Four wheel drive (4WD),\N
+871,5,4670,mm
+871,6,1840,mm
+871,7,1800,mm
+871,9,1520,mm
+871,10,1520,mm
+871,34,1940,kg
+871,58,2335,kg
+871,45,1075,litre
+871,44,2405,litre
+872,50,14.3,litre
+872,51,8.4,litre
+872,52,10.6,litre
+872,35,80,litre
+872,62,from 560 to 950,km
+872,22,95 RON,\N
+872,32,210,km/h
+872,33,9.4,second
+872,13,2496,cm3
+872,14,222,bhp
+872,15,to 6 400,RPM
+872,16,252,Nm
+872,1564,to 4 800,RPM
+872,12,Gasoline,\N
+872,19,V-type,\N
+872,17,Multi-point fuel injection,\N
+872,20,6,\N
+872,39,4,\N
+872,24,Automatic,\N
+872,26,7,\N
+872,27,Four wheel drive (4WD),\N
+872,4,5,\N
+872,5,4635,mm
+872,6,1800,mm
+872,7,1600,mm
+872,8,2800,mm
+872,9,1540,mm
+872,10,1545,mm
+872,38,147,mm
+872,34,1842,kg
+872,45,309,litre
+872,44,309,litre
+872,41,Independent\, Double wishbone\, spring\, Stabilizer bar,\N
+872,42,Independent\, Multi wishbone\, Stabilizer bar,\N
+872,29,ventilated disc,\N
+872,30,ventilated disc,\N
+872,2,Crossover,\N
+872,50,15.7,litre
+872,51,10,litre
+872,52,12.1,litre
+872,62,from 510 to 800,km
+872,32,240,km/h
+872,33,6.4,second
+872,13,3696,cm3
+872,14,330,bhp
+872,15,to 7 000,RPM
+872,16,361,Nm
+872,1564,to 5 200,RPM
+872,38,148.9,mm
+872,34,1870,kg
+873,50,10.7,litre
+873,51,7.3,litre
+873,52,8.5,litre
+873,62,from 690 to 1 010,km
+873,37,EURO IV,\N
+873,33,8.6,second
+873,13,2488,cm3
+873,14,231,bhp
+873,15,to 5 600,RPM
+873,16,330,Nm
+873,1564,to 3 600,RPM
+873,12,Hybrid,\N
+873,19,Inline,\N
+873,46,compressor,\N
+873,20,4,\N
+873,27,Four wheel drive (4WD),\N
+873,38,178,mm
+873,34,2105,kg
+873,58,2602,kg
+873,1565,497,kg
+873,45,165,litre
+873,1568,1431/1171,kg
+873,41,Independent\, MacPherson Struts\, Dampers\, Stabilizer bar,\N
+873,42,Independent\, Multi wishbone\, Dampers\, Helical springs\, Stabilizer bar,\N
+873,62,from 510 to 870,km
+873,1568,1474/1206,kg
+20160,35,40,litre
+20160,22,95 RON,\N
+20160,13,1339,cm3
+20160,14,88,bhp
+20160,15,to 5 800,RPM
+20160,16,121,Nm
+20160,1564,to 4 500,RPM
+20160,12,Hybrid,\N
+20160,19,Inline,\N
+20160,17,Multi-point fuel injection,\N
+20160,20,4,\N
+20160,39,2,\N
+20160,47,73,mm
+20160,48,80,mm
+20160,24,Continuously variable transmission (CVT),\N
+20160,27,Front wheel drive,\N
+20160,57,10.2,m
+20160,4,5,\N
+20160,5,4385,mm
+20160,6,1695,mm
+20160,7,1540,mm
+20160,8,2500,mm
+20160,9,1480,mm
+20160,10,1470,mm
+20160,38,150,mm
+20160,34,1190,kg
+20160,41,Independent\, MacPherson Struts,\N
+20160,42,Torsion beam\, spring,\N
+20160,29,ventilated disc,\N
+20160,30,drum,\N
+20160,2,Wagon,\N
+20160,35,42,litre
+20160,13,1496,cm3
+20160,14,120,bhp
+20160,15,to 6 600,RPM
+20160,16,145,Nm
+20160,1564,to 4 800,RPM
+20160,12,Gasoline,\N
+20160,39,4,\N
+20160,48,89.4,mm
+20160,24,Automatic,\N
+20160,26,5,\N
+20160,27,All wheel drive (AWD),\N
+20160,7,1565,mm
+20160,9,1475,mm
+20160,10,1465,mm
+20160,34,1210,kg
+20160,57,9.8,m
+20160,34,1140,kg
+20160,5,4410,mm
+20160,42,De-Dion,\N
+20162,35,42,litre
+20162,22,95 RON,\N
+20162,13,1496,cm3
+20162,14,110,bhp
+20162,15,to 5 800,RPM
+20162,16,143,Nm
+20162,1564,to 4 800,RPM
+20162,12,Gasoline,\N
+20162,19,Inline,\N
+20162,17,Multi-point fuel injection,\N
+20162,20,4,\N
+20162,39,4,\N
+20162,47,73,mm
+20162,48,89.4,mm
+20162,24,Continuously variable transmission (CVT),\N
+20162,27,All wheel drive (AWD),\N
+20162,57,10.6,m
+20162,4,5,\N
+20162,5,4125,mm
+20162,6,1695,mm
+20162,7,1725,mm
+20162,8,2740,mm
+20162,9,1460,mm
+20162,10,1440,mm
+20162,38,155,mm
+20162,34,1310,kg
+20162,41,MacPherson Struts,\N
+20162,42,De-Dion,\N
+20162,29,ventilated disc,\N
+20162,30,drum,\N
+20162,2,Minivan,\N
+20162,27,Front wheel drive,\N
+20162,7,1705,mm
+20162,34,1240,kg
+20162,42,Dependent\, Beam\, spring,\N
+20162,5,4110,mm
+20162,7,1760,mm
+20162,7,1740,mm
+20162,34,1260,kg
+20214,50,12.4,litre
+20214,51,8.2,litre
+20214,35,70,litre
+20214,62,from 560 to 850,km
+20214,22,95 RON,\N
+20214,32,210,km/h
+20214,33,8.2,second
+20214,13,3498,cm3
+20214,14,255,bhp
+20214,15,to 5 800,RPM
+20214,16,333,Nm
+20214,1564,to 4 400,RPM
+20214,12,Gasoline,\N
+20214,19,V-type,\N
+20214,17,Multi-point fuel injection,\N
+20214,20,4,\N
+20214,39,4,\N
+20214,47,95.5,mm
+20214,48,81.4,mm
+20214,24,Automatic,\N
+20214,26,4,\N
+20214,27,Front wheel drive,\N
+20214,4,5,\N
+20214,5,4920,mm
+20214,6,1785,mm
+20214,7,1430,mm
+20214,8,2750,mm
+20214,9,1530,mm
+20214,10,1510,mm
+20214,38,140,mm
+20214,34,1515,kg
+20214,41,Helical springs,\N
+20214,42,Helical springs,\N
+20214,29,ventilated disc,\N
+20214,30,Disc,\N
+20214,2,Sedan,\N
+20214,50,11.8,litre
+20214,51,8.4,litre
+20214,62,from 590 to 830,km
+20214,33,8.3,second
+20214,13,2988,cm3
+20214,14,230,bhp
+20214,15,to 6 400,RPM
+20214,16,294,Nm
+20214,1564,to 4 000,RPM
+20214,17,Injector,\N
+20214,20,6,\N
+20214,47,93,mm
+20214,48,73,mm
+20214,24,Manual,\N
+20214,26,5,\N
+20214,6,1786,mm
+20214,7,1435,mm
+20214,8,2751,mm
+20214,34,1555,kg
+20214,45,454,litre
+20214,44,454,litre
+20214,50,11,litre
+20214,51,8,litre
+20214,62,from 640 to 880,km
+20214,32,205,km/h
+20214,33,7.7,second
+20214,14,193,bhp
+20214,15,to 5 600,RPM
+20214,16,278,Nm
+20214,5,4816,mm
+20214,6,1770,mm
+20214,7,1415,mm
+20214,8,2700,mm
+20214,9,1519,mm
+20214,10,1500,mm
+20214,34,1435,kg
+20214,58,1940,kg
+20214,45,440,litre
+20214,44,440,litre
+872,50,14.6,litre
+872,51,8.5,litre
+872,52,10.7,litre
+872,62,from 550 to 940,km
+872,37,EURO VI,\N
+872,32,206,km/h
+872,33,9.5,second
+872,17,direct injection,\N
+872,47,85,mm
+872,48,73.3,mm
+872,27,All wheel drive (AWD),\N
+872,57,11.9,m
+872,5,4745,mm
+872,7,1615,mm
+872,8,2880,mm
+872,9,1535,mm
+872,10,1550,mm
+872,38,164.7,mm
+872,34,1843,kg
+872,58,2305,kg
+872,41,Independent\, Multi wishbone,\N
+872,42,Independent\, Multi wishbone,\N
+873,62,from 680 to 1 000,km
+873,9,1750,mm
+19343,50,7.7,litre
+19343,51,5.1,litre
+19343,52,6,litre
+19343,35,50,litre
+19343,62,from 650 to 980,km
+19343,22,95 RON,\N
+19343,37,EURO VI,\N
+19343,32,210,km/h
+19343,33,9.2,second
+19343,13,1595,cm3
+19343,14,149,bhp
+19343,15,to 5 300,RPM
+19343,16,250,Nm
+19343,1564,from 1 250 to 4 000,RPM
+19343,12,Gasoline,\N
+19343,19,Inline,\N
+19343,17,direct injection,\N
+19343,46,Turbo,\N
+19343,20,4,\N
+19343,39,4,\N
+19343,47,83,mm
+19343,48,73.7,mm
+19343,24,Electronic,\N
+19343,26,7,\N
+19343,27,Front wheel drive,\N
+19343,57,11.4,m
+19343,4,5,\N
+19343,5,4425,mm
+19343,6,1805,mm
+19343,7,1495,mm
+19343,8,2700,mm
+19343,9,1551,mm
+19343,10,1555,mm
+19343,38,172,mm
+19343,34,1499,kg
+19343,58,1929,kg
+19343,1565,430,kg
+19343,45,430,litre
+19343,44,430,litre
+19343,41,Independent\, MacPherson Struts,\N
+19343,42,Independent\, Multi wishbone,\N
+19343,29,ventilated disc,\N
+19343,30,ventilated disc,\N
+19343,2,Hatchback,\N
+19343,50,8.9,litre
+19343,51,5.7,litre
+19343,52,6.9,litre
+19343,35,56,litre
+19343,62,from 630 to 980,km
+19343,32,230,km/h
+19343,33,7.3,second
+19343,13,1991,cm3
+19343,14,211,bhp
+19343,15,to 5 500,RPM
+19343,16,350,Nm
+19343,1564,from 1 200 to 4 000,RPM
+19343,48,92,mm
+19343,27,All wheel drive (AWD),\N
+19343,34,1564,kg
+19343,58,1994,kg
+869,50,13.3,litre
+869,51,7.9,litre
+869,52,9.3,litre
+869,62,from 530 to 890,km
+869,33,5.4,second
+869,13,2997,cm3
+869,14,405,bhp
+869,15,to 6 400,RPM
+869,16,475,Nm
+869,1564,from 1 600 to 5 200,RPM
+869,46,Biturbo,\N
+869,34,1801,kg
+763,35,57,litre
+763,14,186,bhp
+763,16,244,Nm
+763,5,4586,mm
+763,6,1855,mm
+763,7,1689,mm
+763,8,2660,mm
+763,9,1598,mm
+763,10,1613,mm
+763,38,208,mm
+763,34,1586,kg
+763,58,2130,kg
+763,1565,544,kg
+763,62,from 550 to 900,km
+763,45,1110,litre
+763,44,2146,litre
+761,52,9,litre
+761,62,from 470 to 660,km
+761,14,205,bhp
+761,16,237,Nm
+761,5,4519,mm
+761,10,1521,mm
+761,45,331,litre
+761,44,331,litre
+761,51,6.5,litre
+761,62,from 600 to 770,km
+761,14,143,bhp
+761,16,175,Nm
+761,62,from 640 to 830,km
+761,34,1282,kg
+761,62,from 750 to 1 060,km
+761,34,1184,kg
+761,34,1297,kg
+761,52,6.1,litre
+761,62,from 660 to 960,km
+761,33,9.4,second
+761,34,1271,kg
+761,50,4.2,litre
+761,51,3.6,litre
+761,52,3.8,litre
+761,62,from 1 190 to 1 390,km
+761,5,4590,mm
+761,7,1480,mm
+761,34,1337,kg
+761,45,624,litre
+761,44,1668,litre
+761,62,from 560 to 940,km
+761,62,from 640 to 910,km
+763,50,8.4,litre
+763,51,7,litre
+763,35,53,litre
+763,62,from 630 to 760,km
+763,13,1498,cm3
+763,15,to 5 600,RPM
+763,16,243,Nm
+763,1564,from 2 000 to 5 000,RPM
+763,47,73,mm
+763,48,89.5,mm
+763,7,1679,mm
+763,38,198,mm
+763,34,1502,kg
+763,50,8.7,litre
+763,51,7.2,litre
+763,52,8,litre
+763,62,from 610 to 740,km
+763,34,1557,kg
+763,62,from 630 to 770,km
+761,51,6.2,litre
+761,35,46.9,litre
+761,62,from 560 to 760,km
+761,13,1498,cm3
+761,16,192,Nm
+761,1564,from 2 100 to 5 000,RPM
+761,48,89.5,mm
+761,5,4645,mm
+761,6,1878,mm
+761,7,1411,mm
+761,9,1537,mm
+761,10,1555,mm
+761,38,120,mm
+761,34,1341,kg
+761,45,379,litre
+761,44,379,litre
+761,41,Independent\, spring,\N
+761,42,Independent\, spring,\N
+761,50,7.4,litre
+761,62,from 630 to 840,km
+761,14,174,bhp
+761,16,162,Nm
+761,1564,from 1 700 to 5 500,RPM
+761,5,4631,mm
+761,7,1416,mm
+761,9,1547,mm
+761,10,1563,mm
+761,34,1326,kg
+761,45,428,litre
+761,44,428,litre
+761,62,from 550 to 780,km
+761,13,1996,cm3
+761,14,158,bhp
+761,48,85.9,mm
+761,34,1247,kg
+761,62,from 600 to 780,km
+761,50,7.7,litre
+761,62,from 610 to 820,km
+761,5,4492,mm
+761,34,1287,kg
+761,45,343,litre
+761,44,343,litre
+761,34,1313,kg
+761,62,from 550 to 770,km
+761,34,1251,kg
+761,34,1257,kg
+761,50,6.1,litre
+761,51,4.1,litre
+761,52,4.8,litre
+761,62,from 770 to 1 140,km
+761,13,988,cm3
+761,16,200,Nm
+761,1564,to 2 250,RPM
+761,20,3,\N
+761,48,78.7,mm
+761,7,1434,mm
+761,50,5.5,litre
+761,52,4.7,litre
+761,62,from 850 to 1 120,km
+761,34,1209,kg
+761,62,from 590 to 760,km
+761,16,167,Nm
+761,1564,from 1 800 to 5 500,RPM
+761,38,133,mm
+761,14,180,bhp
+761,16,177,Nm
+761,1564,from 1 900 to 5 000,RPM
+761,10,1553,mm
+761,38,128,mm
+761,34,1321,kg
+761,62,from 610 to 780,km
+761,62,from 590 to 710,km
+761,1564,from 1 700 to 5 000,RPM
+862,1564,to 1 750,RPM
+862,17,Common Rail,\N
+763,62,from 580 to 920,km
+763,32,188,km/h
+763,33,11.9,second
+763,16,189,Nm
+763,45,522,litre
+763,44,1084,litre
+875,47,98,mm
+875,48,92,mm
+875,1565,583,kg
+872,52,8.7,litre
+872,32,230,km/h
+872,33,6.7,second
+872,13,1970,cm3
+872,14,272,bhp
+872,16,380,Nm
+872,1564,to 4 400,RPM
+872,19,Inline,\N
+872,46,Turbo,\N
+872,20,4,\N
+872,24,Continuously variable transmission (CVT),\N
+872,26,8,\N
+872,27,Front wheel drive,\N
+872,5,4693,mm
+872,6,1903,mm
+872,7,1679,mm
+872,38,218,mm
+872,45,895,litre
+872,44,1048,litre
+872,41,Independent\, MacPherson Struts\, Dampers\, Helical springs\, Stabilizer bar,\N
+872,42,Independent\, Multi wishbone\, Dampers\, Helical springs,\N
+872,30,Disc,\N
+872,52,9.1,litre
+869,15,to 4 400,RPM
+869,57,12.1,m
+869,5,4810,mm
+869,34,1717,kg
+869,41,Independent\, Double wishbone\, Dampers\, Helical springs\, Stabilizer bar,\N
+869,42,Independent\, Multi wishbone\, Dampers\, Helical springs\, Stabilizer bar,\N
+869,51,7,litre
+869,62,from 600 to 1 140,km
+869,34,1878,kg
+777,50,7,litre
+777,51,4.8,litre
+777,52,5.6,litre
+777,35,50,litre
+777,62,from 710 to 1 040,km
+777,37,EURO VI,\N
+777,32,192,km/h
+777,33,10.2,second
+777,13,1498,cm3
+777,14,130,bhp
+777,15,to 6 600,RPM
+777,16,155,Nm
+777,1564,to 4 600,RPM
+777,17,direct injection,\N
+777,47,73,mm
+777,48,89.5,mm
+777,26,6,\N
+777,57,11.4,m
+777,5,4294,mm
+777,6,1772,mm
+777,7,1605,mm
+777,8,2610,mm
+777,9,1535,mm
+777,10,1540,mm
+777,38,170,mm
+777,34,1312,kg
+777,58,1790,kg
+777,1565,478,kg
+777,45,470,litre
+777,44,1533,litre
+777,1567,2790,kg
+777,41,Independent\, MacPherson Struts\, Dampers\, Helical springs\, Stabilizer bar,\N
+777,42,Beam\, Dampers\, Helical springs,\N
+777,50,6.1,litre
+777,51,4.6,litre
+777,52,5.2,litre
+777,62,from 820 to 1 090,km
+777,32,187,km/h
+777,34,1320,kg
+777,1565,470,kg
+777,50,4.2,litre
+777,51,3.8,litre
+777,52,4,litre
+777,62,from 1 190 to 1 320,km
+777,22,Disel,\N
+777,33,10,second
+777,13,1597,cm3
+777,14,120,bhp
+777,15,to 4 000,RPM
+777,16,300,Nm
+777,1564,to 2 000,RPM
+777,12,Disel,\N
+777,17,Common Rail,\N
+777,46,Turbo,\N
+777,1566,Present,\N
+777,47,76,mm
+777,48,88,mm
+777,34,1395,kg
+777,58,1870,kg
+777,1565,475,kg
+777,1567,3270,kg
+777,50,9.4,litre
+777,51,6.9,litre
+777,13,1799,cm3
+777,14,141,bhp
+777,15,to 6 500,RPM
+777,16,173,Nm
+777,1564,to 4 300,RPM
+777,47,81,mm
+777,48,87.3,mm
+777,34,1310,kg
+777,50,8.7,litre
+777,51,7.4,litre
+777,52,8.1,litre
+777,62,from 570 to 680,km
+777,27,Four wheel drive (4WD),\N
+777,34,1389,kg
+777,50,8.4,litre
+777,51,6.7,litre
+777,52,7.6,litre
+777,62,from 600 to 750,km
+777,34,1316,kg
+753,62,from 460 to 800,km
+753,7,1375,mm
+753,45,488,litre
+753,44,488,litre
+753,62,from 580 to 1 070,km
+753,34,1205,kg
+753,50,13.2,litre
+753,52,11.5,litre
+753,62,from 490 to 780,km
+753,32,202,km/h
+753,16,214,N*m
+753,35,70,litre
+753,62,from 690 to 920,km
+753,32,225,km/h
+753,33,8.2,second
+753,16,220,N*m
+753,1564,to 4 400,RPM
+753,5,4849,mm
+753,7,1433,mm
+753,45,337,litre
+753,44,337,litre
+753,50,9.7,litre
+753,62,from 560 to 830,km
+753,32,238,km/h
+753,14,271,bhp
+753,16,344,N*m
+753,50,13.8,litre
+753,51,9.4,litre
+753,52,11.6,litre
+753,62,from 510 to 740,km
+753,32,245,km/h
+753,34,1515,kg
+753,62,from 660 to 1 150,km
+753,16,192,N*m
+753,1564,to 4 100,RPM
+753,5,4935,mm
+753,6,1847,mm
+753,7,1476,mm
+753,8,2799,mm
+753,9,1590,mm
+753,1565,569,kg
+753,45,369,litre
+753,44,369,litre
+753,62,from 630 to 1 060,km
+753,58,1940,kg
+753,62,from 630 to 920,km
+753,14,177,bhp
+753,16,218,N*m
+753,34,1465,kg
+753,62,from 650 to 920,km
+753,52,10.25,litre
+753,62,from 560 to 860,km
+753,33,7.6,second
+753,15,from 6 000 to 6 200,RPM
+753,47,88,mm
+753,34,1585,kg
+753,51,5.7,litre
+753,62,from 640 to 1 140,km
+753,48,96.6,mm
+753,50,9.2,litre
+753,52,7,litre
+753,62,from 710 to 1 120,km
+753,50,8.2,litre
+753,51,5.2,litre
+753,52,6.3,litre
+753,62,from 790 to 1 250,km
+753,16,350,N*m
+753,50,6.9,litre
+753,51,4.6,litre
+753,52,5.5,litre
+753,62,from 940 to 1 410,km
+753,62,from 530 to 1 030,km
+753,16,234,N*m
+753,62,from 560 to 930,km
+753,62,from 610 to 890,km
+753,34,1485,kg
+753,14,268,bhp
+753,16,336,N*m
+753,50,13.84,litre
+22490,2,Minivan,\N
+22490,35,40,litre
+22490,22,92 RON,\N
+22490,13,1496,cm3
+22490,14,131,bhp
+22490,15,to 6 600,RPM
+22490,16,155,N*m
+22490,1564,to 4 600,RPM
+22490,12,Hybrid,\N
+22490,19,Inline,\N
+22490,17,Multi-point fuel injection,\N
+22490,20,4,\N
+22490,39,4,\N
+22490,47,73,mm
+22490,48,89.4,mm
+22490,24,Electronic,\N
+22490,26,7,\N
+22490,27,Front wheel drive,\N
+22490,57,11,m
+22490,4,6,\N
+22490,5,4650,mm
+22490,6,1775,mm
+22490,7,1540,mm
+22490,8,2760,mm
+22490,9,1535,mm
+22490,10,1530,mm
+22490,38,150,mm
+22490,34,1450,kg
+22490,41,Independent\, MacPherson Struts\, Dampers\, Helical springs\, Stabilizer bar,\N
+22490,42,Independent\, Double wishbone\, Dampers\, Helical springs,\N
+22490,29,ventilated disc,\N
+22490,30,Disc,\N
+22490,52,5.6,litre
+22490,14,150,bhp
+22490,15,to 5 500,RPM
+22490,16,203,N*m
+22490,1564,to 5 000,RPM
+22490,12,Gasoline,\N
+22490,46,Turbo,\N
+22490,24,Continuously variable transmission (CVT),\N
+22490,34,1430,kg
+22490,7,1530,mm
+22490,9,1545,mm
+22490,10,1540,mm
+22490,38,140,mm
+22490,34,1510,kg

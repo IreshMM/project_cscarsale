@@ -13909,9 +13909,6 @@ var app = new Vue({
   el: '#app'
 });
 
-// Custom JS
-__webpack_require__(43);
-
 /***/ }),
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47412,12 +47409,7 @@ if (false) {
 }
 
 /***/ }),
-/* 43 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
+/* 43 */,
 /* 44 */
 /***/ (function(module, exports) {
 
