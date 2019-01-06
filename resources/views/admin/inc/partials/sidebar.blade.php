@@ -4,7 +4,7 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
             <ul id="sidebarnav" class="p-t-30">
-                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+                <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{ route('admin.home') }}" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-car"></i><span class="hide-menu">Manage Vehicles </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item"><a href="{{ route('car_listing.index') }}" class="sidebar-link"><i class="fas fa-check"></i><span class="hide-menu"> Available Vehicles </span></a></li>
@@ -21,10 +21,10 @@
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fab fa-chrome"></i><span class="hide-menu">Manage Website </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
-                        <li class="sidebar-item"><a href="{{ route('home') }}" class="sidebar-link"><i class="fas fa-home"></i><span class="hide-menu"> Home Page </span></a></li>
-                        <li class="sidebar-item"><a href="{{ route('testimonial.index') }}" class="sidebar-link"><i class="fas fa-comments"></i><span class="hide-menu"> Testimonials </span></a></li>
-                        <li class="sidebar-item"><a href="#" class="sidebar-link"><i class=" fas fa-dollar-sign"></i><span class="hide-menu"> TOS </span></a></li>
-                        <li class="sidebar-item"><a href="#" class="sidebar-link"><i class=" fas fa-phone"></i><span class="hide-menu"> Contact </span></a></li>
+                        <li class="sidebar-item"><a href="{{ route('website_content.index') }}" class="sidebar-link"><i class="fas fa-home"></i><span class="hide-menu"> Home Page </span></a></li>
+                        <li class="sidebar-item"><a href="{{ route('website_content.testimonials') }}" class="sidebar-link"><i class="fas fa-comments"></i><span class="hide-menu"> Testimonials </span></a></li>
+                        <li class="sidebar-item"><a href="{{ route('website_content.tos') }}" class="sidebar-link"><i class=" fas fa-dollar-sign"></i><span class="hide-menu"> TOS </span></a></li>
+                        <li class="sidebar-item"><a href="{{ route('website_content.contact') }}" class="sidebar-link"><i class=" fas fa-phone"></i><span class="hide-menu"> Contact </span></a></li>
                     </ul>
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-hand-holding-usd"></i><span class="hide-menu">Financial </span></a>

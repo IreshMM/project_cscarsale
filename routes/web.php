@@ -13,10 +13,10 @@
 
 Auth::routes();
 
-Route::get('/', function () {return view('admin.website.homePage2');})->name('home');
+Route::get('admin/dashboard', function() {return view('admin.testviews.test');})->name('admin.home');
 
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
-Route::prefix('car_listing')->name('car_listing.')->namespace('Listing')->group(function() {
+Route::prefix('admin/dashboard/car_listing')->name('car_listing.')->namespace('Listing')->group(function() {
     
     // Returns a set of required car listings for page
     Route::get('index', 'CarListingController@index')->name('index');;
@@ -34,7 +34,7 @@ Route::prefix('car_listing')->name('car_listing.')->namespace('Listing')->group(
 });
 
 // ROUTE GROUP FOR MANAGING SELLER REQUESTS
-Route::prefix('seller_request')->name('seller_request.')->namespace('Listing')->group(function(){
+Route::prefix('admin/dashboard/seller_request')->name('seller_request.')->namespace('Listing')->group(function(){
 
     // Returns a list of all seller requests
     Route::get('index', 'SellerRequestController@index')->name('index');
@@ -56,7 +56,7 @@ Route::prefix('seller_request')->name('seller_request.')->namespace('Listing')->
 });
 
 // ROUTE GROUP FOR MANAGING SELLERS
-Route::prefix('seller')->name('seller.')->namespace('Admin')->group(function() {
+Route::prefix('admin/dashboard/seller')->name('seller.')->namespace('Admin')->group(function() {
 
     // Returns set of required sellers for page
     Route::get('index', 'SellerController@index')->name('index');
@@ -66,7 +66,7 @@ Route::prefix('seller')->name('seller.')->namespace('Admin')->group(function() {
 });
 
 // ROUTE GROUP FOR MANAGING EMPLOYEES
-Route::prefix('employee')->name('employee.')->namespace('Admin')->group(function(){
+Route::prefix('admin/dashboard/employee')->name('employee.')->namespace('Admin')->group(function(){
 
     // Returns the set of all employees
     Route::get('index', 'EmployeeController@index')->name('index');
@@ -87,7 +87,7 @@ Route::prefix('employee')->name('employee.')->namespace('Admin')->group(function
 });
 
 // ROUTE GROUP FOR MANAGING SUBSCRIPTIONS
-Route::prefix('subscription')->name('subscription.')->namespace('WebSite')->group(function() {
+Route::prefix('admin/dashboard/subscription')->name('subscription.')->namespace('WebSite')->group(function() {
     
     // Returns the set of all subscriptions
     Route::get('index', 'SubscriptionController@index')->name('index');
@@ -106,7 +106,7 @@ Route::prefix('subscription')->name('subscription.')->namespace('WebSite')->grou
 });
 
 // ROUTE GROUP FOR MANAGING BEST OFFERS
-Route::prefix('best_offer')->name('best_offer.')->namespace('WebSite')->group(function() {
+Route::prefix('admin/dashboard/best_offer')->name('best_offer.')->namespace('WebSite')->group(function() {
     
     // Returns the set of all best offers
     Route::get('index', 'BestOfferController@index')->name('index');
@@ -157,7 +157,7 @@ Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->group(
 });
 
 // ROUTE GROUP FOR MANAGING WEBSITE CONTENT
-Route::prefix('website_content')->name('website_content.')->namespace('Admin')->group(function() {
+Route::prefix('admin/dashboard/website_content')->name('website_content.')->namespace('Admin')->group(function() {
     
     // Returns the view for managing home page of the client website
     Route::get('index', 'WebSiteController@index')->name('index');
@@ -174,11 +174,14 @@ Route::prefix('website_content')->name('website_content.')->namespace('Admin')->
 
     //Set welcome note and title
     Route::post('set_welcome', 'WebSiteController@setWelcomeNote')->name('set_welcome');
+
+    // Returns the view for viewing and approving testimonials
+    Route::get('testimonials', function() {return view('admin.website.testimonials');})->name('testimonials');
 });
 
 
 // ROUTE GROUP QUERYING RESOURCES
-Route::prefix('resource')->name('resource.')->namespace('WebSite')->group(function() {
+Route::prefix('admin/dashboard/resource')->name('resource.')->namespace('WebSite')->group(function() {
 
     // Get the set of all makes
     Route::get('get_makes_all', 'QueryController@getMakeList')->name('make_list');
@@ -196,3 +199,32 @@ Route::get('/car_listing/form_add', function() {return view('admin.vehicles.addV
 Route::get('/car_listing/form_update', function() {return view('admin.vehicles.updatevehicle');})->name('car_listing.form_update');
 Route::get('/car_listing/form_sell', function() {return view('admin.vehicles.sell');})->name('car_listing.form_sell');
 Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');
+
+
+Route::get('/', function () {
+    return view('website.pages.public.welcome');
+});
+Route::get('/search2', function () {
+    return view('website.pages.search');
+});
+Route::get('/details', function () {
+    return view('website.pages.vehicle');
+});
+Route::get('/contact', function () {
+    return view('website.pages.public.contact');
+});
+Route::get('/test', function () {
+    return view('website.testviews.test');
+});
+Route::get('/test2', function () {
+    return view('website.testviews.test2');
+});
+Route::prefix('query')->group(function(){
+    Route::get('makelist', 'WebSite\QueryController@getMakeList')->name('make_list');
+    Route::get('modellist', 'WebSite\QueryController@getModelList')->name('model_list');
+});
+Route::get('/search', 'WebSite\QueryController@search')->name('search');
+
+
+//Test route
+Route::get('test', function() {return view('admin.users.subscription');});

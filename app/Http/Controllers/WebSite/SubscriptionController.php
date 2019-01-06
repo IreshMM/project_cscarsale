@@ -17,7 +17,7 @@ class SubscriptionController extends Controller
     {
         $allSubscriptions = Subscription::all();
 
-        return response()->json($allSubscriptions);
+        return view('admin.users.subscription')->with(['subscriptions' => $allSubscriptions]);
     }
 
     /**

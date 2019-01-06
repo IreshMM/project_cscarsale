@@ -35,11 +35,11 @@
                 
                 <div class="col-sm-12 col-md-9 col-md-push-3 column-content">
                     <div id="first-tab-group" class="tabgroup">
-                        @include('website.partials.search.listview')
-                        @include('website.partials.search.gridview')
+                        @include('website.inc.partials.search.listview')
+                        @include('website.inc.partials.search.gridview')
                     </div>
                 </div>
-                @include('website.partials.search.searchform')
+                @include('website.inc.partials.search.searchform')
             </div>
         </div>
     </div>

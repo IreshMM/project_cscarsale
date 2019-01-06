@@ -4,7 +4,7 @@
 <div class="box-header">
         <div class="row">
             <div class="col-sm-8">
-              <h3 class="box-title"> Testimonies </h3>
+              <h3 class="box-title"> Testimonials </h3>
             </div>
         </div>
     </div>
