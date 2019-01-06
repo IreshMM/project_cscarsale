@@ -8,7 +8,3 @@
       center: location
   });
 }
-
-</script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDo8fwd7wQ0BswdOcx49ZHVRSzsZZmDbOY &callback=initMap"
-  type="text/javascript"></script>
