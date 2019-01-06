@@ -1,6 +1,7 @@
 
 <div id="sellurcar" class="section section-lg ">
     <div class="container" style="height:500px">
+      
       <div style="width: 50%; float:right; padding-right: :150px">
       <div class="container seller-form" id="msform" >
           <form action="javascript:;" class="form2" style="width:40%" >

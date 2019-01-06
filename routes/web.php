@@ -24,7 +24,7 @@ Route::get('/details', function () {
 });
 
 Route::get('/contact', function () {
-    return view('pages.contact');
+    return view('pages.public.contact');
 });
 
 Route::get('/test', function () {

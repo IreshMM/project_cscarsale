@@ -110,6 +110,7 @@
                 <!-- <div class="card card-4"> -->
                     <!-- <div class="card-body"> -->
                     <div style="width: 45%; float:left;padding-left:150px">
+                      <div class="sidebar-form">
                       <H3><b>LEASING CALCULATER<b></H3>
                         <form name = "lease" class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php" style="width:90%" >
 
@@ -171,7 +172,8 @@
                        </form>
                       </div>
                       </div>
-
+                    </div>
+                    
                       <div style="width:45%; float:right; padding-right:150px">
 
                         <p style="font-size:18px">Vehicle leasing offers advantages to both buyers and sellers. For the buyer, lease payments will usually be lower than payments on a car loan would be. Any sales tax is due only on each monthly payment, rather than immediately on the entire purchase price as in the case of a loan.</p><br>
