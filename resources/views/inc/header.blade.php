@@ -73,7 +73,8 @@
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="best" href="#best">Best offers</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Contacts</a>
+                                <li class="rd-nav-item"><a class="rd-nav-link" href="sellerform">Sell your vehicle</a>
+                                  <li class="rd-nav-item"><a class="rd-nav-link" href="lease">Lease</a>
                                 </li>
                             </ul>
                         </div>

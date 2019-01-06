@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/sellerform', function () {
     return view('pages.sell');
 });
 Route::get('/lease', function () {
