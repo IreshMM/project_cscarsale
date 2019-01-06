@@ -157,9 +157,17 @@ Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->group(
 // ROUTE GROUP FOR MANAGING WEBSITE CONTENT
 Route::prefix('website_content')->name('website_content.')->namespace('Admin')->group(function() {
     
-    // Returns the set of all web site contents
+    // Returns the view for managing home page of the client website
     Route::get('index', 'WebSiteController@index')->name('index');
 
+    // Returns the view for updating contact details displayed on the website
+    Route::get('contact', 'WebSiteController@contact')->name('contact');
+    // Set contact details
+    Route::post('set_contact', 'WebSiteController@setContact')->name('set_contact');
+
+    // Returns the view for updating Terms of service  on website
+    Route::get('tos', 'WebSiteController@tos')->name('tos');
+    Route::post('set_tos', "WebSiteController@setTos")->name('set_tos');
 });
 
 

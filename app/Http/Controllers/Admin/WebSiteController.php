@@ -36,4 +36,69 @@ class WebSiteController extends Controller
 
         return view('admin.website.homePage')->with($data);
     }
+
+    public function contact() {
+        $email = Content::where('title', 'email')->first()->description;
+        $mobile = Content::where('title', 'mobile')->first()->description;
+        $landline = Content::where('title', 'land_line')->first()->description;
+        $addressLine1 = Content::where('title', 'address_line_1')->first()->description;
+        $addressLine2 = Content::where('title', 'address_line_2')->first()->description;
+        $addressLine3 = Content::where('title', 'address_line_3')->first()->description;
+        $addressLine4 = Content::where('title', 'address_line_4')->first()->description;
+        $contactMessage = Content::where('title', 'contact_message')->first()->description;
+
+        return view('admin.website.contact')->with([
+            'email' => $email,
+            'mobile' => $mobile,
+            'land_line' => $landline,
+            'address_line_1' => $addressLine1,
+            'address_line_2' => $addressLine2,
+            'address_line_3' => $addressLine3,
+            'address_line_4' => $addressLine4,
+            'message' => $contactMessage
+        ]);
+    }
+
+    public function setContact(Request $request) {
+        // dd($request);
+        $data = $request->validate([
+            'email' => 'required',
+            'mobile' => 'required',
+            'land_line' => 'required',
+            'address_line_1' => 'required',
+            'address_line_2' => 'required',
+            'address_line_3' => 'required',
+            'address_line_4' => 'required',
+            'message' => 'required'
+        ]);
+
+        foreach ($data as $key => $value) {
+            $content = new Content([
+                'title' => $key,
+                'description' => $value
+            ]);
+
+            $content->save();
+        }
+
+        return back()->with('success', 'Successfully changed');
+    }
+
+    public function tos(){
+        $tos = Content::where('title', 'tos')->first()->description;
+        return view('admin.website.TOS')->with([
+            'tos' => $tos
+        ]);
+    }
+
+    public function setTos(Request $request) {
+        // dd($request);
+        $request->validate(['tos' => 'required']);
+
+        $tos = new Content(['title' => 'tos', 'description' => $request->tos]);
+        $tos->save();
+
+        return back()->with('success', 'Successfully changed');
+    }
+
 }

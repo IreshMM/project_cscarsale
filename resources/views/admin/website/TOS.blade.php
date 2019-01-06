@@ -14,30 +14,59 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Terms Of condition</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>{{ $tos }}</p>
             </div>
         </div>
     </div>
 </div>
-
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Edit TOS</h4>
-                <!-- Create the editor container -->
-                <div id="editor" style="height: 300px;">
-                    <p>Hello World!</p>
-                    <p>Some initial <strong>bold</strong> text</p>
-                    <p>
-                        <br>
-                    </p>
+{{-- <form method="POST" action="{{ route('website_content.set_tos') }}">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Edit TOS</h4>
+                    <!-- Create the editor container -->
+                    <div id="editor" style="height: 300px;">
+                        <textarea class="form-control" id="tos" name="tos">{{ $tos }}</textarea>
+                        
+                        <p>
+                            <br>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<a href="#" class="btn btn-primary">Add</a>
+
+    <button type="submit" name="submit" value="submit" class="btn btn-primary">Save</button>
+</form> --}}
+
+
+ <form method="POST" action="{{ route('website_content.set_tos') }}">
+        <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Edit TOS</h4>
+                                <div class="form-group row">
+                                        <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Message</label>
+                                        <div class="col-sm-9">
+                                        <textarea cols="4" rows="10" class="form-control" name="tos">{{ $tos }}</textarea>
+                                        </div>
+                                 </div>
+                                 <button type="submit" name="submit" value="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  
+         </div>
+    
+        
+    </form>
+
+
+
 <script src="/assets/libs/quill/dist/quill.min.js"></script>
 <script>
     
