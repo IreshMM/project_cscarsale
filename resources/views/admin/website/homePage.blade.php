@@ -13,7 +13,6 @@
         <div class="row">
             <div class="col-sm-8">
               <h4 class="box-title"> Details Of HOME Page </h4>
-                
               <div class="form-group row">
                     <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
                     <div class="col-sm-6">
