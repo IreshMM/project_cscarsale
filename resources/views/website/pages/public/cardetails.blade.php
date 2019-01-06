@@ -1,5 +1,5 @@
-@extends('layouts.apptest')
+@extends('website.layouts.apptest')
 
 @section('content')
-    @include('inc.partials.listing.listing')
+    @include('website.inc.partials.listing.listing')
 @endsection

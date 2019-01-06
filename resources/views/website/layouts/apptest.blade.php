@@ -76,11 +76,11 @@
 
 <body class="front" data-spy="scroll" data-target="#top1" data-offset="96">
     <div id="main">
-    @include('inc.header')
+    @include('website.inc.header')
         <main class="py-4">
             @yield('content')
         </main>
-    @include('inc.footer')
+    @include('website.inc.footer')
     </div>
 
 </body>

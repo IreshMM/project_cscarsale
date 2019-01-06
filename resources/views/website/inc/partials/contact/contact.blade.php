@@ -1,5 +1,4 @@
-@include('inc.partials.contact.breadcumb')
-@include('inc.partials.contact.map')
+<div id="contact">
 <div class="section section-md novi-background bg-cover">
     <div class="container">
         <div class="row">
@@ -49,4 +48,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>

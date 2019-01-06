@@ -6,14 +6,14 @@
         <div class="row row-fix">
             <div class="col-sm-12 col-md-9 column-content">
 
-                @include('inc.partials.listing.slider')
-                @include('inc.partials.listing.detailtabs')
+                @include('website.inc.partials.listing.slider')
+                @include('website.inc.partials.listing.detailtabs')
 
             </div>
 
-            @include('inc.partials.listing.sidebar')
+            @include('website.inc.partials.listing.sidebar')
         </div>
         
-        @include('inc.partials.listing.offers')
+        @include('website.inc.partials.listing.offers')
     </div>
 </div>

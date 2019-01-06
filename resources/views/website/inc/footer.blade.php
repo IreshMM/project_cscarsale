@@ -41,22 +41,25 @@
                 <div class="footer-menu">
                     <ul class="footer-menu-list">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li>
-                            <a href="#">Pages</a>
+                            <a href="#best">Best Offers</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="#sellurcar">Sell Your Car</a>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#leasecal">Lease Calculater</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="#testimonials">Testimonials</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#welcome">About</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -66,7 +69,7 @@
                     <a href="/" class="logo2">
                   <img src="images/logo-white.png" alt="" class="img-responsive"> </a>
                 </div>
-                <div><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Autozone</span><span>.&nbsp;</span></div>
+                <div><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>C&S CARSALE</span><span>.&nbsp;</span></div>
             </div>
         </div>
 

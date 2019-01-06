@@ -58,22 +58,14 @@
                         <div class="rd-navbar-nav-wrap">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
-                                </li>
-                                {{-- <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
-                                    <!-- RD Navbar Dropdown-->
-                                    <ul class="rd-menu rd-navbar-dropdown">
-                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing.html">Car Listing (right sidebar)</a></li>
-                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing-left.html">Car Listing (left sidebar)</a></li>
-                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="listing-without-shadow.html">Car Listing (without shadow)</a></li>
-                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="details.html">Car Details (right sidebar)</a></li>
-                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="details-left.html">Car Details (left sidebar)</a></li>
-                                    </ul>
-                                </li> --}}
+                                <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="best" href="#best">Best offers</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
                                 <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" href="/contact">Contact</a>
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="sellurcar" href="#sellurcar">SELL YOUR CAR</a></li>
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="leasecal" href="#leasecal">LEASE CALCULATER</a></li>
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
+
+                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="contact"href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

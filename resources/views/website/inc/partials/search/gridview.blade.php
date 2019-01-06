@@ -43,5 +43,5 @@
     </div>
     @endfor
     {{-- Pagination --}}
-    @include('inc.partials.search.pagination')
+    @include('website.inc.partials.search.pagination')
 </div>

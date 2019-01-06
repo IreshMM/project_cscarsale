@@ -1,5 +1,5 @@
-@extends('layouts.app')
+@extends('website.layouts.app')
 
 @section('content')
-    @include('inc.partials.contact.contact')
+    @include('website.inc.partials.contact.contact')
 @endsection
