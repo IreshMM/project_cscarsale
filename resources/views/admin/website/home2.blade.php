@@ -2,77 +2,8 @@
 
 @section('content')
 
-<style>
-.preview-images-zone {
-    width: 100%;
-    border: 1px solid #ddd;
-    min-height: 180px;
-    /* display: flex; */
-    padding: 5px 5px 0px 5px;
-    position: relative;
-    overflow:auto;
-}
-.preview-images-zone > .preview-image:first-child {
-    height: 185px;
-    width: 185px;
-    position: relative;
-    margin-right: 5px;
-}
-.preview-images-zone > .preview-image {
-    height: 90px;
-    width: 90px;
-    position: relative;
-    margin-right: 5px;
-    float: left;
-    margin-bottom: 5px;
-}
-.preview-images-zone > .preview-image > .image-zone {
-    width: 100%;
-    height: 100%;
-}
-.preview-images-zone > .preview-image > .image-zone > img {
-    width: 100%;
-    height: 100%;
-}
-.preview-images-zone > .preview-image > .tools-edit-image {
-    position: absolute;
-    z-index: 100;
-    color: #fff;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    display: none;
-}
-.preview-images-zone > .preview-image > .image-cancel {
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: bold;
-    margin-right: 10px;
-    cursor: pointer;
-    display: none;
-    z-index: 100;
-}
-.preview-image:hover > .image-zone {
-    cursor: move;
-    opacity: .5;
-}
-.preview-image:hover > .tools-edit-image,
-.preview-image:hover > .image-cancel {
-    display: block;
-}
-.ui-sortable-helper {
-    width: 90px !important;
-    height: 90px !important;
-}
 
-.container {
-    padding-top: 50px;
-}
-</style>
-
+{{-- Adding images to slider --}}
 @section('custom-script')
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -81,80 +12,111 @@
 <div class="box-header">
         <div class="row">
             <div class="col-sm-8">
+
               <h4 class="box-title"> Details Of HOME Page </h4>
-           </div>
+                
+              <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
+                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                        </div>
+                   </div>
+                 </div>
+             </div>
        </div> 
-</div>       
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Slider Images</h5>       
-        
-    <div class="form-group row">
-            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-            <div class="col-sm-6">
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
-                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                    <div class="invalid-feedback">Example invalid custom file feedback</div>
-                </div>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-            <div class="col-sm-6">
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
-                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                    <div class="invalid-feedback">Example invalid custom file feedback</div>
-                </div>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-            <div class="col-sm-6">
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
-                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                    <div class="invalid-feedback">Example invalid custom file feedback</div>
-                </div>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-            <div class="col-sm-6">
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
-                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                    <div class="invalid-feedback">Example invalid custom file feedback</div>
-                </div>
-            </div>
-        </div>
-        
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <br>
-        <a href="#" class="btn btn-primary">Add</a>
-    </div>
 </div>
+   
 
 
 {{--Featured cars---}}
 <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Featured Vehicles</h5>
-            <div class="table-responsive">
-                <table id="zero_config" class="table table-striped table-bordered">
-                    <thead>
+    <div class="card-body">
+        <h5 class="card-title">Featured Vehicles</h5>
+        <div class="table-responsive">
+            <table id="zero_config" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Year</th>
+                        <th>Color</th>
+                        <th>Price</th>
+                        <th>Mileage</th>
+                        <th>Action</th>
+                     </tr>
+                 </thead>
+                <tbody>
+                    @foreach ($featured as $item)
                         <tr>
-                            <th>Model</th>
-                            <th>Year</th>
-                            <th>Color</th>
-                            <th>Price</th>
-                            <th>Mileage</th>
-                            <th>Action</th>
+                            <td>{{ $item->carListing->model->name }}</td>
+                            <td>{{ $item->carListing->year }}</td>
+                            <td>{{ $item->carListing->color }}</td>
+                            <td>{{ $item->carListing->selling_price }}</td>
+                            <td>{{ $item->carListing->mileage }}</td>
+                            <td data-item="{{ $item }}">
+                            <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View-featured" onclick="fillModel(this)">View</button>
+                            <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button> 
+                            </td>
                          </tr>
+                     @endforeach       
+                 </tbody>
+             </table>
+            {{-- To add featured cars to the list modal button --}}
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-featured" >Add</button>
+         </div>
+    </div>
+</div> 
+
+{{--Best Offers--}}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Best Offers</h5>
+        <div class="table-responsive">
+            <table id="zero_config" class="table table-striped table-bordered">
+                    <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Year</th>
+                                <th>Color</th>
+                                <th>Price</th>
+                                <th>Mileage</th>
+                                <th>Action</th>
+                             </tr>
                      </thead>
                     <tbody>
-                        @foreach ($featured as $item)
+                        @foreach ($bestoffers as $item)
                             <tr>
                                 <td>{{ $item->carListing->model->name }}</td>
                                 <td>{{ $item->carListing->year }}</td>
@@ -162,102 +124,59 @@
                                 <td>{{ $item->carListing->selling_price }}</td>
                                 <td>{{ $item->carListing->mileage }}</td>
                                 <td data-item="{{ $item }}">
-                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View-featured" onclick="fillModel(this)">View</button>
+                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View-best" onclick="fillModel(this)">View</button>
                                 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button> 
                                 </td>
-                             </tr>
+                                </tr>
                          @endforeach       
                      </tbody>
-                 </table>
-                {{-- To add featured cars to the list modal button --}}
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-featured" >Add</button>
-             </div>
-        </div>
-    </div> 
-    
-    {{--Best Offers--}}
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Best Offers</h5>
-            <div class="table-responsive">
-                <table id="zero_config" class="table table-striped table-bordered">
-                        <thead>
-                                <tr>
-                                    <th>Model</th>
-                                    <th>Year</th>
-                                    <th>Color</th>
-                                    <th>Price</th>
-                                    <th>Mileage</th>
-                                    <th>Action</th>
-                                 </tr>
-                         </thead>
-                        <tbody>
-                            @foreach ($bestoffers as $item)
-                                <tr>
-                                    <td>{{ $item->carListing->model->name }}</td>
-                                    <td>{{ $item->carListing->year }}</td>
-                                    <td>{{ $item->carListing->color }}</td>
-                                    <td>{{ $item->carListing->selling_price }}</td>
-                                    <td>{{ $item->carListing->mileage }}</td>
-                                    <td data-item="{{ $item }}">
-                                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#View-best" onclick="fillModel(this)">View</button>
-                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button> 
-                                    </td>
-                                    </tr>
-                             @endforeach       
-                         </tbody>
-                 </table>
-                 {{-- modal button for add Best offers --}}
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-best">Add</button>
-             </div>
+             </table>
+             {{-- modal button for add Best offers --}}
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-best">Add</button>
          </div>
-     </div> 
-         
-    <div class="card">
+     </div>
+ </div> 
+
+{{-- Welcome title and note---}}
+<div class="card">
     <div class="card-body">
-       <div class="row">
-         <div class="col-12">
-            <div class="card">
-                <div class="card-body">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
                         <div class="form-group row">
                                 <label for="title" class="col-sm-3 text-right control-label col-form-label">Welcome Title</label>
-                                <div class=" col-sm-6">
-                                    <input type="text" class="form-control" id="welcomeTitle" >
-                                </div>
+                                    <div class=" col-sm-6">
+                                        <input type="text" class="form-control" id="welcomeTitle" value="{{ $title }}">
+                                    </div>
                          </div>
-                    <h5 class="card-title">Welcome note</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-        </div>
-    </div>                  
-            
-    <div class="row">
-       <div class="col-12">
-        
+                        <h5 class="card-title">Welcome note</h5>
+                        <p>{{ $welcome }}</p>
+                     </div>
+                 </div>
+             </div>
+         </div>                  
+     {{---Editor--}}
+        <div class="row">
+            <div class="col-12">
                 <h4 class="card-title">Edit Welcome note</h4>
                             <!-- Create the editor container -->
-                <div id="editor" style="height: 300px;">
-                   <p>Hello World!</p>
-                   <p>Some initial <strong>bold</strong> text</p>
-                   <p>
-                   <br>
-                  </p>
-               </div>
-            </div>
+                    <div id="editor" style="height: 300px;">
+                        <p>Hello World!</p>
+                        <p>Some initial <strong>bold</strong> text</p>
+                        <p><br></p>
+                     </div>
+             </div>
          </div> 
-    </div>
+     </div>
     <div class="form-group">
         <label class=" col-sm-3 text-right control-label col-form-label" for="ok"></label>
-        <div class="col-md-4">
-            <button id="ok" name="ok" class="btn btn-primary">Ok</button>
-        </div>
-    </div>
-</div>
+            <div class="col-md-4">
+                <button id="ok" name="ok" class="btn btn-primary">Ok</button>
+            </div>
+     </div>
+ </div> {{-- end of Welcome note --}}
      
-
-
-
 {{--Modal  view  best offers car details --}}
 <div class="modal fade" id="View-best" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -538,142 +457,81 @@
         </div>
     </div>
 </div>
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Select best Offers</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                        <div class="col-md-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title m-b-0">Vehicle list</h5>
-                                    </div>
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Model</th>
-                                                <th scope="col">Manufacture</th>
-                                                <th scope="col">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Making The New Suit</td>
-                                                <td class="text-success">Progress</td>
-                                                <td>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </a>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                        </i><i class="mdi mdi-close"></i>
-                                                    </a>     
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Luanch My New Site</td>
-                                                <td class="text-warning">Pending</td>
-                                                <td>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </a>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                        </i><i class="mdi mdi-close"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Maruti Excellant Theme</td>
-                                                <td class="text-danger">Cancled</td>
-                                                <td>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </a>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                        </i><i class="mdi mdi-close"></i>
-                                                    </a>
-                                                </td>  
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-<!--*******-->
-<script src="/assets/libs/quill/dist/quill.min.js"></script>
-            <script>
+
+{{--  Modal  for delete fetured--}}
+<div class="modal modal-danger fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                   <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Delete confirmation</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center" id="myModalLabel"></h4>
+                     </div>
+                    <form action=" " method="post">
+                        {{method_field('delete')}}
+                        {{csrf_field()}}
+                            <div class="modal-body">
+                                <p class="text-center">
+                                    Are you sure you want to delete this?
+                                </p>
+                                <input type="hidden" name="category_id" id="cat_id" value="">
                 
-               
-                var quill = new Quill('#editor', {
-                    theme: 'snow'
-                });
-            
-</script>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">No, Cancel</button>
+                                <button type="submit" class="btn btn-warning">Yes, Delete</button>
+                            </div>
+                     </form>
+                 </div>
+         </div>
+ </div> {{-- finish delete modal --}}
+     
+ @section('post-script')
+ <script>
+     function fillModel(e) {
+         var data = JSON.parse($(e).parent().attr("data-item"));
+         console.log(data);
+         $("#model").val(data.model.name);
+         $("#manufacturer").val(data.model.make.name);
+         $("#price").val(data.selling_price);
+         $("#mileage").val(data.mileage);
+         $("#color").val(data.color);
+         $("#year").val(data.year);
+         $("#seller").val(data.seller.first_name + " " + data.seller.last_name);
+         $("#description").val(data.seller_description);
+         var id_car_listing = data.id_car_listing;
+         var no_of_images = data.images;
+         
+         var htmlString = "";
+         for(var i = 0; i < no_of_images; i++) {
+             htmlString = htmlString
+                                 + '<div class="carousel-item ' + (i == 0 ? 'active' : '') + '">'
+                                 + '<img class="d-block w-100" src="storage/images/car_listing/468X280/' 
+                                 + id_car_listing + (i + 1) + '" alt="First slide"></div>';
+         }
+         console.log(htmlString);
+     }
+ </script>
 
-<script>
-$(document).ready(function() {
-    document.getElementById('pro-image').addEventListener('change', readImage, false);
-    
-    $( ".preview-images-zone" ).sortable();
-    
-    $(document).on('click', '.image-cancel', function() {
-        let no = $(this).data('no');
-        $(".preview-image.preview-show-"+no).remove();
-    });
-});
+
+<!--*******-------------------->
+    <script src="/assets/libs/quill/dist/quill.min.js"></script>
+    <script>
+        var quill = new Quill('#editor', {
+                        theme: 'snow'
+                    });
+
+    </script>
 
 
-
-var num = 4;
-function readImage() {
-    if (window.File && window.FileList && window.FileReader) {
-        var files = event.target.files; //FileList object
-        var output = $(".preview-images-zone");
-
-        for (let i = 0; i < files.length; i++) {
-            var file = files[i];
-            if (!file.type.match('image')) continue;
-            
-            var picReader = new FileReader();
-            
-            picReader.addEventListener('load', function (event) {
-                var picFile = event.target;
-                var html =  '<div class="preview-image preview-show-' + num + '">' +
-                            '<div class="image-cancel" data-no="' + num + '">x</div>' +
-                            '<div class="image-zone"><img id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
-                            '<div class="tools-edit-image"><a href="javascript:void(0)" data-no="' + num + '" class="btn btn-light btn-edit-image">edit</a></div>' +
-                            '</div>';
-
-                output.append(html);
-                num = num + 1;
-            });
-
-            picReader.readAsDataURL(file);
-        }
-        $("#pro-image").val('');
-    } else {
-        console.log('Browser not support');
-    }
-}
-
-</script>
-       <!-- this page js -->
-       <script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
-       <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
-       <script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
-       <script>
-           /****************************************
-            *       Basic Table                   *
-            ****************************************/
-           $('#zero_config').DataTable();
-       </script>
-    @endsection
+    <!-- this page js -->
+    <script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+    <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+    <script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
+    <script>
+        /****************************************
+                *       Basic Table                   *
+                ****************************************/
+            $('#zero_config').DataTable();
+    </script>
+@endsection

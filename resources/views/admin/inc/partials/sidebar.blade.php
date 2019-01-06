@@ -8,8 +8,8 @@
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-car"></i><span class="hide-menu">Manage Vehicles </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item"><a href="{{ route('car_listing.index') }}" class="sidebar-link"><i class="fas fa-check"></i><span class="hide-menu"> Available Vehicles </span></a></li>
-                        <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="far fa-share-square"></i><span class="hide-menu"> Request </span></a></li>
-                        <li class="sidebar-item"><a href="#" class="sidebar-link"><i class=" fas fa-dollar-sign"></i><span class="hide-menu"> Sold vehicles </span></a></li>
+                        <li class="sidebar-item"><a href="{{ route('seller_request.index') }}" class="sidebar-link"><i class="far fa-share-square"></i><span class="hide-menu"> Seller Requests </span></a></li>
+                        <li class="sidebar-item"><a href="{{ route('resource.sold_car_list') }}" class="sidebar-link"><i class=" fas fa-dollar-sign"></i><span class="hide-menu"> Sold vehicles </span></a></li>
                     </ul>
                 </li>
                 <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class=" fas fa-users"></i><span class="hide-menu">Manage Users </span></a>

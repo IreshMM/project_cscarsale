@@ -21,6 +21,7 @@ class CreateBuyersTable extends Migration
             $table->string('street_address');
             $table->string('city');
             $table->string('email'); // Should be unique, removed for testing
+            $table->string('phone');
             $table->timestamps();
         });
     }

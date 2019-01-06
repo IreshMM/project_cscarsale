@@ -65,7 +65,7 @@
                  </div>
                 <div class="modal-body">
                                
-                <form class="form-horizontal">
+                <form class="form-horizontal" id="request-form" method="POST" action="{{ route('seller_request.approve') }}">
                     <fieldset>
                         @php
                             $fieldSet = [
@@ -97,9 +97,11 @@
                         <div class="form-group row">
                             <label for="CompanyPrice" class=" col-sm-5 text-right control-label col-form-label">Selling Price</label>
                             <div class="col-sm-6">
-                                <input type="text" class="form-control" id="selling_price" >
+                                <input type="text" class="form-control" id="selling_price" name="selling_price">
                             </div>
                         </div>
+
+                        <input type="text" id="id_seller_request" name="id_seller_request" hidden>
                         
                     </fieldset>
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -114,21 +116,21 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    
-                </div>
-                <div class="row">
-                    
-                <div class="modal-footer">
-                {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-                <!-- Button -->
-                <button type="button" class="btn btn-lg btn-block btn-outline-success" id="ts-success">Approve</button>
+                 </form>
                 
-                </div>
-                </div>
-                </div>
-        </div>
-</div>
-    </div>
+                    <div class="row">
+                            
+                        <div class="modal-footer">
+                        {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
+                        <!-- Button -->
+                        <button type="submit" name="submit" form="request-form" class="btn btn-lg btn-block btn-outline-success" id="ts-success">Approve</button>
+                        
+                        </div>
+                     </div>
+             </div>
+         </div>
+     </div>
+    
 
 @endsection
   <!-- this page js -->
@@ -181,9 +183,10 @@
                 i++;
             });
 
-            console.log(htmlString);
-
+            // console.log(htmlString);
             $("#slide-container").html(htmlString);
+            
+            $("#id_seller_request").val(data.id_seller_request);
         }
     </script>
 @endsection

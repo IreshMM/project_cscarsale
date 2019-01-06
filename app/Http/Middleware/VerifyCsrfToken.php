@@ -27,6 +27,7 @@ class VerifyCsrfToken extends Middleware
         'best_offer/*',
         'featured_listing/*',
         'testimonial/*',
-        'website_content/*'
+        'website_content/*',
+        'car_listing/*'
     ];
 }

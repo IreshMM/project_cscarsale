@@ -16,7 +16,7 @@ Auth::routes();
 Route::get('/', function () {return view('admin.website.homePage');})->name('home');
 
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
-Route::prefix('carlisting')->name('car_listing.')->namespace('Listing')->group(function() {
+Route::prefix('car_listing')->name('car_listing.')->namespace('Listing')->group(function() {
     
     // Returns a set of required car listings for page
     Route::get('index', 'CarListingController@index')->name('index');;
@@ -25,12 +25,11 @@ Route::prefix('carlisting')->name('car_listing.')->namespace('Listing')->group(f
     Route::post('create', 'CarListingController@create')->name('create');
 
     // Update a car listing
+    Route::get('update_form', 'CarListingController@updateForm')->name('update_form');
     Route::post('update', 'CarListingController@update')->name('update');
 
-    // Returns information of specified listing
-    Route::post('show', 'CarListingController@show')->name('show');
-
     // Sell the specified car listing
+    Route::get('sell_form', 'CarListingController@sellForm')->name('sell_form');
     Route::post('sell', 'CarListingController@sell')->name('sell');
 });
 
@@ -156,22 +155,11 @@ Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->group(
 });
 
 // ROUTE GROUP FOR MANAGING WEBSITE CONTENT
-Route::prefix('website_content')->name('website_content.')->namespace('WebSite')->group(function() {
+Route::prefix('website_content')->name('website_content.')->namespace('Admin')->group(function() {
     
     // Returns the set of all web site contents
-    Route::get('index', 'ContentController@index')->name('index');
+    Route::get('index', 'WebSiteController@index')->name('index');
 
-    // Creates a web site content
-    Route::post('create', 'ContentController@create')->name('create');
-
-    // Returns information of specified web site content
-    Route::post('show', 'ContentController@show')->name('show');
-
-    // Updates the information of specified web site content
-    Route::post('update', 'ContentController@update')->name('update');
-
-    // Deletes specified web site content
-    Route::post('delete', 'ContentController@delete')->name('delete');
 });
 
 
@@ -183,8 +171,14 @@ Route::prefix('resource')->name('resource.')->namespace('WebSite')->group(functi
 
     // Get the set of models for specified make
     Route::get('get_models', 'QueryController@getModelList')->name('model_list');
+
+    // Get the list of sold cars
+    Route::get('sold_cars', 'QueryController@getSoldCarList')->name('sold_car_list');
 });
 
 
 // Essential routes to views
 Route::get('/car_listing/form_add', function() {return view('admin.vehicles.addVehicle');})->name('car_listing.form_add');
+Route::get('/car_listing/form_update', function() {return view('admin.vehicles.updatevehicle');})->name('car_listing.form_update');
+Route::get('/car_listing/form_sell', function() {return view('admin.vehicles.sell');})->name('car_listing.form_sell');
+Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');

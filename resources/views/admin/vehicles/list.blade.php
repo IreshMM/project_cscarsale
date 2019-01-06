@@ -38,9 +38,9 @@
                             <td>{{ $item->selling_price }}</td>
                             <td>{{ $item->mileage }}</td>
                             <td data-item="{{ $item }}">
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".update-modal">Update</button>
+                                <a type="button" class="btn btn-primary btn-sm" href="{{ route('car_listing.update_form', ['id_car_listing' => $item->id_car_listing]) }}">Update</a>
                                 <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#view-modal" onclick="fillModel(this)">View</button>          
-                                <button class="btn btn-warning btn-sm" href="/sell">Sell</button>
+                                <a type="button" class="btn btn-warning btn-sm" href="{{ route('car_listing.sell_form', ['id_car_listing' => $item->id_car_listing]) }}">Sell</a>
                             </td>
                         </tr>
                         @endforeach
@@ -97,75 +97,7 @@
                     </form>
                     
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img class="d-block w-100" src="/images/img1.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                            <img class="d-block w-100" src="/images/img2.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                            <img class="d-block w-100" src="/images/img3.jpg" alt="Third slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-
-                    {{-- 
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                    --}}
-                </div>
-        </div>
-    </div>
-
-    {{-- Modal update car details --}}
-    <div class="modal fade update-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">View Car Details</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                            
-                    <form class="form-horizontal center">
-                        <fieldset>
-                            <!-- Text input-->
-                            @php
-                                $attributes = ['model', 'manufacturer', 'price', 'mileage', 'color', 'year', 'seller'];
-                            @endphp
-                            @foreach ($attributes as $item)
-                            <div class="form-group row">
-                            <label for="{{ $item }}" class="col-sm-4 text-right control-label col-form-label">{{ ucfirst($item) }}</label>
-                                <div class="col-sm-7">
-                                    <input type="text" class="form-control" id="{{ $item }}" readonly>
-                                </div>
-                            </div>
-                            @endforeach
-
-                            <div class="form-group row">
-                                <label for="cono1" class="col-sm-4 text-right control-label col-form-label">Description</label>
-                                <div class="col-sm-7">
-                                    <textarea style="height:100px;" id="description" class="form-control" readonly></textarea>
-                                </div>
-                            </div>
-                                
-                        </fieldset>
-                    </form>
-                    
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" id="slide-container">
                             <div class="carousel-item active">
                             <img class="d-block w-100" src="/images/img1.jpg" alt="First slide">
                             </div>
@@ -197,11 +129,26 @@
       
 @endsection
 
+
+@section('table-script')        
+<script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+<script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+<script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
+<script>
+    /****************************************
+     *       Basic Table                   *
+     ****************************************/
+    $('#zero_config').DataTable();
+
+</script>
+<script src="/assets/libs/toastr/build/toastr.min.js"></script>
+@endsection
+
+
 @section('post-script')
     <script>
         function fillModel(e) {
             var data = JSON.parse($(e).parent().attr("data-item"));
-            console.log(data);
             $("#model").val(data.model.name);
             $("#manufacturer").val(data.model.make.name);
             $("#price").val(data.selling_price);
@@ -218,25 +165,11 @@
             for(var i = 0; i < no_of_images; i++) {
                 htmlString = htmlString
                                     + '<div class="carousel-item ' + (i == 0 ? 'active' : '') + '">'
-                                    + '<img class="d-block w-100" src="storage/images/car_listing/468X280/' 
-                                    + id_car_listing + (i + 1) + '" alt="First slide"></div>';
+                                    + '<img class="d-block w-100" src="/storage/images/car_listing/468X280/' 
+                                    + id_car_listing + (i + 1) + '.jpg' + '" alt="First slide"></div>';
             }
 
-            console.log(htmlString);
+            $("#slide-container").html(htmlString);
         }
     </script>
-@endsection
-
-@section('table-script')        
-<script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
-<script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
-<script src="/assets/extra-libs/DataTables/datatables.min.js"></script>
-<script>
-    /****************************************
-     *       Basic Table                   *
-     ****************************************/
-    $('#zero_config').DataTable();
-
-</script>
-<script src="/assets/libs/toastr/build/toastr.min.js"></script>
 @endsection

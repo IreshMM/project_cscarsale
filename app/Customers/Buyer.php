@@ -14,7 +14,8 @@ class Buyer extends Model
         'last_name', 
         'street_address', 
         'email',
-        'city'
+        'city',
+        'phone'
     ];
     protected $primaryKey = 'id';
 
@@ -37,9 +38,8 @@ class Buyer extends Model
             'street_address',
             'city',
             'email',
-            'buying_price',
-            'selling_price',
-            'date'
+            'date',
+            'phone'
         ];
 
         $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));

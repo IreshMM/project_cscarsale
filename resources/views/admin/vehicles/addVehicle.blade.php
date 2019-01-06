@@ -218,7 +218,6 @@
 
                 // AJAX Request for update models
                 $('body').on('change', '.car-makes', function() {
-                    console.log("Somehgi");
                     $.ajax({
                         method: "GET",
                         url: "{{ route('resource.model_list') }}",

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Cars\CarMake;
 use App\Cars\CarModel;
 use App\Cars\CarListing;
+use App\Cars\SoldCar;
 
 class QueryController extends Controller
 {
@@ -21,6 +22,13 @@ class QueryController extends Controller
             return $selectedMake->models()->get();
         }
         return null;
+    }
+
+    public function getSoldCarList(Request $request) {
+        $soldCars = SoldCar::all();
+
+        // return response()->json($soldCars);
+        return view('admin.vehicles.sold')->with('soldcars', $soldCars);
     }
 
     public function search(Request $request) {

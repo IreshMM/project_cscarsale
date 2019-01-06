@@ -80,6 +80,7 @@ class CarListingController extends Controller
      */
     public function update(Request $request)
     {
+        // dd($request);
         $request->validate([
             'id_car_listing' => 'required'
         ]);
@@ -89,7 +90,7 @@ class CarListingController extends Controller
         $carListing = CarListing::find($request->id_car_listing);
         $carListing = $this->updateCarListing($carListing, $data);
         
-        return response()->json($carListing);
+        return redirect('carlisting/index')->with('success', 'Car Listing updated successfully');
     }
 
     /**
@@ -98,13 +99,32 @@ class CarListingController extends Controller
      * @param  \App\Cars\CarListing  $carListing
      * @return \Illuminate\Http\Response
      */
-    public function show(Request $request)
+    public function updateForm(Request $request)
     {
         $request->validate([
             'id_car_listing' => 'required'
         ]);
 
-        return CarListing::find($request->id_car_listing);
+        $data = CarListing::filterValidFields($request->all());
+
+        $carListing = CarListing::find($request->id_car_listing);
+
+        $carListing = $this->updateCarListing($carListing, $data);
+
+        // return response()->json($carListing);
+
+        return view('admin.vehicles.updatevehicle')->with('car', $carListing);
+    }
+
+
+    public function sellForm(Request $request) {
+        $request->validate(['id_car_listing' => 'required|exists:car_listing']);
+
+        $carListing = CarListing::find($request->id_car_listing);
+
+        // dd($carListing);
+
+        return view('admin.vehicles.sell')->with('car', $carListing);
     }
 
     /**
@@ -114,25 +134,31 @@ class CarListingController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function sell(Request $request) {
+
+        // dd($request);
         $request->validate([
-            'id_car_listing'    => 'required|exists:car_listing',
+            'submit_form'       => 'required|exists:car_listing,id_car_listing',
             'title'             => 'required',
             'first_name'        => 'required',
             'last_name'         => 'required',
             'street_address'    => 'required',
             'city'              => 'required',
             'email'             => 'required',
-            'buying_price'      => 'required',
-            'selling_price'     => 'required'
+            'selling_price'     => 'required',
+            'phone'             => 'required',
+            'date'              => 'date_format:Y-m-d'
         ]);
 
         $buyerData = Buyer::filterValidFields($request->all());
         $buyer = new Buyer($buyerData);
+
         $buyer->save();
 
-        $carListing = CarListing::find($request->id_car_listing);
+        $carListing = CarListing::find($request->submit_form);
         
         $soldCar = $this->sellCarListing($carListing, $buyer, $request->date);
+
+        // return response()->json($carListing);
 
         return $soldCar;
     }

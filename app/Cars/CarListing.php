@@ -62,7 +62,6 @@ class CarListing extends Model
 
     public static function filterValidFields($fields) {
         $validFields = [
-            'id_car_listing',
             'condition',
             'mileage',
             'color',
