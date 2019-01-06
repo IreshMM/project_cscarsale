@@ -66,21 +66,6 @@
     @include('admin.inc.partials.header')
     @include('admin.inc.partials.sidebar')
         <div class="page-wrapper">
-            <div class="page-breadcrumb">
-                <div class="row">
-                    <div class="col-12 d-flex no-block align-items-center">
-                        <h4 class="page-title"></h4>
-                        <div class="ml-auto text-right">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="container-fluid">
                 @include('admin.inc.partials.flash-messages')
                 @yield('content')
@@ -109,8 +94,8 @@
     <script src="/dist/js/pages/calendar/cal-init.js"></script>
 
     <script src="/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-    
-    <!--table this page js 
+
+    <!--table this page js
 
      <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
      <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
