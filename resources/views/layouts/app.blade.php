@@ -17,6 +17,7 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/light-gallery.css" rel="stylesheet">
     <link href="css/elegant-icons.css" rel="stylesheet">
+  
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/select2.css" rel="stylesheet">
@@ -50,7 +51,7 @@
 
 <body class="front" data-spy="scroll" data-target="#top1" data-offset="96">
     <div id="main">
-        @include('inc.header') 
+        @include('inc.header')
         @yield('content')
         @include('inc.footer')
     </div>

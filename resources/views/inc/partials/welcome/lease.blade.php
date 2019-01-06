@@ -1,4 +1,4 @@
-<div id="leasecal" class="section section-lg testimonials-bg novi-background custom-bg-image">
+<div id="leasecal" class="section section-lg testimonials-bg novi-background custom-bg-image image">
 
     <div class="container">
       <script language="JavaScript">
