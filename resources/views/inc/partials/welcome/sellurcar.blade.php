@@ -1,5 +1,7 @@
+
 <div id="sellurcar" class="section section-lg ">
-    <div class="container" style="height:600px">
+    <div class="container" style="height:500px">
+      <div style="width: 50%; float:right; padding-right: :150px">
       <div class="container seller-form" id="msform" >
           <form action="javascript:;" class="form2" style="width:40%" >
               <fieldset>
@@ -86,7 +88,16 @@
           </form>
       </div>
     </div>
+    <div style="width: 45%; float:left; padding-left :150px">
+      <p style="font-size:18px">Vehicle leasing offers advantages to both buyers and sellers. For the buyer, lease payments will usually be lower than payments on a car loan would be. Any sales tax is due only on each monthly payment, rather than immediately on the entire purchase price as in the case of a loan.</p><br>
+      <p style="font-size:18px">We, at C&S Carsale, consult our customers to choose best for them. We have teamed up with the very best Finance companies to make sure your dream becomes a Reality!.   </p>
+      <p style="font-size:22px; color:#2d2d2d"><b>Try our Leasing rates Calculater, Now!</b></p>
+    </div>
 <div>
+</div>
+</div>
+</div>
+
   <script>
   //jQuery time
   var current_fs, next_fs, previous_fs; //fieldsets
