@@ -13,7 +13,7 @@
 
             @include('website.inc.partials.listing.sidebar')
         </div>
-        
-        @include('website.inc.partials.listing.offers')
+
+
     </div>
 </div>

@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        @include('website.inc.partials.listing.calculator')
+      
         <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-12">
             <div class="banner novi-background">
                 <figure><a href="#"><img src="images/banner.jpg" alt="" class="img-responsive"></a></figure>
