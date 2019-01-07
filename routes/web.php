@@ -13,10 +13,10 @@
 
 Auth::routes();
 
-Route::get('admin/dashboard', function() {return view('admin.testviews.test');})->name('admin.home');
+Route::get('admin/dashboard', function() {return view('admin.testviews.test');})->middleware('auth')->name('dashboard');
 
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
-Route::prefix('admin/dashboard/car_listing')->name('car_listing.')->namespace('Listing')->group(function() {
+Route::prefix('admin/dashboard/car_listing')->middleware('auth')->name('car_listing.')->namespace('Listing')->group(function() {
     
     // Returns a set of required car listings for page
     Route::get('index', 'CarListingController@index')->name('index');;
@@ -37,26 +37,26 @@ Route::prefix('admin/dashboard/car_listing')->name('car_listing.')->namespace('L
 Route::prefix('admin/dashboard/seller_request')->name('seller_request.')->namespace('Listing')->group(function(){
 
     // Returns a list of all seller requests
-    Route::get('index', 'SellerRequestController@index')->name('index');
+    Route::get('index', 'SellerRequestController@index')->middleware('auth')->name('index');
 
     // Creates a new seller request
     Route::post('create', 'SellerRequestController@create')->name('create');
 
     // Returns the information of specified seller request
-    Route::post('show', 'SellerRequestController@show')->name('show');
+    Route::post('show', 'SellerRequestController@show')->middleware('auth')->name('show');
 
     // Update specified seller request
-    Route::post('update', 'SellerRequestController@update')->name('update');
+    Route::post('update', 'SellerRequestController@update')->middleware('auth')->name('update');
 
     // Delete specified seller request
-    Route::post('delete', 'SellerRequestController@delete')->name('delete');
+    Route::post('delete', 'SellerRequestController@delete')->middleware('auth')->name('delete');
 
     // Approve specified seller request with selling price
-    Route::post('approve', 'SellerRequestController@approve')->name('approve');
+    Route::post('approve', 'SellerRequestController@approve')->middleware('auth')->name('approve');
 });
 
 // ROUTE GROUP FOR MANAGING SELLERS
-Route::prefix('admin/dashboard/seller')->name('seller.')->namespace('Admin')->group(function() {
+Route::prefix('admin/dashboard/seller')->middleware('auth')->name('seller.')->namespace('Admin')->group(function() {
 
     // Returns set of required sellers for page
     Route::get('index', 'SellerController@index')->name('index');
@@ -66,7 +66,7 @@ Route::prefix('admin/dashboard/seller')->name('seller.')->namespace('Admin')->gr
 });
 
 // ROUTE GROUP FOR MANAGING EMPLOYEES
-Route::prefix('admin/dashboard/employee')->name('employee.')->namespace('Admin')->group(function(){
+Route::prefix('admin/dashboard/employee')->middleware('auth')->name('employee.')->namespace('Admin')->group(function(){
 
     // Returns the set of all employees
     Route::get('index', 'EmployeeController@index')->name('index');
@@ -99,10 +99,10 @@ Route::prefix('admin/dashboard/subscription')->name('subscription.')->namespace(
     Route::post('show', 'SubscriptionController@show')->name('show');
 
     // Updates the information of specified subscription
-    Route::post('update', 'SubscriptionController@update')->name('update');
+    Route::post('update', 'SubscriptionController@update')->middleware('auth')->name('update');
 
     // Deletes specified subscription
-    Route::post('delete', 'SubscriptionController@delete')->name('delete');
+    Route::post('delete', 'SubscriptionController@delete')->middleware('auth')->name('delete');
 });
 
 // ROUTE GROUP FOR MANAGING BEST OFFERS
@@ -112,13 +112,13 @@ Route::prefix('admin/dashboard/best_offer')->name('best_offer.')->namespace('Web
     Route::get('index', 'BestOfferController@index')->name('index');
 
     // Creates a best offer
-    Route::post('create', 'BestOfferController@create')->name('create');
+    Route::post('create', 'BestOfferController@create')->name('create')->middleware('auth');
 
     // Returns information of specified best offer
     Route::post('show', 'BestOfferController@show')->name('show');
 
     // Deletes specified best offer
-    Route::post('delete', 'BestOfferController@delete')->name('delete');
+    Route::post('delete', 'BestOfferController@delete')->name('delete')->middleware('auth');
 });
 
 // ROUTE GROUP FOR MANAGING FEATURED LISTINGS
@@ -128,17 +128,17 @@ Route::prefix('featured_listing')->name('featured_listing.')->namespace('WebSite
     Route::get('index', 'FeaturedListingController@index')->name('index');
 
     // Creates a featured listing
-    Route::post('create', 'FeaturedListingController@create')->name('create');
+    Route::post('create', 'FeaturedListingController@create')->name('create')->middleware('auth');
 
     // Returns information of specified featured listing
     Route::post('show', 'FeaturedListingController@show')->name('show');
 
     // Deletes specified featured listing
-    Route::post('delete', 'FeaturedListingController@delete')->name('delete');
+    Route::post('delete', 'FeaturedListingController@delete')->name('delete')->middleware('auth');
 });
 
 // ROUTE GROUP FOR MANAGING TESTIMONIALS
-Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->group(function() {
+Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->middleware('auth')->group(function() {
     
     // Returns the set of all testimonials
     Route::get('index', 'TestimonialController@index')->name('index');
@@ -157,7 +157,7 @@ Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->group(
 });
 
 // ROUTE GROUP FOR MANAGING WEBSITE CONTENT
-Route::prefix('admin/dashboard/website_content')->name('website_content.')->namespace('Admin')->group(function() {
+Route::prefix('admin/dashboard/website_content')->name('website_content.')->namespace('Admin')->middleware('auth')->group(function() {
     
     // Returns the view for managing home page of the client website
     Route::get('index', 'WebSiteController@index')->name('index');
@@ -190,7 +190,7 @@ Route::prefix('admin/dashboard/resource')->name('resource.')->namespace('WebSite
     Route::get('get_models', 'QueryController@getModelList')->name('model_list');
 
     // Get the list of sold cars
-    Route::get('sold_cars', 'QueryController@getSoldCarList')->name('sold_car_list');
+    Route::get('sold_cars', 'QueryController@getSoldCarList')->name('sold_car_list')->middleware('auth');
 });
 
 
@@ -226,10 +226,14 @@ Route::prefix('query')->group(function(){
 Route::get('/search', 'WebSite\QueryController@search')->name('search');
 
 
-Route::get('/admin', function() {
-    return view('customauth.login');
-});
+Route::get('/forbidden', function() {return view('admin.auth.forbidden');})->name('forbidden');
 
 
 //Test route
 Route::get('test', function() {return view('admin.users.subscription');});
+
+
+// Route group for authentication
+Route::prefix('auth')->namespace('Auth')->name('auth.')->group(function() {
+    Route::get('login', 'LoginController@showLoginForm')->name('login');
+});

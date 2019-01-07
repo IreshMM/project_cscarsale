@@ -26,6 +26,7 @@ class User extends Authenticatable
         'phone',
         'level',
         'email',
+        'password'
     ];
 
     /**
@@ -33,9 +34,9 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
+    // protected $hidden = [
+    //     'password', 'remember_token',
+    // ];
 
     /**
      * Defines seller relationship to SoldCar [user->level = seller]
