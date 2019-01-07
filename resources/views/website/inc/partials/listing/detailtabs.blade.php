@@ -11,93 +11,50 @@
         <div class="title2">
         </div>
 
-        <p>
+
           {{$cars->seller_description}}
-        </p>
+        
 
-        <p>
-            Proin euismod interdum nibh et posuere. Fusce tempus ligula vitae elit commodo, nec semper lorem aliquet. Morbi porttitor
-            semper tortor, ac bibendum urna cursus in. Nulla porttitor risus mauris, ut rutrum dolor porta semper. Quisque
-            eu magna nec diam auctor ultricies. Ut sed purus nec lectus porttitor pretium. Ut et scelerisque metus.
-        </p>
-
-        <p>
-            Nullam sed efficitur sapien, sit amet consectetur sem. Curabitur faucibus aliquet finibus. Praesent ullamcorper, dui at sodales
-            dictum, libero augue egestas urna, a placerat odio est at turpis. Ut dapibus ex eget sollicitudin sagittis. In
-            hac habitasse platea dictumst. In in odio eget erat efficitur pellentesque sit amet at nulla. Morbi mollis mollis
-            nibh consectetur pulvinar. Nullam sodales quis purus sed dignissim. Pellentesque porta finibus ante porta laoreet.
-        </p>
-
-        <p>
-            Integer semper, eros luctus convallis convallis, nibh nulla volutpat libero, vitae dapibus mauris eros ut elit. Donec eleifend
-            dui ac arcu condimentum, vel semper metus cursus. Integer a mauris ac magna tincidunt euismod ac sit amet ante.
-            Quisque faucibus varius enim eget malesuada. Ut et consequat dolor. Nam ornare lectus in suscipit feugiat. In
-            eu semper sapien. Nulla varius consectetur dapibus. Phasellus varius tellus velit, vitae mollis purus efficitur
-            sit amet. Etiam aliquam bibendum risus, non convallis dolor pharetra non. Fusce
-        </p>
 
     </div>
     <div id="tabs3-2">
 
         <div class="row row-fix">
             <div class="col-sm-6">
-                <div class="title2">EXTRA FEATURES</div>
+
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li>Condition   :{{$cars->condition}}</li>
-                            <li>mileage     :{{$cars->mileage}}</li>
-                            <li>Color       :{{$cars->color}}</li>
-                            <li>Year        :{{$cars->year}}</li>
+                            <li><a href="#"><b>Condition </b>  :{{$cars->condition}}</a></li>
+                            <li><a href="#"><b>Mileage </b>    :{{$cars->mileage}}</a></li>
+
 
                     </div>
                     <div class="col-sm-6">
                         <ul class="ul3">
-                          <li>city  :{{$cars->city}}</li>
-                          <li>mileage     :{{$cars->mileage}}</li>
-                          <li>Color       :{{$cars->color}}</li>
-                          <li>Selling Price        :{{$cars->selling_price}}</li>
+                          <li><a href="#"><b>City </b> :{{$cars->city}}</a></li>
+                          <li><a href="#"><b>Year </b>       :{{$cars->year}}</a></li>
+
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="title2">Essential Options</div>
+
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
+                          <li><a href="#"><b>Color </b>      :{{$cars->color}}</a></li>
+
+                          <li><a href="#"><b>Selling Price </b>:Rs.{{$cars->selling_price}}.00</a></li>
+
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="ul3">
                             <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
+
+
                         </ul>
                     </div>
                 </div>

@@ -1,3 +1,11 @@
+<script>
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
+</script>
 <div class="gslider-wrapper">
     <div id="gslider" class="flexslider">
         <ul class="slides">

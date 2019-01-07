@@ -20,8 +20,8 @@
                         </div>
                     </div>
                     <div class="txt3">Rs.{{$cars->selling_price}}.00</div>
-                    <div class="txt4">George Freeman</div>
-                    <div class="txt5">44 Shirley Ave. <br> West Chicago, IL 60185<br> Phone: <a href="tel:#">+1 (312) 954-1151</a>
+                  
+
                     </div>
                     <div class="form-wrapper">
                         <div id="note2"></div>
@@ -35,18 +35,6 @@
                                 <div class="form-group form-wrap">
                                     <label for="inputMessage">Your Message</label>
                                     <textarea class="form-control" rows="9" id="inputMessage" placeholder="Message" name="content" data-constraints="@Required"></textarea>
-                                </div>
-
-                                <div class="checkbox-inline">
-                                    <label>
-                                                <input type="checkbox"> Send me a copy of this message
-                                            </label>
-                                </div>
-
-                                <div class="checkbox-inline">
-                                    <label>
-                                                <input type="checkbox" checked> Subscribe to our Newsletter
-                                            </label>
                                 </div>
 
                                 <button type="submit" class="btn-default btn-cf-submit2">SEND E-MAIL</button>
