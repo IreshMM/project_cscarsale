@@ -25,7 +25,7 @@ class CreateEmployeesTable extends Migration
             $table->string('hired_date');
             $table->timestamps();
 
-            $table->foreign('id')->references('id')->on('users');
+            $table->foreign('id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

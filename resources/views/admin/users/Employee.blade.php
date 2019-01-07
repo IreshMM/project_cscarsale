@@ -9,7 +9,7 @@
         </div>
             <!--<div class="col-sm-4">-->
             <div class="text-left">   
-              <a class="btn btn-primary" href="/empAdd">Add new Employee</a>
+                <a class="btn btn-primary" href="{{ route('employee.create-form') }}">Add new Employee</a>
            <p> </p>
            </div>
         </div>
@@ -39,28 +39,16 @@
                             <td>{{ $item->position }}</td>
                             <td>{{ $item->hired_date }}</td>
                             <td>
-                                <a class="btn btn-primary btn-sm" href="/updateEmp">Update></a>
-                                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1">
+                                <a class="btn btn-primary btn-sm" href="/updateEmp">Update</a>
+                                <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1" onclick="fillModel(this)">
                                     View 
                                 </button>
-                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button>
+                                <button data-id="{{ $item->id }}" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete" onclick="fillUserID(this)">Delete</button>
   
                             </td>
                         </tr>
                     @endforeach
-                    
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Mobile</th>
-                        <th>Position</th>
-                        <th>Hired date</th>
-                        <th>ACtion</th>
-                            
-                    </tr>
-                </tfoot>
             </table>
         </div>
     </div>
@@ -137,7 +125,7 @@
                                     <div class="form-group row">
                                         <label for="Position" class=" col-sm-5 text-right control-label col-form-label">Position</label>
                                         <div class=" col-sm-6">
-                                            <input type="text" class="form-control"   readonly  id="line3">
+                                            <input type="text" class="form-control"   readonly  id="position">
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -150,12 +138,12 @@
                 
                                         
                                     <!-- Button -->
-                                    <div class="form-group">
+                                    {{-- <div class="form-group">
                                         <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
                                         <div class="col-md-4">
                                             <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                         
                                 </fieldset>
                         </form>
@@ -177,14 +165,14 @@
              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                <h4 class="modal-title text-center" id="myModalLabel"></h4>
              </div>
-         <form action=" " method="post">
+                <form action="{{ route('employee.delete') }}" method="post">
             {{-- {{method_field('delete')}}
             {{csrf_field()}} --}}
          <div class="modal-body">
                 <p class="text-center">
                     Are you sure you want to delete this?
                 </p>
-                <input type="hidden" name="category_id" id="cat_id" value="">
+                <input type="hidden" name="id" id="user_id" value="">
 
         </div>
         <div class="modal-footer">
@@ -212,4 +200,27 @@
          </script>
          <script src="/assets/libs/toastr/build/toastr.min.js"></script>
   @endsection
+ @endsection
+ 
+ @section('post-script')
+    <script>
+        function fillModel(e) {
+            var data = JSON.parse($(e).attr("data-item"));
+            // console.log(data);
+            $("#name").val(data.user.first_name + data.user.last_name);
+            $("#address").val(data.user.street_address);
+            $("#dob").val(data.dob);
+            $("#gender").val(data.gender);
+            $("#mobile").val(data.user.phone);
+            $("#email").val(data.user.email);
+            $("#account").val(data.bank_account);
+            $("#branch").val(data.branch);
+            $("#position").val(data.position);
+            $("#hiredate").val(data.hired_date);
+        }
+
+        function fillUserID(e) {
+            $("#user_id").val($(e).attr("data-id"));
+        }
+    </script>
  @endsection

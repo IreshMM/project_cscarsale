@@ -208,7 +208,7 @@ Route::get('/search2', function () {
     return view('website.pages.search');
 });
 Route::get('/details', function () {
-    return view('website.pages.vehicle');
+    return view('website.pages.public.cardetails');
 });
 Route::get('/contact', function () {
     return view('website.pages.public.contact');
@@ -224,6 +224,11 @@ Route::prefix('query')->group(function(){
     Route::get('modellist', 'WebSite\QueryController@getModelList')->name('model_list');
 });
 Route::get('/search', 'WebSite\QueryController@search')->name('search');
+
+
+Route::get('/admin', function() {
+    return view('customauth.login');
+});
 
 
 //Test route

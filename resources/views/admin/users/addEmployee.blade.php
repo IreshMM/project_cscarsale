@@ -6,14 +6,14 @@
     <div class="card-body wizard-content">
         <h4 class="card-title">Add Employee</h4>
         <h6 class="card-subtitle"></h6>
-        <form id="example-form" action="#" class="m-t-40">
+        <form id="example-form" action="{{ route('employee.create') }}" method="POST" class="m-t-40">
             <div>
                 <h3>Profile</h3>
                 <section>
                     <label for="name">First name *</label>
-                    <input id="name" name="name" type="text" class="required form-control">
+                    <input id="name" name="first_name" type="text" class="required form-control">
                     <label for="surname">Last name *</label>
-                    <input id="surname" name="surname" type="text" class="required form-control">
+                    <input id="surname" name="last_name" type="text" class="required form-control">
                     
                     <label for="address">Address</label>
                     <input id="address" name="address" type="text" class="form-control">
@@ -76,12 +76,12 @@
                     </section>
                     <h3>Account</h3>
                     <section>
-                        <label for="userName">User name *</label>
-                        <input id="userName" name="userName" type="text" class="required form-control">
+                        <label for="userName">Email *</label>
+                        <input id="userName" name="email" type="text" class="required form-control">
                         <label for="password">Password *</label>
                         <input id="password" name="password" type="text" class="required form-control">
                         <label for="confirm">Confirm Password *</label>
-                        <input id="confirm" name="confirm" type="text" class="required form-control">
+                        <input id="confirm" name="confirm_password" type="text" class="required form-control">
                         <p>(*) Mandatory</p>
                     </section>
             </div>
@@ -130,7 +130,7 @@
             return form.valid();
         },
         onFinished: function(event, currentIndex) {
-            alert("Submitted!");
+            form.submit();
         }
     });
     </script>

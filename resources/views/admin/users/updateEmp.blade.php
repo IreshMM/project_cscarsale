@@ -1,4 +1,4 @@
-@extends('layouts.adminapp') 
+@extends('admin.layouts.adminapp') 
 
 @section('content')
 
@@ -6,22 +6,22 @@
     <div class="card-body wizard-content">
         <h4 class="card-title">Update Employee</h4>
         <h6 class="card-subtitle"></h6>
-        <form id="example-form" action="#" class="m-t-40">
+        <form id="example-form" action="{{ route('employee.update') }}" class="m-t-40" method="POST">
             <div>
                                  
  
                                 <h3>Profile</h3>
                                 <section>
                                     <label for="name">First name *</label>
-                                    <input id="name" name="name" type="text" class="required form-control">
+                                    <input id="name" name="first_name" type="text" class="required form-control" value="{{ $user->first_name }}">
                                     <label for="surname">Last name *</label>
-                                    <input id="surname" name="surname" type="text" class="required form-control">
+                                    <input id="surname" name="last_name" type="text" class="required form-control" value="{{ $user->last_name }}">
                                    
                                     <label for="address">Address</label>
-                                    <input id="address" name="address" type="text" class="form-control">
+                                    <input id="address" name="street_address" type="text" class="form-control" value="{{ $user->street_address }}">
                                     <label for="dob">Date of Birth</label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="datepicker-autoclose" name ="dob" placeholder="mm/dd/yyyy">
+                                        <input type="text" class="form-control" id="datepicker-autoclose" name ="dob" placeholder="mm/dd/yyyy" value="{{ $employee->dob }}">
                                         <div class="input-group-append">
                                             <span class="input-group-text"><i class="fa fa-calendar"></i></span>
                                         </div>
@@ -30,45 +30,43 @@
                                     <div class="col-md-9">
                                         <select class="select2 form-control custom-select" style="width: 100%; height:36px;" name="gender">
                                             <option>Select</option>
-                                            
-                                                <option value="f">Female</option>
-                                                <option value="m">Male</option>
+                                            <option value="m" selected disabled>{{ $employee->gender }}</option>
                                            
-                                            
                                         </select>
                                     </div>
-                                    <label for="address">NIC</label>
-                                    <input id="nic" name="nic" type="text" class=" form-control">
+                                    <label for="nic">NIC</label>
+                                    <input id="nic" name="nic" type="text" class="form-control" value="{{ $employee->nic }}">
                                     <p>(*) Mandatory</p>
+                                    <input name="id" value="{{ $employee->id }}" id="id" hidden>
                                 </section>
                                
                                 
                                 <h3>Contact Details</h3>
                                     <section>
                                         <label for="email">Email *</label>
-                                        <input id="email" name="email" type="text" class="required form-control">
+                                        <input id="email" name="email" type="text" class="required form-control" value="{{ $user->email }}">
                                         <label for="mobile">Mobile *</label>
-                                        <input id="mobile" name="mobile" type="text" class="required form-control">
+                                        <input id="mobile" name="phone" type="text" class="required form-control" value="{{ $user->phone }}">
                                         <label for="landline">Land line *</label>
-                                        <input id="mobile" name="landline" type="text" class=" form-control">
+                                        <input id="mobile" name="land_line" type="text" class=" form-control" value="{{ $employee->land_line }}">
                                         <p>(*) Mandatory</p>
                                     
                                     <h3>Bank details</h3>
                                    
                                         <label for="bank account">Bank Account no *</label>
-                                        <input id="bank_account_no" name="bank_account" type="text" class="required form-control">
+                                        <input id="bank_account_no" name="bank_account" type="text" class="required form-control" value="{{ $employee->bank_account }}">
                                         <label for="branch">Bank branch *</label>
-                                        <input id="branch" name="branch" type="text" class="required form-control">
+                                        <input id="branch" name="branch" type="text" class="required form-control" value="{{ $employee->branch }}">
                                         
                                         <p>(*) Mandatory</p>
                                     </section>
                                     <h3>Position</h3>
                                     <section>
                                         <label for="position">Position *</label>
-                                        <input id="position" name="position" type="text" class="required form-control">
+                                        <input id="position" name="position" type="text" class="required form-control" value="{{ $employee->position }}">
                                         <label for="hire date">Hired date</label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="datepicker-autoclose"name ="hire_date" placeholder="mm/dd/yyyy">
+                                            <input type="text" class="form-control" id="datepicker-autoclose"name ="hired_date" placeholder="mm/dd/yyyy" value="{{ $employee->hired_date }}">
                                             <div class="input-group-append">
                                                 <span class="input-group-text"><i class="fa fa-calendar"></i></span>
                                             </div>
@@ -78,18 +76,15 @@
                                     </section>
                                     <h3>Account</h3>
                                     <section>
-                                        <label for="userName">User name *</label>
-                                        <input id="userName" name="userName" type="text" class="required form-control">
+                                        <label for="userName">Email *</label>
+                                        <input id="email" name="email" type="text" class="required form-control" value="{{ $user->email }}">
                                         <label for="password">Password *</label>
                                         <input id="password" name="password" type="text" class="required form-control">
                                         <label for="confirm">Confirm Password *</label>
-                                        <input id="confirm" name="confirm" type="text" class="required form-control">
+                                        <input id="confirm" name="confirm_password" type="text" class="required form-control">
                                         <p>(*) Mandatory</p>
                                     </section>
                             </div>
-                            
-                            {!! Form::close() !!}
-                            
                         </form>
                     </div>
                 </div>
@@ -139,7 +134,7 @@
             return form.valid();
         },
         onFinished: function(event, currentIndex) {
-            alert("Submitted!");
+            form.submit();
         }
     });
     </script>

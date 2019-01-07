@@ -30,26 +30,46 @@ class EmployeeController extends Controller
      */
     public function create(Request $request)
     {
-        $request->validate([
-            'title'             => 'required', 
-            'first_name'        => 'required', 
+        // dd($request);
+        $request->validate([ 
+            'first_name'        => 'required',
             'last_name'         => 'required',
-            'street_address'    => 'required',
-            'city'              => 'required',
-            'phone'             => 'required',
+            'address'           => 'required',
+            'dob'               => 'required',
+            'gender'            => 'required',
+            'nic'               => 'required',
             'email'             => 'required',
-            'password'          => 'required'
+            'mobile'            => 'required',
+            'landline'          => 'required',
+            'bank_account'      => 'required',
+            'branch'            => 'required',
+            'position'          => 'required',
+            'hire_date'         => 'required',
+            'password'          => 'required',
+            'confirm_password'  => 'required'
         ]);
 
         $data = User::filterValidFields($request->all());
 
-        $employee = new User($data);
-        $employee->level = 'employee';
-        $employee->password = bcrypt($request->password);
+        $employeeUser = new User($data);
+        $employeeUser->level = 'employee';
+        $employeeUser->street_address = $request->address;
+        $employeeUser->city = ['Galle', 'Anuradhapura'][random_int(0, 1)];
+        $employeeUser->phone = $request->mobile;
+        $employeeUser->title = $request->gender == 'male' ? 'Mr' : 'Miss';
+        $employeeUser->password = bcrypt($request->password);
+
+        $employeeUser->save();
+
+        $employeeData = Employee::filterValidFields($request->all());
+        $employee = new Employee($employeeData);
+        $employee->land_line = $request->landline;
+        $employee->hired_date = $request->hire_date;
+        $employee->id = $employeeUser->id;
 
         $employee->save();
 
-        return response()->json($employee);
+        return back()->with('success', 'Employee account created');
     }
 
     /**
@@ -71,6 +91,17 @@ class EmployeeController extends Controller
         return view('admin.users.addEmployee');
     }
 
+
+    public function showUpdateForm(Request $request) {
+        $request->validate([
+            'id' => 'required'
+        ]);
+
+        $user = User::find($request->id);
+        $employee = Employee::find($request->id);
+
+        return view('admin.users.updateEmp')->with(['user' => $user, 'employee' => $employee]);
+    }
     /**
      * Update the specified resource in storage.
      *
@@ -79,10 +110,23 @@ class EmployeeController extends Controller
      */
     public function update(Request $request)
     {
-        $request->validate(['id_employee']);
+        // dd($request);
+        $request->validate(['id' => 'required']);
 
-        $employee = User::where('level', 'employee')->where('id', $request->id_employee)->first();
+        $user = User::where('level', 'employee')->where('id', $request->id)->first();
         $data = User::filterValidFields($request->all());
+        // dd($user);
+
+        foreach ($data as $key => $value) {
+            $user[$key] = $value;
+        }
+
+        // dd($user);
+
+        $user->save();
+
+        $employee = Employee::find($request->id);
+        $data = Employee::filterValidFields($request->all());
 
         foreach ($data as $key => $value) {
             $employee[$key] = $value;
@@ -90,7 +134,7 @@ class EmployeeController extends Controller
 
         $employee->save();
 
-        return response()->json($employee);
+        return back()->with('success', 'Successfully updated');
     }
 
     /**
@@ -101,11 +145,12 @@ class EmployeeController extends Controller
      */
     public function delete(Request $request)
     {
-        $request->validate(['id_employee']);
+        // dd($request);
+        $request->validate(['id']);
 
-        $employee = User::where('level', 'employee')->where('id', $request->id_employee)->first();
+        $employee = User::where('level', 'employee')->where('id', $request->id)->first();
         $employee->delete();
 
-        return response()->json($employee);
+        return back()->with('warning', 'Employee account has been deleted!');
     }
 }

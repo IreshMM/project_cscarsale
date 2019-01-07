@@ -11,9 +11,9 @@ class Employee extends Model
     protected $fillable = [
         'dob',
         'gender',
-        'nic'.
+        'nic',
         'land_line',
-        'bankaccount',
+        'bank_account',
         'position',
         'branch',
         'hired_date'
@@ -26,4 +26,22 @@ class Employee extends Model
     {
         return $this->hasOne('App\User', 'id', 'id');
     }
+
+    public static function filterValidFields($fields) {
+        $validFields = [
+            'dob',
+            'gender',
+            'nic',
+            'land_line',
+            'bank_account',
+            'position',
+            'branch',
+            'hired_date'
+        ];
+
+        $filteredFieldsAndData = array_intersect_key($fields, array_flip($validFields));
+
+        return $filteredFieldsAndData;
+    }
+
 }

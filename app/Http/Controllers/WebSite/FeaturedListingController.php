@@ -65,6 +65,6 @@ class FeaturedListingController extends Controller
         $featuredListing = FeaturedListing::find($request->id_car_listing);
         $featuredListing->delete();
 
-        return response()->json($featuredListing);
+        return back()->with('warning', 'Featured Listing deleted!');
     }
 }

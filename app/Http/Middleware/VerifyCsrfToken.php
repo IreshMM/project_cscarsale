@@ -19,15 +19,15 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'carlisting/*',
-        'seller/*',
-        'seller_request/*',
-        'employee/*',
-        'subscription/*',
-        'best_offer/*',
-        'featured_listing/*',
-        'testimonial/*',
-        'website_content/*',
-        'car_listing/*'
+        'admin/dashboard/carlisting/*',
+        'admin/dashboard/seller/*',
+        'admin/dashboard/seller_request/*',
+        'admin/dashboard/employee/*',
+        'admin/dashboard/subscription/*',
+        'admin/dashboard/best_offer/*',
+        'admin/dashboard/featured_listing/*',
+        'admin/dashboard/testimonial/*',
+        'admin/dashboard/website_content/*',
+        'admin/dashboard/car_listing/*'
     ];
 }

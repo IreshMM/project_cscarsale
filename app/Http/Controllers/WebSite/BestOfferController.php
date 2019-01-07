@@ -66,6 +66,6 @@ class BestOfferController extends Controller
         $bestOffer = BestOffer::find($request->id_car_listing);
         $bestOffer->delete();
 
-        return response()->json($bestOffer);
+        return back()->with('warning', 'Best offer entry deleted!');
     }
 }

@@ -192,7 +192,7 @@
                                 <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1" onclick="fillModel(this)">
                                             View 
                                     </button>
-                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button>  
+                                <button data-id="{{ $item->id_car_listing }}" data-t="f" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete" onclick="fillModalId(this)">Delete</button>  
 
                             </td>
                         </tr>
@@ -234,7 +234,7 @@
                                 <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1" onclick="fillModel(this)">
                                             View 
                                     </button>
-                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete">Delete</button>  
+                                <button data-id="{{ $item->id_car_listing }}" data-t="b" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete" onclick="fillModalId(this)">Delete</button>  
 
                             </td>
                         </tr>
@@ -553,14 +553,13 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title text-center" id="myModalLabel"></h4>
         </div>
-        <form action=" " method="post">
-                {{method_field('delete')}}
+        <form method="post" id="delete-modal-form">
                 {{csrf_field()}}
             <div class="modal-body">
                     <p class="text-center">
                         Are you sure you want to delete this?
                     </p>
-                    <input type="hidden" name="category_id" id="cat_id" value="">
+                    <input name="id_car_listing" type="hidden" name="category_id" id="id_car_listing" value="">
     
             </div>
             <div class="modal-footer">
@@ -601,54 +600,6 @@
 
 </script>
 
-<script>
-    $(document).ready(function() {
-        document.getElementById('pro-image').addEventListener('change', readImage, false);
-        
-        $( ".preview-images-zone" ).sortable();
-        
-        $(document).on('click', '.image-cancel', function() {
-            let no = $(this).data('no');
-            $(".preview-image.preview-show-"+no).remove();
-        });
-    });
-
-
-
-    var num = 4;
-    function readImage() {
-        if (window.File && window.FileList && window.FileReader) {
-            var files = event.target.files; //FileList object
-            var output = $(".preview-images-zone");
-
-            for (let i = 0; i < files.length; i++) {
-                var file = files[i];
-                if (!file.type.match('image')) continue;
-                
-                var picReader = new FileReader();
-                
-                picReader.addEventListener('load', function (event) {
-                    var picFile = event.target;
-                    var html =  '<div class="preview-image preview-show-' + num + '">' +
-                                '<div class="image-cancel" data-no="' + num + '">x</div>' +
-                                '<div class="image-zone"><img id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
-                                '<div class="tools-edit-image"><a href="javascript:void(0)" data-no="' + num + '" class="btn btn-light btn-edit-image">edit</a></div>' +
-                                '</div>';
-
-                    output.append(html);
-                    num = num + 1;
-                });
-
-                picReader.readAsDataURL(file);
-            }
-            $("#pro-image").val('');
-        } else {
-            console.log('Browser not support');
-        }
-    }
-
-</script>
-
 <!-- this page js -->
 <script src="/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
 <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
@@ -659,4 +610,21 @@
             ****************************************/
            $('#zero_config').DataTable();
 </script>
+@endsection
+
+@section('post-script')
+    <script>
+        function fillModalId(e) {
+            $("#id_car_listing").val($(e).attr("data-id"));
+
+            if($(e).attr("data-t") == "b") {
+                $("#delete-modal-form").attr("action", "{{ route('best_offer.delete') }}");
+            } else {
+                $("#delete-modal-form").attr("action", "{{ route('featured_listing.delete') }}");
+            }
+
+            $("#delete-modal-form").attr("method", "POST");
+
+        }
+    </script>
 @endsection
