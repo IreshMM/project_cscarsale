@@ -120,24 +120,13 @@
 			document.Result3.profit.value=xyz-n;
 
 
-		if(!(document.getElementById("billid").value.match(regex))||document.getElementById("billid").value==""){
-				document.Result2.expense.value = "ERROR";
-			document.Result3.profit.value = "ERROR";
-				alert('please enter a valid value!')
+		if(!(document.getElementById("billid").value.match(regex))||document.getElementById("billid").value==""||!(document.getElementById("rentid").value.match(regex))||document.getElementById("rentid").value==""||!(document.getElementById("employeeid").value.match(regex))||document.getElementById("employeeid").value=="" ){
+				document.Result2.expense.value = " ";
+			document.Result3.profit.value = " ";
+				alert('Please enter valid entries for the inputs!')
 		}
 
-		if(!(document.getElementById("rentid").value.match(regex))||document.getElementById("rentid").value==""){
-			document.Result2.expense.value = "ERROR";
-		document.Result3.profit.value = "ERROR";
-				alert('please enter your Valuation value')
 
-		}
-		if(!(document.getElementById("employeeid").value.match(regex))||document.getElementById("employeeid").value==""){
-			document.Result2.expense.value = "ERROR";
-		document.Result3.profit.value = "ERROR";
-				alert('please enter your Valuation value')
-
-		}
 	}
 </script>
 	<div class="table">
@@ -167,8 +156,9 @@
 			</div>
 
 		</div>
-<input type="button" name="submit" value="Calculate" onclick="add()">
 
+<input type="button" class="btn-default btn-cf-submit3" onClick = "add()" value="Calculate" name="submit" style="width:150px; color:black"></button>
+<input type="reset" class="btn-default btn-cf-submit3"  value="Calculate" name="submit" style="width:150px; color:black"></button>
 </div>
 
 
