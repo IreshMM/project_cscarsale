@@ -86,7 +86,7 @@
 			Employee
 		</div>
 		<div class="cell">
-			Rs.10,000.00
+			<input type="text" id="employee">
 		</div>
 	</div>
 
@@ -94,7 +94,7 @@
 		<div class="cell">
 			Rent		</div>
 		<div class="cell">
-			Rs.1,000.00
+			<input type="text" id="rent">
 		</div>
 	</div>
 
@@ -103,7 +103,7 @@
 			Bill Payments
 		</div>
 		<div class="cell">
-			Rs.100,000.00
+			<input type="text" id="bill">
 		</div>
 	</div>
 	</div>
