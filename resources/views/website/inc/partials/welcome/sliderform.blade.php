@@ -12,7 +12,7 @@
                 </div>
                 <div class="select1_wrapper"><label>SELECT A MODEL</label>
                     <div class="select1_inner">
-                        <select class="select2 select car-models" style="width: 100%" name="model">
+                        <select class="select2 select car-models" style="width: 100%" name="id_car_model">
                             {{-- JS will populate options here --}}
                             <option value="0" disabled selected hidden>Select a model</option>
                         </select>
