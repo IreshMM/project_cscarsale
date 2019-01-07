@@ -58,6 +58,6 @@ class QueryController extends Controller
 
         // return $result->get()[0]->model()->first()->name;
 
-        return view('pages.public.search')->with('listings', $result->get());
+        return view('website.pages.public.search')->with('listings', $result->get());
     }
 }

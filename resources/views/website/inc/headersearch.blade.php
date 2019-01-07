@@ -58,14 +58,8 @@
                         <div class="rd-navbar-nav-wrap">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="rd-nav-item active"><a class="rd-nav-link" href="{{route('home')}}">Home</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" href="{{route('home')}}" data-custom-scroll-to="best" >Best offers</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="welcome" href="#welcome">About</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="sellurcar" href="#sellurcar">SELL YOUR CAR</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="leasecal" href="#leasecal">LEASE CALCULATER</a></li>
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="testimonials" href="#testimonials">Testimonials</a></li>
+                                <li class="rd-nav-item "><a class="rd-nav-link" href="{{route('home')}}">Back</a></li>
 
-                                <li class="rd-nav-item"><a class="rd-nav-link" data-custom-scroll-to="contact"href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
