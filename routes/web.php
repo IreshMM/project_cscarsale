@@ -13,8 +13,6 @@
 
 Auth::routes();
 
-Route::get('admin/dashboard', function() {return view('admin.testviews.test');})->middleware('auth')->name('dashboard');
-
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
 Route::prefix('admin/dashboard/car_listing')->middleware('auth')->name('car_listing.')->namespace('Listing')->group(function() {
     
@@ -22,6 +20,7 @@ Route::prefix('admin/dashboard/car_listing')->middleware('auth')->name('car_list
     Route::get('index', 'CarListingController@index')->name('index');;
 
     // Creates a new car listing
+    Route::get('/car_listing/form_add', 'CarListingController@showAddForm')->name('form_add');
     Route::post('create', 'CarListingController@create')->name('create');
 
     // Update a car listing
@@ -194,46 +193,38 @@ Route::prefix('admin/dashboard/resource')->name('resource.')->namespace('WebSite
 });
 
 
-// Essential routes to views
-Route::get('/car_listing/form_add', function() {return view('admin.vehicles.addVehicle');})->name('car_listing.form_add');
-Route::get('/car_listing/form_update', function() {return view('admin.vehicles.updatevehicle');})->name('car_listing.form_update');
-Route::get('/car_listing/form_sell', function() {return view('admin.vehicles.sell');})->name('car_listing.form_sell');
-Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');
+// ROUTE GROUP FOR CLIENT WEBSITE
+Route::name('web.')->group(function() {
 
+    // Homepage route
+    Route::get('/', function () { return view('website.pages.public.welcome'); })->name('home');
 
-Route::get('/', function () {
-    return view('website.pages.public.welcome');
+    // Search route
+    Route::get('/search', 'WebSite\QueryController@search')->name('search');
 });
-Route::get('/search2', function () {
-    return view('website.pages.search');
-});
-Route::get('/details', function () {
-    return view('website.pages.public.cardetails');
-});
-Route::get('/contact', function () {
-    return view('website.pages.public.contact');
-});
-Route::get('/test', function () {
-    return view('website.testviews.test');
-});
-Route::get('/test2', function () {
-    return view('website.testviews.test2');
-});
-Route::prefix('query')->group(function(){
-    Route::get('makelist', 'WebSite\QueryController@getMakeList')->name('make_list');
-    Route::get('modellist', 'WebSite\QueryController@getModelList')->name('model_list');
-});
-Route::get('/search', 'WebSite\QueryController@search')->name('search');
 
-
-Route::get('/forbidden', function() {return view('admin.auth.forbidden');})->name('forbidden');
-
-
-//Test route
-Route::get('test', function() {return view('admin.users.subscription');});
-
-
-// Route group for authentication
+// ROUTE GROUP FOR AUTHENTICATION
 Route::prefix('auth')->namespace('Auth')->name('auth.')->group(function() {
+
+    // Returns the login form
     Route::get('login', 'LoginController@showLoginForm')->name('login');
+
+    // Returns 403 forbidden page
+    Route::get('/forbidden', 'Auth\VerificationController@showForbiddenForm')->name('forbidden');
+});
+
+// GENERIC DASHBOARD ROUTES
+Route::prefix('admin/dashboard')->name('dashboard.')->group(function() {
+
+
+    // Returns dashboard homepage
+    Route::get('/', function() {return view('admin.testviews.test');});
+    Route::get('home', function() {return view('admin.testviews.test');})->name('home');
+
+    // Returns the view for showing sold vehicles
+    Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');
+
+    // Returns the report generation page
+    Route::get('/reports', function() {return view('admin.finance.chart');});
+
 });

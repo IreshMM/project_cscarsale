@@ -69,7 +69,7 @@ class EmployeeController extends Controller
 
         $employee->save();
 
-        return back()->with('success', 'Employee account created');
+        return redirect()->route('employee.index')->with('success', 'Employee account created');
     }
 
     /**

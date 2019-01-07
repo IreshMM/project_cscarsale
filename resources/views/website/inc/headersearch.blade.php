@@ -36,9 +36,6 @@
                             <li>
                                 <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
                             </li>
-                            <li>
-                                <a href="#register" data-toggle='modal'>SELL YOUR CAR</a>
-                            </li>
                         </ul>
                     </div>
 
@@ -58,7 +55,7 @@
                         <div class="rd-navbar-nav-wrap">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="rd-nav-item "><a class="rd-nav-link" href="{{route('home')}}">Back</a></li>
+                                <li class="rd-nav-item "><a class="rd-nav-link" href="{{route('web.home')}}">Back</a></li>
 
                                 </li>
                             </ul>

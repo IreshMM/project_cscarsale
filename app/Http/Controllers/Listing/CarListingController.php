@@ -30,6 +30,10 @@ class CarListingController extends Controller
         return view('admin.vehicles.list')->with('cars', $carListings);
     }
 
+
+    public function showAddForm() {
+        return view('admin.vehicles.addVehicle');
+    }
     /**
      * store a newly created resource in storage.
      *
@@ -160,7 +164,9 @@ class CarListingController extends Controller
 
         // return response()->json($carListing);
 
-        return $soldCar;
+        // return $soldCar;
+
+        return redirect()->route('car_listing.index')->with('success', 'Vehicle is now marked as sold');
     }
 
     /************************* */

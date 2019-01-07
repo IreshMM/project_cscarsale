@@ -62,7 +62,7 @@
 
 <script>
     var getMakesRequest = new XMLHttpRequest();
-    getMakesRequest.open('GET', '{{ route('make_list') }}');
+    getMakesRequest.open('GET', '{{ route('resource.make_list') }}');
     getMakesRequest.onload = function() {
         data = JSON.parse(getMakesRequest.responseText);
         var makeListHTML = "";
@@ -78,7 +78,7 @@
         $('body').on('change', '.car-makes', function() {
             $.ajax({
                 method: "GET",
-                url: "{{ route('model_list') }}",
+                url: "{{ route('resource.model_list') }}",
                 data: {id_car_make: this.value}
             }).done(function(models) {
                 var modelListHTML = "<option value=\"0\" disabled selected>Select a model</option>";
