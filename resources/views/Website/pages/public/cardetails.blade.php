@@ -1,4 +1,4 @@
-@extends('website.layouts.appsearch')
+@extends('website.layouts.apptest')
 
 @section('content')
     @include('website.inc.partials.listing.listing')
