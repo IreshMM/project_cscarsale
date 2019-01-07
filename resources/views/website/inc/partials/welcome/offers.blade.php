@@ -1,7 +1,7 @@
 <div id="best" class="section section-md best novi-background bg-cover">
     <div class="container">
         <div class="section-title-md">
-            BEST OFFERS FROM AUTOCLUB
+            BEST OFFERS FROM C&S CARSALE
         </div>
         <div class="tabs-custom tabs-horizontal tabs-corporate" id="tabs-1">
             <ul class="nav nav-tabs">
@@ -16,46 +16,8 @@
                 <div class="tab-pane fade in active" id="tabs-1-1">
                     <div class="row row-fix">
                         <div class="col-sm-12 col-md-3">
-                            <ul class="product-filter">
-                                <li>
-                                    <a href="#">All manufacturers</a>
-                                </li>
-                                <li>
-                                    <a href="#">ASTON MARTIN</a>
-                                </li>
-                                <li>
-                                    <a href="#">ALPHA ROMEO</a>
-                                </li>
-                                <li>
-                                    <a href="#">AUDI</a>
-                                </li>
-                                <li>
-                                    <a href="#">BMW</a>
-                                </li>
-                                <li>
-                                    <a href="#">LAND ROVER</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mercedes-Benz</a>
-                                </li>
-                                <li>
-                                    <a href="#">PORSCHE</a>
-                                </li>
-                                <li>
-                                    <a href="#">SUZUKI</a>
-                                </li>
-                                <li>
-                                    <a href="#">TOYOTA</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLVO</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLKSWAGEN</a>
-                                </li>
-                            </ul>
                         </div>
-                        <div class="col-sm-12 col-md-9">
+                        <div class="col-sm-12 col-md-9" style="width:100%">
                             <div class="row">
                                 <div class="col-xxs-12 col-xs-6 col-sm-4">
                                     <div class="product-minimal">
@@ -216,46 +178,9 @@
                 <div class="tab-pane fade" id="tabs-1-2">
                     <div class="row row-fix">
                         <div class="col-sm-12 col-md-3">
-                            <ul class="product-filter">
-                                <li>
-                                    <a href="#">All manufacturers</a>
-                                </li>
-                                <li>
-                                    <a href="#">ASTON MARTIN</a>
-                                </li>
-                                <li>
-                                    <a href="#">ALPHA ROMEO</a>
-                                </li>
-                                <li>
-                                    <a href="#">AUDI</a>
-                                </li>
-                                <li>
-                                    <a href="#">BMW</a>
-                                </li>
-                                <li>
-                                    <a href="#">LAND ROVER</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mercedes-Benz</a>
-                                </li>
-                                <li>
-                                    <a href="#">PORSCHE</a>
-                                </li>
-                                <li>
-                                    <a href="#">SUZUKI</a>
-                                </li>
-                                <li>
-                                    <a href="#">TOYOTA</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLVO</a>
-                                </li>
-                                <li>
-                                    <a href="#">VOLKSWAGEN</a>
-                                </li>
-                            </ul>
+
                         </div>
-                        <div class="col-sm-12 col-md-9">
+                        <div class="col-sm-12 col-md-9" style="width:100%">
                             <div class="row">
                                 <div class="col-xxs-12 col-xs-6 col-sm-4">
                                     <div class="product-minimal">

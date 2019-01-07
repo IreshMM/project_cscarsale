@@ -1,7 +1,7 @@
 
 <div id="sellurcar" class="section section-lg ">
     <div class="container" style="height:500px">
-      
+
       <div style="width: 50%; float:right; padding-right: :150px">
       <div class="container seller-form" id="msform" >
           <form action="javascript:;" class="form2" style="width:40%" >
@@ -39,8 +39,8 @@
                       <option value="7">Type 6</option>
                   </select></div>
                   </div>
-                  <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous">
-                  <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next">
+
+                  <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next" >
               </fieldset>
               <fieldset>
                   <div class="select1_wrapper"><label>SELECT A STATUS</label>
@@ -82,9 +82,61 @@
                       <div class="clearfix"><input type="text" class="amount" readonly="">
                           <input type="text" class="amount2" readonly=""></div>
                   </div>
-                  <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous">
-                  <button type="submit" id = "buttonsell" class="btn-default btn-form2-submit" >SUBMIT</button>
+
+                  <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous" style="width:50%">
+                  <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next" style="width:50%">
+
               </fieldset>
+              <fieldset>
+                  <div class="select1_wrapper"><label>Upload Images</label>
+
+                        <input type="file" multiple  id="validatedCustomFile"  required="">
+
+
+                  </div>
+
+
+                  <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous" style="width:50%">
+                  <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next" style="width:50%">
+
+
+              </fieldset>
+
+              <fieldset>
+              <div class="modal-content">
+              <div class="modal-body">
+
+                  <h4 class="modal-title"> Register</h4>
+                  <form class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
+                  <div class="row row-fix">
+                      <div class="col-sm-12">
+                      <div class="form-group form-wrap"><label for="regName">Your
+                          Name</label><input type="text" class="form-control" id="regName" name="name"  data-constraints='@Required'>
+                      </div>
+                      </div>
+                      <div class="col-sm-12">
+                      <div class="form-group form-wrap">
+                          <label for="regEmail">Email</label><input type="text" class="form-control" id="regEmail" name="email"  data-constraints='@Required @Email'>
+                      </div>
+                      </div>
+                      <div class="col-sm-12">
+                      <div class="form-group form-wrap">
+                          <label for="passwordReg">Password</label><input type="password" class="form-control" id="passwordReg" name="pas" data-constraints='@Required'>
+                      </div>
+                      </div>
+                  </div>
+
+                  </form>
+
+              </div>
+
+              </div>
+              <br>
+              <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous" style="width:50%">
+              <button type="submit" class="btn-default btn-form2-submit" style="width:50%">Register</button>
+              </fieldset>
+
+
                {{-- <div class="reset-filters"><a href="#">RESET ALL FILTERS</a></div> --}}
           </form>
       </div>
@@ -111,6 +163,7 @@
 
   	current_fs = $(this).parent();
   	next_fs = $(this).parent().next();
+
 
   	//activate next step on progressbar using the index of next_fs
   	$("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
