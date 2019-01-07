@@ -2,7 +2,7 @@
     <ul class="tabs clearfix" data-tabgroup="second-tab-group">
         <li><a href="#tabs3-1">VEHICLE OVERVIEW</a></li>
         <li class="active"><a href="#tabs3-2">FEATURES & OPTIONS</a></li>
-        
+
     </ul>
 </div>
 
@@ -12,14 +12,7 @@
         </div>
 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor dui, scelerisque ac nisi sed, rutrum euismod sem. Nunc
-            eu tincidunt nulla. In posuere lorem sit amet felis placerat, quis hendrerit est rutrum. Phasellus non dui aliquam,
-            eleifend enim dictum, laoreet nisl. Nam arcu nisi, venenatis nec semper sed, semper eget diam. Vestibulum id
-            lorem metus. Aliquam felis elit, imperdiet non rutrum ac, euismod ut diam. Donec iaculis at lorem et placerat.
-            Aenean dictum orci sed lectus vulputate, ut mattis justo feugiat. Pellentesque sodales urna quis nunc iaculis
-            lobortis. Sed vel ligula egestas, tristique urna sit amet, rutrum enim. Fusce non dignissim tellus, sed commodo
-            nulla. Nulla posuere, nunc ac ultrices pretium, mi quam dignissim magna, vel luctus magna sapien et velit. Quisque
-            in felis odio.
+          {{$cars->seller_description}}
         </p>
 
         <p>
@@ -52,27 +45,18 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li>Condition   :{{$car->condition}}</li>
-                            <li>mileage     :{{$car->condition}}</li>
-                            <li>Color       :{{$car->color}}</li>
-                            <li>Year        :{{$car->year}}</li>
+                            <li>Condition   :{{$cars->condition}}</li>
+                            <li>mileage     :{{$cars->mileage}}</li>
+                            <li>Color       :{{$cars->color}}</li>
+                            <li>Year        :{{$cars->year}}</li>
 
                     </div>
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
+                          <li>city  :{{$cars->city}}</li>
+                          <li>mileage     :{{$cars->mileage}}</li>
+                          <li>Color       :{{$cars->color}}</li>
+                          <li>Selling Price        :{{$cars->selling_price}}</li>
                         </ul>
                     </div>
                 </div>

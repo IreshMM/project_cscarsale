@@ -65,9 +65,9 @@ class QueryController extends Controller
 
     public function getCarDetails(Request $request) {
         $carListing = CarListing::find($request->id);
-        dd($carListing);
+        // dd($carListing);
         //return response()->json($soldCars);
-       return view('website.pages.public.cardetails')->with('car', $carListing);
+       return view('website.pages.public.cardetails')->with('cars', $carListing);
 
     }
 
