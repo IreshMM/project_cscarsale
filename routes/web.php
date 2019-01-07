@@ -207,9 +207,7 @@ Route::get('/', function () {
 Route::get('/search2', function () {
     return view('website.pages.search');
 });
-Route::get('/details', function () {
-    return view('website.pages.public.cardetails');
-});
+Route::get('/details', 'WebSite\QueryController@getCarDetails');
 Route::get('/contact', function () {
     return view('website.pages.public.contact');
 });

@@ -2,14 +2,13 @@
     <ul class="tabs clearfix" data-tabgroup="second-tab-group">
         <li><a href="#tabs3-1">VEHICLE OVERVIEW</a></li>
         <li class="active"><a href="#tabs3-2">FEATURES & OPTIONS</a></li>
-        <li><a href="#tabs3-3">VEHICLE LOCATION</a></li>
-        <li><a href="#tabs3-4">Comments & Reviews</a></li>
+        
     </ul>
 </div>
 
 <div id="second-tab-group" class="tabgroup">
     <div id="tabs3-1">
-        <div class="title2">DESCRIPTION
+        <div class="title2">
         </div>
 
         <p>
@@ -53,22 +52,11 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                            <li><a href="#">Anti-Starter</a></li>
-                            <li><a href="#">Security System</a></li>
-                            <li><a href="#">Air Conditioning</a></li>
-                            <li><a href="#">Alloy Wheels</a></li>
-                            <li><a href="#">Anti-Lock Brakes (ABS)</a></li>
-                            <li><a href="#">Anti-Theft</a></li>
-                        </ul>
+                            <li>Condition   :{{$car->condition}}</li>
+                            <li>mileage     :{{$car->condition}}</li>
+                            <li>Color       :{{$car->color}}</li>
+                            <li>Year        :{{$car->year}}</li>
+
                     </div>
                     <div class="col-sm-6">
                         <ul class="ul3">
@@ -155,95 +143,5 @@
         </div>
 
     </div>
-    <div id="tabs3-4">
 
-        <div class="comment-block clearfix">
-            <figure>
-                <img src="images/customer-2-104x104.jpg" alt="" class="img-responsive">
-            </figure>
-            <div class="caption">
-                <div class="top clearfix">
-                    <div class="txt1">John Doe</div>
-                    <div class="txt2">30 MAY 2018 <a href="#">Posted at 12:25 AM</a></div>
-                    <div class="ic10">
-                        <a href="#">
-                                    <i class="fa fa-mail-reply novi-icon"></i>
-                                    <span></span>
-                                </a>
-                    </div>
-                </div>
-                <div class="txt3">
-                    In eget dolor. Lorem ipsum dolor sit amet consectetuer adipiscing elit. Ut ornare cursus nibh. Sed lorem volutpat purus scel
-                    erisque dapibus. Etiam adipiscing ante nec nibh. In in felis in metus mollis blandit.
-                </div>
-            </div>
-        </div>
-
-        <div class="comment-block clearfix left1">
-            <figure>
-                <img src="images/customer-3-104x104.jpg" alt="" class="img-responsive">
-            </figure>
-            <div class="caption">
-                <div class="top clearfix">
-                    <div class="txt1">Amanda Bernshtein</div>
-                    <div class="txt2">30 MAY 2018 <a href="#">Posted at 12:25 AM</a></div>
-                    <div class="ic10">
-                        <a href="#">
-                                    <i class="fa fa-mail-reply novi-icon"></i>
-                                    <span></span>
-                                </a>
-                    </div>
-                </div>
-                <div class="txt3">
-                    In eget dolor. Lorem ipsum dolor sit amet consectetuer adipiscing elit. Ut ornare cursus nibh. Sed lorem volu tpat purus
-                    scelerisque dapibus. Etiam adipiscing ante nec nibh. In in felis in metus mollis
-                </div>
-            </div>
-        </div>
-
-        <div class="divider1"></div>
-
-        <div class="title2">ADD A REPLY</div>
-
-        <div id="note3"></div>
-        <div id="fields3">
-            <form id="ajax-contact-form3" class="form-horizontal rd-mailform" data-form-output="form-output-global" data-form-type="forms"
-                method="post" action="bat/rd-mailform.php">
-                <div class="row">
-                    <div class="col-sm-12">
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group form-wrap">
-                                    <label for="inputName2" class="form-label">Your Name</label>
-                                    <input type="text" class="form-control" id="inputName2" name="name" data-constraints="@Required" placeholder="Your Name">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group form-wrap">
-                                    <label for="inputEmail2">Email</label>
-                                    <input type="text" class="form-control" id="inputEmail2" name="email" placeholder="E-mail address" data-constraints="@Email @Required">
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col-sm-12">
-
-                        <div class="form-group form-wrap">
-                            <label for="inputMessage2">Your Message</label>
-                            <textarea class="form-control" rows="9" id="inputMessage2" name="content" data-constraints="@Required" placeholder="Your Message"></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <button type="submit" class="btn-default btn-cf-submit3">SEND COMMENTS</button>
-            </form>
-        </div>
-
-
-    </div>
 </div>

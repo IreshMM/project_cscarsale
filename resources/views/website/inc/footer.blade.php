@@ -39,7 +39,7 @@
                     </ul>
                 </div>
                 <div class="footer-menu">
-                    <ul class="footer-menu-list">
+                    {{--<ul class="footer-menu-list">
                         <li>
                             <a href="#home">Home</a>
                         </li>
@@ -61,7 +61,7 @@
                         <li>
                             <a href="/contact">Contact</a>
                         </li>
-                    </ul>
+                    </ul>--}}
                 </div>
             </div>
             <div class="left-block">

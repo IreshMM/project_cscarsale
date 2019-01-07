@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="txt3">$99,415</div>
+                    <div class="txt3">Rs.{{car->selling_price}}</div>
                     <div class="txt4">George Freeman</div>
                     <div class="txt5">44 Shirley Ave. <br> West Chicago, IL 60185<br> Phone: <a href="tel:#">+1 (312) 954-1151</a>
                     </div>
