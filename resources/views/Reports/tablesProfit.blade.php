@@ -158,7 +158,9 @@
 		</div>
 
 <input type="button" class="btn-default btn-cf-submit3" onClick = "add()" value="Calculate" name="submit" style="width:150px; color:black"></button>
-<input type="reset" class="btn-default btn-cf-submit3"  value="Calculate" name="submit" style="width:150px; color:black"></button>
+
+
+
 </div>
 
 
