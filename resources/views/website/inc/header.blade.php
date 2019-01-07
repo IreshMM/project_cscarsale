@@ -36,9 +36,7 @@
                             <li>
                                 <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
                             </li>
-                            <li>
-                                <a href="#register" data-toggle='modal'>SELL YOUR CAR</a>
-                            </li>
+                
                         </ul>
                     </div>
 
