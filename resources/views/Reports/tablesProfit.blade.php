@@ -86,7 +86,7 @@
 			Employee
 		</div>
 		<div class="cell">
-			<form name="tablesProfit3"><input type="text" id="employeeid" name="employee"></form>
+			<form name="tablesProfit3"><input type="text" id="employeeid" Placeholder="Employee Salaries... etc" name="employee"></form>
 		</div>
 	</div>
 
@@ -94,7 +94,7 @@
 		<div class="cell">
 			Rent		</div>
 		<div class="cell">
-			<form name="tablesProfit2"><input type="text" id="rentid" name="rent"></form>
+			<form name="tablesProfit2"><input type="text" id="rentid" Placeholder="Shop Rent... etc" name="rent"></form>
 		</div>
 	</div>
 
@@ -103,7 +103,7 @@
 			Bill Payments
 		</div>
 		<div class="cell">
-			<form name="tablesProfit"><input type="text" id="billid" name="bill"></form>
+			<form name="tablesProfit"><input type="text" id="billid" Placeholder="Bill payments" name="bill"></form>
 		</div>
 	</div>
 	</div>
