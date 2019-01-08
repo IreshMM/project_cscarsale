@@ -218,14 +218,14 @@ Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(
 
 
     // Returns dashboard homepage
-    Route::get('/', function() {return view('admin.testviews.test');});
-    Route::get('home', function() {return view('admin.testviews.test');})->name('home');
+    Route::get('/', function() {return redirect()->route('car_listing.index');})->name('home');
+    Route::get('home', function() {return redirect()->route('car_listing.index');});
 
     // Returns the view for showing sold vehicles
     Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');
 
     // Returns the report generation page
-    Route::get('/reports', function() {return view('admin.finance.chart');});
+    Route::get('/reports', function() {return view('Reports.tablesProfit');});
 
 
 });

@@ -1,4 +1,4 @@
-<div class="gslider-wrapper">
+    <div class="gslider-wrapper">
     <div id="gslider" class="flexslider">
         <ul class="slides">
             <li>
