@@ -5,12 +5,12 @@
             <div class="col-sm-6 col-md-5">
                 <div class="contact-banner">
 
-                    <div class="banner-title">Autozone</div>
+                    <div class="banner-title">C&S Carsale</div>
 
                     <br>
-                    <p>202 W 7th St, Suite 233 Los Angeles, CA 90014 USA</p>
+                    <p>C&S Carsale,Morris Road, Ambalanwatta, Galle</p>
                     <p><i class="fa fa-envelope novi-icon" aria-hidden="true"></i> - <a href="mailto:#">info@demolink.org</a></p>
-                    <p><i class="fa fa-phone novi-icon" aria-hidden="true"></i> - <a href="tel:#">1-800-624-5462</a></p>
+                    <p><i class="fa fa-phone novi-icon" aria-hidden="true"></i> - <a href="tel:#">0777 303 563</a></p>
                     <p><i class="fa fa-clock-o novi-icon" aria-hidden="true"></i> - Monday to Friday from 09.00 to 18.00</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius consectetur tempor. Cras
                         suscipit, mi ut ultrices pharetra, justo orci tempus augue, et lobortis nulla massa vel eros. Proin
