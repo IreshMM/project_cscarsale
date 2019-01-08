@@ -210,11 +210,11 @@ Route::prefix('auth')->namespace('Auth')->name('auth.')->group(function() {
     Route::get('login', 'LoginController@showLoginForm')->name('login');
 
     // Returns 403 forbidden page
-    Route::get('/forbidden', 'Auth\VerificationController@showForbiddenForm')->name('forbidden');
+    Route::get('/forbidden', function() { return view('admin.auth.forbidden'); })->name('forbidden');
 });
 
 // GENERIC DASHBOARD ROUTES
-Route::prefix('admin/dashboard')->name('dashboard.')->group(function() {
+Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(function() {
 
 
     // Returns dashboard homepage
@@ -227,4 +227,10 @@ Route::prefix('admin/dashboard')->name('dashboard.')->group(function() {
     // Returns the report generation page
     Route::get('/reports', function() {return view('admin.finance.chart');});
 
+
 });
+
+// Seller view
+Route::get('seller/dashboard', 'Admin\SellerController@showRequests');
+
+Route::get('test', function() {return view('website.seller.seller_listing');});

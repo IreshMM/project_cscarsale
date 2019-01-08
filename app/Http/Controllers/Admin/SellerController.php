@@ -34,4 +34,13 @@ class SellerController extends Controller
 
         return response()->json($seller);
     }
+
+
+    public function showRequests(Request $request) {
+        $user = $request->user();
+
+        $requests = $user->sellerRequests;
+        return view('website.seller.seller_listing')->with(['requests' => $requests]);
+    }
+    
 }

@@ -120,4 +120,11 @@ class WebSiteController extends Controller
         return back()->with('success', 'Updated successfully');
     }
 
+    public function showHomePage() {
+        $welcomeNoteTitle = Content::where('title', 'welcome_note_title')->first()->description;
+        $welcomeNote = Content::where('title', 'welcome_note')->first()->description;
+
+        
+    }
+
 }

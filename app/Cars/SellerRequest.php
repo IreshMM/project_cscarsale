@@ -83,7 +83,7 @@ class SellerRequest extends Model
         $newCarListing->buying_price = $this->price;
         $newCarListing->selling_price = $sellingPrice;
 
-        $this->delete();
+        $this->status = 'approved';
         $newCarListing->save();
         return $newCarListing;
     }

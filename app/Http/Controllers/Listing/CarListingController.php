@@ -63,7 +63,12 @@ class CarListingController extends Controller
         $i = 1;
         foreach ($files as $image) {
             $fileToBeSaved = Image::make($image->getRealPath());
-            $sizes = ["468X280" => [468, 280]];
+            $sizes = [
+                "468X280" => [468, 280],
+                "270X150" => [270, 150],
+                "322X230" => [322, 230],
+                "842X511" => [842, 511]
+            ];
 
             foreach ($sizes as $key => $value) {
                 $fileToBeSaved->encode('jpg')->fit($value[0], $value[1])

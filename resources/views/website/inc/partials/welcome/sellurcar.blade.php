@@ -4,7 +4,7 @@
 
       <div style="width: 50%; float:right; padding-right: :150px">
       <div class="container seller-form" id="msform" >
-          <form action="javascript:;" class="form2" style="width:40%" >
+        <form action="{{ route('seller_request.create') }}" method="POST" class="form2" style="width:40%" >
               <fieldset>
                   <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
                       <div class="select1_inner"><select class="select2 select" style="width: 100%">

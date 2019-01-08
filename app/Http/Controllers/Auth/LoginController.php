@@ -20,27 +20,13 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
-    /**
-     * Get the path the user should be redirected to.
+        /**
+     * Where to redirect users after login.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return string
+     * @var string
      */
-    protected function redirectTo($request)
-    {
-        return '/admin/dashboard';
-        if(Auth::check()) {
-            $user = Auth::user();
+    protected $redirectTo = 'admin/dashboard/home';
 
-            if($user->level == 'admin') {
-                return route('dashboard');
-            } else if ($user->level == 'employee') {
-                return route('dashboard');
-            } 
-
-            return route('dashboard');
-        }
-    }
 
     /**
      * Create a new controller instance.
