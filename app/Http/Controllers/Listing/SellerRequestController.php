@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Listing;
 use App\Http\Controllers\Controller;
 use App\Cars\SellerRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use App\User;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class SellerRequestController extends Controller
 {
@@ -36,25 +39,72 @@ class SellerRequestController extends Controller
      */
     public function create(Request $request)
     {
+        // dd($request);
         $request->validate([
-            'condition'             => 'required',
-            'color'                 => 'required',
-            'mileage'               => 'required',
-            'seller_description'    => 'required',
-            'year'                  => 'required',
-            'images'                => 'required',
-            'city'                  => 'required',
-            'id_car_model'          => 'required',
-            'id_seller'             => 'required',
-            'status'                => 'required'
+            'condition' => 'required',
+            'mileage' => 'required',
+            'year' => 'required',
+            'body_type' => 'required',
+            'from' => 'required',
+            'to' => 'required',
+            'name' => 'required',
+            'email' => 'required',
+            'password' => 'required'
+        ]);
+
+        $user = User::create([
+            'title' => 'Mr',
+            'first_name' => $request->name,
+            'last_name' => 'Dissanayaka',
+            'street_address' => 'Rajanganaya, Tract 8',
+            'city' => 'Anuradhapura',
+            'phone' => '077451794',
+            'level' => 'seller',
+            'email' => $request->email,
+            'password' => Hash::make($request->password)
         ]);
 
         $data = SellerRequest::filterValidFields($request->all());
 
         $sellerRequest = new SellerRequest($data);
+        $sellerRequest->color = "Red";
+        $sellerRequest->seller_description = "Lorem Ipsum some text";
+        $sellerRequest->city = "Anuradhapura";
+        $sellerRequest->price = '540545';
+        $sellerRequest->status = "Pending";
+        $sellerRequest->images = sizeof($request->allFiles());
+        $sellerRequest->id_seller = $user->id;
+        $sellerRequest->id_car_model = 1;
+        $sellerRequest->price = substr($request->price, 1, strlen($request->price) - 1);
         $sellerRequest->save();
+
+
+
+
+         // Handling images
+        //  $files = $request->allFiles();
         
-        return response()->json($sellerRequest);
+         // dd($files);
+ 
+        //  $i = 1;
+        //  foreach ($files as $image) {
+        //      $fileToBeSaved = Image::make($image->getRealPath());
+        //      $sizes = [
+        //          "468X280" => [468, 280],
+        //          "270X150" => [270, 150],
+        //          "322X230" => [322, 230],
+        //          "842X511" => [842, 511]
+        //      ];
+ 
+        //      foreach ($sizes as $key => $value) {
+        //          $fileToBeSaved->encode('jpg')->fit($value[0], $value[1])
+        //          ->save('storage\\images\\listing_request\\' . $key . '\\' . $sellerRequest->id_seller_request . $i . '.jpg');
+        //      }
+        //      $i++;
+        //  }
+
+        //  dd($user);
+        return back()->with('success', 'Request Sent');
     }
 
     /**

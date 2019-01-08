@@ -4,58 +4,43 @@
 
       <div style="width: 50%; float:right; padding-right: :150px">
       <div class="container seller-form" id="msform" >
-        <form action="{{ route('seller_request.create') }}" method="POST" class="form2" style="width:40%" >
+        <form action="{{ route('seller_request.create') }}" method="POST" class="form2" style="width:40%" enctype="multipart/form-data">
               <fieldset>
                   <div class="select1_wrapper"><label>SELECT A MANUFACTURER</label>
-                      <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Make</option>
-                      <option value="2">Alfa Romeo</option>
-                      <option value="3">Aston Martin</option>
-                      <option value="4">Audi</option>
-                      <option value="5">Bentley</option>
-                      <option value="6">BMW</option>
-                      <option value="7">Bugatti</option>
-                  </select></div>
+                    <div class="select1_inner">
+                        <select class="select2 select car-makes" style="width: 100%">
+                            <option value="1">Select</option>
+                        </select>
+                    </div>
                   </div>
                   <div class="select1_wrapper"><label>SELECT A MODEL</label>
-                      <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Model</option>
-                      <option value="2">Model 1</option>
-                      <option value="3">Model 2</option>
-                      <option value="4">Model 3</option>
-                      <option value="5">Model 4</option>
-                      <option value="6">Model 5</option>
-                      <option value="7">Model 6</option>
-                  </select></div>
+                      <div class="select1_inner">
+                        <select class="select2 select car-models" style="width: 100%" name="id_car_model">
+                            <option value="1">Select</option>
+                        </select>
+                </div>
                   </div>
-                  <div class="select1_wrapper"><label>SELECT A TYPE</label>
-                      <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Type</option>
-                      <option value="2">Type 1</option>
-                      <option value="3">Type 2</option>
-                      <option value="4">Type 3</option>
-                      <option value="5">Type 4</option>
-                      <option value="6">Type 5</option>
-                      <option value="7">Type 6</option>
-                  </select></div>
+                  <div class="select1_wrapper"><label>SELECT A CONDITION</label>
+                      <div class="select1_inner">
+                        <select class="select2 select" style="width: 100%" name="condition">
+                            <option value="Recondtioned">Recondtioned</option>
+                            <option value="Used">Used</option>
+                            <option value="Brand New">Brand New</option>
+                        </select>
+                </div>
                   </div>
 
                   <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next" >
               </fieldset>
               <fieldset>
-                  <div class="select1_wrapper"><label>SELECT A STATUS</label>
-                      <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Any Status</option>
-                      <option value="2">Status 1</option>
-                      <option value="3">Status 2</option>
-                      <option value="4">Status 3</option>
-                      <option value="5">Status 4</option>
-                      <option value="6">Status 5</option>
-                      <option value="7">Status 6</option>
-                  </select></div>
+                  <div class="select1_wrapper"><label>Mileage</label>
+                    <div class="form-wrap">
+
+                            <input class="form-input" placeholder="Enter mileage" id="x1" type="text" name="mileage">
+                    </div>
                   </div>
-                  <div class="select1_wrapper"><label>SELECT A MIN YEAR</label>
-                      <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                  <div class="select1_wrapper"><label>SELECT A YEAR</label>
+                      <div class="select1_inner"><select class="select2 select" style="width: 100%" name="year">
                       <option value="1">Min Year</option>
                       <option value="2">2018</option>
                       <option value="3">2017</option>
@@ -65,23 +50,26 @@
                       <option value="7">2013</option>
                   </select></div>
                   </div>
-                  <div class="select1_wrapper"><label>SELECT A MAX YEAR</label>
-                      <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                      <option value="1">Max Year</option>
-                      <option value="2">2018</option>
-                      <option value="3">2017</option>
-                      <option value="4">2016</option>
-                      <option value="5">2015</option>
-                      <option value="6">2014</option>
-                      <option value="7">2013</option>
-                  </select></div>
+                  <div class="select1_wrapper"><label>Body Type</label>
+                    <div class="select1_inner">
+                        <select class="select2 select" style="width: 100%" name="body_type">
+                            <option value="Sedan">Sedan</option>
+                            <option value="7">Mini Car</option>
+                            <option value="7">Mini Van</option>
+                            <option value="7">Wagon</option>
+                            <option value="7">Van</option>
+                            <option value="7">Truck</option>
+                        </select>
+                    </div>
                   </div>
                   <div class="slider-range-wrapper">
-                      <div class="txt">PRICE RANGE</div>
-                      <div class="slider-range"></div>
-                      <div class="clearfix"><input type="text" class="amount" readonly="">
-                          <input type="text" class="amount2" readonly=""></div>
-                  </div>
+                        <div class="txt">PRICE RANGE</div>
+                        <div class="slider-range"></div>
+                        <div class="clearfix">
+                            <input type="text" class="amount" readonly="" name="from">
+                            <input type="text" class="amount2" readonly="" name="to">
+                        </div>
+                </div>
 
                   <input type="button" name="previous" id = "buttonsell" class="btn-default btn-form2-submit previous" value="Previous" style="width:50%">
                   <input type="button" name="next" id = "buttonsell" class="btn-default btn-form2-submit next" value="Next" style="width:50%">
@@ -90,8 +78,10 @@
               <fieldset>
                   <div class="select1_wrapper"><label>Upload Images</label>
 
-                        <input type="file" multiple  id="validatedCustomFile"  required="">
-
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
 
                   </div>
 
@@ -106,8 +96,8 @@
               <div class="modal-content">
               <div class="modal-body">
 
-                  <h4 class="modal-title"> Register</h4>
-                  <form class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms" method="post" action="bat/rd-mailform.php">
+                  <h4 class="modal-title"> Let's get you registered</h4>
+                  <div class="rd-mailform"  data-form-output="form-output-global" data-form-type="forms">
                   <div class="row row-fix">
                       <div class="col-sm-12">
                       <div class="form-group form-wrap"><label for="regName">Your
@@ -121,12 +111,12 @@
                       </div>
                       <div class="col-sm-12">
                       <div class="form-group form-wrap">
-                          <label for="passwordReg">Password</label><input type="password" class="form-control" id="passwordReg" name="pas" data-constraints='@Required'>
+                          <label for="passwordReg">Password</label><input type="password" class="form-control" id="passwordReg" name="password" data-constraints='@Required'>
                       </div>
                       </div>
                   </div>
 
-                  </form>
+                </div>
 
               </div>
 
@@ -236,3 +226,36 @@
   })
 
   </script>
+
+<script>
+    var getMakesRequest = new XMLHttpRequest();
+    getMakesRequest.open('GET', '{{ route('resource.make_list') }}');
+    getMakesRequest.onload = function() {
+        data = JSON.parse(getMakesRequest.responseText);
+        var makeListHTML = "";
+        data.forEach(element => {
+            makeListHTML = makeListHTML + "<option value=" + element.id_car_make + ">" + element.name + "</option>";
+        });
+
+        $(".car-makes").html(makeListHTML);
+    }
+    getMakesRequest.send();
+
+    $(document).ready(function() {
+        $('body').on('change', '.car-makes', function() {
+            $.ajax({
+                method: "GET",
+                url: "{{ route('resource.model_list') }}",
+                data: {id_car_make: this.value}
+            }).done(function(models) {
+                var modelListHTML = "<option value=\"0\" disabled selected>Select a model</option>";
+                models.forEach(element => {
+                    modelListHTML = modelListHTML + "<option value=" + element.id_car_model + ">" + element.name + "</option>";
+                });
+
+                $(".car-models").html(modelListHTML);
+            });
+            return false;
+        });
+    });
+</script>

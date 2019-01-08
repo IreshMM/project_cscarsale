@@ -34,7 +34,7 @@
                     <div class="block-right">
                         <ul class="list-inline">
                             <li>
-                                <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
+                                <a href="{{ route('auth.login') }}">SIGN IN</a>
                             </li>
                 
                         </ul>

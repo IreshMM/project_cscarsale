@@ -17,7 +17,6 @@
                             <th>Model</th>
                             <th>Description</th>
                             <th>Mileage</th>
-                            <th>Price</th>
                             <th>Status</th>
                             <th>Action</th>
                             
@@ -29,7 +28,6 @@
                                     <td>{{ $item->model->name }}</td>
                                     <td>{{ $item->seller_description }}</td>
                                     <td>{{ $item->mileage }}</td>
-                                    <td>{{ $item->price }}</td>
                                     <td>{{ $item->status }}</td>
                                     <td>
                                         <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#approve" onclick="fillModal(this);">
@@ -44,7 +42,6 @@
                             <th>Model</th>
                             <th>Description</th>
                             <th>Mileage</th>
-                            <th>Price</th>
                             <th>Status</th>
                             <th>Action</th>
                         </tr>
@@ -93,13 +90,6 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
-                            <label for="CompanyPrice" class=" col-sm-5 text-right control-label col-form-label">Selling Price</label>
-                            <div class="col-sm-6">
-                                <input type="text" class="form-control" id="selling_price" name="selling_price">
-                            </div>
-                        </div>
-
                         <input type="text" id="id_seller_request" name="id_seller_request" hidden>
                         
                     </fieldset>
@@ -117,15 +107,6 @@
                     </div>
                  </form>
                 
-                    <div class="row">
-                            
-                        <div class="modal-footer">
-                        {{-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> --}}
-                        <!-- Button -->
-                        <button type="submit" name="submit" form="request-form" class="btn btn-lg btn-block btn-outline-success" id="ts-success">Approve</button>
-                        
-                        </div>
-                     </div>
              </div>
          </div>
      </div>

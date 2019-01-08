@@ -20,7 +20,7 @@
                         <li class="sidebar-item"><a href="{{ route('subscription.index') }}" class="sidebar-link"><i class="fas fa-envelope-square"></i><span class="hide-menu"> Subscription </span></a></li>
                     </ul>
                 </li>
-                <li style="display: {{ Auth::user()->level == 'admin' ? 'none' : 'initial' }}" class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fab fa-chrome"></i><span class="hide-menu">Manage Website </span></a>
+                <li style="display: {{ Auth::user()->level == 'seller' ? 'none' : 'initial' }}" class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fab fa-chrome"></i><span class="hide-menu">Manage Website </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li style="display: {{ Auth::user()->level != 'admin' ? 'none' : 'initial' }}" class="sidebar-item"><a href="{{ route('website_content.index') }}" class="sidebar-link"><i class="fas fa-home"></i><span class="hide-menu"> Home Page </span></a></li>
                         <li class="sidebar-item"><a href="{{ route('website_content.testimonials') }}" class="sidebar-link"><i class="fas fa-comments"></i><span class="hide-menu"> Testimonials </span></a></li>
@@ -28,7 +28,7 @@
                         <li style="display: {{ Auth::user()->level != 'admin' ? 'none' : 'initial' }}" class="sidebar-item"><a href="{{ route('website_content.contact') }}" class="sidebar-link"><i class=" fas fa-phone"></i><span class="hide-menu"> Contact </span></a></li>
                     </ul>
                 </li>
-                <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-hand-holding-usd"></i><span class="hide-menu">Financial </span></a>
+                <li style="display: {{ Auth::user()->level == 'seller' ? 'none' : 'initial' }}" class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-hand-holding-usd"></i><span class="hide-menu">Financial </span></a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="fas fa-edit"></i><span class="hide-menu"> Generate Reports </span></a></li>
                         <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="far fa-share-square"></i><span class="hide-menu"> Update Rates </span></a></li>

@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style2.css">
 <div class="wrapper">
 
 <div class="table" style="height:50%">
@@ -158,7 +158,9 @@
 		</div>
 
 <input type="button" class="btn-default btn-cf-submit3" onClick = "add()" value="Calculate" name="submit" style="width:150px; color:black"></button>
-<input type="reset" class="btn-default btn-cf-submit3"  value="Calculate" name="submit" style="width:150px; color:black"></button>
+
+
+
 </div>
 
 

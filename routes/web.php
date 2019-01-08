@@ -231,6 +231,6 @@ Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(
 });
 
 // Seller view
-Route::get('seller/dashboard', 'Admin\SellerController@showRequests');
+Route::get('seller/dashboard', 'Admin\SellerController@showRequests')->name('seller.dashboard');
 
-Route::get('test', function() {return view('website.seller.seller_listing');});
+Route::get('test', function() {return view('admin.finance.chart');});

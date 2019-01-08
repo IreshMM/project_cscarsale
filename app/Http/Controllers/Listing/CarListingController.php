@@ -42,6 +42,7 @@ class CarListingController extends Controller
      */
     public function create(Request $request)
     {
+        // dd($request);
         $request->validate([
             'id_car_model'  => 'required|exists:car_model',
             'mileage'       => 'required',

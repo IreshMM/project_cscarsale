@@ -18,6 +18,10 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
+            if(Auth::user()->level == 'seller') {
+                return redirect()->route('seller.dashboard');
+            }
+
             return redirect()->route('dashboard.home');
         }
 
