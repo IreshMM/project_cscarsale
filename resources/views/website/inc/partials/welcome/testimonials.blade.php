@@ -12,8 +12,8 @@
                                 <img src="images/customer-1-104x104.jpg" alt="" class="img-responsive"> </div>
                         </div>
                         <div class="txt1">
-                            <b>GEORGE SMITH,</b> Customer, RANGE ROVER Owner</div>
-                        <div class="txt3">Autozone has nice cars, great prices, and good service. I brought my old Citroen C4 with which I
+                            <b>SATHIRA RANAWEERA,</b> Customer, RANGE ROVER Owner</div>
+                        <div class="txt3">C&S Carsale has nice cars, great prices, and good service. I brought my old Citroen C4 with which I
                             had no problems after one month of high mileage use. High price given to me for my car and low
                             price accepted for the car I was buying was a huge surprise to me. I recommend this car dealer
                             to everyone! </div>
@@ -29,7 +29,7 @@
                                 <img src="images/customer-2-104x104.jpg" alt="" class="img-responsive"> </div>
                         </div>
                         <div class="txt1">
-                            <b>JOHN DOE,</b> Customer, RANGE ROVER DISCOVERY Owner</div>
+                            <b>MALITH PASINDU,</b> Customer, RANGE ROVER DISCOVERY Owner</div>
                         <div class="txt3">I’m glad to be a happy owner of my dream car, Range Rover Discovery, which I bought thanks to the
                             recommendations of your consultants. The whole process of purchasing was very smooth and the
                             price was not too high for me. I will definitely recommend this car dealer to all my friends.</div>
@@ -45,7 +45,7 @@
                                 <img src="images/customer-3-104x104.jpg" alt="" class="img-responsive"> </div>
                         </div>
                         <div class="txt1">
-                            <b>AMANDA RICHARDSON,</b> Customer, RANGE ROVER EVOQUE Owner</div>
+                            <b>NISANSALA KODAGODA,</b> Customer, RANGE ROVER EVOQUE Owner</div>
                         <div class="txt3">You guys are really amazing! I have not yet seen a car dealer who offers so much at such an affordable
                             price. I have found what I wanted in your vehicle catalog. Moreover, I have sold my old car with
                             the help of your website and your staff provided me with the considerable discount for my new

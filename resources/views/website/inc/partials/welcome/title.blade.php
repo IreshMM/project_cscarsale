@@ -9,7 +9,7 @@
                 <div class="row ">
                     <div class="col-sm-12">
                         <h2 class="text-accent"> #1 PLACE FOR ALL YOUR AUTOMOTIVE NEEDS</h2>
-                        <p class="text-block-center"> Autozone is a leading digital automotive marketplace designed to connect vehicle buyers and sellers.
+                        <p class="text-block-center"> C&S Carsale is a leading automotive marketplace designed to connect vehicle buyers and sellers.
                             Our website lets you research and compare new, certified and used cars by searching for body
                             type, mileage, price and numerous other criteria. </p>
                     </div>

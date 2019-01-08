@@ -6,7 +6,7 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="figure-section">
                             <div class="section-title">
-                                WORLD’S LEADING CAR DEALER
+                                LEADING CAR DEALER IN DOWN SOUTH!
                             </div>
                             <h3>Why People Choose Us</h3>
                             <div class="row">

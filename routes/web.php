@@ -234,3 +234,5 @@ Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(
 Route::get('seller/dashboard', 'Admin\SellerController@showRequests')->name('seller.dashboard');
 
 Route::get('test', function() {return view('admin.finance.chart');});
+
+Route::get('/details','WebSite\QueryController@getCarDetails');

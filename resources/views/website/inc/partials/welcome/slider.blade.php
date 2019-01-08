@@ -1,5 +1,5 @@
-<section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="false"
-    data-simulate-touch="false" data-slide-effect="fade">
+<section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="true"
+    data-simulate-touch="false" data-slide-effect="fade" data-interval:"300">
 
     <div class="swiper-wrapper text-center">
         <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-1920x1200.jpg">
@@ -8,8 +8,8 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <h4> FIND YOUR DREAM CAR </h4>
-                            <h1>BMW M5 GRAN TURISMO</h1>
-                            <h3>MODEL 2017 <span>$64,000</span></h3>
+                              <h1>NISSAN GT-R 35</h1>
+                            <h3>MODEL 2017 <span>RS.18,500,000</span></h3>
                             <a class="button" href="#"><span> SEE DETAILS</span></a>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                         <div class="col-lg-8">
                             <h4> FIND YOUR DREAM CAR </h4>
                             <h1>Chevrolet Camaro ZL1</h1>
-                            <h3>MODEL 2017 <span>$99,000</span></h3>
+                            <h3>MODEL 2018 <span>RS.15,000,000</span></h3>
                             <a class="button" href="#"><span> SEE DETAILS</span></a>
                         </div>
                     </div>
@@ -36,8 +36,8 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <h4> FIND YOUR DREAM CAR </h4>
-                            <h1>BMW 330e iPERFORMANCE</h1>
-                            <h3>MODEL 2017 <span>$99,000</span></h3>
+                            <h1>FORD RAPTOR</h1>
+                            <h3>MODEL 2017 <span>RS.10,000,000</span></h3>
                             <a class="button" href="#"><span> SEE DETAILS</span></a>
                         </div>
                     </div>

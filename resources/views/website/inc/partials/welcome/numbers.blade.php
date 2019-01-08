@@ -7,7 +7,7 @@
                         <img src="images/ic1.png" alt="" class="counter-img">
                         <div class="caption">
                             <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">1250</span>
+                                <span class="animated-number" data-duration="2000" data-animation-delay="0">15</span>
                             </div>
                             <div class="counter-title">NEW CARS IN STOCK</div>
                         </div>
@@ -20,7 +20,7 @@
                         <img src="images/ic2.png" alt="" class="counter-img">
                         <div class="caption">
                             <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">2120</span>+
+                                <span class="animated-number" data-duration="2000" data-animation-delay="0">21</span>+
                             </div>
                             <div class="counter-title">USED CARS IN STOCK</div>
                         </div>
@@ -33,7 +33,7 @@
                         <img src="images/ic3.png" alt="" class="counter-img">
                         <div class="caption">
                             <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">9753</span>
+                                <span class="animated-number" data-duration="2000" data-animation-delay="0">1239</span>
                             </div>
                             <div class="counter-title">HAPPY CUSTOMERS</div>
                         </div>
@@ -46,7 +46,7 @@
                         <img src="images/ic4.png" alt="" class="counter-img">
                         <div class="caption">
                             <div class="counter">
-                                <span class="animated-number" data-duration="2000" data-animation-delay="0">1022</span>
+                                <span class="animated-number" data-duration="2000" data-animation-delay="0">322</span>
                             </div>
                             <div class="counter-title">CAR SPARE PARTS</div>
                         </div>

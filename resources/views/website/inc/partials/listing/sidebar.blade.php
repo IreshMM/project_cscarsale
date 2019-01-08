@@ -6,22 +6,13 @@
                 <div class="contact-banner">
                     <div class="top-info clearfix">
                         <div class="info1">
-                            <div class="banner-title">BMW M3</div>
+                            <div class="banner-title">{{$cars->model->name}}</div>
                             <div class="txt2">
-                                <span class="txt">FIRST DRIVE REVIEW</span>
-                                <span class="stars">
-            <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-            <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-            <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-            <i class="fa fa-star novi-icon" aria-hidden="true"></i>
-            <i class="fa fa-star-o novi-icon" aria-hidden="true"></i>
-          </span>
+       
                             </div>
                         </div>
                     </div>
                     <div class="txt3">Rs.{{$cars->selling_price}}.00</div>
-                    <div class="txt4">George Freeman</div>
-                    <div class="txt5">44 Shirley Ave. <br> West Chicago, IL 60185<br> Phone: <a href="tel:#">+1 (312) 954-1151</a>
                     </div>
                     <div class="form-wrapper">
                         <div id="note2"></div>
@@ -37,17 +28,7 @@
                                     <textarea class="form-control" rows="9" id="inputMessage" placeholder="Message" name="content" data-constraints="@Required"></textarea>
                                 </div>
 
-                                <div class="checkbox-inline">
-                                    <label>
-                                                <input type="checkbox"> Send me a copy of this message
-                                            </label>
-                                </div>
-
-                                <div class="checkbox-inline">
-                                    <label>
-                                                <input type="checkbox" checked> Subscribe to our Newsletter
-                                            </label>
-                                </div>
+                               
 
                                 <button type="submit" class="btn-default btn-cf-submit2">SEND E-MAIL</button>
 
