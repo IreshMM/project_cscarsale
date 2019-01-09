@@ -35,7 +35,7 @@ class QueryController extends Controller
         $request->input('keyword', '');
         $result = CarListing::where('seller_description', 'like', '%' . $request->input('keyword') . '%');
 
-        $legacyParams = ['condition', 'mileage', 'color', 'year', 'city', 'id_car_model'];
+        $legacyParams = ['condition', 'id_car_model'];
         $parameters = $request->all();
 
         foreach ($parameters as $key => $value) {

@@ -39,7 +39,7 @@
                             <td>{{ $item->position }}</td>
                             <td>{{ $item->hired_date }}</td>
                             <td>
-                                <a class="btn btn-primary btn-sm" href="/updateEmp">Update</a>
+                                <a class="btn btn-primary btn-sm" href="{{ route('employee.update', ['id' => $item->id]) }}">Update</a>
                                 <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1" onclick="fillModel(this)">
                                     View 
                                 </button>

@@ -32,11 +32,6 @@
                         </ul>
                     </div>
                     <div class="block-right">
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#SignIn" data-toggle='modal'>SIGN IN</a>
-                            </li>
-                        </ul>
                     </div>
 
                 </div>

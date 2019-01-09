@@ -39,7 +39,7 @@
                         @include('website.inc.partials.search.gridview')
                     </div>
                 </div>
-                @include('website.inc.partials.search.searchform')
+                {{-- @include('website.inc.partials.search.searchform') --}}
             </div>
         </div>
     </div>
