@@ -28,6 +28,10 @@ class LoginController extends Controller
      * @var string
      */
 
+     public function showLoginForm() {
+         return view('admin.auth.login');
+     }
+
 
     protected function redirectTo()
     {
