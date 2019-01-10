@@ -15,31 +15,46 @@
     <div id="tabs3-2">
         <div class="row row-fix">
             <div class="col-sm-6">
+                {{-- Details columns with values --}}
                 <div class="row">
+                    @php
+                        $size = sizeof($specDetails);
+                        $keys = array_keys($specDetails);
+                    @endphp
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#"><b>Condition </b>  :{{$car->condition}}</a></li>
-                            <li><a href="#"><b>Mileage </b>    :{{$car->mileage}}</a></li>
+                            @for ($i = 0; $i < ceil($size / 2); $i++)
+                                <li><a href="#"><b>{{ ucfirst($keys[$i]) }}</b> :{{ $specDetails[$keys[$i]] }}</a></li>
+                            @endfor
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#"><b>City </b> :{{$car->city}}</a></li>
-                            <li><a href="#"><b>Year </b>       :{{$car->year}}</a></li>
+                            @for ($i = ceil($size / 2); $i < $size; $i++)
+                                <li><a href="#"><b>{{ $keys[$i] }}</b> :{{ $specDetails[$keys[$i]] }}</a></li>
+                            @endfor
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
+                {{-- Features column with no values --}}
                 <div class="row">
+                    @php
+                        $size = sizeof($specFeatures);
+                    @endphp
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#"><b>Color </b>      :{{$car->color}}</a></li>
+                            @for ($i = 0; $i < ceil($size / 2); $i++)
+                                <li><a href="#">{{ $specFeatures[$i] }}</a></li>
+                            @endfor
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="ul3">
-                            <li><a href="#">Alloy Wheels</a></li>
+                            @for ($i = ceil($size / 2); $i < $size; $i++)
+                                <li><a href="#">{{ $specFeatures[$i] }}</a></li>
+                            @endfor
                         </ul>
                     </div>
                 </div>

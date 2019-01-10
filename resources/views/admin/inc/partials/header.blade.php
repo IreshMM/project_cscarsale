@@ -6,7 +6,7 @@
             <!-- ============================================================== -->
             <!-- Logo -->
             <!-- ============================================================== -->
-            <a class="navbar-brand" href="{{ route('dashboard.home') }}">
+            <a class="navbar-brand" href="{{ Auth::user()->level == 'seller' ? route('seller.dashboard') : route('dashboard.home') }}">
                 <!-- Logo icon -->
                 <b class="logo-icon p-l-10">
                         <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->

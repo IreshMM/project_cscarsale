@@ -49,7 +49,7 @@ class CarListing extends Model
         $imageLocations = array();
 
         for($i = 1; $i <= $this->images; $i++) {
-            $imageLocations[] = 'storage\\images\\' . $size . '\\' . strval($this->id_car_listing) . strval($i) . '.jpg';
+            $imageLocations[] = 'storage\\images\\car_listing\\' . $size . '\\' . strval($this->id_car_listing) . strval($i) . '.jpg';
         }
 
         return $imageLocations;
@@ -80,9 +80,12 @@ class CarListing extends Model
         return $filteredFieldsAndData;
     }
 
-    const ADMIN_VIEW = "468X280";
-    const BEST_OFFER = "270X150";
-    const SEARCH_RESULT = "322X230";
-    const DETAILS_SLIDER = "842X511";
-    const DETAILS_LIST = "121X90";
+    const IMAGE_SIZES = [
+        "468X280" => [468, 280],
+        "270X150" => [270, 150],
+        "322X230" => [322, 230],
+        "842X511" => [842, 511],
+        "121X90"  => [121, 90],
+        "260X230" => [260, 230]
+    ];
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\User;
+use App\Cars\SellerRequest;
 
 class SellerController extends Controller
 {
@@ -40,7 +41,46 @@ class SellerController extends Controller
         $user = $request->user();
 
         $requests = $user->sellerRequests;
-        return view('website.seller.seller_listing')->with(['requests' => $requests]);
+        return view('Seller.seller_listing')->with(['requests' => $requests]);
     }
     
+    public function showAddSellerRequestForm() {
+        return view('Seller.add_sellerVehicle');
+    }
+
+    public function addSellerRequest(Request $request){
+        $sellerRequest = new SellerRequest();
+        $sellerRequest->condition = $request->condition;
+        $sellerRequest->mileage = $request->mileage;
+        $sellerRequest->color = $request->color;
+        $sellerRequest->seller_description = $request->seller_description;
+        $sellerRequest->year = $request->year;
+        $sellerRequest->images = 4;
+        $sellerRequest->city = $request->city;
+        $sellerRequest->id_car_model = $request->id_car_model;
+        $sellerRequest->id_seller = $request->user()->id;
+        $sellerRequest->price = $request->price;
+        $sellerRequest->status = 'Pending';
+
+        // $sellerRequest->save();
+        
+        
+        /* 
+        $sellerRequest->condition = $request->condition;   //table akeh thiyena eak = form akeh thiyena eka
+        $sellerRequest->mileage = $request->mileage;
+        $sellerRequest->color = $request->color;
+        $sellerRequest->seller_description = $request->seller_description;
+        $sellerRequest->year = $request->year;
+        $sellerRequest->images = $request->images;
+        $sellerRequest->city = $request->city;
+        $sellerRequest->id_car_model = $request->id_car_model;
+        $sellerRequest->id_seller= $request->id_seller;
+        $sellerRequest->price = $request->price;
+        $sellerRequest->status = $request->status; */
+        
+        $sellerRequest->save();
+
+        return back()->with('success', 'Successfully added');
+
+    }
 }

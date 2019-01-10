@@ -54,7 +54,11 @@ class CarListingController extends Controller
         ]);
 
         $data = CarListing::filterValidFields($request->all());
-        $newListing = $this->createCarListing($data);
+        // $newListing = $this->createCarListing($data);
+        $newListing = new CarListing($data);
+        $newListing->images = sizeof($request->allFiles());
+        $newListing->id_seller = $request->user()->id;
+        $newListing->save();
         
         // Handling images
         $files = $request->allFiles();
@@ -64,16 +68,16 @@ class CarListingController extends Controller
         $i = 1;
         foreach ($files as $image) {
             $fileToBeSaved = Image::make($image->getRealPath());
-            $sizes = [
-                "468X280" => [468, 280],
-                "270X150" => [270, 150],
-                "322X230" => [322, 230],
-                "842X511" => [842, 511]
-            ];
+            $sizes = CarListing::IMAGE_SIZES;
 
             foreach ($sizes as $key => $value) {
+                $savePath = 'storage\\images\\car_listing\\' . $key;
+                $fileName = '\\' . $newListing->id_car_listing . $i . '.jpg';
+
+                if(!file_exists($savePath)) mkdir($savePath, 666, True);
+
                 $fileToBeSaved->encode('jpg')->fit($value[0], $value[1])
-                ->save('storage\\images\\car_listing\\' . $key . '\\' . $newListing->id_car_listing . $i . '.jpg');
+                ->save($savePath . $fileName);
             }
             $i++;
         }
@@ -90,7 +94,6 @@ class CarListingController extends Controller
      */
     public function update(Request $request)
     {
-        // dd($request);
         $request->validate([
             'id_car_listing' => 'required'
         ]);
@@ -100,7 +103,7 @@ class CarListingController extends Controller
         $carListing = CarListing::find($request->id_car_listing);
         $carListing = $this->updateCarListing($carListing, $data);
         
-        return redirect('carlisting/index')->with('success', 'Car Listing updated successfully');
+        return redirect()->route('car_listing.index')->with('success', 'Car Listing updated successfully');
     }
 
     /**

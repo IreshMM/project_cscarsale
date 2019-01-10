@@ -1,95 +1,26 @@
 @extends('admin.layouts.adminapp') 
 
-@section('content')
-
-
-<style>
-        .preview-images-zone {
-            width: 100%;
-            border: 1px solid #ddd;
-            min-height: 180px;
-            /* display: flex; */
-            padding: 5px 5px 0px 5px;
-            position: relative;
-            overflow:auto;
-        }
-        .preview-images-zone > .preview-image:first-child {
-            height: 185px;
-            width: 185px;
-            position: relative;
-            margin-right: 5px;
-        }
-        .preview-images-zone > .preview-image {
-            height: 90px;
-            width: 90px;
-            position: relative;
-            margin-right: 5px;
-            float: left;
-            margin-bottom: 5px;
-        }
-        .preview-images-zone > .preview-image > .image-zone {
-            width: 100%;
-            height: 100%;
-        }
-        .preview-images-zone > .preview-image > .image-zone > img {
-            width: 100%;
-            height: 100%;
-        }
-        .preview-images-zone > .preview-image > .tools-edit-image {
-            position: absolute;
-            z-index: 100;
-            color: #fff;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-            margin-bottom: 10px;
-            display: none;
-        }
-        .preview-images-zone > .preview-image > .image-cancel {
-            font-size: 18px;
-            position: absolute;
-            top: 0;
-            right: 0;
-            font-weight: bold;
-            margin-right: 10px;
-            cursor: pointer;
-            display: none;
-            z-index: 100;
-        }
-        .preview-image:hover > .image-zone {
-            cursor: move;
-            opacity: .5;
-        }
-        .preview-image:hover > .tools-edit-image,
-        .preview-image:hover > .image-cancel {
-            display: block;
-        }
-        .ui-sortable-helper {
-            width: 90px !important;
-            height: 90px !important;
-        }
-        
-        .container {
-            padding-top: 50px;
-        }
-        </style>
-        
 @section('custom-script')
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 @endsection
-<div class="row">
-        <div class="container-fluid">
+
+@section('content')
+
+    <div class="container-fluid">
             
             <div class="card">
-                <form class="form-horizontal" action="{{ route('car_listing.create') }}" method="post" enctype="multipart/form-data">
+
+
+                <form class="form-horizontal" action="{{ route('seller.add_request') }}" method="post" enctype="multipart/form-data">
+                @csrf
                     <div class="card-body">
                         <h4 class="card-title">New Vehicle details</h4>
                         <div class="form-group row">
                             <label for="make" class="col-sm-3 text-right control-label col-form-label">Make</label>
                                 <div class=" col-sm-6">
-                                    <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;" name="id_car_make">
+                                    <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;">
                                         
                                     </select>
                                 </div>
@@ -103,15 +34,15 @@
                                 </div>
                         </div>
                         <div class="form-group row">
-                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Buying Price</label>
+                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Year</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="price" name="buying_price">
+                                <input type="text" class="form-control" id="Year" name="year">
                             </div>
                         </div>
                         <div class="form-group row">
-                                <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
+                                <label for="price" class="col-sm-3 text-right control-label col-form-label">Price</label>
                                 <div class=" col-sm-6">
-                                    <input type="text" class="form-control" id="price" name="selling_price">
+                                    <input type="text" class="form-control" id="price" name="price">
                                 </div>
                             </div>
                         <div class="form-group row">
@@ -127,30 +58,16 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="line3" class="col-sm-3 text-right control-label col-form-label">Year</label>
+                            <label for="line3" class="col-sm-3 text-right control-label col-form-label">Condition</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="year" name="year">
+                                <input type="text" class="form-control" id="condition" name="condition">
                             </div>
                         </div>
                         <div class="form-group row">
-                                <label for="model" class="col-sm-3 text-right control-label col-form-label">Condition</label>
-                                <div class=" col-sm-6">
-                                    <select class="select2 form-control custom-select" style="width: 100%; height:36px;" name="condition">
-                                        <option value="Brand New">Brand New</option>
-                                        <option value="Reconditioned">Reconditioned</option>
-                                        <option value="Used">Used</option>
-                                    </select>
-                                </div>
-                        </div>
-                        <div class="form-group row">
-                                <label for="model" class="col-sm-3 text-right control-label col-form-label">District</label>
-                                <div class=" col-sm-6">
-                                    <select class="select2 form-control custom-select" style="width: 100%; height:36px;" name="city">
-                                        <option value="Anuradhapura">Anuradhapura</option>
-                                        <option value="Galle">Galle</option>
-                                        <option value="Colombo">Colombo</option>
-                                    </select>
-                                </div>
+                            <label for="line2" class="col-sm-3 text-right control-label col-form-label">City</label>
+                            <div class=" col-sm-6">
+                                <input type="text" class="form-control" id="city" name="city">
+                            </div>
                         </div>
                         <div class="form-group row">
                             <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Description</label>
@@ -249,5 +166,5 @@
 
             });
             
-            </script>
+     </script>
 @endsection

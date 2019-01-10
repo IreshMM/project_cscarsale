@@ -20,7 +20,7 @@ Route::prefix('admin/dashboard/car_listing')->middleware('auth')->name('car_list
     Route::get('index', 'CarListingController@index')->name('index');;
 
     // Creates a new car listing
-    Route::get('/car_listing/form_add', 'CarListingController@showAddForm')->name('form_add');
+    Route::get('form_add', 'CarListingController@showAddForm')->name('form_add');
     Route::post('create', 'CarListingController@create')->name('create');
 
     // Update a car listing
@@ -230,13 +230,18 @@ Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(
 
 });
 
-// Seller view
-Route::get('seller/dashboard', 'Admin\SellerController@showRequests')->name('seller.dashboard');
+Route::prefix('seller')->namespace('Admin')->name('seller.')->group(function() {
+    // Show dashboard
+    Route::get('dashboard', 'SellerController@showRequests')->name('dashboard');
+
+    // Show add new seller request form
+    Route::get('add_request_form', 'SellerController@showAddSellerRequestForm')->name('form_add_request');
+
+    // Add seller request
+    Route::post('add_request', 'SellerController@addSellerRequest')->name('add_request');
+});
+
 
 Route::get('test', function() {return view('admin.finance.chart');});
 
-Route::get('/details','WebSite\QueryController@getCarDetails');
-
-Route::get('test2', function() {
-    return view('website.testviews.test');
-});
+Route::get('/details','WebSite\QueryController@getCarDetails')->name('details');

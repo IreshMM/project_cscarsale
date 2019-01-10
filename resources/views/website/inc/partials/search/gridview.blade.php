@@ -4,15 +4,18 @@
     @for ($row = 0; $row < count($listings); $row += 3)
     <div class="row">
         @for ($col = $row; $col < $row + 3 && $col < count($listings); $col++)
-        <?php  $item = $listings[$col]; ?>
+        @php
+            $item = $listings[$col];
+            $image = $item->getImages("260X230")[0];
+        @endphp
         <div class="col-sm-4">
                 <div class="product-box-vertical">
                     <div class="box-vertical-inner">
-                        <figure><a href="details.html"><img src="images/listing-1-260x230.jpg" alt="" class="img-responsive"></a></figure>
+                        <figure><a href="{{ route('details', ['id' => $item->id_car_listing]) }}"><img src="{{ $image }}" alt="" class="img-responsive"></a></figure>
                         <div class="caption">
                             <div class="caption-header">
                                 <div class="info1">
-                                    <div class="txt1"><a href="details.html">{{ $item->model()->first()->name }}</a></div>
+                                    <div class="txt1"><a href="{{ route('details', ['id' => $item->id_car_listing]) }}">{{ $item->model()->first()->name }}</a></div>
                                     <div class="txt2"><span class="txt">FIRST DRIVE REVIEW</span> <span class="stars">                               <i class="fa fa-star novi-icon" aria-hidden="true"></i>                               <i class="fa fa-star novi-icon" aria-hidden="true"></i>                               <i class="fa fa-star novi-icon" aria-hidden="true"></i>                               <i class="fa fa-star novi-icon" aria-hidden="true"></i>                               <i class="fa fa-star-o novi-icon" aria-hidden="true"></i>                             </span>
                                     </div>
                                 </div>
@@ -23,7 +26,7 @@
                                 <li><a href="#">Registered {{ $item->year }}</a></li>
                                 <li><a href="#">{{ $item->condition }}</a></li>
                                 <li><a href="#">{{ $item->city }}</a></li>
-                                <li><a href="#">Petrol</a></li>
+                                <li><a href="#">{{ $item->fuelType }}</a></li>
                             </ul>
     
                             <div class="txt5">31,730 KM</div>
@@ -32,7 +35,7 @@
                                     <div class="txt6">$68,213</div>
                                 </div>
                                 <div class="info3">
-                                    <div class="txt7"><a href="details.html" class="btn-default btn3">VIEW DETAILS</a></div>
+                                    <div class="txt7"><a href="{{ route('details', ['id' => $item->id_car_listing]) }}" class="btn-default btn3">VIEW DETAILS</a></div>
                                 </div>
                             </div>
                         </div>

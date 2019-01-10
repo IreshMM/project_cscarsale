@@ -9,6 +9,7 @@ use App\Cars\CarListing;
 use App\WebSite\FeaturedListing;
 use App\WebSite\Content;
 use App\WebSite\BestOffer;
+use App\WebSite\Testimonial;
 
 class WebSiteController extends Controller
 {
@@ -124,6 +125,12 @@ class WebSiteController extends Controller
         $welcomeNoteTitle = Content::where('title', 'welcome_note_title')->first()->description;
         $welcomeNote = Content::where('title', 'welcome_note')->first()->description;
 
+        $bestOffers = BestOffer::limit(6);
+
+        $testimonials = Testimonial::limit(3);
+        $email = Content::where('title', 'email')->first()->description;
+        $phone = Content::where('title', 'email')->first()->description;
+        $contactText = Content::where('title', 'email')->first()->description;
         
     }
 

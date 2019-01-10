@@ -6,7 +6,7 @@
                 <div class="contact-banner">
                     <div class="top-info clearfix">
                         <div class="info1">
-                            <div class="banner-title">{{$car->model->name}}</div>
+                            <div class="banner-title">{{ $car->model->make->name . ' ' . $car->model->name}}</div>
                             <div class="txt2">
        
                             </div>
