@@ -48,7 +48,7 @@
 
     <link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <!--Image uploader-->
-
+    @yield('date-picker')
     @yield('chart-script')
     @yield('custom-script')
     @yield('custom-css')

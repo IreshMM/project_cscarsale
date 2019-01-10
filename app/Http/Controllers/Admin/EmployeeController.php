@@ -37,15 +37,15 @@ class EmployeeController extends Controller
             'address'           => 'required',
             'dob'               => 'required',
             'gender'            => 'required',
-            'nic'               => 'required',
-            'email'             => 'required',
-            'mobile'            => 'required',
-            'landline'          => 'required',
+            'nic'               => 'required|regex:/^[0-9]{9}[vVxX]$/',
+            'email'             => ['required', 'string',  'max:255', 'unique:users'],
+            'mobile'            => 'required|digits:10',
+            'landline'          => 'required|digits:10',
             'bank_account'      => 'required',
             'branch'            => 'required',
             'position'          => 'required',
             'hire_date'         => 'required',
-            'password'          => 'required',
+            'password'          => 'required|min:6',
             'confirm_password'  => 'required'
         ]);
 

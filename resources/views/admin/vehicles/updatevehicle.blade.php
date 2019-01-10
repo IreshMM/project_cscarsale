@@ -79,13 +79,15 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 @endsection
 <div class="row">
-        <div class="container-fluid">
-            
+        <div class ="container"> 
             <div class="card">
-                <form class="form-horizontal" action="{{ route('car_listing.update') }}" method="post" enctype="multipart/form-data">
-                    <div class="card-body">
-                        <h4 class="card-title">Update Vehicle details</h4>
-                        <div class="form-group row">
+                <div class="card-header text-center ">
+                        <h4>Update Vehicle details</h4>
+                 </div>
+                    <form class="form-horizontal" action="{{ route('car_listing.update') }}" method="post" enctype="multipart/form-data">
+                        <div class="card-body">
+                            {{-- <h4 class="card-title">Update Vehicle details</h4> --}}
+                            <div class="form-group row">
                             <label for="make" class="col-sm-3 text-right control-label col-form-label">Make</label>
                                 <div class=" col-sm-6">
                                     <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;" name="id_car_make">
@@ -199,6 +201,7 @@
     
         </div>
     </div>
+</div>
 
     <script>
 
