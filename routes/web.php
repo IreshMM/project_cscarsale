@@ -236,3 +236,7 @@ Route::get('seller/dashboard', 'Admin\SellerController@showRequests')->name('sel
 Route::get('test', function() {return view('admin.finance.chart');});
 
 Route::get('/details','WebSite\QueryController@getCarDetails');
+
+Route::get('test2', function() {
+    return view('website.testviews.test');
+});

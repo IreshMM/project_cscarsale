@@ -11,8 +11,6 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\User::class, 1)->create(['level' => 'admin']);
-        factory(App\User::class, 20)->create(['level' => 'seller']);
-        factory(App\User::class, 10)->create(['level' => 'employee']);
+        factory(App\User::class, 1)->create(['level' => 'admin', 'email' => 'admin@cscarsale.com']);
     }
 }

@@ -83,5 +83,6 @@ class CarListing extends Model
     const ADMIN_VIEW = "468X280";
     const BEST_OFFER = "270X150";
     const SEARCH_RESULT = "322X230";
-    const DETAILS = "842X511";
+    const DETAILS_SLIDER = "842X511";
+    const DETAILS_LIST = "121X90";
 }

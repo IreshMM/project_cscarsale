@@ -12,6 +12,16 @@ class CarMakeTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Cars\CarMake::class, 3)->create();
+        $makes = [
+            'Toyota',
+            'Nissan',
+            'Mitsubishi',
+            'Honda',
+            'Suzuki'
+        ];
+
+        foreach ($makes as $make) {
+            CarMake::create(['name' => $make]);
+        }
     }
 }

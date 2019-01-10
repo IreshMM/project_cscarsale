@@ -6,13 +6,13 @@
                 <div class="contact-banner">
                     <div class="top-info clearfix">
                         <div class="info1">
-                            <div class="banner-title">{{$cars->model->name}}</div>
+                            <div class="banner-title">{{$car->model->name}}</div>
                             <div class="txt2">
        
                             </div>
                         </div>
                     </div>
-                    <div class="txt3">Rs.{{$cars->selling_price}}.00</div>
+                    <div class="txt3">Rs.{{$car->selling_price}}.00</div>
                     </div>
                     <div class="form-wrapper">
                         <div id="note2"></div>

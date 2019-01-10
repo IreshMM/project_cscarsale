@@ -1,5 +1,5 @@
-    <link href="/css/gflexslider.css" rel="stylesheet">
-    <div class="gslider-wrapper">
+<link href="/css/gflexslider.css" rel="stylesheet">
+<div class="gslider-wrapper">
     <div id="gslider" class="flexslider">
         <ul class="slides">
             <li>

@@ -16,21 +16,63 @@ class CarSpecificationTableSeeder extends Seeder
         
 
         //Read input data file
-        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecifications.csv");
+        // $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecifications.csv");
 
-        $dataArray = array();
+        // $dataArray = array();
 
-        while(!$data->eof()) {
-            $dataArray[] = $data->fgets();
+        // while(!$data->eof()) {
+        //     $dataArray[] = $data->fgets();
+        // }
+
+        // $data = null;
+
+        // foreach ($dataArray as $value) {
+        //     $values = explode(",", $value);
+
+        //     $spec = new CarSpecification(['name' => trim($values[1]), 'id_car_specification_type' => $values[0]]);
+        //     $spec->save();
+        // }
+
+        $specificationsDetails = [
+            'Fuel type',
+            'Engine Size',
+            'Transmission'
+        ];
+
+        foreach ($specificationsDetails as $value) {
+            CarSpecification::create([
+                'name' => $value,
+                'id_car_specification_type' => 1
+            ]);
         }
 
-        $data = null;
+        $specficationsFeatures = [
+            'A/C: Front',
+            'Cruise Control',
+            'Power Locks',
+            'Remote Keyless Entry',
+            'Airbag: Driver',
+            'Airbag: Side',
+            'Power Windows',
+            'Rear Window Wiper',
+            'CD',
+            'Tow Package',
+            'A/C: Rear',
+            'Navigation System',
+            'Power Steering',
+            'Multifunction Steering',
+            'Airbag: Passenger',
+            'Anti-Lock Brakes',
+            'Rear Window Defroster',
+            'Tinted Glass',
+            'USB'
+        ];
 
-        foreach ($dataArray as $value) {
-            $values = explode(",", $value);
-
-            $spec = new CarSpecification(['name' => trim($values[1]), 'id_car_specification_type' => $values[0]]);
-            $spec->save();
+        foreach ($specficationsFeatures as $value) {
+            CarSpecification::create([
+                'name' => $value,
+                'id_car_specification_type' => 2
+            ]);
         }
     }
 }

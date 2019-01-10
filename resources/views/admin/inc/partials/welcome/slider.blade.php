@@ -1,4 +1,4 @@
-<section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="false"
+<section id="home" class="section swiper-container swiper-slider swiper-slider-1" data-loop="false" data-autoplay="false"
     data-simulate-touch="false" data-slide-effect="fade">
 
     <div class="swiper-wrapper text-center">

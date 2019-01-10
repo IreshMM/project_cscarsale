@@ -13,19 +13,28 @@ class CarSpecificationTypeTableSeeder extends Seeder
     public function run()
     {
         //Read input data file
-        $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecificationtype.csv");
+        // $data = new SplFileObject(getcwd() . "/database/seeds" . "/data/carspecificationtype.csv");
 
-        $dataArray = array();
+        // $dataArray = array();
 
-        while(!$data->eof()) {
-            $dataArray[] = $data->fgets();
-        }
+        // while(!$data->eof()) {
+        //     $dataArray[] = $data->fgets();
+        // }
 
-        $data = null;
+        // $data = null;
 
-        foreach ($dataArray as $value) {
-            $specType = new CarSpecificationType(['name' => trim($value)]);
-            $specType->save();
+        // foreach ($dataArray as $value) {
+        //     $specType = new CarSpecificationType(['name' => trim($value)]);
+        //     $specType->save();
+        // }
+
+        //Manually inserting
+        $types = ['Details', 'Features'];
+
+        foreach ($types as $value) {
+            CarSpecificationType::create([
+                'name' => $value
+            ]);
         }
     }
 }
