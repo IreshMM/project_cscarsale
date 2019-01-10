@@ -7,11 +7,11 @@
                 <h3 class="box-title">  Available Cars</h3>
             </div>
         </div>
-            <!--<div class="col-sm-4">-->
-            <div class="text-left">   
-                <a class="btn btn-primary" href="{{ route('car_listing.form_add') }}">Add new Car</a>
-            <p> </p>
-            </div>
+           
+        <div class="text-left">   
+            <a class="btn btn-primary" href="{{ route('car_listing.form_add') }}">Add new Car</a>
+        <p> </p>
+        </div>
     </div>
 
     <div class="card">

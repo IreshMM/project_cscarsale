@@ -79,12 +79,14 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 @endsection
 <div class="row">
-        <div class="container-fluid">
-            
-            <div class="card">
+    <div class ="container"> 
+        <div class="card">
+            <div class="card-header text-center ">
+                    <h4>Update Vehicle details</h4>
+             </div>
                 <form class="form-horizontal" action="{{ route('car_listing.update') }}" method="post" enctype="multipart/form-data">
                     <div class="card-body">
-                        <h4 class="card-title">Update Vehicle details</h4>
+                        {{-- <h4 class="card-title">Update Vehicle details</h4> --}}
                         <div class="form-group row">
                             <label for="make" class="col-sm-3 text-right control-label col-form-label">Make</label>
                                 <div class=" col-sm-6">
@@ -93,6 +95,7 @@
                                     </select>
                                 </div>
                         </div>
+
                         <div class="form-group row">
                                 <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
                                 <div class=" col-sm-6">
@@ -101,36 +104,42 @@
                                     </select>
                                 </div>
                         </div>
+
                         <div class="form-group row">
                             <label for="price" class="col-sm-3 text-right control-label col-form-label">Buying Price</label>
                             <div class=" col-sm-6">
                                 <input type="text" class="form-control" id="price" name="buying_price" value="{{ $car->buying_price }}">
                             </div>
                         </div>
+
                         <div class="form-group row">
                                 <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
                                 <div class=" col-sm-6">
                                     <input type="text" class="form-control" id="price" name="selling_price" value="{{ $car->selling_price }}">
                                 </div>
-                            </div>
+                         </div>
+
                         <div class="form-group row">
                             <label for="mileage" class="col-sm-3 text-right control-label col-form-label">Mileage</label>
                             <div class=" col-sm-6">
                                 <input type="text" class="form-control" id="mileage" name="mileage" value="{{ $car->mileage }}">
                             </div>
                         </div>
+
                         <div class="form-group row">
                             <label for="line2" class="col-sm-3 text-right control-label col-form-label">Color</label>
                             <div class=" col-sm-6">
                                 <input type="text" class="form-control" id="color" name="color" value="{{ $car->color }}">
                             </div>
                         </div>
+
                         <div class="form-group row">
                             <label for="line3" class="col-sm-3 text-right control-label col-form-label">Year</label>
                             <div class=" col-sm-6">
                                 <input type="text" class="form-control" id="year" name="year" value="{{ $car->year }}">
                             </div>
                         </div>
+
                         <div class="form-group row">
                                 <label for="model" class="col-sm-3 text-right control-label col-form-label">District</label>
                                 <div class=" col-sm-6">
@@ -141,63 +150,69 @@
                                     </select>
                                 </div>
                         </div>
+
                         <div class="form-group row">
                             <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Description</label>
                             <div class="col-sm-6">
                                 <textarea id="seller_description" class="form-control" name="seller_description">{{ $car->seller_description }}</textarea>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-                        <div class="col-sm-6">
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
-                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+                    
+                        <div class="form-group row">
+                            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                            <div class="col-sm-6">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file1" required>
+                                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                    <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-                        <div class="col-sm-6">
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
-                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+
+                        <div class="form-group row">
+                            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                            <div class="col-sm-6">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file2" required>
+                                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                    <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-                        <div class="col-sm-6">
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
-                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+
+                        <div class="form-group row">
+                            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                            <div class="col-sm-6">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file3" required>
+                                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                    <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
-                        <div class="col-sm-6">
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
-                                <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                                <div class="invalid-feedback">Example invalid custom file feedback</div>
+
+                        <div class="form-group row">
+                            <label class="col-sm-3 text-right control-label col-form-label">File Upload</label>
+                            <div class="col-sm-6">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="validatedCustomFile" name="file4" required>
+                                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                    <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <input type="text" name="id_car_listing" id="" value="{{ $car->id_car_listing }}" hidden>
+                        <input type="text" name="id_car_listing" id="" value="{{ $car->id_car_listing }}" hidden>
 
                     <div class="border-top">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <input type="submit" value="Submit" class="btn btn-primary">
                             </div>
-                        </div>
-                </form>
+                     </div>
+                 </form>
     
-        </div>
+             </div>
+         </div>
+     </div>
     </div>
 
     <script>

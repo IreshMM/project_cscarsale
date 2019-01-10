@@ -114,61 +114,51 @@
                                          </div>
                                      </div>
              
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers Title</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control" readonly id="title">
-                                     </div>
-                                 </div>
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers first Name</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control"  readonly id="first_name">
-                                     </div>
-                                 </div>
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers last Name</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control"  id="last_name" readonly>
-                                     </div>
-                                 </div>
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Street Address</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control"   id="street_address" readonly>
-                                     </div>
-                                 </div>
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">City</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control"  id="city" readonly>
-                                     </div>
-                                 </div>
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Email</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control"   id="email" readonly>
-                                     </div>
-                                 </div>
-                                 <div class="form-group row">
-                                     <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Phone</label>
-                                     <div class=" col-sm-6">
-                                         <input type="text" class="form-control"   id="phone" readonly>
-                                     </div>
-                                 </div>
-             
-                                     
-                                 <!-- Button -->
-                                 {{-- <div class="form-group">
-                                     <label class=" col-sm-3 text-right control-label col-form-label" for="submit_form"></label>
-                                     <div class="col-md-4">
-                                         <button id="Ok" name="Ok" class="btn btn-primary">OK</button>
-                                     </div>
-                                 </div> --}}
-                                     
-                               </fieldset>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers Title</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control" readonly id="title">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers first Name</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"  readonly id="first_name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Buyers last Name</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"  id="last_name" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Street Address</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"   id="street_address" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">City</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"  id="city" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Email</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"   id="email" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Phone</label>
+                                        <div class=" col-sm-6">
+                                            <input type="text" class="form-control"   id="phone" readonly>
+                                        </div>
+                                    </div>
+                                 </fieldset>
                          </form>
-                </div>
+                     </div>
                 {{-- <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div> --}}
@@ -195,7 +185,7 @@
         function fillModal(e) {
             // console.log($(e).attr("data-item"));
             var data = JSON.parse($(e).attr("data-item"));
-            console.log(data);
+            // console.log(data);
             $("#model").val(data.model.name);
             $("#make").val(data.model.make.name);
             $("#price").val(data.selling_price);

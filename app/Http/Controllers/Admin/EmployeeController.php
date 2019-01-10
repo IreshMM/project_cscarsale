@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Session;
 use App\User;
 use App\Employee;
 
@@ -19,6 +21,7 @@ class EmployeeController extends Controller
         $employees = Employee::all();
 
         // return response()->json($employees);
+        
         return view('admin.users.employee')->with('employees', $employees);
     }
 
@@ -31,39 +34,55 @@ class EmployeeController extends Controller
     public function create(Request $request)
     {
         // dd($request);
-        $request->validate([ 
+        $validator = Validator::make($request->all(), [
+       // $request->validate([ 
             'first_name'        => 'required',
             'last_name'         => 'required',
-            'address'           => 'required',
-            'dob'               => 'required',
+            'street_address'    => 'required',
+            'dob'               => 'required|',
             'gender'            => 'required',
-            'nic'               => 'required',
-            'email'             => 'required',
-            'mobile'            => 'required',
-            'landline'          => 'required',
+            'nic'               => 'required|regex:/^[0-9]{9}[vVxX]$/',
+            'email'             => ['required', 'string',  'max:255', 'unique:users'],
+            'mobile'            => 'required|digits:10',
+            'landline'          => 'required|digits:10',
             'bank_account'      => 'required',
             'branch'            => 'required',
             'position'          => 'required',
             'hire_date'         => 'required',
-            'password'          => 'required',
+            'password'          => 'required|min:6',
             'confirm_password'  => 'required'
         ]);
+        if ($validator->fails()) {
+            Session::flash('error', $validator->messages()->first());
+            return redirect()->back()->withInput();
+       }
 
-        $data = User::filterValidFields($request->all());
+       // $data = User::filterValidFields($request->all());
 
-        $employeeUser = new User($data);
+       // $employeeUser = new User($data);
+        $employeeUser = new User;
+        $employeeUser->first_name = $request->first_name;
+        $employeeUser->last_name = $request->last_name;
+        $employeeUser->email = $request->email;
         $employeeUser->level = 'employee';
-        $employeeUser->street_address = $request->address;
-        $employeeUser->city = ['Galle', 'Anuradhapura'][random_int(0, 1)];
+        $employeeUser->street_address = $request->street_address;
+        $employeeUser->city = $request->city;
         $employeeUser->phone = $request->mobile;
         $employeeUser->title = $request->gender == 'male' ? 'Mr' : 'Miss';
         $employeeUser->password = bcrypt($request->password);
 
         $employeeUser->save();
 
-        $employeeData = Employee::filterValidFields($request->all());
-        $employee = new Employee($employeeData);
+       // $employeeData = Employee::filterValidFields($request->all());
+       // $employee = new Employee($employeeData);
+        $employee = new Employee;
         $employee->land_line = $request->landline;
+        $employee->dob = $request->dob;
+        $employee->gender = $request->gender;
+        $employee->nic = $request->nic;
+        $employee->bank_account = $request->bank_account;
+        $employee->branch = $request->branch;
+        $employee->position = $request->position;
         $employee->hired_date = $request->hire_date;
         $employee->id = $employeeUser->id;
 
@@ -134,7 +153,7 @@ class EmployeeController extends Controller
 
         $employee->save();
 
-        return back()->with('success', 'Successfully updated');
+        return redirect()->route('employee.index')->with('success', 'Successfully updated');
     }
 
     /**

@@ -7,6 +7,7 @@
               <h3 class="box-title"> Sellers </h3>
             </div>
         </div>
+</div>
           
    
 <div class="card">

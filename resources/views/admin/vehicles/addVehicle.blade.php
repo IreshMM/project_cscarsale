@@ -79,28 +79,31 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 @endsection
-<div class="row">
-        <div class="container-fluid">
+
+    <div class="container-fluid">
             
-            <div class="card">
+        <div class="card ">
+            <div class="card-header text-center card-header-primary">
+                 <h4> New vehicle details</h4>
+             </div>
                 <form class="form-horizontal" action="{{ route('car_listing.create') }}" method="post" enctype="multipart/form-data">
                     <div class="card-body">
-                        <h4 class="card-title">New Vehicle details</h4>
+                        {{-- <h4 class="card-title">New Vehicle details</h4> --}}
                         <div class="form-group row">
                             <label for="make" class="col-sm-3 text-right control-label col-form-label">Make</label>
-                                <div class=" col-sm-6">
-                                    <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;" name="id_car_make">
-                                        
-                                    </select>
-                                </div>
+                            <div class=" col-sm-6">
+                                <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;" name="id_car_make">
+                                    
+                                </select>
+                            </div>
                         </div>
                         <div class="form-group row">
-                                <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
-                                <div class=" col-sm-6">
-                                    <select class="select2 form-control custom-select car-models" style="width: 100%; height:36px;" name="id_car_model">
-                                        
-                                    </select>
-                                </div>
+                            <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
+                            <div class=" col-sm-6">
+                                <select class="select2 form-control custom-select car-models" style="width: 100%; height:36px;" name="id_car_model">
+                                    
+                                </select>
+                            </div>
                         </div>
                         <div class="form-group row">
                             <label for="price" class="col-sm-3 text-right control-label col-form-label">Buying Price</label>
@@ -109,11 +112,11 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                                <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
-                                <div class=" col-sm-6">
-                                    <input type="text" class="form-control" id="price" name="selling_price">
-                                </div>
+                            <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
+                            <div class=" col-sm-6">
+                                <input type="text" class="form-control" id="price" name="selling_price">
                             </div>
+                         </div>
                         <div class="form-group row">
                             <label for="mileage" class="col-sm-3 text-right control-label col-form-label">Mileage</label>
                             <div class=" col-sm-6">
@@ -133,14 +136,14 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                                <label for="model" class="col-sm-3 text-right control-label col-form-label">District</label>
-                                <div class=" col-sm-6">
-                                    <select class="select2 form-control custom-select" style="width: 100%; height:36px;" name="city">
-                                        <option value="Anuradhapura">Anuradhapura</option>
-                                        <option value="Galle">Galle</option>
-                                        <option value="Colombo">Colombo</option>
-                                    </select>
-                                </div>
+                            <label for="model" class="col-sm-3 text-right control-label col-form-label">District</label>
+                            <div class=" col-sm-6">
+                                <select class="select2 form-control custom-select" style="width: 100%; height:36px;" name="city">
+                                    <option value="Anuradhapura">Anuradhapura</option>
+                                    <option value="Galle">Galle</option>
+                                    <option value="Colombo">Colombo</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="form-group row">
                             <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Description</label>
@@ -191,7 +194,7 @@
                     </div>
 
                     <div class="border-top">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <input type="submit" value="Submit" class="btn btn-primary">
                             </div>
                         </div>
@@ -200,7 +203,7 @@
         </div>
     </div>
 
-    <script>
+     <script>
             var getMakesRequest = new XMLHttpRequest();
             getMakesRequest.open('GET', '{{ route('resource.make_list') }}');
             getMakesRequest.onload = function() {
@@ -229,9 +232,9 @@
                         });
 
                         $(".car-models").html(modelListHTML);
-                    });
+                    });//end 0f closure function
                     return false;
-                });
+                });//end of on function
 
                 $('.custom-file-input').change(function() {
                     $(this).next().html($(this).val());
@@ -239,5 +242,5 @@
 
             });
             
-            </script>
+    </script>
 @endsection

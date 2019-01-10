@@ -30,7 +30,7 @@ class CarListing extends Model
      */
     public function model() {
         return $this->belongsTo('App\Cars\CarModel', 'id_car_model', 'id_car_model');
-    }
+    }                                   //carlisting this.foreign key  other key 
 
     /**
      * Defines many to one relationship to seller [user:level = seller]
