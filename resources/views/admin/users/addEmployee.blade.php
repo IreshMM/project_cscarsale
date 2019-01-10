@@ -79,9 +79,9 @@
                         <label for="userName">Email *</label>
                         <input id="userName" name="email" type="text" class="required form-control">
                         <label for="password">Password *</label>
-                        <input id="password" name="password" type="text" class="required form-control">
+                        <input id="password" name="password" type="password" class="required form-control">
                         <label for="confirm">Confirm Password *</label>
-                        <input id="confirm" name="confirm_password" type="text" class="required form-control">
+                        <input id="confirm" name="confirm_password" type="password" class="required form-control">
                         <p>(*) Mandatory</p>
                     </section>
             </div>

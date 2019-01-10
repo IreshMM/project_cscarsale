@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\User;
 use Intervention\Image\ImageManagerStatic as Image;
+use App\Cars\CarListing;
 
 class SellerRequestController extends Controller
 {
@@ -104,7 +105,7 @@ class SellerRequestController extends Controller
         //  }
 
         //  dd($user);
-        return back()->with('success', 'Request Sent');
+        return redirect()->route('seller.dashboard')->with('success', 'Request Sent');
     }
 
     /**
@@ -140,7 +141,28 @@ class SellerRequestController extends Controller
 
         $sellerRequest->save();
 
-        return response()->json($sellerRequest);
+        $files = $request->allFiles();
+        
+        // dd($files);
+
+        $i = 1;
+        foreach ($files as $image) {
+            $fileToBeSaved = Image::make($image->getRealPath());
+            $sizes = CarListing::IMAGE_SIZES;
+
+            foreach ($sizes as $key => $value) {
+                $savePath = 'storage\\images\\seller_request\\' . $key;
+                $fileName = '\\' . $sellerRequest->id_seller_request . $i . '.jpg';
+
+                if(!file_exists($savePath)) mkdir($savePath, 666, True);
+
+                $fileToBeSaved->encode('jpg')->fit($value[0], $value[1])
+                ->save($savePath . $fileName);
+            }
+            $i++;
+        }
+
+        return back()->with('success', 'Your request has been updated successfully');
     }
 
     /**
@@ -156,7 +178,7 @@ class SellerRequestController extends Controller
         $sellerRequest = SellerRequest::find($request->id_seller_request);
         $sellerRequest->delete();
 
-        return $sellerRequest->id_seller_request;
+        return back()->with('warning', 'Your request has been deleted!');
     }
 
     public function approve(Request $request) {

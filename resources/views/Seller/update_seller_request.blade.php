@@ -12,15 +12,15 @@
             
             <div class="card">
 
-                <form class="form-horizontal" action="{{ route('seller.add_request') }}" method="post" enctype="multipart/form-data">
+                <form class="form-horizontal" action="{{ route('seller_request.update') }}" method="post" enctype="multipart/form-data">
                 @csrf
                     <div class="card-body">
-                        <h4 class="card-title">New Vehicle details</h4>
+                        <h4 class="card-title">Update your request details</h4>
                         <div class="form-group row">
                             <label for="make" class="col-sm-3 text-right control-label col-form-label">Make</label>
                                 <div class=" col-sm-6">
                                     <select class="select2 form-control custom-select car-makes" style="width: 100%; height:36px;">
-                                        
+                                        <option selected disabled>{{ $request->model->make->name }}</option>
                                     </select>
                                 </div>
                         </div>
@@ -28,50 +28,50 @@
                                 <label for="model" class="col-sm-3 text-right control-label col-form-label">Model</label>
                                 <div class=" col-sm-6">
                                     <select class="select2 form-control custom-select car-models" style="width: 100%; height:36px;" name="id_car_model">
-                                        
+                                            <option selected disabled>{{ $request->model->name }}</option>
                                     </select>
                                 </div>
                         </div>
                         <div class="form-group row">
                             <label for="price" class="col-sm-3 text-right control-label col-form-label">Year</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="Year" name="year">
+                                <input type="text" class="form-control" id="Year" name="year" value="{{ $request->year }}">
                             </div>
                         </div>
                         <div class="form-group row">
                                 <label for="price" class="col-sm-3 text-right control-label col-form-label">Price</label>
                                 <div class=" col-sm-6">
-                                    <input type="text" class="form-control" id="price" name="price">
+                                    <input type="text" class="form-control" id="price" name="price" value="{{ $request->price }}">
                                 </div>
                             </div>
                         <div class="form-group row">
                             <label for="mileage" class="col-sm-3 text-right control-label col-form-label">Mileage</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="mileage" name="mileage">
+                                <input type="text" class="form-control" id="mileage" name="mileage" value="{{ $request->mileage }}">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="line2" class="col-sm-3 text-right control-label col-form-label">Color</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="color" name="color">
+                                <input type="text" class="form-control" id="color" name="color" value="{{ $request->color }}">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="line3" class="col-sm-3 text-right control-label col-form-label">Condition</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="condition" name="condition">
+                                <input type="text" class="form-control" id="condition" name="condition" value="{{ $request->condition }}">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="line2" class="col-sm-3 text-right control-label col-form-label">City</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="city" name="city">
+                                <input type="text" class="form-control" id="city" name="city" value="{{ $request->city }}">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Description</label>
                             <div class="col-sm-6">
-                                <textarea id="seller_description" class="form-control" name="seller_description"></textarea>
+                                <textarea id="seller_description" class="form-control" name="seller_description">{{ $request->seller_description }}</textarea>
                             </div>
                         </div>
                     </div>
@@ -115,6 +115,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <input type="text" hidden name="id_seller_request" value="{{ $request->id_seller_request }}">
 
                     <div class="border-top">
                             <div class="card-body">

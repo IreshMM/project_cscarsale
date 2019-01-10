@@ -4,8 +4,12 @@
 <div class="box-header">
     <div class="row">
         <div class="col-sm-8">
-            <h3 class="box-title"> Request </h3>
+            <h3 class="box-title"> My Requests </h3>
         </div>
+    </div>
+    <div class="text-left">   
+        <a class="btn btn-primary" href="{{ route('seller.form_add_request') }}">Make new request</a>
+        <p></p>
     </div>
     <div class="card">
         <div class="card-body">
@@ -19,7 +23,6 @@
                             <th>Mileage</th>
                             <th>Status</th>
                             <th>Action</th>
-                            
                         </tr>
                     </thead>
                         <tbody>
@@ -30,9 +33,11 @@
                                     <td>{{ $item->mileage }}</td>
                                     <td>{{ $item->status }}</td>
                                     <td>
-                                        <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#approve" onclick="fillModal(this);">
+                                        <a class="btn btn-primary btn-sm" href="{{ route('seller.form_update_request', ['id_seller_request' => $item->id_seller_request]) }}">Update</a>
+                                        <button data-item="{{ $item }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#view" onclick="fillModal(this);">
                                                 View 
                                         </button>
+                                        <button data-id="{{ $item->id_seller_request }}" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete" onclick="fillSellerRequestId(this)">Delete</button>
                                     </td>
                                 </tr>
                             @endforeach
@@ -50,68 +55,95 @@
             </div>
         </div>
 </div>
-<!-- Modal  view car details-->
-<div id="approve" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">View Car Details</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                 </div>
-                <div class="modal-body">
-                               
-                <form class="form-horizontal" id="request-form" method="POST" action="{{ route('seller_request.approve') }}">
-                    <fieldset>
-                        @php
-                            $fieldSet = [
-                                'model' => 'Model',
-                                'buying_price' => 'Buying Price',
-                                'mileage' => 'Mileage',
-                                'color' => 'Color',
-                                'year' => 'Year'
-                            ];
-                        @endphp
-                            <!-- Text input-->
-                        @foreach ($fieldSet as $key => $value)
-                            <div class="form-group row">
-                                <label for="seller" class=" col-sm-5 text-right control-label col-form-label">{{ $value }}</label>
-                                <div class="col-sm-6">
-                                    <input type="text" class="form-control" id="{{ $key }}" readonly>
-                                </div>
-                            </div>
-                        @endforeach
-                            
-                        <div class="form-group row">
-                            <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Description</label>
-                            <div class="col-sm-6">
-                                <textarea class="form-control" readonly id="description"></textarea>
-                            </div>
-                        </div>
 
-                        <input type="text" id="id_seller_request" name="id_seller_request" hidden>
-                        
-                    </fieldset>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" id="slide-container">
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                 </form>
-                
+
+     <!-- Modal  for delete -->
+    <div class="modal modal-danger fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                 <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Delete confirmation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel"></h4>
+                  </div>
+                     <form action="{{ route('seller_request.delete') }}" method="post">
+                 {{-- {{method_field('delete')}}
+                 {{csrf_field()}} --}}
+              <div class="modal-body">
+                     <p class="text-center">
+                         Are you sure you want to delete this?
+                     </p>
+                     <input type="hidden" name="id_seller_request" id="id_seller_request" value="">
+     
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-success" data-dismiss="modal">No, Cancel</button>
+                 <button type="submit" class="btn btn-warning">Yes, Delete</button>
+             </div>
+         </form>
              </div>
          </div>
      </div>
     
-
+     <!-- Modal  view car details-->
+<div id="view" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">View Car Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+            <div class="modal-body">
+                            
+            <form class="form-horizontal" id="request-form">
+                <fieldset>
+                    @php
+                        $fieldSet = [
+                            'model' => 'Model',
+                            'buying_price' => 'Buying Price',
+                            'mileage' => 'Mileage',
+                            'color' => 'Color',
+                            'year' => 'Year'
+                        ];
+                    @endphp
+                        <!-- Text input-->
+                    @foreach ($fieldSet as $key => $value)
+                        <div class="form-group row">
+                            <label for="seller" class=" col-sm-5 text-right control-label col-form-label">{{ $value }}</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" id="{{ $key }}" readonly>
+                            </div>
+                        </div>
+                    @endforeach
+                        
+                    <div class="form-group row">
+                        <label for="cono1" class=" col-sm-5 text-right control-label col-form-label">Description</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" readonly id="description"></textarea>
+                        </div>
+                    </div>
+                    
+                </fieldset>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" id="slide-container">
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
   <!-- this page js -->
 @section('image-script')
@@ -166,6 +198,11 @@
             $("#slide-container").html(htmlString);
             
             $("#id_seller_request").val(data.id_seller_request);
+        }
+
+        function fillSellerRequestId(e) {
+            var id_seller_request = $(e).attr("data-id");
+            $("#id_seller_request").val(id_seller_request);
         }
     </script>
 @endsection

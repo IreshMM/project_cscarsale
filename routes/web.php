@@ -239,6 +239,9 @@ Route::prefix('seller')->namespace('Admin')->name('seller.')->group(function() {
 
     // Add seller request
     Route::post('add_request', 'SellerController@addSellerRequest')->name('add_request');
+
+    // Show update seller request form
+    Route::get('update_seller_request_form', 'SellerController@showUpdateSellerRequestForm')->name('form_update_request');
 });
 
 

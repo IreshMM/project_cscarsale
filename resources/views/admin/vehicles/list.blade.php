@@ -10,7 +10,7 @@
             <!--<div class="col-sm-4">-->
             <div class="text-left">   
                 <a class="btn btn-primary" href="{{ route('car_listing.form_add') }}">Add new Car</a>
-            <p> </p>
+                <p></p>
             </div>
     </div>
 
