@@ -15,7 +15,7 @@ Auth::routes();
 
 // ROUTE GROUP FOR CAR MANAGING CAR LISTINGS
 Route::prefix('admin/dashboard/car_listing')->middleware('auth')->name('car_listing.')->namespace('Listing')->group(function() {
-    
+
     // Returns a set of required car listings for page
     Route::get('index', 'CarListingController@index')->name('index');;
 
@@ -87,7 +87,7 @@ Route::prefix('admin/dashboard/employee')->middleware('auth')->name('employee.')
 
 // ROUTE GROUP FOR MANAGING SUBSCRIPTIONS
 Route::prefix('admin/dashboard/subscription')->name('subscription.')->namespace('WebSite')->group(function() {
-    
+
     // Returns the set of all subscriptions
     Route::get('index', 'SubscriptionController@index')->name('index');
 
@@ -106,7 +106,7 @@ Route::prefix('admin/dashboard/subscription')->name('subscription.')->namespace(
 
 // ROUTE GROUP FOR MANAGING BEST OFFERS
 Route::prefix('admin/dashboard/best_offer')->name('best_offer.')->namespace('WebSite')->group(function() {
-    
+
     // Returns the set of all best offers
     Route::get('index', 'BestOfferController@index')->name('index');
 
@@ -122,7 +122,7 @@ Route::prefix('admin/dashboard/best_offer')->name('best_offer.')->namespace('Web
 
 // ROUTE GROUP FOR MANAGING FEATURED LISTINGS
 Route::prefix('featured_listing')->name('featured_listing.')->namespace('WebSite')->group(function() {
-    
+
     // Returns the set of all featured listings
     Route::get('index', 'FeaturedListingController@index')->name('index');
 
@@ -138,7 +138,7 @@ Route::prefix('featured_listing')->name('featured_listing.')->namespace('WebSite
 
 // ROUTE GROUP FOR MANAGING TESTIMONIALS
 Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->middleware('auth')->group(function() {
-    
+
     // Returns the set of all testimonials
     Route::get('index', 'TestimonialController@index')->name('index');
 
@@ -157,7 +157,7 @@ Route::prefix('testimonial')->name('testimonial.')->namespace('WebSite')->middle
 
 // ROUTE GROUP FOR MANAGING WEBSITE CONTENT
 Route::prefix('admin/dashboard/website_content')->name('website_content.')->namespace('Admin')->middleware('auth')->group(function() {
-    
+
     // Returns the view for managing home page of the client website
     Route::get('index', 'WebSiteController@index')->name('index');
 
@@ -225,7 +225,7 @@ Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(
     Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');
 
     // Returns the report generation page
-    Route::get('/reports', function() {return view('Reports.tablesProfit');});
+    Route::get('/reports', function() {return view('admin.finance.chart');});
 
 
 });
@@ -242,6 +242,6 @@ Route::prefix('seller')->namespace('Admin')->name('seller.')->group(function() {
 });
 
 
-Route::get('test', function() {return view('admin.finance.chart');});
+// Route::get('test', function() {return view('admin.finance.chart');});
 
 Route::get('/details','WebSite\QueryController@getCarDetails')->name('details');
