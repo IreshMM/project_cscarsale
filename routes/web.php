@@ -173,9 +173,6 @@ Route::prefix('admin/dashboard/website_content')->name('website_content.')->name
 
     //Set welcome note and title
     Route::post('set_welcome', 'WebSiteController@setWelcomeNote')->name('set_welcome');
-
-    // Returns the view for viewing and approving testimonials
-    Route::get('testimonials', function() {return view('admin.website.testimonials');})->name('testimonials');
 });
 
 
@@ -225,7 +222,7 @@ Route::prefix('admin/dashboard')->middleware('auth')->name('dashboard.')->group(
     Route::get('/resource/sold_table', function() {return view('admin.vehicles.sold');})->name('car_listing.sold');
 
     // Returns the report generation page
-    Route::get('/reports', function() {return view('Reports.tablesProfit');});
+    Route::get('/reports', 'WebSite\QueryController@getReport')->name('report');
 
 
 });
@@ -245,6 +242,15 @@ Route::prefix('seller')->namespace('Admin')->name('seller.')->group(function() {
 });
 
 
-Route::get('test', function() {return view('admin.finance.chart');});
+Route::get('test', function() {return view('website.testviews.test');});
 
 Route::get('/details','WebSite\QueryController@getCarDetails')->name('details');
+
+Route::get('sendemail', 'Listing\CarListingController@sendEmail');
+
+
+Route::get('get_investment', 'WebSite\QueryController@getVehicleCount');
+
+Route::get('get_sales', 'WebSite\QueryController@getSalesCount');
+
+Route::get('get_ratios', 'WebSite\QueryController@getRatios');

@@ -17,7 +17,7 @@ class TestimonialController extends Controller
     {
         $allTestimonials = Testimonial::with('buyer')->with('seller')->get();
         
-        return response()->json($allTestimonials);
+        return view('admin.website.testimonials')->with('testimonials', $allTestimonials);
     }
 
     /**

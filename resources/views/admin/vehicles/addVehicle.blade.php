@@ -105,19 +105,19 @@
                         <div class="form-group row">
                             <label for="price" class="col-sm-3 text-right control-label col-form-label">Buying Price</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="price" name="buying_price">
+                                <input type="number" class="form-control" id="price" name="buying_price">
                             </div>
                         </div>
                         <div class="form-group row">
                                 <label for="price" class="col-sm-3 text-right control-label col-form-label">Selling Price</label>
                                 <div class=" col-sm-6">
-                                    <input type="text" class="form-control" id="price" name="selling_price">
+                                    <input type="number" class="form-control" id="price" name="selling_price">
                                 </div>
                             </div>
                         <div class="form-group row">
                             <label for="mileage" class="col-sm-3 text-right control-label col-form-label">Mileage</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="mileage" name="mileage">
+                                <input type="number" class="form-control" id="mileage" name="mileage">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -129,7 +129,7 @@
                         <div class="form-group row">
                             <label for="line3" class="col-sm-3 text-right control-label col-form-label">Year</label>
                             <div class=" col-sm-6">
-                                <input type="text" class="form-control" id="year" name="year">
+                                <input type="number" class="form-control" id="year" name="year">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -223,6 +223,7 @@
                 $(".car-makes").html(makeListHTML);
             }
             getMakesRequest.send();
+            
 
             $(document).ready(function() {
 
@@ -244,8 +245,21 @@
                 });
 
                 $('.custom-file-input').change(function() {
-                    $(this).next().html($(this).val());
-                })
+                    $(this).next().html($(this).val().substr(12));
+                });
+
+                $.ajax({
+                        method: "GET",
+                        url: "{{ route('resource.model_list') }}",
+                        data: {id_car_make: 1}
+                    }).done(function(models) {
+                        var modelListHTML = "<option value=\"0\" disabled selected>Select a model</option>";
+                        models.forEach(element => {
+                            modelListHTML = modelListHTML + "<option value=" + element.id_car_model + ">" + element.name + "</option>";
+                        });
+
+                        $(".car-models").html(modelListHTML);
+                });
 
             });
             

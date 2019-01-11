@@ -44,7 +44,6 @@
                                     View 
                                 </button>
                                 <button data-id="{{ $item->id }}" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete" onclick="fillUserID(this)">Delete</button>
-  
                             </td>
                         </tr>
                     @endforeach

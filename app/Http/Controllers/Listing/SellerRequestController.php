@@ -25,7 +25,7 @@ class SellerRequestController extends Controller
         ])->get();
 
         foreach ($allSellerRequests as $value) {
-            $value->images = $value->getImages(SellerRequest::ADMIN_VIEW);
+            $value->images = $value->getImages("468X280");
         }
         // return response()->json($allSellerRequests);
         return view('admin.vehicles.requestlist')->with('requests', $allSellerRequests);
@@ -79,33 +79,7 @@ class SellerRequestController extends Controller
         $sellerRequest->price = substr($request->price, 1, strlen($request->price) - 1);
         $sellerRequest->save();
 
-
-
-
-         // Handling images
-        //  $files = $request->allFiles();
-        
-         // dd($files);
- 
-        //  $i = 1;
-        //  foreach ($files as $image) {
-        //      $fileToBeSaved = Image::make($image->getRealPath());
-        //      $sizes = [
-        //          "468X280" => [468, 280],
-        //          "270X150" => [270, 150],
-        //          "322X230" => [322, 230],
-        //          "842X511" => [842, 511]
-        //      ];
- 
-        //      foreach ($sizes as $key => $value) {
-        //          $fileToBeSaved->encode('jpg')->fit($value[0], $value[1])
-        //          ->save('storage\\images\\listing_request\\' . $key . '\\' . $sellerRequest->id_seller_request . $i . '.jpg');
-        //      }
-        //      $i++;
-        //  }
-
-        //  dd($user);
-        return redirect()->route('seller.dashboard')->with('success', 'Request Sent');
+        return back()->with('success', 'Request Sent');
     }
 
     /**

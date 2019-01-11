@@ -9,6 +9,7 @@ use Intervention\Image\ImageManagerStatic as Image;
 use App\Cars\CarListing;
 use App\Cars\SoldCar;
 use App\Customers\Buyer;
+use App\Customers\Subscription;
 
 
 class CarListingController extends Controller
@@ -82,6 +83,8 @@ class CarListingController extends Controller
             $i++;
         }
         
+        Subscription::sendEmails($newListing);
+
         // return response()->json($newListing);
         return back()->with('success','Car Listing created successfully!');
     }
@@ -247,5 +250,22 @@ class CarListingController extends Controller
         $soldCar->save();
 
         return $soldCar;
+    }
+
+    public function sendEmail() {
+        $mail = new PHPMailer();
+        $mail->isSMTP();
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = 'ssl';
+        $mail->Host = 'smtp.gmail.com';
+        $mail->Port = '465';
+        $mail->isHTML();
+        $mail->Username = 'ccarsale424@gmail.com';
+        $mail->Password = 'cscarsale';
+        $mail->SetFrom('no-reply@cscarsale.com');
+        $mail->Subject = 'HEllo';
+        $mail->Body = "A test email";
+        $mail->AddAddress('socialexpz1@gmail.com');
+        $mail->Send();
     }
 }

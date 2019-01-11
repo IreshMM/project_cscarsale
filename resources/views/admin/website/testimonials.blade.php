@@ -1,15 +1,22 @@
-@extends('admin.layouts.adminapp') 
+@extends('admin.layouts.adminapp')
+
+@section('custom-css')
+<link rel="stylesheet" type="text/css" href="/assets/libs/select2/dist/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/libs/jquery-minicolors/jquery.minicolors.css">
+<link rel="stylesheet" type="text/css" href="/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/libs/quill/dist/quill.snow.css">
+<link href="/dist/css/style.min.css" rel="stylesheet">
+@endsection
 
 @section('content')
 <div class="box-header">
-        <div class="row">
-            <div class="col-sm-8">
-              <h3 class="box-title"> Testimonials </h3>
-            </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <h3 class="box-title"> Testimonials </h3>
         </div>
     </div>
+</div>
           
-   
 <div class="card">
     <div class="card-body">
         <h5 class="card-title"></h5>
@@ -17,162 +24,97 @@
             <table id="zero_config" class="table table-striped table-bordered">
                 <thead>
                     <tr>
-                            <th>Name</th>
-                            <th>User name</th>
-                            <th>Message</th>
-                            <th>Image</th>
-                            <th>Date</th>
-                            <th>Action</th>
-                        
+                        <th>Buyer Name</th>
+                        <th>Title</th>
+                        <th>Message</th>
+                        <th>Time</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
-                
-                    <tbody>
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm"> Add </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011/07/25</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm"> Add </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Ashton Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>66</td>
-                                <td>2009/01/12</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm"> Add </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Cedric Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>22</td>
-                                <td>2012/03/29</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm"> Add </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Airi Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>33</td>
-                                <td>2008/11/28</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm"> Add </button>
-                                      
-                                    </td>
-                            </tr>
-                            <tr>
-                                <td>Brielle Williamson</td>
-                                <td>Integration Specialist</td>
-                                <td>New York</td>
-                                <td>61</td>
-                                <td>2012/12/02</td>
-                                <td>
-                           
-                                        <button type="button" class="btn btn-primary btn-sm"> Add </button>
-                                      
-                                    </td>
-                            </tr>
-                            
-                   
-                  
+                <tbody>
+                    @foreach ($testimonials as $testimonial)
+                        <tr>
+                            <td>{{ $testimonial->buyer->last_name }}</td>
+                            <td>{{ $testimonial->title }}</td>
+                            <td>{{ $testimonial->description }}</td>
+                            <td>{{ $testimonial->created_at }}</td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" href="{{ route('employee.update', ['id' => $testimonial->id]) }}">Edit</a>
+                                <button data-item="{{ $testimonial }}" type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#Modal1" onclick="fillModal(this)">View</button>
+                                <button data-id="{{ $testimonial->id }}" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete" onclick="fillTestimonialId(this)">Delete</button>
+                            </td>
+                        </tr>
+                    @endforeach
                 </tbody>
-                <tfoot>
-                    <tr>
-                            <th>Name</th>
-                            <th>User name</th>
-                            <th>Message</th>
-                            <th>Image</th>
-                            <th>Date</th>
-                            <th>Action</th>
-                            
-                    </tr>
-                </tfoot>
             </table>
         </div>
     </div>
 </div>
-    
 
-<div class="container-fluid">
 
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Latest Posts</h4>
-        </div>
-        <div class="comment-widgets scrollable">
-            <!-- Comment Row -->
-            <div class="d-flex flex-row comment-row m-t-0">
-                <div class="p-2"><img src="../../assets/images/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
-                <div class="comment-text w-100">
-                    <h6 class="font-medium">James Anderson</h6>
-                    <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                    <div class="comment-footer">
-                        <span class="text-muted float-right">April 14, 2016</span> 
-                        <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                        <button type="button" class="btn btn-success btn-sm">Publish</button>
-                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                    </div>
-                </div>
+ <!-- Modal  View  Employee-->
+ <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true ">
+    <div class="modal-dialog" role="document ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">View Employee Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true ">&times;</span>
+                </button>
             </div>
-            <!-- Comment Row -->
-            <div class="d-flex flex-row comment-row">
-                <div class="p-2"><img src="../../assets/images/users/4.jpg" alt="user" width="50" class="rounded-circle"></div>
-                <div class="comment-text active w-100">
-                    <h6 class="font-medium">Michael Jorden</h6>
-                    <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                    <div class="comment-footer">
-                        <span class="text-muted float-right">May 10, 2016</span> 
-                        <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                        <button type="button" class="btn btn-success btn-sm">Publish</button>
-                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Comment Row -->
-            <div class="d-flex flex-row comment-row">
-                <div class="p-2"><img src="../../assets/images/users/5.jpg" alt="user" width="50" class="rounded-circle"></div>
-                <div class="comment-text w-100">
-                    <h6 class="font-medium">Johnathan Doeting</h6>
-                    <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                    <div class="comment-footer">
-                        <span class="text-muted float-right">August 1, 2016</span> 
-                        <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                        <button type="button" class="btn btn-success btn-sm">Publish</button>
-                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                    </div>
-                </div>
+            <div class="modal-body">  
+                <form class="form-horizontal">
+                    @php
+                        $fieldSet = [
+                            'title' => 'Title',
+                            'description' => 'Message',
+                            'buyer_name' => 'Buyer Name',
+                            'seller_name' => 'Seller Name'
+                        ];
+                    @endphp
+                    <fieldset>
+                        <div class="form-group row">
+                            <label for="name" class=" col-sm-5 text-right control-label col-form-label">Name</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" id="name" readonly >
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
-    
+    </div>
 </div>
+    
+    
+    
+<!-- Modal  for delete -->
+<div class="modal modal-danger fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete confirmation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel"></h4>
+            </div>
+            <form action="{{ route('employee.delete') }}" method="post">
+                <input type="hidden" name="id" id="testimonial-id" value="">
+            </form>
+            <div class="modal-body">
+                <p class="text-center">
+                    Are you sure you want to delete this?
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">No, Cancel</button>
+                <button type="submit" class="btn btn-warning">Yes, Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@endsection
+
 @section('table-script')        
 <script src="assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
 <script src="/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
@@ -184,4 +126,18 @@
     $('#zero_config').DataTable();
 </script>
 @endsection
-    @endsection
+
+@section('post-script')
+    <script>
+        function fillTestimonialId(e) {
+            $("testimonial-id").val($(e).attr("data-id"));
+        }
+
+        function fillModal(e) {
+            var data = JSON.parse($(e).attr("data-item"));
+
+        }
+    </script>
+
+
+@endsection

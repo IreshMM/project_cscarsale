@@ -8,6 +8,7 @@ use App\Cars\CarMake;
 use App\Cars\CarModel;
 use App\Cars\CarListing;
 use App\Cars\SoldCar;
+use Illuminate\Support\Facades\DB;
 
 class QueryController extends Controller
 {
@@ -102,5 +103,51 @@ class QueryController extends Controller
             'specDetails' => $specificationDetailsArray,
             'specFeatures' => $specificationFeaturesArray
         ]);
+    }
+
+
+    /* Report generation functions */
+    public function getVehicleCount() {
+        $count = CarListing::count('*');
+
+        $investment = CarListing::sum('buying_price');
+
+        $assets = ['carCount' => $count, 'investment' => $investment];
+
+        return $assets;
+    }
+
+
+    public function getSalesCount() {
+        $salesCount = SoldCar::count('*');
+        $cost = SoldCar::sum('buying_price');
+        $return = SoldCar::sum('selling_price');
+
+        $sales = [
+            'salesCount' => $salesCount,
+            'cost' => $cost,
+            'return' => $return
+        ];
+
+        return $sales;
+    }
+
+    public function getRatios() {
+        $result = DB::table('sold_car')->join('car_model', 'car_model.id_car_model', '=', 'sold_car.id_car_model')
+        ->select('car_model.body_type', DB::raw('count(*) as count'))->groupBy('car_model.body_type')->get();
+
+        return $result;
+    }
+
+
+    // Get report
+    public function getReport() {
+        $report = [
+            'asset' => $this->getVehicleCount(),
+            'investment' => $this->getSalesCount(),
+            'ratios' => $this->getRatios()
+        ];
+
+        return view('admin.finance.chart')->with('report', $report);
     }
 }

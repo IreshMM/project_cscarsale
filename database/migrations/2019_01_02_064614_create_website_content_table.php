@@ -16,7 +16,7 @@ class CreateWebsiteContentTable extends Migration
         Schema::create('website_content', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->string('description');
+            $table->text('description');
         });
     }
 

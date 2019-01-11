@@ -46,11 +46,10 @@ class SellerRequest extends Model
      * @return array where first two elements are thumbnails.
      */
     public function getImages($size) {
-        $directory = "/images";
         $imageLocations = array();
 
         for($i = 1; $i <= $this->images; $i++) {
-            $imageLocations[] = '/storage/images/listing_request/' . $size . '/' . strval($this->id_seller_request) . strval($i) . ".jpg";
+            $imageLocations[] = '/storage/images/seller_request/' . $size . '/' . strval($this->id_seller_request) . strval($i) . ".jpg";
         }
 
         return $imageLocations;
@@ -87,6 +86,4 @@ class SellerRequest extends Model
         $newCarListing->save();
         return $newCarListing;
     }
-    
-    const ADMIN_VIEW = "468X280";
 }

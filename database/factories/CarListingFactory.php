@@ -17,7 +17,9 @@ $factory->define(App\Cars\CarListing::class, function (Faker $faker) {
         'buying_price'          => $buyingPrice,
         'selling_price'         => $buyingPrice + random_int(1000, 100000),
         'city'                  => ['Galle', 'Anuradhapura', 'Colombo'][random_int(0, 2)],
-        'id_car_model'          => [21, 22, 23][random_int(0, 2)],
+        'id_car_model'          => function() {
+            return CarModel::inRandomOrder()->first()->id_car_model;
+        },
         'id_seller'             => function() {
             return User::where('level', 'seller')->inRandomOrder()->first()->id;
         }

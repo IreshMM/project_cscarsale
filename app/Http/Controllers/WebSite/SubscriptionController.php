@@ -94,6 +94,6 @@ class SubscriptionController extends Controller
         $subscription = Subscription::find($request->id);
         $subscription->delete();
 
-        return response()->json($subscription);
+        return back()->with('warning', 'Subscription has been deleted!');
     }
 }
